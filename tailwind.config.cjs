@@ -2,7 +2,14 @@
 module.exports = {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
-		extend: {},
+		extend: {
+			backgroundImage: {
+				'contact': "url('https://blupp.b-cdn.net/idearebel/contact.jpg?quality=80')",
+				'creative_ideas': "url('https://blupp.b-cdn.net/idearebel/metaverse-marketing.png?quality=80')",
+				'home': "url('https://blupp.b-cdn.net/idearebel/NBA-Idea-Rebel.jpg?quality=80')",
+				'digital_services': "url('https://blupp.b-cdn.net/idearebel/idea-rebel-tornoto-digital-ageny.jpg?quality=80')",
+			}
+		},
 	},
 	plugins: [],
 }
