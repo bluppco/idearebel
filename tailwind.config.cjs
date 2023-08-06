@@ -8,6 +8,7 @@ module.exports = {
 				'creative_ideas': "url('https://blupp.b-cdn.net/idearebel/metaverse-marketing.png?quality=80')",
 				'home': "url('https://blupp.b-cdn.net/idearebel/NBA-Idea-Rebel.jpg?quality=80')",
 				'digital_services': "url('https://blupp.b-cdn.net/idearebel/idea-rebel-tornoto-digital-ageny.jpg?quality=80')",
+				'careers': "url('https://blupp.b-cdn.net/idearebel/Idea-Rebel-We-Are-Rebels-Agency-2.jpeg?quality=80')",
 			}
 		},
 	},
