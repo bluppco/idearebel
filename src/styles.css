@@ -1,0 +1,10 @@
+p {
+
+	@apply text-xl font-['Karla','sans-serif'] text-black;
+
+}
+p a {
+
+	@apply underline text-xl font-['Karla','sans-serif'] font-semibold;
+
+}
