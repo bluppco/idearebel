@@ -2,7 +2,8 @@
 title: Canada's Digital Mavericks Pioneering Innovative Business Solutions
 description: Canada's Digital Mavericks Pioneering Innovative Business Solutions
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-date: May 10, 2023
+publish_date: May 10, 2023
+url: https://www.idearebel.com/ideas/canadas-digital-mavericks-pioneering-innovative-business-solutions/
 ---
 
 [Canadian SME Magazine](http://canadiansme.ca/) recently published this article on Idea Rebel. Have a read….

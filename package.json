@@ -12,6 +12,7 @@
   "dependencies": {
     "@astrojs/mdx": "^0.19.7",
     "@astrojs/tailwind": "^4.0.0",
+    "@jsdevtools/rehype-url-inspector": "^2.0.2",
     "astro": "^2.10.1",
     "tailwindcss": "^3.3.3"
   }
