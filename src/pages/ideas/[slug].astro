@@ -1,0 +1,35 @@
+---
+import { getCollection } from 'astro:content';
+export async function getStaticPaths() {
+
+	const blogEntries = await getCollection('blogs');
+  	return blogEntries.map(entry => ({
+
+		params: { slug: entry.slug }, props: { entry },
+
+  	}))
+
+}
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+import Head from "../../components/common/Head.astro"
+import "../../styles.css"
+---
+<html lang="en">
+	<Head
+		title={ entry.data.title }
+	/>
+	<body>
+		<div class="h-[70vh] w-full bg-zinc-300">
+			<img
+				src={ entry.data.image }
+				class="h-full w-full object-cover"
+			/>
+		</div>
+		<div class="mt-5 container mx-auto max-w-2xl py-20">
+            <Content/>
+			<div class="mt-4">
+				<div class="font-garamond italic text-xl">{ entry.data.date }</div>
+			</div>
+        </div>
+</html>
