@@ -13,6 +13,7 @@ module.exports = {
 			},
 			fontFamily: {
 				'garamond': ["garamond-premier-pro", "serif"],
+				'karla': ['Karla','sans-serif']
 			}
 		},
 	},

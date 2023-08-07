@@ -13,6 +13,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 import Head from "../../components/common/Head.astro"
+import ParagraphGaramond from "../../components/common/atom/ParagraphGaramond.astro"
 import "../../styles.css"
 ---
 <html lang="en">
@@ -29,7 +30,9 @@ import "../../styles.css"
 		<div class="mt-5 container mx-auto max-w-2xl py-20">
             <Content/>
 			<div class="mt-4">
-				<div class="font-garamond italic text-xl">{ entry.data.date }</div>
+				<ParagraphGaramond
+					text={ entry.data.publish_date }
+				/>
 			</div>
         </div>
 </html>
