@@ -1,0 +1,115 @@
+---
+import H1 from "../components/common/atom/H1.astro"
+import H2 from "../components/common/atom/H2.astro"
+import H3 from "../components/common/atom/H3.astro"
+import H5 from "../components/common/atom/H5.astro"
+import Button from "../components/common/Button.astro"
+import Paragraph from "../components/common/Paragraph.astro"
+import Footer from "../components/Footer.astro"
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+        <link rel="preconnect" href="https://fonts.bunny.net">
+        <link href="https://fonts.bunny.net/css?family=karla:400" rel="stylesheet" />
+	</head>
+	<body>
+		<section class="bg-about w-full h-screen bg-cover bg-center flex justify-center items-center bg-zinc-200">
+            <div class="p-10 bg-white text-center grid gap-8 max-w-[30%]">
+                <H1
+                    text="About"
+                />
+                <Paragraph
+                    text="We are an adaptive digital marketing agency creating provocative brand experiences."
+                />
+            </div>
+        </section>
+        <section class="conatiner mx-auto max-w-6xl py-20">
+            <div class="grid grid-cols-12">
+                <div class="col-span-2" />
+                <div class="col-span-8 relative">
+                    <H2
+                        text="We don't do paper."
+                    />
+                    <Paragraph
+                        text="Being an environmentally sustainable company is at the core of our business model and part of our DNA, underpinning our actions and informing what we do. It’s why we walk, bike or bus to work, too."
+                    />
+                </div>
+
+            </div>
+
+		</section>
+        <section class="conatiner mx-auto max-w-6xl py-20">
+            <div class="grid grid-cols-12">
+                <div class="col-span-2" />
+                <div class="col-span-8">
+                    <H2
+                        text="Rebels"
+                    />
+                    <Paragraph
+                        text="Rebels don’t follow. That’s why we’re continually challenging ourselves to create industry-leading excellence in everything we do, a mindset that starts with everyone on our team."
+                    />
+                </div>
+
+            </div>
+		</section>
+        <section class="container mx-auto max-w-6xl py-20">
+            <div class="grid grid-cols-3 gap-10">
+                <div class="col-span-2 bg-zinc-200">
+                    <img
+                        src="https://blupp.b-cdn.net/idearebel/mahira-idea-rebel.jpg?quality=80"
+                        class="w-full h-full object-cover"
+                        alt="picture"
+                    />
+                </div>
+                <div class="grid gap-10">
+                    <div class="col-span-2 bg-zinc-200 w-full aspect-square">
+                        <img
+                            src="https://blupp.b-cdn.net/idearebel/Neil-new.jpg?quality=80"
+                            class="w-full h-full object-cover"
+                            alt="picture"
+                        />
+                    </div>
+                    <div class="col-span-2 bg-zinc-200 w-full aspect-square">
+                        <img
+                            src="https://blupp.b-cdn.net/idearebel/jamie_garratt.jpg?quality=80"
+                            class="w-full h-full object-cover"
+                            alt="picture"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-3 gap-10 mt-10">
+                <div class="grid gap-10">
+                    <div class="col-span-2 bg-zinc-200 w-full aspect-square">
+                        <img
+                            src="https://blupp.b-cdn.net/idearebel/Robbie.jpg?quality=80"
+                            class="w-full h-full object-cover"
+                            alt="picture"
+                        />
+                    </div>
+                    <div class="col-span-2 bg-zinc-200 w-full aspect-square">
+                        <img
+                            src="https://blupp.b-cdn.net/idearebel/avr.jpg?quality=80"
+                            class="w-full h-full object-cover"
+                            alt="picture"
+                        />
+                    </div>
+                </div>
+                <div class="col-span-2 bg-zinc-200">
+                    <img
+                        src="https://blupp.b-cdn.net/idearebel/david_rossellat.jpg?quality=80"
+                        class="w-full h-full object-cover bg-zinc-200"
+                        alt="picture"
+                    />
+                </div>
+            </div>
+        </section>
+        <Footer />
+	</body>
+</html>
