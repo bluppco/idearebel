@@ -1,11 +1,13 @@
 ---
-title: eCommerce Agency & Developers - Toronto, Vancouver & LA
+# yellow_box.jpg
 description: eCommerce for Everyone
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# yellow_box.jpg
+order: 1
 publish_date: June 24, 2018
+sub_title: ""
+title: eCommerce Agency & Developers - Toronto, Vancouver & LA
 url: https://www.idearebel.com/ideas/ecommerce-for-everyone/
---- 
+---
 What you need, why you need it, and how we can help.
 
 \
@@ -40,7 +42,7 @@ MAGENTO
 PROS: The standard bearer for open-source, community-driven software. Magento is a speedy, affordable solution for small to medium sized organizations. Thanks to a dizzying number of open-source add-ons, the sky’s the limit with this powerful tool-set.
 
 \
-CONS: Magento’s 3-tiered architecture requires a robust in-house staff. Customizability can result in one-off implementations that are costly to maintain and challenging to upgrade. There are better options for companies with limited budgets and resources. 
+CONS: Magento’s 3-tiered architecture requires a robust in-house staff. Customizability can result in one-off implementations that are costly to maintain and challenging to upgrade. There are better options for companies with limited budgets and resources.
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
@@ -66,7 +68,7 @@ salesforce-commerce-cloud-logo.jpg
 Salesforce Commerce Cloud Logo
 
 \
-DEMANDWARE / SALESFORCE COMMERCE CLOUD 
+DEMANDWARE / SALESFORCE COMMERCE CLOUD
 
 \
 PROS: By far the most used (install-based) eCommerce platform, DemandWare caters primarily to B2C retailers. It’s attractive because of how simple it is compared to 3-tiered solutions like Magento and Hybris but also because of its short implementation times.

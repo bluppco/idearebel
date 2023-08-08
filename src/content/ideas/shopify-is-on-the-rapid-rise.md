@@ -1,11 +1,13 @@
 ---
-title: Ecommerce platforms":" Shopify | Idea Rebel
+# mobile_shopping.jpg
 description: Shopify is on the rapid rise!
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# mobile_shopping.jpg
+order: 1
 publish_date: October 10, 2018
+sub_title: ""
+title: Ecommerce platforms":" Shopify | Idea Rebel
 url: https://www.idearebel.com/ideas/shopify-is-on-the-rapid-rise/
---- 
+---
 Shopify is on the rapid rise and Digital Agency Idea Rebel is on it!
 
 \

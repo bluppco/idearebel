@@ -5,11 +5,13 @@ image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quali
 # idea-rebel-work-from-home.jpg
 publish_date: April 8, 2020
 url: https://www.idearebel.com/ideas/how-to-stay-productive-while-working-from-home-digital-agency-tips/
+order: 1
+sub_title: ""
 ---
 Many of us are spending a lot more time at home right now. Including the workdays. When we’d usually be reporting to our desks, we’re finding ourselves on our couches or at our kitchen tables, trying to complete to-do lists without the built-in discipline of the office.
 
 \
-The expectations are the same, but the environment is not. And it’s not always an easy transition. 
+The expectations are the same, but the environment is not. And it’s not always an easy transition.
 
 \
 The key to work-from-home success is to create an environment that allows you to focus on the tasks at hand.

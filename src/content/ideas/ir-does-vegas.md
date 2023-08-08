@@ -1,15 +1,17 @@
 ---
-title: IR Vancouver, Toronto and Montreal go to Las Vegas | Idea Rebel
+# vegas.jpg
 description: IR Does Vegas!
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# vegas.jpg
+order: 1
 publish_date: January 4, 2017
+sub_title: ""
+title: IR Vancouver, Toronto and Montreal go to Las Vegas | Idea Rebel
 url: https://www.idearebel.com/ideas/ir-does-vegas/
---- 
-The Vegas Rebellion 
+---
+The Vegas Rebellion
 
 \
-How Idea Rebel beat the November Rain 
+How Idea Rebel beat the November Rain
 
 \
 “A little bit of this town goes a very long way.” – Hunter S. Thompson

@@ -1,11 +1,13 @@
 ---
-title: Idea Rebel Volunteers Abroad (National Volunteer Week) - Kandy, Sri Lanka
+# Kandy-66-1-3840x2160.jpg
 description: Idea Rebel Volunteers Abroad Kandy, Sri Lanka
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# Kandy-66-1-3840x2160.jpg
+order: 1
 publish_date: May 11, 2018
+sub_title: ""
+title: Idea Rebel Volunteers Abroad (National Volunteer Week) - Kandy, Sri Lanka
 url: https://www.idearebel.com/ideas/idea-rebel-volunteers-abroad/
---- 
+---
 The Value of Volunteering
 
 \
@@ -77,7 +79,7 @@ Jamie Garratt doing dishes
 Originally, Idea Rebel had planned to offer English and Music lessons to local schools, but it was Sinhalese/Tamil New Year. This meant that schools were closed the whole time we were there.
 
 \
-During the orientation, the local organizers expressed the need for volunteers in their Special Needs Program. We jumped at the opportunity. Daya Nivasa (House of Love) is a home/orphanage for roughly 100 destitute children and women. It is situated in the outskirts of Kandy. The residents have a range of mental and physical disabilities. Some need a little extra attention when learning. Others are confined to wheelchairs or are bedridden. In Canada, people with disabilities are encouraged to integrate within society. In contrast, they are abandoned and sheltered from the public in Sri Lanka. 
+During the orientation, the local organizers expressed the need for volunteers in their Special Needs Program. We jumped at the opportunity. Daya Nivasa (House of Love) is a home/orphanage for roughly 100 destitute children and women. It is situated in the outskirts of Kandy. The residents have a range of mental and physical disabilities. Some need a little extra attention when learning. Others are confined to wheelchairs or are bedridden. In Canada, people with disabilities are encouraged to integrate within society. In contrast, they are abandoned and sheltered from the public in Sri Lanka.
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")

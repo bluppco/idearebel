@@ -1,11 +1,13 @@
 ---
-title: A completely paperless company | Idea Rebel
+# skateboard.jpg
 description: Our completely paperless company
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# skateboard.jpg
+order: 1
 publish_date: June 14, 2017
+sub_title: ""
+title: A completely paperless company | Idea Rebel
 url: https://www.idearebel.com/ideas/our-completely-paperless-company/
---- 
+---
 ![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
 gamechanger-paperlessJamieGarratt-576x324.jpg
 

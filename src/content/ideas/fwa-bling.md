@@ -1,9 +1,11 @@
 ---
-title: FWA Bling | Idea Rebel
+# IR_Awards.jpg
 description: Our FWA Awards over the years Winner winner
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# IR_Awards.jpg
+order: 1
 publish_date: November 4, 2015
+sub_title: ""
+title: FWA Bling | Idea Rebel
 url: https://www.idearebel.com/ideas/fwa-bling/
 ---
 The FWA, aka Favourite Website Awards, is one of the top internet award programs of its kind (named the number 1 web award in the world, no less), so it’s a huge honour to have received awards from them over the years!

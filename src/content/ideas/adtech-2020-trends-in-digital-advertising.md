@@ -1,9 +1,11 @@
 ---
-title: Adtech and Digital Advertising | Idea Rebel
+# digital-advertising-trends-2020.jpg
 description: 2020 Trends in digital advertising Adtech predictions
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# digital-advertising-trends-2020.jpg
+order: 1
 publish_date: April 8, 2020
+sub_title: ""
+title: Adtech and Digital Advertising | Idea Rebel
 url: https://www.idearebel.com/ideas/adtech-2020-trends-in-digital-advertising/
 ---
 As the digital landscape continues to fragment, advertisers are looking for more ways to reach customers with one-to-one messaging that drives a lasting impact. As digital ad capabilities become more accessible and effective, both the sell-side and buy-side are shifting to embrace more advanced solutions.
@@ -24,7 +26,7 @@ Duopoly’s growing share. By the end of 2019, the combined ad revenues of Faceb
 Digital Spend – Where it’s headed
 
 \
-Overall, digital ad spend in the U.S. remains dominated by Google and Facebook. Amazon (at 7% share) is the only seller to break out from the pack of would-be challengers. 
+Overall, digital ad spend in the U.S. remains dominated by Google and Facebook. Amazon (at 7% share) is the only seller to break out from the pack of would-be challengers.
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
@@ -157,4 +159,4 @@ To pursue ROAS in a digital world, advertisers are tracking behavior, targeting 
 With the impact of browser actions on tracking Apple ITP, Google Chrome cookie blocking, and others, more platforms are taking measures to protect against bad actors. As a result, advertisers should prepare to embrace a wider array of holistic adtech solutions focused on brand safety and privacy compliance to support more accountable and effective advertising efforts.
 
 \
-Content from this article is provided by – https://marketingland.com/ 
+Content from this article is provided by – https://marketingland.com/

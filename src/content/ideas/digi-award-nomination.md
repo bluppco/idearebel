@@ -1,11 +1,13 @@
 ---
-title: Digi Award Nomination":" Best Use of Social Media | Idea Rebel
+# Digi_Awards_Idea_Rebel.jpg
 description: Digi Award Nomination
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# Digi_Awards_Idea_Rebel.jpg
+order: 1
 publish_date: November 20, 2012
+sub_title: ""
+title: Digi Award Nomination":" Best Use of Social Media | Idea Rebel
 url: https://www.idearebel.com/ideas/digi-award-nomination/
---- 
+---
 ![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
 ribbonbadge-576x364.jpg
 

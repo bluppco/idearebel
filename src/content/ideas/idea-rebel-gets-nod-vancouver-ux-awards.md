@@ -1,11 +1,13 @@
 ---
-title: Idea Rebel Gets Nod From Vancouver UX Awards | Idea Rebel
+# Screen-Shot-2016-11-14-at-12.12.15-PM.png
 description: Idea Rebel Gets Nod From Vancouver UX Awards
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# Screen-Shot-2016-11-14-at-12.12.15-PM.png
+order: 1
 publish_date: November 14, 2016
+sub_title: ""
+title: Idea Rebel Gets Nod From Vancouver UX Awards | Idea Rebel
 url: https://www.idearebel.com/ideas/idea-rebel-gets-nod-vancouver-ux-awards/
---- 
+---
 The Rebels are stoked to have our Converse In Their Chucks VR Project as a finalist in the category of UX for Emerging Experiences at the Vancouver UX Awards 2016!
 
 \

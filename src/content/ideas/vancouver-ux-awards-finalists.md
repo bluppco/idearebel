@@ -1,11 +1,13 @@
 ---
-title: UX Awards Finalists! | Idea Rebel
+# HyundaidealerApp_Header_Widescreen.jpg
 description: We’re Finalists! Vancouver UX Awards 2017
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# HyundaidealerApp_Header_Widescreen.jpg
+order: 1
 publish_date: November 27, 2017
+sub_title: ""
+title: UX Awards Finalists! | Idea Rebel
 url: https://www.idearebel.com/ideas/vancouver-ux-awards-finalists/
---- 
+---
 From apps to websites to Virtual Reality campaigns, everything we do at Idea Rebel is underpinned by the User Experience. That’s why it’s so gratifying when the industry recognizes us for UX; and while we’re still crossing our fingers for a win, we’re thrilled to announce that we’ve made the first cut as Finalists in the Vancouver User Experience Awards 2017!
 
 \

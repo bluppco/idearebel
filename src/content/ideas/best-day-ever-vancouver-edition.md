@@ -1,9 +1,11 @@
 ---
-title: Best Day Ever (Vancouver Edition) | Idea Rebel
+# Screen-Shot-2015-11-24-at-3.18.29-PM.png
 description: Best Day Ever (Vancouver Edition)
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# Screen-Shot-2015-11-24-at-3.18.29-PM.png
+order: 1
 publish_date: November 25, 2015
+sub_title: ""
+title: Best Day Ever (Vancouver Edition) | Idea Rebel
 url: https://www.idearebel.com/ideas/best-day-ever-vancouver-edition/
 ---
 Eight sports.  Seven rebels.  One day.  It’s no wonder why Idea Rebel calls it “Best Day Ever”. An annual event created by founder, Jamie Garratt is all about how many events can you fit within a 24-hour period.

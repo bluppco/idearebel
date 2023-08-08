@@ -5,6 +5,8 @@ image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quali
 # web-design-development.jpg
 publish_date: January 17, 2019
 url: https://www.idearebel.com/ideas/how-artificial-intelligence-is-changing-web-design-and-development/
+order: 1
+sub_title: ""
 ---
 You’ve probably heard of AI, that is, artificial intelligence, being thrown around at every aspect of our daily lives. Although it can sound intimidating to some, it has actually been efficiently used to assist with things such as connecting with friends or getting tasks done more productively.
 

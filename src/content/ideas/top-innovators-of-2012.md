@@ -1,11 +1,13 @@
 ---
-title: Top Innovators | Idea Rebel
+# Idea-Rebel-Awards.jpg
 description: Top Innovators
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# Idea-Rebel-Awards.jpg
+order: 1
 publish_date: April 5, 2012
+sub_title: ""
+title: Top Innovators | Idea Rebel
 url: https://www.idearebel.com/ideas/top-innovators-of-2012/
---- 
+---
 Vancouver’s Digital Agency Idea Rebel made the list of 2012’s most innovative companies in BC!
 
 \

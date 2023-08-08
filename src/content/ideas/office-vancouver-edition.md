@@ -1,11 +1,13 @@
 ---
-title: The Office":" Vancouver Edition | Idea Rebel
+# van_office_header_bg.jpg
 description: The Office Vancouver Edition
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# van_office_header_bg.jpg
+order: 1
 publish_date: July 12, 2017
+sub_title: ""
+title: The Office":" Vancouver Edition | Idea Rebel
 url: https://www.idearebel.com/ideas/office-vancouver-edition/
---- 
+---
 WE DO BUSINESS FROM FOUR OF NORTH AMERICA’S CREATIVE HUBS. But it seems appropriate to pay homage to the biggest drop-pin in the Idea Rebel map: our original shop in Vancouver.
 
 \

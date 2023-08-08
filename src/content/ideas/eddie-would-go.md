@@ -1,11 +1,13 @@
 ---
-title: Eddie Would Go | Idea Rebel
+# eddie-would-go.jpg
 description: Eddie Would Go Quiksilver Experience
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# eddie-would-go.jpg
+order: 1
 publish_date: November 30, 2014
+sub_title: ""
+title: Eddie Would Go | Idea Rebel
 url: https://www.idearebel.com/ideas/eddie-would-go/
---- 
+---
 ![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
 EddieWouldGo-576x329.jpg
 

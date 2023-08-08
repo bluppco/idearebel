@@ -1,11 +1,13 @@
 ---
-title: How VR is redefining the market | Idea Rebel
+# vr_blog_header_BABY_BLUE.jpg
 description: Virtually Everything
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# vr_blog_header_BABY_BLUE.jpg
+order: 1
 publish_date: March 20, 2017
+sub_title: ""
+title: How VR is redefining the market | Idea Rebel
 url: https://www.idearebel.com/ideas/vr-redefinding-the-market/
---- 
+---
 How VR is redefining marketing and how we’re redefining VR
 
 \
