@@ -1,9 +1,10 @@
 ---
-title: Canada's Digital Mavericks Pioneering Innovative Business Solutions
-description: Canada's Digital Mavericks Pioneering Innovative Business Solutions
+title: Gen Z influence on Digital Marketing more than Millennials
+description: Gen Z influence on Digital Marketing more than Millennials Watch-out, Gen Z in the house!
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+# Genz.jpg
 publish_date: November 23, 2021
-url: https://www.idearebel.com/ideas/canadas-digital-mavericks-pioneering-innovative-business-solutions/
+url: https://www.idearebel.com/ideas/gen-z-influence-on-digital-marketing-more-than-millennials/
 ---
 
 The marketing and digital marketing industries has been obsessed with Millennials for the past two decades. In fact, a Google search currently yields around 129 million results for the search term “millennials”, compared to only around 7.2 million for the previous “generation x”.
@@ -19,12 +20,7 @@ It’s 2020 and Millennials have already peaked as a percentage of the adult pop
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
-image.jpg
-
-\
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
-
-image.jpg
+1595222914-0.png
 
 \
 Source: https://www.linkedin.com/pulse/millennials-75-workforce-2025-ever-anita-lettink/
