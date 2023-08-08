@@ -13,6 +13,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 import Head from "../../components/common/Head.astro"
+import Footer from "../../components/Footer.astro"
 import H1 from "../../components/common/atom/H1.astro"
 import Button from "../../components/common/Button.astro"
 import Paragraph from "../../components/common/Paragraph.astro"
@@ -58,4 +59,6 @@ import "../../styles.css"
 				</div>
 			</div>
         </div>
+		<Footer />
+	</body>
 </html>
