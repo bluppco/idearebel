@@ -1,11 +1,13 @@
 ---
-title: Keurig Canada & Idea Rebel":" Digital agency partner | Idea Rebel
 description: Keurig selects Idea Rebel as their digital agency partner
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# IMG_58722.jpg
+image: https://blupp.b-cdn.net/idearebel/IMG_58722.jpg?quality=80&width=800
+order: 1
 publish_date: January 18, 2016
+link: keurig-selects-idea-rebel-as-their-digital-agency
+sub_title: ""
+title: Keurig Canada & Idea Rebel":" Digital agency partner | Idea Rebel
 url: https://www.idearebel.com/ideas/keurig-selects-idea-rebel-as-their-digital-agency/
---- 
+---
 We are excited to announce that Keurig Canada has selected Idea Rebel, a Vancouver digital agency, to help with their digital marketing efforts.  Idea Rebel is expanding its business further into Eastern Canada to service our newest client. This partnership will be an exciting and strong addition to our growth, adding to our elite list of clients.  Not only is this partnership creating a culture of excitement within Idea Rebel but it is paving the way for the future of the company.  Our team is super pumped to be involved with the specialty coffee company and we have been eagerly waiting to share the information with the public!
 
 \
@@ -33,9 +35,9 @@ Other publications related to this story!
 * Marketing Magazine – View post here
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/IMG_5876.jpg?quality=80&width=800?quality=80&width=800 "a title")
 IMG_5876.jpg
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/ir_and_keurig_mug.jpg?quality=80&width=800?quality=80&width=800 "a title")
 ir_and_keurig_mug.jpg

@@ -1,18 +1,20 @@
 ---
-title: Introducing Contest Rebel! Contests Made Easy. | Idea Rebel
 description: Introducing Contest Rebel! contests made easy.
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# Contest-Rebel.png
+image: https://blupp.b-cdn.net/idearebel/Contest-Rebel.png?quality=80&width=800
+link: contest-rebel
+order: 1
 publish_date: July 1, 2019
+sub_title: ""
+title: Introducing Contest Rebel! Contests Made Easy. | Idea Rebel
 url: https://www.idearebel.com/ideas/contest-rebel/
---- 
+---
 Contests Made Easy.
 
 \
 We are very proud and excited to introduce our proprietary Contest Publishing Software – Contest Rebel.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/Contest_Rebel_Screenshot1.png?quality=80&width=800?quality=80&width=800 "a title")
 Contest_Rebel_Screenshot1.png
 
 \
@@ -25,11 +27,11 @@ Whether it is a simple contest, giveaway, survey or even a fantasy game, Contest
 Designed For Brands & Fans.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/Contest-Rebel-Dashboard-laptop.png?quality=80&width=800?quality=80&width=800 "a title")
 Contest-Rebel-Dashboard-laptop.png
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/Contest-Rebel-Dashboard-laptop1.png?quality=80&width=800?quality=80&width=800 "a title")
 Contest-Rebel-Dashboard-laptop1.png
 
 \
@@ -48,11 +50,11 @@ Build your own branded contests within minutes.
 Log in from anywhere to create and manage your contests and promotions with our slick dashboard.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/Contest-Rebel-Mobile.png?quality=80&width=800?quality=80&width=800 "a title")
 Contest-Rebel-Mobile.png
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/Contest_Rebel_Analytics-3.png?quality=80&width=800?quality=80&width=800 "a title")
 Contest_Rebel_Analytics-3.png
 
 \

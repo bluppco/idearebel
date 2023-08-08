@@ -1,11 +1,13 @@
 ---
-title: Sustainability Policy":" Paperless Policy | Idea Rebel
 description: Sustainability Policy
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# bike.jpg
+image: https://blupp.b-cdn.net/idearebel/bike.jpg?quality=80&width=800
+order: 1
 publish_date: September 25, 2015
+link: idea-rebel-sustainability-policy-2
+sub_title: ""
+title: Sustainability Policy":" Paperless Policy | Idea Rebel
 url: https://www.idearebel.com/ideas/idea-rebel-sustainability-policy-2/
---- 
+---
 We live the in age of e-mail, wireless networks, smartphone and tablets. It is no surprise that there is less need for paper and paper products.  Idea Rebel is passionate about the environment and determined to ensure we are doing our part when it comes to being a “paperless” office. We follow a strict social, economical and ecological sustainability philosophy. We do not allow paper or paper products in the office. We make smart energy decisions and we encourage our staff to walk, bike or use public transit to get to work.
 
 \

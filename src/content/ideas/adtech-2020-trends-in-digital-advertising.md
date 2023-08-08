@@ -1,9 +1,11 @@
 ---
-title: Adtech and Digital Advertising | Idea Rebel
 description: 2020 Trends in digital advertising Adtech predictions
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# digital-advertising-trends-2020.jpg
+image: https://blupp.b-cdn.net/idearebel/digital-advertising-trends-2020.jpg?quality=80&width=800
+link: adtech-2020-trends-in-digital-advertising
+order: 1
 publish_date: April 8, 2020
+sub_title: ""
+title: Adtech and Digital Advertising | Idea Rebel
 url: https://www.idearebel.com/ideas/adtech-2020-trends-in-digital-advertising/
 ---
 As the digital landscape continues to fragment, advertisers are looking for more ways to reach customers with one-to-one messaging that drives a lasting impact. As digital ad capabilities become more accessible and effective, both the sell-side and buy-side are shifting to embrace more advanced solutions.
@@ -24,11 +26,10 @@ Duopoly’s growing share. By the end of 2019, the combined ad revenues of Faceb
 Digital Spend – Where it’s headed
 
 \
-Overall, digital ad spend in the U.S. remains dominated by Google and Facebook. Amazon (at 7% share) is the only seller to break out from the pack of would-be challengers. 
+Overall, digital ad spend in the U.S. remains dominated by Google and Facebook. Amazon (at 7% share) is the only seller to break out from the pack of would-be challengers.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
-eMarketer_adspend_2019-copy-771x600.png
+![Alt text](https://blupp.b-cdn.net/idearebel/eMarketer_adspend_2019-copy-771x600.png?quality=80&width=800?quality=80&width=800 "a title")
 
 \
 Amazon this year released a number of improvements to its ad-buying interfaces, such as improving the usability of its DSP, extending the reach of Sponsored Products, adding a rewards program tool, incorporating customer acquisition metrics and enabling dynamic bidding for Sponsored Products ads.
@@ -61,7 +62,7 @@ The dramatic shift to digital is spurring a new wave of investment in connected,
 Additionally, TV streaming is expected to grow tremendously in the coming years as audiences move away from costlier linear TV alternatives. In fact, by 2022, 60.1% of all US TV users will use over-the-top streaming platforms at least once per month, eMarketer predicts.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/240293.png?quality=80&width=800?quality=80&width=800 "a title")
 240293.png
 
 \
@@ -110,7 +111,7 @@ On the demand side, advertisers are pushing for cross-screen and cross-platform 
 Pubmatic’s Quarterly Mobile Index report from Q1 2019 showed Android devices making a drastic shift in ad budgets from RTB exchanges to private marketplaces (PMPs) to help maintain brand safety and protect against pilfering and the other fraud-related activities that exist in RTB.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/openRTB_PMP-1-800x508.jpg?quality=80&width=800?quality=80&width=800 "a title")
 openRTB_PMP-1-800x508.jpg
 
 \
@@ -141,7 +142,7 @@ MediaMath, for example, launched SOURCE earlier this month – a media supply ch
 User privacy transforming tech ecosystem. Privacy compliance is also driving a shift in adtech capabilities with more built-in tools and solutions to help brands maintain compliance. A report from European consulting company Capgemini found that companies who meet GDPR compliance standards are outperforming non-compliant companies across a wide range of metrics.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/Screen-Shot-2019-10-02-at-4.13.32-PM-768x484-1.png?quality=80&width=800?quality=80&width=800 "a title")
 Screen-Shot-2019-10-02-at-4.13.32-PM-768x484-1.png
 
 \
@@ -157,4 +158,4 @@ To pursue ROAS in a digital world, advertisers are tracking behavior, targeting 
 With the impact of browser actions on tracking Apple ITP, Google Chrome cookie blocking, and others, more platforms are taking measures to protect against bad actors. As a result, advertisers should prepare to embrace a wider array of holistic adtech solutions focused on brand safety and privacy compliance to support more accountable and effective advertising efforts.
 
 \
-Content from this article is provided by – https://marketingland.com/ 
+Content from this article is provided by – https://marketingland.com/

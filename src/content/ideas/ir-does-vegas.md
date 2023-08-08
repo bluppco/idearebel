@@ -1,15 +1,17 @@
 ---
-title: IR Vancouver, Toronto and Montreal go to Las Vegas | Idea Rebel
 description: IR Does Vegas!
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# vegas.jpg
+image: https://blupp.b-cdn.net/idearebel/vegas.jpg?quality=80&width=800
+order: 1
 publish_date: January 4, 2017
+link: ir-does-vegas
+sub_title: ""
+title: IR Vancouver, Toronto and Montreal go to Las Vegas | Idea Rebel
 url: https://www.idearebel.com/ideas/ir-does-vegas/
---- 
-The Vegas Rebellion 
+---
+The Vegas Rebellion
 
 \
-How Idea Rebel beat the November Rain 
+How Idea Rebel beat the November Rain
 
 \
 “A little bit of this town goes a very long way.” – Hunter S. Thompson
@@ -69,13 +71,13 @@ This town doesn’t disappoint! In addition to the bars, clubs, buffets, spas an
 Las Vegas is one helluva town. And Idea Rebel had one helluva time. Here’s to another huge quarter!
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/Photo-2016-11-20-9-14-41-AM-1.jpg?quality=80&width=800?quality=80&width=800 "a title")
 Photo-2016-11-20-9-14-41-AM-1.jpg
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/Photo-2016-11-20-11-29-28-AM-1.jpg?quality=80&width=800?quality=80&width=800 "a title")
 Photo-2016-11-20-11-29-28-AM-1.jpg
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/Rebel-Awards-2016.jpg?quality=80&width=800?quality=80&width=800 "a title")
 Rebel-Awards-2016.jpg

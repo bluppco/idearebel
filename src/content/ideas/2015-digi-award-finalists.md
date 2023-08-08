@@ -1,15 +1,17 @@
 ---
-title: Digi Awards Finalists":" Mobile Entertainment Category | Idea Rebel
 description: Digi Awards Finalists
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# converse_banner1.jpg
+image: https://blupp.b-cdn.net/idearebel/converse_banner1.jpg?quality=80&width=800
+link: 2015-digi-award-finalists
+order: 1
 publish_date: October 22, 2015
+sub_title: ""
+title: Digi Awards Finalists":" Mobile Entertainment Category | Idea Rebel
 url: https://www.idearebel.com/ideas/2015-digi-award-finalists/
---- 
+---
 We’re excited to announce that Idea Rebel has made it as finalists in the 2015 Digi Awards!
 
 \
-Our mobile apps, “Converse – In Their Chucks” and “Infiniti Driver’s Seat VR” have both been nominated in the same category of Mobile Entertainment.  
+Our mobile apps, “Converse – In Their Chucks” and “Infiniti Driver’s Seat VR” have both been nominated in the same category of Mobile Entertainment.
 
 \
 “Converse – In Their Chucks” let’s the user walk in the shoes, so to speak, of different celebrities.  Through the app, the user can explore the 3D world of these characters either by moving the phone in their hand or experience it via virtual reality goggles.

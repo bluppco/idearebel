@@ -3,12 +3,14 @@ const ideasCollection = defineCollection({
 
 	schema: z.object({
 
-		title: z.string(),
-		sub_title: z.string(),
 		description: z.string(),
-		publish_date: z.string(),
-		url: z.string(),
 		image: z.string(),
+		link: z.string(),
+		order: z.number(),
+		publish_date: z.string(),
+		sub_title: z.string(),
+		title: z.string(),
+		url: z.string(),
 
 	})
 
