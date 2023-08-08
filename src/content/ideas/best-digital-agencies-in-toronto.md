@@ -1,6 +1,7 @@
 ---
 title: Best Digital Agencies in Toronto | Idea Rebel
 description: Best Digital Agencies in Toronto Idea Rebel
+sub_title: We are an adaptive digital marketing agency creating provocative brand experiences.
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 # idea-rebel-tornoto-digital-ageny.jpg
 publish_date: May 1, 2019

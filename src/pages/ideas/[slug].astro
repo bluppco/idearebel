@@ -13,6 +13,11 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 import Head from "../../components/common/Head.astro"
+import Footer from "../../components/Footer.astro"
+import Header from "../../components/common/Header.jsx"
+import H1 from "../../components/common/atom/H1.astro"
+import Button from "../../components/common/Button.astro"
+import Paragraph from "../../components/common/Paragraph.astro"
 import ParagraphGaramond from "../../components/common/atom/ParagraphGaramond.astro"
 import "../../styles.css"
 ---
@@ -21,11 +26,20 @@ import "../../styles.css"
 		title={ entry.data.title }
 	/>
 	<body>
-		<div class="h-[70vh] w-full bg-zinc-300">
+		<Header client:load/>
+		<div class="h-[70vh] min-h-[400px] w-full bg-zinc-300 flex justify-center items-center relative">
 			<img
 				src={ entry.data.image }
-				class="h-full w-full object-cover"
+				class="h-full w-full object-cover absolute left-0 top-0"
 			/>
+			<div class="p-10 bg-white text-center grid gap-8 max-w-[35%] z-10">
+                <H1
+                    text={ entry.data.title }
+                />
+                <Paragraph
+                    text={ entry.data.sub_title }
+                />
+            </div>
 		</div>
 		<div class="mt-5 container mx-auto max-w-2xl py-20">
             <Content/>
@@ -34,5 +48,19 @@ import "../../styles.css"
 					text={ entry.data.publish_date }
 				/>
 			</div>
+			<div class="mt-4 flex gap-8">
+				<div class="w-56">
+					<Button
+						text="BACK"
+					/>
+				</div>
+				<div class="w-56">
+					<Button
+						text="SHARE"
+					/>
+				</div>
+			</div>
         </div>
+		<Footer />
+	</body>
 </html>
