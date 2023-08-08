@@ -4,6 +4,7 @@ description: Idea Rebel Digital Marketing & Performance Media introducing Avril 
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: May 20, 2020
+link: digital-marketing-media-partner-avril-tomlin-hood
 sub_title: ""
 title: Digital Marketing & Media Partner - Avril Tomlin-Hood | Idea Rebel
 url: https://www.idearebel.com/ideas/digital-marketing-media-partner-avril-tomlin-hood/

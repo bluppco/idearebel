@@ -4,6 +4,7 @@ description: React for Web Development – A Digital Agency Perspective
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: October 26, 2020
+link: react-for-web-development-a-digital-agency-perspective
 sub_title: ""
 title: React for Web Development - A Digital Agency Perspective | Idea Rebel
 url: https://www.idearebel.com/ideas/react-for-web-development-a-digital-agency-perspective/

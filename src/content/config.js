@@ -5,6 +5,7 @@ const ideasCollection = defineCollection({
 
 		description: z.string(),
 		image: z.string(),
+		link: z.string(),
 		order: z.number(),
 		publish_date: z.string(),
 		sub_title: z.string(),

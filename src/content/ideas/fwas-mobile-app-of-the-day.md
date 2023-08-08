@@ -4,6 +4,7 @@ description: BMW – FWA’s Mobile App of the Day
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: December 5, 2016
+link: fwas-mobile-app-of-the-day
 sub_title: ""
 title: BMW - FWA’s Mobile App of the Day | Idea Rebel
 url: https://www.idearebel.com/ideas/fwas-mobile-app-of-the-day/

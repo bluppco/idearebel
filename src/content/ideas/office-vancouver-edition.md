@@ -4,6 +4,7 @@ description: The Office Vancouver Edition
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: July 12, 2017
+link: office-vancouver-edition
 sub_title: ""
 title: The Office":" Vancouver Edition | Idea Rebel
 url: https://www.idearebel.com/ideas/office-vancouver-edition/

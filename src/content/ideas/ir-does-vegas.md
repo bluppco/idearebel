@@ -4,6 +4,7 @@ description: IR Does Vegas!
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: January 4, 2017
+link: ir-does-vegas
 sub_title: ""
 title: IR Vancouver, Toronto and Montreal go to Las Vegas | Idea Rebel
 url: https://www.idearebel.com/ideas/ir-does-vegas/

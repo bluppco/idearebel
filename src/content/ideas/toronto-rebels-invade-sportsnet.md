@@ -4,6 +4,7 @@ description: Toronto Rebels invade Sportsnet
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: May 29, 2015
+link: toronto-rebels-invade-sportsnet
 sub_title: ""
 title: Idea Rebel Toronto Team at Sportsnet | Idea Rebel
 url: https://www.idearebel.com/ideas/toronto-rebels-invade-sportsnet/

@@ -4,6 +4,7 @@ description: Gen Z influence on Digital Marketing more than Millennials Watch-ou
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: November 23, 2021
+link: gen-z-influence-on-digital-marketing-more-than-millennials
 sub_title: We are an adaptive digital marketing agency creating provocative brand experiences.
 title: Gen Z influence on Digital Marketing more than Millennials
 url: https://www.idearebel.com/ideas/gen-z-influence-on-digital-marketing-more-than-millennials/

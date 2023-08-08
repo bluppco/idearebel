@@ -4,6 +4,7 @@ description: Digital Marketing Trends for 2021 Insight from a Digital Agency
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: February 2, 2021
+link: digital-marketing-trends-for-2021
 sub_title: ""
 title: Digital Marketing Trends for 2021 | Idea Rebel
 url: https://www.idearebel.com/ideas/digital-marketing-trends-for-2021/

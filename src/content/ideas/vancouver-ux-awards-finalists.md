@@ -4,6 +4,7 @@ description: We’re Finalists! Vancouver UX Awards 2017
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: November 27, 2017
+link: vancouver-ux-awards-finalists
 sub_title: ""
 title: UX Awards Finalists! | Idea Rebel
 url: https://www.idearebel.com/ideas/vancouver-ux-awards-finalists/

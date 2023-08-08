@@ -4,6 +4,7 @@ description: Introducing Contest Rebel! contests made easy.
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: July 1, 2019
+link: contest-rebel
 sub_title: ""
 title: Introducing Contest Rebel! Contests Made Easy. | Idea Rebel
 url: https://www.idearebel.com/ideas/contest-rebel/

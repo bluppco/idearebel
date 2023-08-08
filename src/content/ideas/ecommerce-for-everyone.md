@@ -4,6 +4,7 @@ description: eCommerce for Everyone
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: June 24, 2018
+link: ecommerce-for-everyone
 sub_title: ""
 title: eCommerce Agency & Developers - Toronto, Vancouver & LA
 url: https://www.idearebel.com/ideas/ecommerce-for-everyone/

@@ -4,6 +4,7 @@ description: Keurig selects Idea Rebel as their digital agency partner
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: January 18, 2016
+link: keurig-selects-idea-rebel-as-their-digital-agency
 sub_title: ""
 title: Keurig Canada & Idea Rebel":" Digital agency partner | Idea Rebel
 url: https://www.idearebel.com/ideas/keurig-selects-idea-rebel-as-their-digital-agency/

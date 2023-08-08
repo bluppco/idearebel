@@ -4,6 +4,7 @@ description: Our FWA Awards over the years Winner winner
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: November 4, 2015
+link: fwa-bling
 sub_title: ""
 title: FWA Bling | Idea Rebel
 url: https://www.idearebel.com/ideas/fwa-bling/

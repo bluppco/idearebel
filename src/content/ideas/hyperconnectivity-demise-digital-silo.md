@@ -1,12 +1,13 @@
 ---
-title: Understanding Hyperconnectivity | Idea Rebel
+# hyper7.gif
 description: Hyperconnectivity and the Demise of the Digital Silo
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
-# hyper7.gif
-publish_date: March 13, 2017
-url: https://www.idearebel.com/ideas/hyperconnectivity-demise-digital-silo/
 order: 1
+publish_date: March 13, 2017
+link: hyperconnectivity-demise-digital-silo
 sub_title: ""
+title: Understanding Hyperconnectivity | Idea Rebel
+url: https://www.idearebel.com/ideas/hyperconnectivity-demise-digital-silo/
 ---
 Once, content was just content, SEO didn’t require an esoteric understanding of analytics and social media was an afterthought for bored interns. Even developers could be one-trick-ponies, providing the trick was building functional websites. But that was then. Today, users are users in the truest sense of the word, mainlining their media through devices that talk to each other, talk to the cloud, evolve and even learn – and that’s forcing content creators to rethink things…
 

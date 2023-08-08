@@ -4,6 +4,7 @@ description: Moving On Up – Our New Toronto Office!
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: May 15, 2017
+link: new-toronto-office
 sub_title: ""
 title: Digital Agency - Toronto Office - Queen West | Idea Rebel
 url: https://www.idearebel.com/ideas/new-toronto-office/

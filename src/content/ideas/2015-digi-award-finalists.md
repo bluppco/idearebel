@@ -4,6 +4,7 @@ description: Digi Awards Finalists
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: October 22, 2015
+link: 2015-digi-award-finalists
 sub_title: ""
 title: Digi Awards Finalists":" Mobile Entertainment Category | Idea Rebel
 url: https://www.idearebel.com/ideas/2015-digi-award-finalists/

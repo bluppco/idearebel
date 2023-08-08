@@ -4,6 +4,7 @@ description: 2018 Vancouver UX Awards Finalists! For Roots.com
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: November 14, 2018
+link: idea-rebel-ux-awards-finalist-2018
 sub_title: ""
 title: Idea Rebel and Roots.com are up for a Vancouver UX Award
 url: https://www.idearebel.com/ideas/idea-rebel-ux-awards-finalist-2018/

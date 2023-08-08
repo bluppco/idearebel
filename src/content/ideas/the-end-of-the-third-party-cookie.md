@@ -4,6 +4,7 @@ description: Google To Axe Third Party Cookies by 2022 No more Cookies for you
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: March 22, 2021
+link: the-end-of-the-third-party-cookie
 sub_title: ""
 title: The End of the Third-Party Cookie | Idea Rebel
 url: https://www.idearebel.com/ideas/the-end-of-the-third-party-cookie/

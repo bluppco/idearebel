@@ -4,6 +4,7 @@ description: Top Vancouver Digital Agencies
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: April 30, 2014
+link: top-vancouver-digital-agencies-2014
 sub_title: ""
 title: Idea Rebel | Top Vancouver Digital Agencies
 url: https://www.idearebel.com/ideas/top-vancouver-digital-agencies-2014/

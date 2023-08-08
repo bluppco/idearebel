@@ -4,6 +4,7 @@ description: Tech":" A class of its own
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: April 11, 2017
+link: digital-learning-and-education
 sub_title: ""
 title: Digital Learning & Education | Idea Rebel
 url: https://www.idearebel.com/ideas/digital-learning-and-education/

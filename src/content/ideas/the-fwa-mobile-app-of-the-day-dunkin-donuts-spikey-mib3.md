@@ -4,6 +4,7 @@ description: The FWA Mobile App of the Day":" Dunkin’ Donuts Spikey (MIB3)
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: July 6, 2015
+link: the-fwa-mobile-app-of-the-day-dunkin-donuts-spikey-mib3
 sub_title: ""
 title: The FWA Mobile App of the Day":" Dunkin’ Donuts Spikey (MIB3) | Idea Rebel
 url: https://www.idearebel.com/ideas/the-fwa-mobile-app-of-the-day-dunkin-donuts-spikey-mib3/

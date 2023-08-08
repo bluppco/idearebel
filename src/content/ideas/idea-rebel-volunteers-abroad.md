@@ -4,6 +4,7 @@ description: Idea Rebel Volunteers Abroad Kandy, Sri Lanka
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: May 11, 2018
+link: idea-rebel-volunteers-abroad
 sub_title: ""
 title: Idea Rebel Volunteers Abroad (National Volunteer Week) - Kandy, Sri Lanka
 url: https://www.idearebel.com/ideas/idea-rebel-volunteers-abroad/

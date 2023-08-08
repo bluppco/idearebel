@@ -4,6 +4,7 @@ description: EY Thought Leadership Event
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: November 24, 2014
+link: ey-thought-leadership-event
 sub_title: ""
 title: EY Entrepreneur of the Year":" Thought Leadership Event | Idea Rebel
 url: https://www.idearebel.com/ideas/ey-thought-leadership-event/

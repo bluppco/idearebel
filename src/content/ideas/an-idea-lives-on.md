@@ -7,6 +7,7 @@ publish_date: December 6, 2017
 sub_title: ""
 title: An idea lives on | Idea Rebel
 url: https://www.idearebel.com/ideas/an-idea-lives-on/
+link: an-idea-lives-on
 ---
 Idea Rebel developed a website dedicated to showing how John F Kennedy and his ideas, continue to inspire and affect the present world.
 

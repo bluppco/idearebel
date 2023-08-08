@@ -4,6 +4,7 @@ description: Sustainability Policy
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: September 25, 2015
+link: idea-rebel-sustainability-policy-2
 sub_title: ""
 title: Sustainability Policy":" Paperless Policy | Idea Rebel
 url: https://www.idearebel.com/ideas/idea-rebel-sustainability-policy-2/

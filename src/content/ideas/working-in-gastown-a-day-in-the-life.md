@@ -4,6 +4,7 @@ description: Working in Gastown":" A Day in the Life
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: June 20, 2014
+link: working-in-gastown-a-day-in-the-life
 sub_title: ""
 title: Working in Gastown":" A Day in the Life | Idea Rebel
 url: https://www.idearebel.com/ideas/working-in-gastown-a-day-in-the-life/

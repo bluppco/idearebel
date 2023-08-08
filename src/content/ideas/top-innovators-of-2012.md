@@ -4,6 +4,7 @@ description: Top Innovators
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: April 5, 2012
+link: top-innovators-of-2012
 sub_title: ""
 title: Top Innovators | Idea Rebel
 url: https://www.idearebel.com/ideas/top-innovators-of-2012/

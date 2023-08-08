@@ -4,6 +4,7 @@ description: Virtually Everything
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: March 20, 2017
+link: vr-redefinding-the-market
 sub_title: ""
 title: How VR is redefining the market | Idea Rebel
 url: https://www.idearebel.com/ideas/vr-redefinding-the-market/

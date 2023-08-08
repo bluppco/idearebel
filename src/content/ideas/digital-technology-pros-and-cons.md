@@ -4,9 +4,11 @@ description: Brave New World?
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 order: 1
 publish_date: May 3, 2017
+link: digital-technology-pros-and-cons
 sub_title: ""
 title: The Downside & Upside of Digital Technology | Idea Rebel
 url: https://www.idearebel.com/ideas/digital-technology-pros-and-cons/
+
 ---
 ![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
 gamechanger-paperlessJamieGarratt-576x324.jpg
