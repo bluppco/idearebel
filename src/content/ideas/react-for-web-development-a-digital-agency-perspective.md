@@ -1,7 +1,6 @@
 ---
-# Idea-Rebel-Web-Development-ReactJS.jpg
 description: React for Web Development – A Digital Agency Perspective
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/Idea-Rebel-Web-Development-ReactJS.jpg?quality=80&width=800
 order: 1
 publish_date: October 26, 2020
 link: react-for-web-development-a-digital-agency-perspective
@@ -24,7 +23,7 @@ Using React is, basically, an interpretation of the reactive programming — i.e
 To work with React, you will need JSX, a preconfiguration in JavaScript that allows the use of XML in the JavaScript code. This, basically, adds a couple of additional specifications to the syntax and doesn’t affect the overall complexity of the project.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/React-Idea-Rebel.png?quality=80&width=800?quality=80&width=800 "a title")
 React-Idea-Rebel.png
 
 \
@@ -49,7 +48,7 @@ Simplicity of code optimization. A component-oriented approach to the creation o
 Propensity for creating dynamic web pages. The creation of interactive elements and dynamic content is the forte of the library in discussion. The thing is: standard tools and technologies, like the JS + HTML + CSS combination, don’t allow for creating something interactive and dynamic without sacrificing performance. For instance, the visual part of the HTML code, called DOM (Document Object Model – a tree of objects), is usually redrawn each time a user makes certain changes within the page (e.g. scrolls it down). The redrawing operation is quite resource intensive if it isn’t optimized the right way. In the case of ReactJS, instead of regular DOM, its lightweight copy—Virtual DOM—is used. It doesn’t redraw the whole tree from scratch, only the nodes that were changed. As a result, from the user perspective, we get an almost immediate reaction to any manipulations.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/React-Modules-Idea-Rebel.jpg?quality=80&width=800?quality=80&width=800 "a title")
 React-Modules-Idea-Rebel.jpg
 
 \

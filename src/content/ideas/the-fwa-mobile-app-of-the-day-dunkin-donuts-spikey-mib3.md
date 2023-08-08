@@ -1,7 +1,6 @@
 ---
-# Dunkin-Donuts-MIB3-Spikey.jpg
 description: The FWA Mobile App of the Day":" Dunkin’ Donuts Spikey (MIB3)
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/Dunkin-Donuts-MIB3-Spikey.jpg?quality=80&width=800
 order: 1
 publish_date: July 6, 2015
 link: the-fwa-mobile-app-of-the-day-dunkin-donuts-spikey-mib3
@@ -9,7 +8,7 @@ sub_title: ""
 title: The FWA Mobile App of the Day":" Dunkin’ Donuts Spikey (MIB3) | Idea Rebel
 url: https://www.idearebel.com/ideas/the-fwa-mobile-app-of-the-day-dunkin-donuts-spikey-mib3/
 ---
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/Picture-1-244x349.png?quality=80&width=800?quality=80&width=800 "a title")
 Picture-1-244x349.png
 
 \
@@ -25,5 +24,5 @@ This is Idea Rebel’s first time (hopefully of many) winning this prestigious a
 Check out the award at http://www.thefwa.com/mobile/dunkin-mib3-capture !
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/MIB32-225x349.png?quality=80&width=800?quality=80&width=800 "a title")
 MIB32-225x349.png

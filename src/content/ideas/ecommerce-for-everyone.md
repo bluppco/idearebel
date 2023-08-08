@@ -1,7 +1,6 @@
 ---
-# yellow_box.jpg
 description: eCommerce for Everyone
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/yellow_box.jpg?quality=80&width=800
 order: 1
 publish_date: June 24, 2018
 link: ecommerce-for-everyone
@@ -30,7 +29,7 @@ It’s not just vendors who benefit from eCommerce. Customers can enjoy the inhe
 Whether enterprise or open source, there’s an eComm solution that’s ideal for your business. In order to find it, you’ll need to analyze your process, identify your technical requirements and anticipate your customers’ needs. Once these considerations are addressed, a working understanding of the most popular eCommerce platforms will mitigate analysis paralysis and empower an informed decision. Here’s the highlights reel, in no particular order or preference.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/1280px-Magento.png?quality=80&width=800?quality=80&width=800 "a title")
 1280px-Magento.png
 
 \
@@ -46,7 +45,7 @@ PROS: The standard bearer for open-source, community-driven software. Magento is
 CONS: Magento’s 3-tiered architecture requires a robust in-house staff. Customizability can result in one-off implementations that are costly to maintain and challenging to upgrade. There are better options for companies with limited budgets and resources.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/SAPHybrislogo.png?quality=80&width=800?quality=80&width=800 "a title")
 SAPHybrislogo.png
 
 \
@@ -62,7 +61,7 @@ PROS: On-premise, large-scale, multi-channel operations call for Hybris. Robust 
 CONS: Hybris is a time-intensive platform that can take anywhere from 12-24 months to implement. Because its built on an aging technology paradigm, staffing requirements and administration cost are typically high and implementation can run into the millions.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/salesforce-commerce-cloud-logo.jpg?quality=80&width=800?quality=80&width=800 "a title")
 salesforce-commerce-cloud-logo.jpg
 
 \
@@ -79,7 +78,7 @@ CONS: If you’re seeking a solution for complex B2B pricing and promotions use 
 Oracle ATG web commerce ecommerce logo
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/Oracle-ATG.png?quality=80&width=800?quality=80&width=800 "a title")
 Oracle-ATG.png
 
 \
@@ -95,7 +94,7 @@ PROS: Ideal for large-scale eCommerce web apps, ATG features Endeca, a proven me
 CONS: Implementation time and resource cost make ATG less than ideal for small-scale companies. Because it’s compiled software, limitations may present themselves, requiring some homework and several work-arounds.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/kecommercelogo.jpg?quality=80&width=800?quality=80&width=800 "a title")
 kecommercelogo.jpg
 
 \
@@ -111,7 +110,7 @@ PROS: With easy implementation, near effortless back office integration and rapi
 CONS: KeCommerce doesn’t have a robust extension marketplace like many of its counterparts, which can be limiting for front-end marketers. The integration of new tools isn’t as easy as simply adding an extension. Be prepared for some work-arounds.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/shopifylogo.png?quality=80&width=800?quality=80&width=800 "a title")
 shopifylogo.png
 
 \
@@ -127,7 +126,7 @@ PROS: Scalable and super user-friendly, Shopify is implementable with a few clic
 CONS: Shopify uses subdirectories so the URL structure is less than ideal for SEO. Domain names are not part of premium packages and email hosting requires an external solution. Multi-language functionality requires apps and particular templates.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/woocommerce-logo.png?quality=80&width=800?quality=80&width=800 "a title")
 woocommerce-logo.png
 
 \
@@ -143,7 +142,7 @@ PROS: This free WordPress plugin is familiar to most users. Professional and sta
 CONS: Occasionally, WooCommerce plugins are slow to adapt to WordPress updates. Content sometimes doesn’t translate to browsers when updates are implemented through the visual tab, which can be extremely limiting without HTML knowledge.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/drupalcommercelogo.png?quality=80&width=800?quality=80&width=800 "a title")
 drupalcommercelogo.png
 
 \

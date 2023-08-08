@@ -1,7 +1,6 @@
 ---
-# torontoblogbanner.jpg
 description: How to Hack a Cold Winter at a Toronto Digital Agency
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/torontoblogbanner.jpg?quality=80&width=800
 order: 1
 publish_date: January 24, 2015
 link: how-to-hack-a-cold-winter-at-a-toronto-digital-agency

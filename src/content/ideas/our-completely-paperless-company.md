@@ -1,7 +1,6 @@
 ---
-# skateboard.jpg
 description: Our completely paperless company
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/skateboard.jpg?quality=80&width=800
 order: 1
 publish_date: June 14, 2017
 link: our-completely-paperless-company

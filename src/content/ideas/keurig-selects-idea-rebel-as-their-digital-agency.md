@@ -1,7 +1,6 @@
 ---
-# IMG_58722.jpg
 description: Keurig selects Idea Rebel as their digital agency partner
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/IMG_58722.jpg?quality=80&width=800
 order: 1
 publish_date: January 18, 2016
 link: keurig-selects-idea-rebel-as-their-digital-agency
@@ -36,9 +35,9 @@ Other publications related to this story!
 * Marketing Magazine – View post here
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/IMG_5876.jpg?quality=80&width=800?quality=80&width=800 "a title")
 IMG_5876.jpg
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/ir_and_keurig_mug.jpg?quality=80&width=800?quality=80&width=800 "a title")
 ir_and_keurig_mug.jpg

@@ -1,7 +1,6 @@
 ---
-# eyblogbanner-3.jpg
 description: EY Thought Leadership Event
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/eyblogbanner-3.jpg?quality=80&width=800
 order: 1
 publish_date: November 24, 2014
 link: ey-thought-leadership-event

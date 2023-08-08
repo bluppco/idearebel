@@ -1,13 +1,12 @@
 ---
-# idea-rebel-tornoto-digital-ageny.jpg
 description: Best Digital Agencies in Toronto Idea Rebel
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/idea-rebel-tornoto-digital-ageny.jpg?quality=80&width=800
+link: best-digital-agencies-in-toronto
 order: 1
 publish_date: May 1, 2019
 sub_title: We are an adaptive digital marketing agency creating provocative brand experiences.
 title: Best Digital Agencies in Toronto | Idea Rebel
 url: https://www.idearebel.com/ideas/best-digital-agencies-in-toronto/
-link: best-digital-agencies-in-toronto
 ---
 We’re very proud to announce that Idea Rebel has made the list of the Best Digital Agencies in Toronto. There’s a lot of great agencies in Toronto and we’re pumped to be a part of such an elite group.
 
@@ -16,7 +15,7 @@ The list can be found here – **The Digital Agency Network**
 ![Alt text](https://blupp.b-cdn.net/idearebel/office_TO-3-1.jpeg?quality=80&width=800 "a title")
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/office_TO-3-1.jpg?quality=80&width=800?quality=80&width=800 "a title")
 office_TO-3-1.jpg
 
 \
@@ -59,14 +58,14 @@ Idea Rebel Toronto is located in King / Queen West, one of Toronto’s urban hot
 Stop by anytime and say hi!
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/to-header-hero-768x576.jpg?quality=80&width=800?quality=80&width=800 "a title")
 to-header-hero-768x576.jpg
 
 \
 More on what our Toronto office has to offer – Idea Rebel Toronto.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/office-to.jpg?quality=80&width=800?quality=80&width=800 "a title")
 office-to.jpg
 
 \

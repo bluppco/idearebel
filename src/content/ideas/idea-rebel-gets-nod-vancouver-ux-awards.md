@@ -1,7 +1,6 @@
 ---
-# Screen-Shot-2016-11-14-at-12.12.15-PM.png
 description: Idea Rebel Gets Nod From Vancouver UX Awards
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/Screen-Shot-2016-11-14-at-12.12.15-PM.png?quality=80&width=800
 order: 1
 publish_date: November 14, 2016
 link: idea-rebel-gets-nod-vancouver-ux-awards

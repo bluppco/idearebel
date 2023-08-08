@@ -1,7 +1,6 @@
 ---
-# 4.SignOther-0403_preview.jpg
 description: Top Vancouver Digital Agencies
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/4.SignOther-0403_preview.jpg?quality=80&width=800
 order: 1
 publish_date: April 30, 2014
 link: top-vancouver-digital-agencies-2014
@@ -15,5 +14,5 @@ We made the list of The Biggest Digital Agencies and Web-Development Companies, 
 For over 20 years, Business in Vancouver (BIV)  has been chronicling Industry Leaders of British Columbia for more than 60 different sectors, including digital and web-development. Each year they provide coverage of the province’s business community with their lists and data, available online and in their magazine.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/idea_rebel_top_digital_agency1.jpg?quality=80&width=800?quality=80&width=800 "a title")
 idea_rebel_top_digital_agency1.jpg

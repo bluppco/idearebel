@@ -1,13 +1,12 @@
 ---
-# idealiveson-1.jpg
 description: An Idea Lives On Award-Winning Digital Experience dedicated to JFK
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/idealiveson-1.jpg?quality=80&width=800
+link: an-idea-lives-on
 order: 1
 publish_date: December 6, 2017
 sub_title: ""
 title: An idea lives on | Idea Rebel
 url: https://www.idearebel.com/ideas/an-idea-lives-on/
-link: an-idea-lives-on
 ---
 Idea Rebel developed a website dedicated to showing how John F Kennedy and his ideas, continue to inspire and affect the present world.
 

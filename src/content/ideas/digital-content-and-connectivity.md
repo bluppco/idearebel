@@ -1,10 +1,9 @@
 ---
-# megaphone_blog.jpg
 description: Content & Connectivity
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/megaphone_blog.jpg?quality=80&width=800
+link: digital-content-and-connectivity
 order: 1
 publish_date: March 27, 2017
-link: digital-content-and-connectivity
 sub_title: ""
 title: Digital Content & Connectivity | Idea Rebel
 url: https://www.idearebel.com/ideas/digital-content-and-connectivity/

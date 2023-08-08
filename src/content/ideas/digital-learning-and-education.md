@@ -1,7 +1,6 @@
 ---
-# education_blog_header.jpg
 description: Tech":" A class of its own
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/education_blog_header.jpg?quality=80&width=800
 order: 1
 publish_date: April 11, 2017
 link: digital-learning-and-education

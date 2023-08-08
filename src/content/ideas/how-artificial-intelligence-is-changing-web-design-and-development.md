@@ -1,7 +1,6 @@
 ---
-# web-design-development.jpg
 description: How Artificial Intelligence is Changing Web Design – A Digital Agency Perspective
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/web-design-development.jpg?quality=80&width=800
 order: 1
 publish_date: January 17, 2019
 link: how-artificial-intelligence-is-changing-web-design-and-development
@@ -18,7 +17,7 @@ If you are reading this, you probably have a smart phone, and that is the most i
 As a Digital Marketing Agency in Toronto, Vancouver, and Los Angeles, we are constantly evolving our technology skills, including AI, to move us forward. Here’s some insight.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/websitedesignphoto.jpg?quality=80&width=800?quality=80&width=800 "a title")
 websitedesignphoto.jpg
 
 \
@@ -40,7 +39,7 @@ The Future of Intelligent Web Design
 The ultimate goal of AI is for websites to just make themselves. As ADI becomes more polished, it will be able to provide a higher baseline level of competence. In other words, AI will do more of the ‘legwork’ for us. Web designers won’t become obsolete, but many of their tasks will. Creativity still remains very much a human endeavour. As brilliantly put by Yury Vetrov, Design Director of Mail.Ru, “Designers would become art directors to their new apprentices, computers.”
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/thinkoutsidethebox.jpg?quality=80&width=800?quality=80&width=800 "a title")
 thinkoutsidethebox.jpg
 
 \
@@ -56,5 +55,5 @@ To survive the ever-changing tech industry, the ability to adapt to changes quic
 AI has been a key instrument when it comes to personalization. Variables such as location, context, behaviour, and values all modify the website interaction one experiences. With AI becoming smarter and smarter, each customer persona profile is continually evolving. This machine learning allows websites to be tailored to the individual. It determines what you see and when you see it.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/webdevelopmentphoto.jpg?quality=80&width=800?quality=80&width=800 "a title")
 webdevelopmentphoto.jpg

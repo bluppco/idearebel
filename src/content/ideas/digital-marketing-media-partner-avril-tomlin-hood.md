@@ -1,7 +1,6 @@
 ---
-# idea-rebel-avril-tomlin-hood-1.jpg
 description: Idea Rebel Digital Marketing & Performance Media introducing Avril Tomlin-Hood
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/idea-rebel-avril-tomlin-hood-1.jpg?quality=80&width=800
 order: 1
 publish_date: May 20, 2020
 link: digital-marketing-media-partner-avril-tomlin-hood
@@ -21,7 +20,7 @@ Most recently President of Vancouver-based Flypixl Media, Avril has over 10 year
 When not head-down in all things digital marketing, Avril keeps busy with lots of yoga, travel and time with her family – both human and canine.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/idea-rebel-avril-tomlin-hood-2048x1949.jpg?quality=80&width=800?quality=80&width=800 "a title")
 idea-rebel-avril-tomlin-hood-2048x1949.jpg
 
 \

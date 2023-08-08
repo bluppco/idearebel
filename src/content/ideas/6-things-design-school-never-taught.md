@@ -1,13 +1,12 @@
 ---
-# 6thingsIwishIlearned_Header_2.0.jpg
 description: 6 Things Design School Never Taught Me Insights from a Rebel Designer
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/6thingsIwishIlearned_Header_2.0.jpg?quality=80&width=800
+link: 6-things-design-school-never-taught
 order: 1
 publish_date: October 24, 2017
 sub_title: ""
 title: 6 Things Design School Never Taught Me | Idea Rebel
 url: https://www.idearebel.com/ideas/6-things-design-school-never-taught/
-link: 6-things-design-school-never-taught
 ---
 I’ve been a professional designer for 3 years. I’ve worked for large agencies, digital and advertising and also in-house for a large corporation – a short-yet-varied experience that’s given me some perspective on the industry as a recent graduate. These are my observations; and what I wish design school had better prepared me for.
 
@@ -102,9 +101,7 @@ If you’re a creative professional, odds are that you’re also creative outsid
 At the risk of being the bearer of bad news, the work you do won’t always be glamourous. Some projects will even make you question why you ended up here in the first place. Having a fun side project helps put things in perspective, and is a good reminder that mundane work aside, you don’t need a brief to create your own amazing, satisfying projects.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
-bc_ferries_kickoff_contextual_image.jpg
-michael_thumbnail.png
+![Alt text](https://blupp.b-cdn.net/idearebel/bc_ferries_kickoff_contextual_image.jpg?quality=80&width=800?quality=80&width=800 "a title")
 
 \
 Michael Fazal is a Toronto-based, multidisciplinary designer specializing in UI/UX, Branding and Illustration. As a recent graduate, Michael has invaluable experience working on big brands for agencies large and small. He has worked in-house for a large corporation, at a top digital agency, at one of the largest advertising agencies in the world and now, Idea Rebel.

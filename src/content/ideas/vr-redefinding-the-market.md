@@ -1,7 +1,7 @@
 ---
-# vr_blog_header_BABY_BLUE.jpg
+#
 description: Virtually Everything
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/vr_blog_header_BABY_BLUE.jpg?quality=80&width=800
 order: 1
 publish_date: March 20, 2017
 link: vr-redefinding-the-market

@@ -1,7 +1,6 @@
 ---
-# HyundaidealerApp_Header_Widescreen.jpg
 description: We’re Finalists! Vancouver UX Awards 2017
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/HyundaidealerApp_Header_Widescreen.jpg?quality=80&width=800
 order: 1
 publish_date: November 27, 2017
 link: vancouver-ux-awards-finalists
@@ -21,6 +20,6 @@ We built the Hyundai Canada Dealer’s App for Hyundai Canada as a digital sales
 earn more about this first-of-its-kind product here…
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/hyundai_dealerapp.jpg?quality=80&width=800?quality=80&width=800 "a title")
 bc_ferries_kickoff_contextual_image.jpg
 hyundai_dealerapp.jpg

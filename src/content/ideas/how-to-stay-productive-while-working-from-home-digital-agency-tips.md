@@ -1,7 +1,6 @@
 ---
-# idea-rebel-work-from-home.jpg
 description: How to stay productive while working from home – Digital Agency Tips
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/idea-rebel-work-from-home.jpg?quality=80&width=800
 order: 1
 publish_date: April 8, 2020
 link: how-to-stay-productive-while-working-from-home-digital-agency-tips

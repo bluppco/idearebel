@@ -1,7 +1,6 @@
 ---
-# Genz.jpg
 description: Gen Z influence on Digital Marketing more than Millennials Watch-out, Gen Z in the house!
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/Genz.jpg?quality=80&width=800
 order: 1
 publish_date: November 23, 2021
 link: gen-z-influence-on-digital-marketing-more-than-millennials
@@ -22,7 +21,7 @@ For example, the oft-quoted statistic that Millennials will make up 75% of the w
 It’s 2020 and Millennials have already peaked as a percentage of the adult population, making up just over 40% of the global population. By 2030 this percentage is expected to drop to just under 37% as Generation Z starts to come of age.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/1595222914-0.png?quality=80&width=800?quality=80&width=800 "a title")
 1595222914-0.png
 
 \

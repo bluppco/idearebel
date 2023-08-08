@@ -1,7 +1,6 @@
 ---
-# hyper7.gif
 description: Hyperconnectivity and the Demise of the Digital Silo
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/hyper7.gif?quality=80&width=800
 order: 1
 publish_date: March 13, 2017
 link: hyperconnectivity-demise-digital-silo

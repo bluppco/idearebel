@@ -1,7 +1,6 @@
 ---
-# Google-FLoC-Idea-Rebel.jpg
 description: What the FLoC! Google's Privacy Sandbox
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/Google-FLoC-Idea-Rebel.jpg?quality=80&width=800
 order: 1
 publish_date: May 18, 2021
 link: what-the-floc-is-googles-privacy-sandbox

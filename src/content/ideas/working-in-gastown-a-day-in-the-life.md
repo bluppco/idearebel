@@ -1,7 +1,6 @@
 ---
-# day_banner-2.png
 description: Working in Gastown":" A Day in the Life
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/day_banner-2.png?quality=80&width=800
 order: 1
 publish_date: June 20, 2014
 link: working-in-gastown-a-day-in-the-life
@@ -42,17 +41,17 @@ By 5:00 pm the sun is shining and you and a couple of colleagues decide to grab 
 After an awesome day at work you can climb happily into bed, excited for another great day tomorrow.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/day_Small1.png?quality=80&width=800?quality=80&width=800 "a title")
 day_Small1.png
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/day_Small2.png?quality=80&width=800?quality=80&width=800 "a title")
 day_Small2.png
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/day_medium_long.png?quality=80&width=800?quality=80&width=800 "a title")
 day_medium_long.png
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/day_medium.png?quality=80&width=800?quality=80&width=800 "a title")
 day_medium.png

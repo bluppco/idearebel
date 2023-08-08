@@ -1,7 +1,6 @@
 ---
-# mobile_shopping.jpg
 description: Shopify is on the rapid rise!
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/mobile_shopping.jpg?quality=80&width=800
 order: 1
 publish_date: October 10, 2018
 link: shopify-is-on-the-rapid-rise

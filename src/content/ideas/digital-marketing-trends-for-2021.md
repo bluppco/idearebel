@@ -1,7 +1,6 @@
 ---
-# Idea-Rebel-Nike-LGBTQ.jpg
 description: Digital Marketing Trends for 2021 Insight from a Digital Agency
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/Idea-Rebel-Nike-LGBTQ.jpg?quality=80&width=800
 order: 1
 publish_date: February 2, 2021
 link: digital-marketing-trends-for-2021
@@ -30,7 +29,7 @@ Here are some key trends to consider:
 1. Live-streams and an increase in influencer content
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/Idea-Rebel-TikTok.jpg?quality=80&width=800?quality=80&width=800 "a title")
 Idea-Rebel-TikTok.jpg
 
 \
@@ -55,7 +54,7 @@ Amazon Live really got going during the pandemic. Influencers took to the platfo
 2. Continued goodwill and purpose-driven missions from brands
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/Idea-Rebel-Nike-LGBTQ1.jpg?quality=80&width=800?quality=80&width=800 "a title")
 Idea-Rebel-Nike-LGBTQ1.jpg
 
 \
@@ -89,7 +88,7 @@ Roots, One of the brands we work with, is especially conscious in this area. Che
 3. UGC to enhance customer experience
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/Idea-Rebel-UGC-Fashion-Gallery.jpg?quality=80&width=800?quality=80&width=800 "a title")
 Idea-Rebel-UGC-Fashion-Gallery.jpg
 
 \
@@ -126,7 +125,7 @@ We’re super proud of our Digital Agency’s latest UGC work with our product �
 4. A focus on sustainability
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/vivida-surf-sustainable-Idea-Rebel.jpg?quality=80&width=800?quality=80&width=800 "a title")
 vivida-surf-sustainable-Idea-Rebel.jpg
 
 \
@@ -166,7 +165,7 @@ Brands that are seen to be non-inclusive, or who don’t appear to be a part of 
 6. More visual search and voice
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/Slyce-Visual-Shopping-Idea-Rebel.jpg?quality=80&width=800?quality=80&width=800 "a title")
 Slyce-Visual-Shopping-Idea-Rebel.jpg
 
 \

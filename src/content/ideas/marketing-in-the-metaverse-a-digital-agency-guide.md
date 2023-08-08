@@ -1,7 +1,6 @@
 ---
-# metaverse-marketing.png
 description: Marketing In The Metaverse - A Digital Agency Guide
-image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/metaverse-marketing.png?quality=80&width=800
 order: 1
 publish_date: February 24, 2022
 link: marketing-in-the-metaverse-a-digital-agency-guide
