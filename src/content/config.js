@@ -4,6 +4,7 @@ const ideasCollection = defineCollection({
 	schema: z.object({
 
 		title: z.string(),
+		sub_title: z.string(),
 		description: z.string(),
 		publish_date: z.string(),
 		url: z.string(),

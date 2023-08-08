@@ -1,5 +1,6 @@
 ---
 title: Canada's Digital Mavericks Pioneering Innovative Business Solutions
+sub_title: We are an adaptive digital marketing agency creating provocative brand experiences.
 description: Canada's Digital Mavericks Pioneering Innovative Business Solutions
 image: https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800
 publish_date: May 10, 2023
