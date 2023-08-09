@@ -1,9 +1,11 @@
 import React from "react"
 import { useInView } from "framer-motion"
 
-// import { H1 } from "./atom/H1.astro"
+import H1 from "./atom/H1.jsx"
+import Paragraph from "./atom/Paragraph.jsx"
 const Header = ( props ) => {
 
+    const { title, subtitle } = props
     const headerRef = React.useRef( null )
     const isInView = useInView( headerRef )
     const [ switchIt, updateSwitchIt ] = React.useState( false )
@@ -18,10 +20,13 @@ const Header = ( props ) => {
     return (
         <div ref={ headerRef } className="block">
             <section className={`${ background } w-full h-screen bg-cover bg-center flex justify-center items-center bg-zinc-200 z-10`}>
-                <div className="p-10 bg-white text-center grid gap-8">
-                    {/* <H1
-                        text="Idea Rebel"
-                    /> */}
+                <div className="p-10 bg-white text-center grid gap-8 max-w-[30%]">
+                    <H1
+                        text={ title }
+                    />
+                    <Paragraph
+                        text={ subtitle }
+                    />
                 </div>
             </section>
             <div className={`${ displayNavigation ? "-z-10 opacity-0" : "z-30 opacity-100" } fixed p-8 flex justify-between w-full z-20 top-0 left-0 duration-200 ease-in transition`}>
