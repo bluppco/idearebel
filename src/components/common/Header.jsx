@@ -2,7 +2,7 @@ import React from "react"
 import { useInView } from "framer-motion"
 
 // import { H1 } from "./atom/H1.astro"
-const Header = () => {
+const Header = ( props ) => {
 
     const headerRef = React.useRef( null )
     const isInView = useInView( headerRef )
@@ -13,11 +13,12 @@ const Header = () => {
         updateSwitchIt( isInView )
 
     }, [ isInView ])
+    const { background } = props
 
     console.log( displayNavigation )
     return (
         <div ref={ headerRef } className="block">
-            <section className="bg-home w-full h-screen bg-cover bg-center flex justify-center items-center bg-zinc-200 z-10">
+            <section className={`${ background } w-full h-screen bg-cover bg-center flex justify-center items-center bg-zinc-200 z-10`}>
                 <div className="p-10 bg-white text-center grid gap-8">
                     {/* <H1
                         text="Idea Rebel"
