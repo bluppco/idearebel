@@ -1,7 +1,7 @@
 import React from "react"
 import { useInView } from "framer-motion"
 
-import H1 from "./atom/H1.astro"
+// import { H1 } from "./atom/H1.astro"
 const Header = () => {
 
     const headerRef = React.useRef( null )
@@ -24,11 +24,17 @@ const Header = () => {
                 </div>
             </section>
             <div className="!fixed p-8 flex justify-between w-full z-20 top-0 left-0">
-                <div className={`${ switchIt ? "text-white" : "text-black" }`}>a</div>
+                <div className={`${ switchIt ? "text-white" : "text-black" } duration-200`}>
+                    <div className="w-6 h-6">
+                        <img
+                            src={ switchIt ? "/nav-ir-logo-white.png" : "/nav-ir-logo-black.png"}
+                        />
+                    </div>
+                </div>
                 <div className="flex flex-col gap-2">
-                    <div className={`${ switchIt ? "bg-white" : "bg-black" } w-8 h-1`}/>
-                    <div className={`${ switchIt ? "bg-white" : "bg-black" } w-8 h-1`}/>
-                    <div className={`${ switchIt ? "bg-white" : "bg-black" } w-8 h-1`}/>
+                    <div className={`${ switchIt ? "bg-white" : "bg-black" } duration-200 w-8 h-1`}/>
+                    <div className={`${ switchIt ? "bg-white" : "bg-black" } duration-200 w-8 h-1`}/>
+                    <div className={`${ switchIt ? "bg-white" : "bg-black" } duration-200 w-8 h-1`}/>
                 </div>
             </div>
         </div>
