@@ -7,7 +7,7 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), mdx(), react()],
+  integrations: [react(), tailwind(), mdx()],
   markdown: {
     rehypePlugins: [[inspectUrls, {
       selectors: ["a[href]"],

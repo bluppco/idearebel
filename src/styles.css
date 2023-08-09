@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 p {
 
 	@apply text-xl font-['Karla','sans-serif'] text-black;

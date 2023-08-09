@@ -1,26 +1,37 @@
-import { motion, useScroll, useTransform } from "framer-motion"
-import React from "react";
+import React from "react"
+import { useInView } from "framer-motion"
 
+import H1 from "./atom/H1.astro"
 const Header = () => {
 
     const headerRef = React.useRef( null )
-    const { scrollYProgress } = useScroll({ target: headerRef });
-    const colorAnim = useTransform(scrollYProgress, [0, 0.1, 1], ["#fff", "#555", "#000"])
+    const isInView = useInView( headerRef )
+    const [ switchIt, updateSwitchIt ] = React.useState( false )
+
+    React.useEffect( () => {
+
+        updateSwitchIt( isInView )
+
+    }, [ isInView ])
 
     return (
-
-        <header className="fixed p-8 flex justify-between w-full" ref={ headerRef }>
-            <motion.div>
-                <motion.p
-                    style={{ color: colorAnim }}
-                >a</motion.p>
-            </motion.div>
-            <div className="flex flex-col gap-2">
-                <div className="!bg-white w-12 h-2"/>
-                <div className="bg-white w-12 h-2"/>
-                <div className="bg-white w-12 h-2"/>
+        <div ref={ headerRef } className="block">
+            <section className="bg-home w-full h-screen bg-cover bg-center flex justify-center items-center bg-zinc-200 z-10">
+                <div className="p-10 bg-white text-center grid gap-8">
+                    {/* <H1
+                        text="Idea Rebel"
+                    /> */}
+                </div>
+            </section>
+            <div className="!fixed p-8 flex justify-between w-full z-20">
+                <div className={`${ switchIt ? "text-white" : "text-black" }`}>a</div>
+                <div className="flex flex-col gap-2">
+                    <div className={`${ switchIt ? "bg-white" : "bg-black" } w-8 h-1`}/>
+                    <div className={`${ switchIt ? "bg-white" : "bg-black" } w-8 h-1`}/>
+                    <div className={`${ switchIt ? "bg-white" : "bg-black" } w-8 h-1`}/>
+                </div>
             </div>
-        </header>
+        </div>
 
     )
 
