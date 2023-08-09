@@ -6,6 +6,7 @@ sub_title: "Location: Idea Rebel Vancouver or Idea Rebel Toronto"
 title: Full Stack (LAMP) Developer
 seo_title: full-stack-developer
 seo_description: full-stack-developer
+location: vancouver
 ---
 Idea Rebel – Toronto & Vancouver Digital Agency is looking for a Full Stack (LAMP) Developer.
 

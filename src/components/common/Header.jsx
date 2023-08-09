@@ -35,7 +35,7 @@ const Header = ( props ) => {
                         />
                         {
 
-                            typeof subtitle !== "undefined" &&
+                            typeof subtitle !== "undefined" && subtitle !== null &&
                             <Paragraph
                                 text={ subtitle }
                             />

@@ -20,16 +20,16 @@ li {
 }
 h1 {
 
-	@apply !font-semibold text-zinc-800 text-base md:text-xl dark:text-zinc-300 pb-2;
+	@apply !font-semibold text-zinc-800 text-base md:text-xl pb-2;
 
 }
 h2 {
 
-	@apply !font-semibold text-zinc-800 text-base md:!text-4xl dark:text-zinc-300 pb-2;
+	@apply !font-semibold text-zinc-800 text-base md:!text-4xl pb-2;
 
 }
 h3 {
 
-	@apply font-semibold text-zinc-800 text-base dark:text-zinc-300 pb-2;
+	@apply font-semibold text-zinc-800 text-base pb-2;
 
 }
