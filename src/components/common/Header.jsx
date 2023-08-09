@@ -5,25 +5,25 @@ import H1 from "./atom/H1.jsx"
 import Paragraph from "./atom/Paragraph.jsx"
 const Header = ( props ) => {
 
-    const { title, subtitle, cover } = props
+    const { title, subtitle, cover, not_cover } = props
     const headerRef = React.useRef( null )
     const isInView = useInView( headerRef )
     const [ switchIt, updateSwitchIt ] = React.useState( false )
     const [ displayNavigation, updateDisplayNavigation ] = React.useState( false )
+
     React.useEffect( () => {
 
         updateSwitchIt( isInView )
 
     }, [ isInView ])
-    const { background } = props
 
     return (
         <div ref={ headerRef } className="relative">
             {
 
                 typeof cover !== "undefined" &&
-                <section className={`w-full h-screen bg-cover bg-center flex justify-center items-center bg-zinc-200 z-10`}>
-                    <div className="absolute w-full h-screen top-0 left-0 bg-zinc-200">
+                <section className={`${ not_cover ? "h-[60vh] min-h-[400px]" : "h-screen"} w-full bg-cover bg-center flex justify-center items-center bg-zinc-200 z-10`}>
+                    <div className="absolute w-full h-full top-0 left-0 bg-zinc-200">
                         <img
                             src={ cover }
                             className="w-full h-full object-cover"
