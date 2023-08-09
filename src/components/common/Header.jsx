@@ -53,12 +53,24 @@ const Header = () => {
                 </div>
                 <div className="flex items-center justify-center h-screen">
                     <div className="flex flex-col gap-12 w-48 items-center">
-                        <div className="text-white text-4xl font-bold hover:underline underline-offset-[12px] cursor-pointer">Work</div>
-                        <div className="text-white text-4xl font-bold hover:underline underline-offset-[12px] cursor-pointer">About</div>
-                        <div className="text-white text-4xl font-bold hover:underline underline-offset-[12px] cursor-pointer">Services</div>
-                        <div className="text-white text-4xl font-bold hover:underline underline-offset-[12px] cursor-pointer">Careers</div>
-                        <div className="text-white text-4xl font-bold hover:underline underline-offset-[12px] cursor-pointer">Ideas</div>
-                        <div className="text-white text-4xl font-bold hover:underline underline-offset-[12px] cursor-pointer">Contact</div>
+                        <a href="/digital-portfolio">
+                            <div className="text-white text-4xl font-bold hover:underline underline-offset-[12px] cursor-pointer">Work</div>
+                        </a>
+                        <a href="/digital-marketing-agency">
+                            <div className="text-white text-4xl font-bold hover:underline underline-offset-[12px] cursor-pointer">About</div>
+                        </a>
+                        <a href="/digital-services">
+                            <div className="text-white text-4xl font-bold hover:underline underline-offset-[12px] cursor-pointer">Services</div>
+                        </a>
+                        <a href="/careers">
+                            <div className="text-white text-4xl font-bold hover:underline underline-offset-[12px] cursor-pointer">Careers</div>
+                        </a>
+                        <a href="/creative-ideas">
+                            <div className="text-white text-4xl font-bold hover:underline underline-offset-[12px] cursor-pointer">Ideas</div>
+                        </a>
+                        <a href="/agency-contact">
+                            <div className="text-white text-4xl font-bold hover:underline underline-offset-[12px] cursor-pointer">Contact</div>
+                        </a>
                     </div>
                 </div>
             </div>
