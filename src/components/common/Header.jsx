@@ -27,11 +27,13 @@ const Header = ( props ) => {
             </section>
             <div className={`${ displayNavigation ? "-z-10 opacity-0" : "z-30 opacity-100" } fixed p-8 flex justify-between w-full z-20 top-0 left-0 duration-200 ease-in transition`}>
                 <div className={`${ switchIt ? "text-white" : "text-black" }`}>
-                    <div className="w-6 h-6">
-                        <img
-                            src={ switchIt ? "/nav-ir-logo-white.png" : "/nav-ir-logo-black.png"}
-                        />
-                    </div>
+                    <a href="/">
+                        <div className="w-6 h-6">
+                            <img
+                                src={ switchIt ? "/nav-ir-logo-white.png" : "/nav-ir-logo-black.png"}
+                            />
+                        </div>
+                    </a>
                 </div>
                 <div className="flex flex-col gap-2" onClick={ () => updateDisplayNavigation( true )}>
                     <div className={`${ switchIt ? "bg-white" : "bg-black" } duration-200 w-8 h-1`}/>
