@@ -23,7 +23,7 @@ const Header = () => {
                     /> */}
                 </div>
             </section>
-            <div className="!fixed p-8 flex justify-between w-full z-20">
+            <div className="!fixed p-8 flex justify-between w-full z-20 top-0 left-0">
                 <div className={`${ switchIt ? "text-white" : "text-black" }`}>a</div>
                 <div className="flex flex-col gap-2">
                     <div className={`${ switchIt ? "bg-white" : "bg-black" } w-8 h-1`}/>
