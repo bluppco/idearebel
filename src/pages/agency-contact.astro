@@ -21,19 +21,11 @@ import Footer from "../components/Footer.astro"
 	</head>
 	<body>
         <Header
-			background={"bg-contact"}
 			client:load
+			title="Contact"
+            subtitle="Start something with Idea Rebel"
+			cover="https://blupp.b-cdn.net/idearebel/contact.jpg?quality=80"
 		/>
-		<section class="w-full h-screen bg-cover bg-center flex justify-center items-center bg-zinc-200">
-            <div class="p-10 bg-white text-center grid gap-8">
-                <H1
-                    text="Contact"
-                />
-                <Paragraph
-                    text="Start something with Idea Rebel"
-                />
-            </div>
-        </section>
 		<Footer />
 	</body>
 </html>
