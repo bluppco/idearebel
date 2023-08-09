@@ -7,6 +7,8 @@ publish_date: October 24, 2017
 sub_title: ""
 title: 6 Things Design School Never Taught Me | Idea Rebel
 url: https://www.idearebel.com/ideas/6-things-design-school-never-taught/
+seo_title:
+seo_description:
 ---
 I’ve been a professional designer for 3 years. I’ve worked for large agencies, digital and advertising and also in-house for a large corporation – a short-yet-varied experience that’s given me some perspective on the industry as a recent graduate. These are my observations; and what I wish design school had better prepared me for.
 

@@ -8,3 +8,28 @@ p a {
 	@apply underline text-xl font-['Karla','sans-serif'] font-semibold;
 
 }
+ul {
+
+	@apply !list-disc !pl-8 text-base md:text-lg dark:text-zinc-300 mb-2;
+
+}
+li {
+
+	@apply text-base md:text-lg text-zinc-800 dark:text-zinc-300 pt-2;
+
+}
+h1 {
+
+	@apply !font-semibold text-zinc-800 text-base md:text-xl dark:text-zinc-300 pb-2;
+
+}
+h2 {
+
+	@apply !font-semibold text-zinc-800 text-base md:!text-4xl dark:text-zinc-300 pb-2;
+
+}
+h3 {
+
+	@apply font-semibold text-zinc-800 text-base dark:text-zinc-300 pb-2;
+
+}
