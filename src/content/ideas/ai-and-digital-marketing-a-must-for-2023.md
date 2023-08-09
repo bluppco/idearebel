@@ -7,6 +7,8 @@ publish_date: January 31, 2023
 sub_title: "A Must For 2023"
 title: AI and Digital Marketing
 url: https://www.idearebel.com/ideas/ai-and-digital-marketing-a-must-for-2023/
+seo_title:
+seo_descripition:
 ---
 The end of 2022 marked the true ascension of Artificial Intelligence. Amazing tools like ChatGPT and DALL-E 2 burst into our lives, and people are finding incredible uses for AI – from writing poems to programming. This trend will continue and intensify in 2023, and AI will play an even bigger role in advertising and marketing.
 
