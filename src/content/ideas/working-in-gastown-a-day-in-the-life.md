@@ -7,6 +7,8 @@ link: working-in-gastown-a-day-in-the-life
 sub_title: ""
 title: Working in Gastown":" A Day in the Life | Idea Rebel
 url: https://www.idearebel.com/ideas/working-in-gastown-a-day-in-the-life/
+seo_title: ""
+seo_description: ""
 ---
 An office in Gastown gives a whole new meaning to working nine to five. Rather than dreading a long day in an office business park, working professionals in Gastown wake up five minutes before their alarm and are excited to walk, bike, or even take public transportation to one of Vancouver’s most exciting and vibrant neighbourhoods.
 

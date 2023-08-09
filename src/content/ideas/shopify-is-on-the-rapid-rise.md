@@ -7,6 +7,8 @@ link: shopify-is-on-the-rapid-rise
 sub_title: ""
 title: Ecommerce platforms":" Shopify | Idea Rebel
 url: https://www.idearebel.com/ideas/shopify-is-on-the-rapid-rise/
+seo_title: ""
+seo_description: ""
 ---
 Shopify is on the rapid rise and Digital Agency Idea Rebel is on it!
 

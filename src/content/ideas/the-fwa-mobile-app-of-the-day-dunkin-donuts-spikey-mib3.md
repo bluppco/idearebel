@@ -7,6 +7,8 @@ link: the-fwa-mobile-app-of-the-day-dunkin-donuts-spikey-mib3
 sub_title: ""
 title: The FWA Mobile App of the Day":" Dunkin’ Donuts Spikey (MIB3) | Idea Rebel
 url: https://www.idearebel.com/ideas/the-fwa-mobile-app-of-the-day-dunkin-donuts-spikey-mib3/
+seo_title: ""
+seo_description: ""
 ---
 ![Alt text](https://blupp.b-cdn.net/idearebel/Picture-1-244x349.png?quality=80&width=800?quality=80&width=800 "a title")
 Picture-1-244x349.png

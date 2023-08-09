@@ -7,6 +7,8 @@ publish_date: December 2, 2016
 sub_title: ""
 title: The AToMiC Awards":" Gold for Virtual Reality App | Idea Rebel
 url: https://www.idearebel.com/ideas/2016-atomic-awards-gold-winner/
+seo_title: ""
+seo_description: ""
 ---
 We are pumped to have taken home Gold for our VR app, “Converse – In Their Chucks”!  Read the full write up from Strategy Online here!
 

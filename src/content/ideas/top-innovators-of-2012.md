@@ -7,6 +7,8 @@ link: top-innovators-of-2012
 sub_title: ""
 title: Top Innovators | Idea Rebel
 url: https://www.idearebel.com/ideas/top-innovators-of-2012/
+seo_title: ""
+seo_description: ""
 ---
 Vancouver’s Digital Agency Idea Rebel made the list of 2012’s most innovative companies in BC!
 

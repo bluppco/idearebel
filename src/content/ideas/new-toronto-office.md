@@ -7,6 +7,8 @@ link: new-toronto-office
 sub_title: ""
 title: Digital Agency - Toronto Office - Queen West | Idea Rebel
 url: https://www.idearebel.com/ideas/new-toronto-office/
+seo_title: ""
+seo_description: ""
 ---
 We’ve moved! Idea Rebel is proud to announce that we’ve upgraded to our new Toronto office – now at 501 Queen Street West, just down the road from our previous office in the Queen West area. The new space means that the Toronto Rebels are still operating out of the city’s art and design hub – a destination for fashionistas, foodies and tastemakers. Check it out! We couldn’t be happier with our new home. Idea Rebel also has locations in Vancouver, and Los Angeles.
 

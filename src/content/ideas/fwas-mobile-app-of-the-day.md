@@ -7,6 +7,8 @@ link: fwas-mobile-app-of-the-day
 sub_title: ""
 title: BMW - FWA’s Mobile App of the Day | Idea Rebel
 url: https://www.idearebel.com/ideas/fwas-mobile-app-of-the-day/
+seo_title: ""
+seo_description: ""
 ---
 We are so excited to have won FWA’s Mobile of the Day award for the app we developed for BMW called Become Electric! FWA.
 

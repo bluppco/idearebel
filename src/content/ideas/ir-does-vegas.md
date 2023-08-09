@@ -7,6 +7,8 @@ link: ir-does-vegas
 sub_title: ""
 title: IR Vancouver, Toronto and Montreal go to Las Vegas | Idea Rebel
 url: https://www.idearebel.com/ideas/ir-does-vegas/
+seo_title: ""
+seo_description: ""
 ---
 The Vegas Rebellion
 

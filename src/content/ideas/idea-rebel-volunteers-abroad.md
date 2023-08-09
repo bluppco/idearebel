@@ -7,6 +7,8 @@ link: idea-rebel-volunteers-abroad
 sub_title: ""
 title: Idea Rebel Volunteers Abroad (National Volunteer Week) - Kandy, Sri Lanka
 url: https://www.idearebel.com/ideas/idea-rebel-volunteers-abroad/
+seo_title: ""
+seo_description: ""
 ---
 The Value of Volunteering
 

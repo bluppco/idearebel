@@ -7,6 +7,8 @@ link: digital-learning-and-education
 sub_title: ""
 title: Digital Learning & Education | Idea Rebel
 url: https://www.idearebel.com/ideas/digital-learning-and-education/
+seo_title: ""
+seo_description: ""
 ---
 Digital Learning, Tech Ed & the future of child education
 

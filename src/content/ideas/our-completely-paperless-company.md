@@ -7,6 +7,8 @@ link: our-completely-paperless-company
 sub_title: ""
 title: A completely paperless company | Idea Rebel
 url: https://www.idearebel.com/ideas/our-completely-paperless-company/
+seo_title: ""
+seo_description: ""
 ---
 ![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
 gamechanger-paperlessJamieGarratt-576x324.jpg

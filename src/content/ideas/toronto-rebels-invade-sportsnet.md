@@ -7,6 +7,8 @@ link: toronto-rebels-invade-sportsnet
 sub_title: ""
 title: Idea Rebel Toronto Team at Sportsnet | Idea Rebel
 url: https://www.idearebel.com/ideas/toronto-rebels-invade-sportsnet/
+seo_title: ""
+seo_description: ""
 ---
 It’s not often that you get a chance to sit behind the Blue Jays Central Desk at Sportsnet but that’s what happened this week for CEO Jamie Garratt along with fellow rebels Lance and Seth. During Jamie’s visit to Toronto he and the team got a chance to visit our client Sportsnet’s famous desk where all the broadcasting magic happens. The guys didn’t get a chance to see if their baseball analysis skills match up to that of Jamie Campbell and Greg Zaun but they did snap a picture on set.
 

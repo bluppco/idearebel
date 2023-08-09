@@ -7,6 +7,8 @@ link: office-vancouver-edition
 sub_title: ""
 title: The Office":" Vancouver Edition | Idea Rebel
 url: https://www.idearebel.com/ideas/office-vancouver-edition/
+seo_title: ""
+seo_description: ""
 ---
 WE DO BUSINESS FROM FOUR OF NORTH AMERICA’S CREATIVE HUBS. But it seems appropriate to pay homage to the biggest drop-pin in the Idea Rebel map: our original shop in Vancouver.
 

@@ -7,6 +7,8 @@ publish_date: March 23, 2018
 sub_title: ""
 title: BC Ferries selects Idea Rebel as digital partner | Idea Rebel
 url: https://www.idearebel.com/ideas/bc-ferries-selects-idea-rebel-digital-partner/
+seo_title: ""
+seo_description: ""
 ---
 Idea Rebel, a Canadian digital agency, today announced that it has recently been selected by British Columbia Ferry Services Inc. to enhance their digital customer experience over the next three years.
 

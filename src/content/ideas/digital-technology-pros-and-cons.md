@@ -7,7 +7,8 @@ link: digital-technology-pros-and-cons
 sub_title: ""
 title: The Downside & Upside of Digital Technology | Idea Rebel
 url: https://www.idearebel.com/ideas/digital-technology-pros-and-cons/
-
+seo_title: ""
+seo_description: ""
 ---
 ![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
 gamechanger-paperlessJamieGarratt-576x324.jpg

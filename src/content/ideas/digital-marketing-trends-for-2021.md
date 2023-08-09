@@ -7,6 +7,8 @@ link: digital-marketing-trends-for-2021
 sub_title: ""
 title: Digital Marketing Trends for 2021 | Idea Rebel
 url: https://www.idearebel.com/ideas/digital-marketing-trends-for-2021/
+seo_title: ""
+seo_description: ""
 ---
 With 2020 now behind us, it’s time to look ahead to what we can expect from the next 12 months.
 

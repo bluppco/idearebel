@@ -7,6 +7,8 @@ publish_date: July 1, 2019
 sub_title: ""
 title: Introducing Contest Rebel! Contests Made Easy. | Idea Rebel
 url: https://www.idearebel.com/ideas/contest-rebel/
+seo_title: ""
+seo_description: ""
 ---
 Contests Made Easy.
 

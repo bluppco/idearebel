@@ -7,6 +7,8 @@ link: leaving-smiles-wake
 sub_title: ""
 title: Wake Day 2017":" Leaving Smiles in our Wake | Idea Rebel
 url: https://www.idearebel.com/ideas/leaving-smiles-wake/
+seo_title: ""
+seo_description: ""
 ---
 This summer, Idea Rebel again coordinated with Big Brothers of Greater Vancouver to host Wake Day – an event in Ladner BC that gives kids the opportunity to wakeboard in the gorgeous southern estuary of the Fraser River.
 

@@ -7,6 +7,8 @@ link: react-for-web-development-a-digital-agency-perspective
 sub_title: ""
 title: React for Web Development - A Digital Agency Perspective | Idea Rebel
 url: https://www.idearebel.com/ideas/react-for-web-development-a-digital-agency-perspective/
+seo_title: ""
+seo_description: ""
 ---
 A little history lesson – React, a JavaScript library, has been among the most demanded web development tools since the moment of its initial release in 2013. The library’s popularity is based mostly on its founder company’s status (Facebook) and the extraordinary capabilities it provides developers. Let’s go a bit deeper into the topic and examine why React is so popular.
 

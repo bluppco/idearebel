@@ -7,6 +7,8 @@ link: ecommerce-for-everyone
 sub_title: ""
 title: eCommerce Agency & Developers - Toronto, Vancouver & LA
 url: https://www.idearebel.com/ideas/ecommerce-for-everyone/
+seo_title: ""
+seo_description: ""
 ---
 What you need, why you need it, and how we can help.
 

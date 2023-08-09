@@ -7,6 +7,8 @@ publish_date: October 22, 2015
 sub_title: ""
 title: Digi Awards Finalists":" Mobile Entertainment Category | Idea Rebel
 url: https://www.idearebel.com/ideas/2015-digi-award-finalists/
+seo_title: ""
+seo_description: ""
 ---
 We’re excited to announce that Idea Rebel has made it as finalists in the 2015 Digi Awards!
 

@@ -7,6 +7,8 @@ link: the-end-of-the-third-party-cookie
 sub_title: ""
 title: The End of the Third-Party Cookie | Idea Rebel
 url: https://www.idearebel.com/ideas/the-end-of-the-third-party-cookie/
+seo_title: ""
+seo_description: ""
 ---
 The End of the Third-Party Cookie
 

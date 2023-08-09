@@ -7,6 +7,8 @@ link: what-the-floc-is-googles-privacy-sandbox
 sub_title: ""
 title: What the FLoC is Google’s Privacy Sandbox? | Idea Rebel
 url: https://www.idearebel.com/ideas/what-the-floc-is-googles-privacy-sandbox/
+seo_title: ""
+seo_description: ""
 ---
 What the FLoC is Google’s Privacy Sandbox?
 

@@ -7,6 +7,8 @@ publish_date: March 27, 2017
 sub_title: ""
 title: Digital Content & Connectivity | Idea Rebel
 url: https://www.idearebel.com/ideas/digital-content-and-connectivity/
+seo_title: ""
+seo_description: ""
 ---
 A Technological Fairytale
 

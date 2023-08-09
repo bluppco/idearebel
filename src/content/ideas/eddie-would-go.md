@@ -7,6 +7,8 @@ link: eddie-would-go
 sub_title: ""
 title: Eddie Would Go | Idea Rebel
 url: https://www.idearebel.com/ideas/eddie-would-go/
+seo_title: ""
+seo_description: ""
 ---
 ![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
 EddieWouldGo-576x329.jpg

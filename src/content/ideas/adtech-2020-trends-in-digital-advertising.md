@@ -7,6 +7,8 @@ publish_date: April 8, 2020
 sub_title: ""
 title: Adtech and Digital Advertising | Idea Rebel
 url: https://www.idearebel.com/ideas/adtech-2020-trends-in-digital-advertising/
+seo_title: ""
+seo_description: ""
 ---
 As the digital landscape continues to fragment, advertisers are looking for more ways to reach customers with one-to-one messaging that drives a lasting impact. As digital ad capabilities become more accessible and effective, both the sell-side and buy-side are shifting to embrace more advanced solutions.
 

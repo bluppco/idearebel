@@ -7,6 +7,8 @@ link: idea-rebel-ux-awards-finalist-2018
 sub_title: ""
 title: Idea Rebel and Roots.com are up for a Vancouver UX Award
 url: https://www.idearebel.com/ideas/idea-rebel-ux-awards-finalist-2018/
+seo_title: ""
+seo_description: ""
 ---
 Roots.com gets a UX nod in the category – User Experience for Marketing!
 

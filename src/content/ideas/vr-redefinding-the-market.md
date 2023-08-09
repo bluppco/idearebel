@@ -8,6 +8,8 @@ link: vr-redefinding-the-market
 sub_title: ""
 title: How VR is redefining the market | Idea Rebel
 url: https://www.idearebel.com/ideas/vr-redefinding-the-market/
+seo_title: ""
+seo_description: ""
 ---
 How VR is redefining marketing and how we’re redefining VR
 
