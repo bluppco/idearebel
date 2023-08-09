@@ -26,7 +26,7 @@ travis scott metaverse concert
 The Gucci Dionysus, a logo enveloped bag with a distinctive tiger closure, was sold for 4,115 dollars compared to its store price of 3,400 dollars.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/gucci-garden-on-roblox-5360d65d.webp?quality=80&width=800?quality=80&width=800 "a title")
 gucci-garden-on-roblox-5360d65d.webp
 
 \
@@ -39,7 +39,7 @@ balenciaga video game
 An NFT called Everydays: the First 5000 Days was sold for $69.3m.
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/the-first-5000-days-715026a2.jpg?quality=80&width=800?quality=80&width=800 "a title")
 the-first-5000-days-715026a2.jpg
 
 \
