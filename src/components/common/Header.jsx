@@ -15,7 +15,6 @@ const Header = ( props ) => {
     }, [ isInView ])
     const { background } = props
 
-    console.log( displayNavigation )
     return (
         <div ref={ headerRef } className="block">
             <section className={`${ background } w-full h-screen bg-cover bg-center flex justify-center items-center bg-zinc-200 z-10`}>

@@ -10,12 +10,12 @@ p a {
 }
 ul {
 
-	@apply !list-disc !pl-8 text-base md:text-lg dark:text-zinc-300 mb-2;
+	@apply !list-disc !pl-8 text-base md:text-lg mb-2;
 
 }
 li {
 
-	@apply text-base md:text-lg text-zinc-800 dark:text-zinc-300 pt-2;
+	@apply text-base md:text-lg text-zinc-800 pt-2;
 
 }
 h1 {
