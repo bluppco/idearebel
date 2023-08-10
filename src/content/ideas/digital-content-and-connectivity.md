@@ -2,13 +2,15 @@
 description: Content & Connectivity
 image: https://blupp.b-cdn.net/idearebel/megaphone_blog.jpg?quality=80&width=800
 link: digital-content-and-connectivity
-order: 1
+order: 29
 publish_date: March 27, 2017
 sub_title: ""
-title: Digital Content & Connectivity | Idea Rebel
+title: Content & Connectivity
 url: https://www.idearebel.com/ideas/digital-content-and-connectivity/
+seo_title: "Digital Content & Connectivity | Idea Rebel"
+seo_description: "Content was king but that two decades ago. Then, it met Connectivity - and from that moment on, neither could live without the other."
 ---
-A Technological Fairytale
+**A Technological Fairytale**
 
 \
 Content is King. It was the Bill Gates inspired battle-cry of the burgeoning tech generation – kids who had cut their teeth on print, television and radio, believing that Digital would simply amplify the voices that traditional channels had already afforded their parents; and for a while, they were right. But that was two decades ago…

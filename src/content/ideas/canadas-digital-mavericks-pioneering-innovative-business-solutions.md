@@ -7,6 +7,8 @@ link: canadas-digital-mavericks-pioneering-innovative-business-solutions
 sub_title: Idea Rebel
 title: Canada's Digital Mavericks Pioneering Innovative Business Solutions
 url: https://www.idearebel.com/ideas/canadas-digital-mavericks-pioneering-innovative-business-solutions/
+seo_title: "Canada’s Digital Mavericks Pioneering Innovative Business Solutions | Idea Rebel"
+seo_description: "Canada’s Digital Mavericks Pioneering Innovative Business Solutions- Idea Rebel"
 ---
 
 [Canadian SME Magazine](http://canadiansme.ca/) recently published this article on Idea Rebel. Have a read….

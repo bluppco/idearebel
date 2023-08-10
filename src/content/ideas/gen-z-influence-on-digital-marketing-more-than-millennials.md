@@ -1,12 +1,14 @@
 ---
 description: Gen Z influence on Digital Marketing more than Millennials Watch-out, Gen Z in the house!
 image: https://blupp.b-cdn.net/idearebel/Genz.jpg?quality=80&width=800
-order: 1
+order: 4
 publish_date: November 23, 2021
 link: gen-z-influence-on-digital-marketing-more-than-millennials
-sub_title: We are an adaptive digital marketing agency creating provocative brand experiences.
+sub_title: Watch-out, Gen Z in the house!
 title: Gen Z influence on Digital Marketing more than Millennials
 url: https://www.idearebel.com/ideas/gen-z-influence-on-digital-marketing-more-than-millennials/
+seo_title: "Gen Z influence on Digital Marketing more than Millennials | Idea Rebel"
+seo_description: "The marketing and digital marketing industries has been obsessed with Millennials for the past two decades. In fact, a Google search currently yields around 129 million results for the search term “millennials”, compared to only around 7.2 million for the previous “generation x”. But the millennials of today have outgrown their caricature as a bunch … Continued"
 ---
 
 The marketing and digital marketing industries has been obsessed with Millennials for the past two decades. In fact, a Google search currently yields around 129 million results for the search term “millennials”, compared to only around 7.2 million for the previous “generation x”.
@@ -22,7 +24,6 @@ It’s 2020 and Millennials have already peaked as a percentage of the adult pop
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/1595222914-0.png?quality=80&width=800?quality=80&width=800 "a title")
-1595222914-0.png
 
 \
 Source: https://www.linkedin.com/pulse/millennials-75-workforce-2025-ever-anita-lettink/

@@ -2,11 +2,13 @@
 description: Best Day Ever (Vancouver Edition)
 image: https://blupp.b-cdn.net/idearebel/Screen-Shot-2015-11-24-at-3.18.29-PM.png?quality=80&width=800
 link: best-day-ever-vancouver-edition
-order: 1
+order: 37
 publish_date: November 25, 2015
 sub_title: ""
-title: Best Day Ever (Vancouver Edition) | Idea Rebel
+title: Best Day Ever (Vancouver Edition)
 url: https://www.idearebel.com/ideas/best-day-ever-vancouver-edition/
+seo_title: "Best Day Ever (Vancouver Edition) | Idea Rebel"
+seo_description: "Eight sports.  Seven rebels.  One day.  It’s no wonder why Idea Rebel calls it “Best Day Ever”. An annual event created by founder, Jamie Garratt is all about how many events can you fit within a 24-hour period. This day consisted of non-stop fun, travelling to some of British Columbia’s beautiful locations, from Whistler, Horseshoe Bay, … Continued"
 ---
 Eight sports.  Seven rebels.  One day.  It’s no wonder why Idea Rebel calls it “Best Day Ever”. An annual event created by founder, Jamie Garratt is all about how many events can you fit within a 24-hour period.
 

@@ -1,18 +1,15 @@
 ---
 description: Brave New World?
 image: https://blupp.b-cdn.net/idearebel/heavenly_computer-1-1.jpg?quality=80&width=800
-order: 1
+order: 27
 publish_date: May 3, 2017
 link: digital-technology-pros-and-cons
 sub_title: ""
-title: The Downside & Upside of Digital Technology | Idea Rebel
+title: Brave New World?
 url: https://www.idearebel.com/ideas/digital-technology-pros-and-cons/
-
+seo_title: "The Downside & Upside of Digital Technology | Idea Rebel"
+seo_description: "Digital technology has become part of the fabric of society. Whether you're an early Adopter or a confirmed Luddite, the pros and cons of the Digital Era abound"
 ---
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
-gamechanger-paperlessJamieGarratt-576x324.jpg
-
-\
 The Downside & Upside of Digital Technology
 
 \

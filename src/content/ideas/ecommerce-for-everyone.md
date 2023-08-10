@@ -1,26 +1,26 @@
 ---
 description: eCommerce for Everyone
 image: https://blupp.b-cdn.net/idearebel/yellow_box.jpg?quality=80&width=800
-order: 1
+order: 17
 publish_date: June 24, 2018
 link: ecommerce-for-everyone
 sub_title: ""
-title: eCommerce Agency & Developers - Toronto, Vancouver & LA
+title: eCommerce for Everyone
 url: https://www.idearebel.com/ideas/ecommerce-for-everyone/
+seo_title: "eCommerce Agency & Developers - Toronto, Vancouver & LA"
+seo_description: "Looking for the best eCommerce platform? Our digital agency offers an overview of popular eCommerce software. There're eCommerce solutions for everyone!"
 ---
 What you need, why you need it, and how we can help.
 
 \
 e-Commerce. A term that’s as alluring as it is intimidating for brick-and-mortar merchants. Alluring because there’s no denying the significantly lower costs associated with running a digital shopfront. Intimidating because no one seems to know exactly what eComm solution they require. That’s why we’re starting with the basics…
 
-\
-What is eCommerce?
+## What is ECOMMERCE?
 
 \
 Unless you’ve spent the last decade in a fallout shelter, you should already know what eComm is. But for the benefit of those Doomsday preppers who don’t, let’s recap! eCommerce refers to any electronic commercial transaction conducted online. At face-value, it attracts vendors with instant accessibility to larger markets, but the perks of doing digital business impact more than the bottom line. eComm evolves customer interactions, marketing strategies and even hiring practices, too.
 
-\
-Why is it important?
+## Why is it important?
 
 \
 It’s not just vendors who benefit from eCommerce. Customers can enjoy the inherent convenience of remote shopping, unencumbered by the pressure of direct sales, and empowered to browse entire products lines with the assurance of prompt store-to-door delivery. Not surprisingly, options abound – which begs the question, what eComm platform is right for you? A question best answered by another question: What paradigm best accommodates your use-case?
@@ -30,13 +30,12 @@ Whether enterprise or open source, there’s an eComm solution that’s ideal fo
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/1280px-Magento.png?quality=80&width=800?quality=80&width=800 "a title")
-1280px-Magento.png
 
 \
 Magento Logo
 
 \
-MAGENTO
+**MAGENTO**
 
 \
 PROS: The standard bearer for open-source, community-driven software. Magento is a speedy, affordable solution for small to medium sized organizations. Thanks to a dizzying number of open-source add-ons, the sky’s the limit with this powerful tool-set.
@@ -46,13 +45,12 @@ CONS: Magento’s 3-tiered architecture requires a robust in-house staff. Custom
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/SAPHybrislogo.png?quality=80&width=800?quality=80&width=800 "a title")
-SAPHybrislogo.png
 
 \
 SAP Hybris Logo
 
 \
-SAP HYBRIS COMMERCE CLOUD
+**SAP HYBRIS COMMERCE CLOUD**
 
 \
 PROS: On-premise, large-scale, multi-channel operations call for Hybris. Robust and customizable, this platform is the de facto best-of-breed java solution. It’s built to handle enterprise eCommerce on any scale.
@@ -62,13 +60,12 @@ CONS: Hybris is a time-intensive platform that can take anywhere from 12-24 mont
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/salesforce-commerce-cloud-logo.jpg?quality=80&width=800?quality=80&width=800 "a title")
-salesforce-commerce-cloud-logo.jpg
 
 \
 Salesforce Commerce Cloud Logo
 
 \
-DEMANDWARE / SALESFORCE COMMERCE CLOUD
+**DEMANDWARE / SALESFORCE COMMERCE CLOUD**
 
 \
 PROS: By far the most used (install-based) eCommerce platform, DemandWare caters primarily to B2C retailers. It’s attractive because of how simple it is compared to 3-tiered solutions like Magento and Hybris but also because of its short implementation times.
@@ -79,13 +76,12 @@ Oracle ATG web commerce ecommerce logo
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/Oracle-ATG.png?quality=80&width=800?quality=80&width=800 "a title")
-Oracle-ATG.png
 
 \
 Oracle ATG web commerce
 
 \
-ORACLE ATG COMMERCE CLOUD
+**ORACLE ATG COMMERCE CLOUD**
 
 \
 PROS: Ideal for large-scale eCommerce web apps, ATG features Endeca, a proven merchandising-search tool used by many big brand retailers. ATG offers B2B, B2C and content management support.
@@ -95,13 +91,12 @@ CONS: Implementation time and resource cost make ATG less than ideal for small-s
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/kecommercelogo.jpg?quality=80&width=800?quality=80&width=800 "a title")
-kecommercelogo.jpg
 
 \
 K E-commerce logo
 
 \
-K-ECOMMERCE
+**K-ECOMMERCE**
 
 \
 PROS: With easy implementation, near effortless back office integration and rapid processing, it’s obvious why K-Commerce is an excellent out-of-the-box Ecomm solution. Tweaks are simple to execute for simple customization, too.
@@ -111,13 +106,12 @@ CONS: KeCommerce doesn’t have a robust extension marketplace like many of its 
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/shopifylogo.png?quality=80&width=800?quality=80&width=800 "a title")
-shopifylogo.png
 
 \
 Shopify Logo
 
 \
-SHOPIFY
+**SHOPIFY**
 
 \
 PROS: Scalable and super user-friendly, Shopify is implementable with a few clicks of a mouse. The designs are vast and mobile friendly, giving users full access to code so that new functions can be added via the app market or API.
@@ -127,13 +121,12 @@ CONS: Shopify uses subdirectories so the URL structure is less than ideal for SE
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/woocommerce-logo.png?quality=80&width=800?quality=80&width=800 "a title")
-woocommerce-logo.png
 
 \
 Woo Commerce Logo
 
 \
-WOOCOMMERCE
+**WOOCOMMERCE**
 
 \
 PROS: This free WordPress plugin is familiar to most users. Professional and standard, it’s easily customizable with themes that can be modified to fit most aesthetics. Regularly updated, you’ll never have to worry about security, compatibility and bugs.
@@ -143,20 +136,21 @@ CONS: Occasionally, WooCommerce plugins are slow to adapt to WordPress updates. 
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/drupalcommercelogo.png?quality=80&width=800?quality=80&width=800 "a title")
-drupalcommercelogo.png
 
 \
 Drupal Commerce Logo
 
 \
-DRUPAL COMMERCE
+**DRUPAL COMMERCE**
 
 \
 PROS: Perhaps the most powerful eCommerce platform on the market, Drupal can accommodate any requirements when used by someone with CMS and CMF knowledge. It allows for scalability, extensibility and rapid prototyping.
 
 \
 CONS: Drupal comes with a long and challenging learning curve. Typically, new updates create multiple outdated modules – something that’s difficult to remedy with the lack of accessible documentation.
-Ecomm and Idea Rebel
+
+\
+**ECOMM AND IDEA REBEL**
 
 \
 Today, over 40% of global internet users have purchased products online via desktop and mobile devices – that’s more than 1 billion online buyers, and the number continues to grow. The retail industry is being transformed by the emergence of disruptive technologies in mobile, social commerce and customer experience. Tomorrow’s retail successes will belong to organizations that grow sales by providing satisfying online shopping experiences. Having a digital ally has never been more critical.

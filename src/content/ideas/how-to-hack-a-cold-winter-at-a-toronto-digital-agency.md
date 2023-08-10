@@ -1,12 +1,14 @@
 ---
 description: How to Hack a Cold Winter at a Toronto Digital Agency
 image: https://blupp.b-cdn.net/idearebel/torontoblogbanner.jpg?quality=80&width=800
-order: 1
+order: 44
 publish_date: January 24, 2015
 link: how-to-hack-a-cold-winter-at-a-toronto-digital-agency
 sub_title: ""
-title: How to Hack a Cold Winter at a Toronto Digital Agency | Idea Rebel
+title: How to Hack a Cold Winter at a Toronto Digital Agency
 url: https://www.idearebel.com/ideas/our-completely-paperless-company/
+seo_title: "How to Hack a Cold Winter at a Toronto Digital Agency | Idea Rebel"
+seo_description: "Despite the sometimes dreadful weather, Toronto has some amazing benefits to working in the city. With a livelihood buzz and a flow of creativity, it’s no wonder why our team loves working in the Toronto office.  Here they are to share some insight on a day in life of a Toronto Rebel and how they … Continued"
 ---
 Despite the sometimes dreadful weather, Toronto has some amazing benefits to working in the city. With a livelihood buzz and a flow of creativity, it’s no wonder why our team loves working in the Toronto office.  Here they are to share some insight on a day in life of a Toronto Rebel and how they survive the chilly winters at a Digital Marketing Agency.
 
