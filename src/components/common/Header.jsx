@@ -5,7 +5,7 @@ import H1 from "./atom/H1.jsx"
 import Paragraph from "./atom/Paragraph.jsx"
 const Header = ( props ) => {
 
-    const { title, subtitle, cover, not_cover } = props
+    const { title, subtitle, cover, not_cover, video_flag, video } = props
     const headerRef = React.useRef( null )
     const isInView = useInView( headerRef )
     const [ switchIt, updateSwitchIt ] = React.useState( false )
@@ -24,10 +24,29 @@ const Header = ( props ) => {
                 typeof cover !== "undefined" &&
                 <section className={`${ not_cover ? "h-[60vh] min-h-[400px]" : "h-screen"} w-full bg-cover bg-center flex justify-center items-center bg-zinc-200 z-10`}>
                     <div className="absolute w-full h-full top-0 left-0 bg-zinc-200">
-                        <img
-                            src={ cover }
-                            className="w-full h-full object-cover"
-                        />
+                        {
+
+                            typeof video_flag !== "undefined" && video_flag &&
+                            <video
+                                loop={ true }
+                                autoPlay={ true }
+                                muted={ true }
+                                playsInline={ true }
+                                preload="auto"
+                                className="h-full w-full object-cover"
+                            >
+                                <source src={ video } type="video/mp4"/>
+                            </video>
+                        }
+                        {
+
+                            (typeof video_flag === "undefined" || !video_flag ) &&
+                            <img
+                                src={ cover }
+                                className="w-full h-full object-cover"
+                            />
+
+                        }
                     </div>
                     <div className="p-10 bg-white text-center grid gap-8 max-w-[30%] z-20">
                         <H1

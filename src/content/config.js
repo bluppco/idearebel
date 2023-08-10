@@ -46,6 +46,8 @@ const workCollection = defineCollection({
 		sub_title: z.string(),
 		title: z.string(),
 		url: z.string(),
+		video_flag: z.boolean(),
+		video: z.string(),
 
 	})
 
