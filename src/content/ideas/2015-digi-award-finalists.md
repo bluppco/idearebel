@@ -34,10 +34,10 @@ Stay tuned to The Digi Awards ceremony which is set to take place on November 10
 Also to note, both of these apps have already won FWA Awards…
 
 \
-Converse – In Their Chucks
+[Converse – In Their Chucks](https://thefwa.com/cases/converse-in-their-chucks-vr-films)
 
 \
-Infiniti Driver’s Seat
+[Infiniti Driver’s Seat](https://thefwa.com/cases/infiniti-driver-s-seat)
 
 \
 By the way…

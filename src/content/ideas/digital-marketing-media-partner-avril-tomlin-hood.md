@@ -10,7 +10,7 @@ url: https://www.idearebel.com/ideas/digital-marketing-media-partner-avril-tomli
 seo_title: "Digital Marketing & Media Partner - Avril Tomlin-Hood | Idea Rebel"
 seo_description: "Avril Tomlin-Hood - Head of Digital Marketing & Media, driving the tech-forward growth of Idea Rebel’s agency trading desk and brand marketing strategy, content & community management services"
 ---
-We are thrilled to announce that Avril Tomlin-Hood has joined the Idea Rebel team to build out the agency’s Digital Marketing & Performance Media Division. She’ll be splitting her time between Montreal, Toronto and Idea Rebel’s office headquarters in Vancouver.
+We are thrilled to announce that Avril Tomlin-Hood has joined the Idea Rebel team to build out the agency’s [Digital Marketing & Performance Media Division](https://www.idearebel.com/services/media-planning-buying-progrommatic/). She’ll be splitting her time between Montreal, Toronto and Idea Rebel’s office headquarters in Vancouver.
 
 \
 As partner and head of Digital Marketing & Media, Avril will be driving the tech-forward growth of Idea Rebel’s agency trading desk and brand marketing strategy, content & community management services.
@@ -23,7 +23,6 @@ When not head-down in all things digital marketing, Avril keeps busy with lots o
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/idea-rebel-avril-tomlin-hood-2048x1949.jpg?quality=80&width=800?quality=80&width=800 "a title")
-idea-rebel-avril-tomlin-hood-2048x1949.jpg
 
 \
 Head of Digital Marketing & Media

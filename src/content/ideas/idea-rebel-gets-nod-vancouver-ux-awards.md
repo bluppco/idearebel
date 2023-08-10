@@ -10,7 +10,7 @@ url: https://www.idearebel.com/ideas/idea-rebel-gets-nod-vancouver-ux-awards/
 seo_title: "Idea Rebel Gets Nod From Vancouver UX Awards | Idea Rebel"
 seo_description: "The Rebels are stoked to have our Converse In Their Chucks VR Project as a finalist in the category of UX for Emerging Experiences at the Vancouver UX Awards 2016!  The Vancouver UX Awards nomination was judged based on five unique criteria – joy, clarity, impact, elegance and innovation, as well as consideration on how … Continued"
 ---
-The Rebels are stoked to have our Converse In Their Chucks VR Project as a finalist in the category of UX for Emerging Experiences at the Vancouver UX Awards 2016!
+The Rebels are stoked to have our [**Converse In Their Chucks VR Project**](https://www.idearebel.com/work/converse-virtual-reality/) as a finalist in the category of UX for Emerging Experiences at the Vancouver UX Awards 2016!
 
 \
 The Vancouver UX Awards nomination was judged based on five unique criteria – joy, clarity, impact, elegance and innovation, as well as consideration on how our app creates a new experience for user interaction.

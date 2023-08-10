@@ -10,10 +10,6 @@ url: https://www.idearebel.com/ideas/digital-technology-pros-and-cons/
 seo_title: "The Downside & Upside of Digital Technology | Idea Rebel"
 seo_description: "Digital technology has become part of the fabric of society. Whether you're an early Adopter or a confirmed Luddite, the pros and cons of the Digital Era abound"
 ---
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
-gamechanger-paperlessJamieGarratt-576x324.jpg
-
-\
 The Downside & Upside of Digital Technology
 
 \

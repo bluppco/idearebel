@@ -1,7 +1,7 @@
 ---
 description: Digital Marketing Trends for 2021 Insight from a Digital Agency
 image: https://blupp.b-cdn.net/idearebel/Idea-Rebel-Nike-LGBTQ.jpg?quality=80&width=800
-order: 6
+order: 7
 publish_date: February 2, 2021
 link: digital-marketing-trends-for-2021
 sub_title: "Insight from a Digital Agency"
@@ -26,7 +26,7 @@ So, as we turn a corner into the New Year, what marketing trends will continue t
 
 \
 Here are some key trends to consider:
-## Live-streams and an increase in influencer content**
+## 1. Live-streams and an increase in influencer content**
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/Idea-Rebel-TikTok.jpg?quality=80&width=800?quality=80&width=800 "a title")
@@ -49,8 +49,7 @@ Human-drive content like influencer live-streams can create trust, and tap into 
 \
 Amazon Live really got going during the pandemic. Influencers took to the platform to promote their favorite products during live events. What’s more, the livestreams were shoppable, which meant viewers could make purchases while they were watching.
 
-\
-## Continued goodwill and purpose-driven missions from brands
+## 2. Continued goodwill and purpose-driven missions from brands
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/Idea-Rebel-Nike-LGBTQ1.jpg?quality=80&width=800?quality=80&width=800 "a title")
@@ -80,9 +79,9 @@ We’re no strangers to seeing brands doing good things, but there will be an ev
 We’ll see more brands running campaigns like Hilton’s #HotelsForHeroes, where they gave away free rooms to medical workers, or Chanel’s contribution to the pandemic where they tasked their seamstresses with making face masks.
 
 \
-Roots, One of the brands we work with, is especially conscious in this area. Check out our case study on the Roots.com eCommerce Website Redesign Project.
+[Roots](https://www.roots.com/ca/en/homepage), One of the brands we work with, is especially conscious in this area. Check out our case study on the [Roots.com eCommerce Website Redesign Project](https://www.idearebel.com/work/roots-ecommerce-experience/).
 
-## UGC to enhance customer experience
+## 3. UGC to enhance customer experience
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/Idea-Rebel-UGC-Fashion-Gallery.jpg?quality=80&width=800?quality=80&width=800 "a title")
@@ -110,7 +109,7 @@ UGC has long been an effective way for brands to forge relationships with their 
 
 \
 We’re super proud of our Digital Agency’s latest UGC work with our product – [**Contest Rebel**](https://www.contestrebel.com/). The world’s best Contest / Sweepstakes platform for brands.
-## A focus on sustainability
+## 4. A focus on sustainability
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/vivida-surf-sustainable-Idea-Rebel.jpg?quality=80&width=800?quality=80&width=800 "a title")
@@ -136,8 +135,7 @@ They used TINT to share the announcement, which outlined how the brand will cont
 \
 Being a [Vancouver Digital Agency](https://www.idearebel.com/office/vancouver-digital-marketing-agency/), we thrive on our sustainable practices such as our [Paperless Company Policy](https://www.idearebel.com/ideas/our-completely-paperless-company/).
 
-\
-5. Inclusivity will be important
+## 5. Inclusivity will be important
 
 \
 Inclusivity also became a bigger focus in 2020, with the Black Lives Matter movement highlighting endemic issues that linger within various elements of society.
@@ -148,8 +146,7 @@ A study by Accenture shows that the cultural shift towards inclusivity is also i
 \
 Brands that are seen to be non-inclusive, or who don’t appear to be a part of the inclusivity conversation, will likely see impacts in 2021. On the flipside, brands which openly showcase their involvement in inclusive causes, will reap the benefits and drive deeper connections with their buyers.
 
-\
-6. More visual search and voice
+## 6. More visual search and voice
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/Slyce-Visual-Shopping-Idea-Rebel.jpg?quality=80&width=800?quality=80&width=800 "a title")
@@ -172,8 +169,7 @@ It’s going to be profitable too: Retail Customer Experience estimates that by 
 \
 “Early adopters that redesign their websites to support visual and voice search will increase their digital commerce revenue by 30%.”
 
-\
-7. Easy-to-consume content
+## 7. Easy-to-consume content
 
 \
 2020 also saw people leaning on easy-to-consume content – things like podcasts that can be consumed on-the-go or newsletters that land directly in subscriber’s inboxes.
@@ -190,8 +186,7 @@ Convenient and readily-available content like podcasts and newsletters will help
 \
 Take a leaf out of Nisolo’s book. They used their newsletter to connect with customers and check in with them, before providing relevant resources that might help them in turbulent times.
 
-\
-Let’s go 2021!
+## Let’s go 2021!
 
 \
 The unpredictable nature of 2020 has forced brands to think long and hard about how they connect with their customers. Shop closures and stay-at-home orders meant people were stuck inside, which also meant that they were spending a lot more time online. This has pushed brands to branch out and create more human-centric ways of reaching their buyers.
@@ -203,10 +198,10 @@ Over the next 12 months, we’ll see this continue. Live-streams will become inc
 For more insight on Digital Marketing Trends, feel free to reach out to our team:
 
 \
-Toronto Digital Agency – Contact
+[Toronto Digital Agency – Contact](https://www.idearebel.com/office/toronto-digital-marketing-agency/)
 
 \
-Vancouver Digital Agency – Contact
+[Vancouver Digital Agency – Contact](https://www.idearebel.com/office/vancouver-digital-marketing-agency/)
 
 \
-Los Angeles Digital Agency – Contact
+[Los Angeles Digital Agency – Contact](https://www.idearebel.com/office/los-angeles-digital-marketing-agency/)

@@ -10,11 +10,10 @@ url: https://www.idearebel.com/ideas/digi-award-nomination/
 seo_title: "Digi Award Nomination : Best Use of Social Media | Idea Rebel"
 seo_description: "Our digital agency, Idea Rebel, was nominated twice for Best Use of Social Media in The Digi Awards, the only national digital media awards show in Canada."
 ---
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
-ribbonbadge-576x364.jpg
+![Alt text](https://blupp.b-cdn.net/idearebel/ribbonbadge-576x364.jpg?quality=80&width=800?quality=80&width=800 "a title")
 
 \
-Twitter made our day at the Idea Rebel offices last Thursday. All it took was one tweet from the nextMEDIA community during their live webcast announcements for the 2012 Digi Awards nominees. Our day got even better as we watched the webcast. We were nominated twice in the same category, Best Use of Social Media!
+**Twitter made our day at the Idea Rebel offices last Thursday**. All it took was one tweet from the nextMEDIA community during their live webcast announcements for the 2012 Digi Awards nominees. Our day got even better as we watched the webcast. We were nominated twice in the same category, Best Use of Social Media!
 
 \
 Yup, the Digi Awards are Canada’s only national digital media awards show. And Idea Rebel had bagged two nominations in a category that awards outstanding use of Social Media for increasing awareness and community engagement with a brand, product or person. It was definitely a good day for the Rebels, thanks Twitter!
@@ -28,13 +27,11 @@ Both of the projects that were nominated deserve kudos to the hardworking teams 
 \
 Nomination #1: West Jet first Bag Free
 
-\
 http://www.facebook.com/westjet
 
 \
 Nomination #2: EA Social Facebook Open Graph Video Player
 
-\
 http://www.facebook.com/easports
 
 \

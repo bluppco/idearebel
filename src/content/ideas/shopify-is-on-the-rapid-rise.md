@@ -25,4 +25,4 @@ Not only is Idea Rebel one of North America’s premier Digital Agencies with Sh
 We work with many clients and brands that require the in-depth use of Ecommerce, where Shopify fits perfectly.  While digital marketing needs soar, so does the requirement and need for Ecommerce and we are excited to be a part of the future.
 
 \
-Learn more on Shopfy here
+Learn more on Shopify [here](https://www.shopify.com/)

@@ -17,4 +17,3 @@ For over 20 years, Business in Vancouver (BIV)  has been chronicling Industry Le
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/idea_rebel_top_digital_agency1.jpg?quality=80&width=800?quality=80&width=800 "a title")
-idea_rebel_top_digital_agency1.jpg

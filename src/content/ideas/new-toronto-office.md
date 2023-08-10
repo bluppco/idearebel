@@ -17,12 +17,9 @@ The area is perfect fit for a Toronto Digital Agency like Idea Rebel. The food, 
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/IR_Offices.jpg?quality=80&width=800?quality=80&width=800 "a title")
-IR_Offices.jpg
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/IR_Kitchen.jpg?quality=80&width=800?quality=80&width=800 "a title")
-IR_Kitchen.jpg
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/IR_Boardroom-1024x688.jpg?quality=80&width=800?quality=80&width=800 "a title")
-IR_Boardroom-1024x688.jpg

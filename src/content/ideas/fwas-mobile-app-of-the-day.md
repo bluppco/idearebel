@@ -16,4 +16,4 @@ We are so excited to have won FWA’s Mobile of the Day award for the app we dev
 Our app, Become Electric, is the first-of-its-kind, 360º interactive film for iOS and Android, providing an immersive 3D world in which the device is a user’s window into a panoramic movie.
 
 \
-FWA app of the day profile
+[FWA app of the day profile](https://thefwa.com/cases/bmw-become-electric)

@@ -14,8 +14,6 @@ This summer, Idea Rebel again coordinated with Big Brothers of Greater Vancouver
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/wakeday_02p.jpg?quality=80&width=800?quality=80&width=800 "a title")
-bc_ferries_kickoff_contextual_image.jpg
-wakeday_02p.jpg
 
 \
 With Jamie and Neil from IR providing lessons and demonstrations, seven Little Brothers (accompanied by their Big Brothers) spent the day swimming, boating and wakeboarding, with other Rebels on hand to make it a day to remember for everyone. This year, none of the kids had been wakeboarding before, so it was especially impressive that they ALL managed to get up on the board and experience one of BC’s favourite watersports.

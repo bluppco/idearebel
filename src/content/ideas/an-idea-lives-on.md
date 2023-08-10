@@ -19,4 +19,4 @@ John F Kennedy was the 35th president of the United States of America. He was tr
 The website was so well received that it won an FWA Award for website of the day.
 
 \
-Check it out – JFK FWA Award
+Check it out – [JFK FWA Award](https://thefwa.com/cases/an-idea-lives-on)

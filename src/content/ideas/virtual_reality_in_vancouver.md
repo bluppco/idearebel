@@ -19,4 +19,4 @@ We are thrilled to be featured in Business In Vancouver for the innovative virtu
 There is no need to rely on a third-party software platform any longer to create a 3D environment, we have built one!  We look forward to rolling out our latest VR project very soon and have no doubt that the virtual reality marketing concepts will increase moving forward.  Consumers want an innovative experience, brands want an innovative design and Idea Rebel is just getting started.
 
 \
-Read the full article here
+Read the full article [here](https://biv.com/article/2015/07/virtual-reality-innovators-vr-bc-tech-sector)

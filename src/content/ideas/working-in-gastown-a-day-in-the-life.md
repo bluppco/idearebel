@@ -44,16 +44,12 @@ After an awesome day at work you can climb happily into bed, excited for another
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/day_Small1.png?quality=80&width=800?quality=80&width=800 "a title")
-day_Small1.png
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/day_Small2.png?quality=80&width=800?quality=80&width=800 "a title")
-day_Small2.png
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/day_medium_long.png?quality=80&width=800?quality=80&width=800 "a title")
-day_medium_long.png
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/day_medium.png?quality=80&width=800?quality=80&width=800 "a title")
-day_medium.png
