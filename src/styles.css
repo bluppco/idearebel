@@ -30,12 +30,12 @@ h1 {
 }
 h2 {
 
-	@apply !font-semibold text-zinc-800 text-base md:!text-4xl !mt-4;
+	@apply !font-semibold text-zinc-800 text-base md:!text-3xl !mt-4;
 
 }
 h3 {
 
-	@apply !font-semibold !text-black !text-3xl;
+	@apply !font-semibold !text-black !text-lg;
 
 }
 h4 {
@@ -47,4 +47,9 @@ h4 {
 
 	@apply !w-full;
 
+}
+
+strong {
+
+	@apply !font-black;
 }
