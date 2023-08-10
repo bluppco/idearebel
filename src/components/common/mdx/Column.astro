@@ -1,0 +1,6 @@
+---
+const { center } = Astro.props
+---
+<div class={`${ center ? "flex text-center" : ""} grid gap-4 py-4`}>
+    <slot />
+</div>

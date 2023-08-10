@@ -1,0 +1,39 @@
+---
+import H3 from "../atom/H3.astro"
+import ParagraphGaramond from "../atom/ParagraphGaramond.astro"
+import Button from "../Button.astro"
+const {
+
+    cover,
+    location,
+    address_1,
+    address_2,
+    phone,
+
+} = Astro.props
+---
+<div class="flex items-center flex-col gap-8">
+    <img
+        src={ cover }
+        class="w-full object-fit"
+    />
+    <H3
+        text={ location }
+    />
+    <div class="text-center">
+        <ParagraphGaramond
+            text={ address_1 }
+        />
+        <ParagraphGaramond
+            text={ address_2 }
+        />
+        <ParagraphGaramond
+            text={ phone }
+        />
+    </div>
+    <div class="w-2/3">
+        <Button
+            text="DIRECTIONS"
+        />
+    </div>
+</div>
