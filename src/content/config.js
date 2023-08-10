@@ -33,10 +33,28 @@ const ideasCollection = defineCollection({
 	})
 
 })
+const workCollection = defineCollection({
+
+	schema: z.object({
+
+		description: z.string(),
+		image: z.string(),
+		link: z.string(),
+		order: z.number(),
+		seo_description: z.string(),
+		seo_title: z.string(),
+		sub_title: z.string(),
+		title: z.string(),
+		url: z.string(),
+
+	})
+
+})
 
 export const collections = {
 
 	"careers": careersCollection,
 	"ideas": ideasCollection,
+	"work": workCollection,
 
 }

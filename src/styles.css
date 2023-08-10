@@ -38,6 +38,11 @@ h3 {
 	@apply !font-semibold !text-black !text-3xl;
 
 }
+h4 {
+
+	@apply !font-semibold !text-black !text-2xl;
+
+}
 .image p img {
 
 	@apply !w-full;

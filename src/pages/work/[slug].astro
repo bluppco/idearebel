@@ -1,0 +1,40 @@
+---
+import { getCollection } from 'astro:content';
+export async function getStaticPaths() {
+
+	const workEntries = await getCollection('work');
+  	return workEntries.map(entry => ({
+
+		params: { slug: entry.slug }, props: { entry },
+
+  	}))
+
+}
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+import Head from "../../components/common/Head.astro"
+import Footer from "../../components/Footer.astro"
+import Header from "../../components/common/Header.jsx"
+import H1 from "../../components/common/atom/H1.astro"
+import Button from "../../components/common/Button.astro"
+import Paragraph from "../../components/common/Paragraph.astro"
+import ParagraphGaramond from "../../components/common/atom/ParagraphGaramond.astro"
+import "../../styles.css"
+---
+<html lang="en">
+	<Head
+		title={ entry.data.title }
+	/>
+	<body>
+		<Header
+			client:load
+			title={ entry.data.title }
+            subtitle={ entry.data.sub_title !== "" ? entry.data.sub_title : null  }
+			cover={ entry.data.image }
+		/>
+		<section class="container mx-auto max-w-6xl p-20">
+            <Content/>
+        </section>
+		<Footer />
+	</body>
+</html>
