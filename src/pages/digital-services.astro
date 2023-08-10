@@ -7,6 +7,9 @@ import Button from "../components/common/Button.astro"
 import Paragraph from "../components/common/Paragraph.astro"
 import Header from "../components/common/Header.jsx"
 import Footer from "../components/Footer.astro"
+import ParagraphGaramond from "../components/common/atom/ParagraphGaramond.astro"
+import ServicesRight from "../components/digital-services/ServicesRight.astro"
+import ServicesLeft from "../components/digital-services/ServicesLeft.astro"
 ---
 
 <html lang="en">
@@ -26,6 +29,47 @@ import Footer from "../components/Footer.astro"
             subtitle="Raising the bar with killer ideas and cutting-edge technology. It's what we do."
 			cover="https://blupp.b-cdn.net/idearebel/idea-rebel-tornoto-digital-ageny.jpg?quality=80"
 		/>
+		<section class="container mx-auto max-w-6xl py-20 relative my-20">
+			<ServicesRight
+				creative="https://blupp.b-cdn.net/idearebel/strategy.jpg"
+				service_description="Every jaw-dropping innovation starts as an idea. The Idea Rebel process begins with a thorough assessment of the brand, the market, the competition, the target audience and the client’s goals – factors that inform our objectives and guide our strategies."
+				service_image="https://blupp.b-cdn.net/idearebel/About_Services_Strategy.gif"
+				service_title="Strategy"
+				title="Strategic Digital Services"
+				work={["Planning & Strategy","Digital Analysis","Conceptual Development","Branding"]}
+				marginTop={ false }
+			/>
+			<ServicesLeft
+				creative="https://blupp.b-cdn.net/idearebel/creative.jpg"
+				service_description="Taking next-level solutions from incubation to actualization takes vision and confidence. Our creative team develops brands, assets and user experiences that service project objectives, however ambitious."
+				service_image="https://blupp.b-cdn.net/idearebel/About_Services_Creative.gif"
+				service_title="Creative"
+				title="Creative Digital Services"
+				work={["Creative Direction","Copywriting","Design","UX"]}
+				marginTop={ true }
+			/>
+			<ServicesRight
+				creative="https://blupp.b-cdn.net/idearebel/strategy.jpg"
+				service_description="Every jaw-dropping innovation starts as an idea. The Idea Rebel process begins with a thorough assessment of the brand, the market, the competition, the target audience and the client’s goals – factors that inform our objectives and guide our strategies."
+				service_image="https://blupp.b-cdn.net/idearebel/About_Services_Strategy.gif"
+				service_title="Strategy"
+				title="Strategic Digital Services"
+				work={["Planning & Strategy","Digital Analysis","Conceptual Development","Branding"]}
+				marginTop={ true }
+			/>
+			<ServicesLeft
+				creative="https://blupp.b-cdn.net/idearebel/creative.jpg"
+				service_description="Taking next-level solutions from incubation to actualization takes vision and confidence. Our creative team develops brands, assets and user experiences that service project objectives, however ambitious."
+				service_image="https://blupp.b-cdn.net/idearebel/About_Services_Creative.gif"
+				service_title="Creative"
+				title="Creative Digital Services"
+				work={["Creative Direction","Copywriting","Design","UX"]}
+				marginTop={ true }
+			/>
+			<div class="h-full w-1 absolute bg-zinc-200 top-0 left-[50%] -z-10 -ml-[1px]"/>
+			<div class="h-1 w-8 absolute bg-zinc-200 top-0 left-[50%] -z-10 -ml-4"/>
+			<div class="h-1 w-8 absolute bg-zinc-200 bottom-0 left-[50%] -z-10 -ml-4"/>
+		</section>
         <Footer />
 	</body>
 </html>
