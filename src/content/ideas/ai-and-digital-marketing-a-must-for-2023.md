@@ -32,7 +32,8 @@ The implementation of AI in digital marketing has a number of notable impacts on
 - **Competitive Advantage**: The utilization of AI insights in business operations is becoming a priority for many companies, as it can lead to better decision-making, lower costs, decreased risk, faster time-to-market, and other advantages over competitors.
 
 \
-Here are some interesting use cases for AI in digital marketing:
+Here are some interesting use cases for AI in digital marketing
+
 ## Chatbots powered by AI
 
 \

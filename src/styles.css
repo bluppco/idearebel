@@ -25,7 +25,7 @@ h1 {
 }
 h2 {
 
-	@apply !font-semibold text-zinc-800 text-base md:!text-4xl;
+	@apply !font-semibold text-zinc-800 text-base md:!text-4xl !mt-4;
 
 }
 h3 {
