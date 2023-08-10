@@ -1,0 +1,61 @@
+---
+import H2 from "../common/atom/H2.astro"
+import Paragraph from "../common/Paragraph.astro"
+import ParagraphGaramond from "../common/atom/ParagraphGaramond.astro"
+const {
+
+    creative,
+    marginTop,
+    service_description,
+    service_image,
+    service_title,
+    title,
+    work,
+
+} = Astro.props
+---
+<div class={`${ marginTop ? "mt-40" : ""} grid grid-cols-5 gap-10 items-center flex relative`}>
+    <div class="col-span-2 flex justify-center flex-col">
+        <img
+            src={ service_image }
+            class="object-fit w-48 h-48"
+        />
+        <div class="pl-10">
+            <H2
+                text={ service_title }
+            />
+            <Paragraph
+                text={ service_description }
+            />
+        </div>
+    </div>
+    <div class="col-span-3">
+        <div class="h-full">
+            <img
+                src={ creative }
+                class="w-full object-cover h-full"
+            />
+        </div>
+        <div class="flex flex-col items-center">
+            <div class="flex flex-col items-start my-10">
+                <div>{ title } </div>
+                {
+
+                    work.map( ( value ) => {
+
+                        return (
+
+                            <ParagraphGaramond
+                                text={ value }
+                            />
+
+                        )
+
+                    })
+
+                }
+            </div>
+        </div>
+    </div>
+    <div class="absolute w-[80%] h-[80%] bg-zinc-200 bottom-0 left-0 -z-10"></div>
+</div>
