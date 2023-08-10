@@ -5,6 +5,8 @@ import H3 from "../components/common/atom/H3.astro"
 import H5 from "../components/common/atom/H5.astro"
 import Button from "../components/common/Button.astro"
 import Paragraph from "../components/common/Paragraph.astro"
+import Header from "../components/common/Header.jsx"
+import Footer from "../components/Footer.astro"
 ---
 
 <html lang="en">
@@ -18,7 +20,11 @@ import Paragraph from "../components/common/Paragraph.astro"
         <link href="https://fonts.bunny.net/css?family=karla:400" rel="stylesheet" />
 	</head>
 	<body>
-		<section class="bg-digital_services w-full h-screen bg-cover bg-center flex justify-center items-center bg-zinc-200">
+        <Header
+			background={"bg-digital_services"}
+			client:load
+		/>
+		<section class="w-full h-screen bg-cover bg-center flex justify-center items-center bg-zinc-200">
             <div class="p-10 bg-white text-center grid gap-8 max-w-[30%]">
                 <H1
                     text="Digital Services"
@@ -28,5 +34,6 @@ import Paragraph from "../components/common/Paragraph.astro"
                 />
             </div>
         </section>
+        <Footer />
 	</body>
 </html>
