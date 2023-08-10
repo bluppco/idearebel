@@ -1,14 +1,14 @@
 ---
 description: Idea Rebel Volunteers Abroad Kandy, Sri Lanka
 image: https://blupp.b-cdn.net/idearebel/Kandy-66-1-3840x2160.jpg?quality=80&width=800
-order: 1
+order: 18
 publish_date: May 11, 2018
 link: idea-rebel-volunteers-abroad
-sub_title: ""
-title: Idea Rebel Volunteers Abroad (National Volunteer Week) - Kandy, Sri Lanka
+sub_title: "Kandy, Sri Lanka"
+title: Idea Rebel Volunteers Abroad
 url: https://www.idearebel.com/ideas/idea-rebel-volunteers-abroad/
-seo_title: ""
-seo_description: ""
+seo_title: "Idea Rebel Volunteers Abroad (National Volunteer Week) - Kandy, Sri Lanka"
+seo_description: "IR volunteers abroad in Kandy to further understand the value of volunteering. Though challenging, the experience came with some very unexpected benefits..."
 ---
 The Value of Volunteering
 

@@ -1,14 +1,14 @@
 ---
-description: Introducing Contest Rebel! contests made easy.
+description: ""  
 image: https://blupp.b-cdn.net/idearebel/Contest-Rebel.png?quality=80&width=800
 link: contest-rebel
-order: 1
+order: 12
 publish_date: July 1, 2019
-sub_title: ""
-title: Introducing Contest Rebel! Contests Made Easy. | Idea Rebel
+sub_title: "contests made easy."
+title: Introducing Contest Rebel!
 url: https://www.idearebel.com/ideas/contest-rebel/
-seo_title: ""
-seo_description: ""
+seo_title: "Introducing Contest Rebel! Contests Made Easy. | Idea Rebel"
+seo_description: "Contest Rebel is a digital automation platform designed for companies to easily create and manage contests and promotions. No coding required! Book a Demo."
 ---
 Contests Made Easy.
 

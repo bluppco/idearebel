@@ -2,13 +2,13 @@
 description: 6 Things Design School Never Taught Me Insights from a Rebel Designer
 image: https://blupp.b-cdn.net/idearebel/6thingsIwishIlearned_Header_2.0.jpg?quality=80&width=800
 link: 6-things-design-school-never-taught
-order: 1
+order: 22
 publish_date: October 24, 2017
-sub_title: ""
-title: 6 Things Design School Never Taught Me | Idea Rebel
+sub_title: "Insights from a Rebel Designer"
+title: 6 Things Design School Never Taught Me
 url: https://www.idearebel.com/ideas/6-things-design-school-never-taught/
-seo_title: ""
-seo_description: ""
+seo_title: "6 Things Design School Never Taught Me | Idea Rebel"
+seo_description: "I’ve been a professional designer for 3 years. I’ve worked for large agencies, digital and advertising and also in-house for a large corporation – a short-yet-varied experience that’s given me some perspective on the industry as a recent graduate. These are my observations; and what I wish design school had better prepared me for. 1. … Continued"
 ---
 I’ve been a professional designer for 3 years. I’ve worked for large agencies, digital and advertising and also in-house for a large corporation – a short-yet-varied experience that’s given me some perspective on the industry as a recent graduate. These are my observations; and what I wish design school had better prepared me for.
 

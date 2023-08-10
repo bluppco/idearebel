@@ -2,13 +2,13 @@
 description: 2020 Trends in digital advertising Adtech predictions
 image: https://blupp.b-cdn.net/idearebel/digital-advertising-trends-2020.jpg?quality=80&width=800
 link: adtech-2020-trends-in-digital-advertising
-order: 1
+order: 10
 publish_date: April 8, 2020
-sub_title: ""
-title: Adtech and Digital Advertising | Idea Rebel
+sub_title: "Adtech predictions"
+title: 2020 Trends in digital advertising
 url: https://www.idearebel.com/ideas/adtech-2020-trends-in-digital-advertising/
-seo_title: ""
-seo_description: ""
+seo_title: "Adtech and Digital Advertising | Idea Rebel"
+seo_description: "Digtal Media Trands for 2020. Advertisers are looking for more ways to reach customers with one-to-one messaging that drives a lasting impact."
 ---
 As the digital landscape continues to fragment, advertisers are looking for more ways to reach customers with one-to-one messaging that drives a lasting impact. As digital ad capabilities become more accessible and effective, both the sell-side and buy-side are shifting to embrace more advanced solutions.
 

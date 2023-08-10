@@ -1,14 +1,14 @@
 ---
-description: 2018 Vancouver UX Awards Finalists! For Roots.com
+description: 2018 Vancouver UX Awards Finalists! 
 image: https://blupp.b-cdn.net/idearebel/Roots.com-Idea-Rebel.jpg?quality=80&width=800
-order: 1
+order: 15
 publish_date: November 14, 2018
 link: idea-rebel-ux-awards-finalist-2018
-sub_title: ""
-title: Idea Rebel and Roots.com are up for a Vancouver UX Award
+sub_title: "For Roots.com"
+title: 2018 Vancouver UX Awards Finalists! 
 url: https://www.idearebel.com/ideas/idea-rebel-ux-awards-finalist-2018/
-seo_title: ""
-seo_description: ""
+seo_title: "Idea Rebel and Roots.com are up for a Vancouver UX Award"
+seo_description: "Idea Rebel and Roots.com are up for a Vancouver UX Award for the best in class User Experience design for the Roots.com eCommerce Website"
 ---
 Roots.com gets a UX nod in the category – User Experience for Marketing!
 

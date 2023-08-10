@@ -1,14 +1,14 @@
 ---
 description: The Office Vancouver Edition
 image: https://blupp.b-cdn.net/idearebel/van_office_header_bg.jpg?quality=80&width=800
-order: 1
+order: 24
 publish_date: July 12, 2017
 link: office-vancouver-edition
-sub_title: ""
-title: The Office":" Vancouver Edition | Idea Rebel
+sub_title: "Vancouver Edition"
+title: The Office
 url: https://www.idearebel.com/ideas/office-vancouver-edition/
-seo_title: ""
-seo_description: ""
+seo_title: "The Office : Vancouver Edition | Idea Rebel"
+seo_description: "Idea Rebel creates digital experiences from four North America's creative hubs but our digital agency headquesters are in Vancouver."
 ---
 WE DO BUSINESS FROM FOUR OF NORTH AMERICA’S CREATIVE HUBS. But it seems appropriate to pay homage to the biggest drop-pin in the Idea Rebel map: our original shop in Vancouver.
 

@@ -1,14 +1,14 @@
 ---
 description: Our completely paperless company
 image: https://blupp.b-cdn.net/idearebel/skateboard.jpg?quality=80&width=800
-order: 1
+order: 25
 publish_date: June 14, 2017
 link: our-completely-paperless-company
 sub_title: ""
-title: A completely paperless company | Idea Rebel
+title: Our completely paperless company
 url: https://www.idearebel.com/ideas/our-completely-paperless-company/
-seo_title: ""
-seo_description: ""
+seo_title: "A completely paperless company | Idea Rebel"
+seo_description: "Idea Rebel is a truly paperless company. Our digital marketing agency uses technology and digital solutions to uphold this objective."
 ---
 ![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
 gamechanger-paperlessJamieGarratt-576x324.jpg

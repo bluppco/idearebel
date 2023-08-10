@@ -1,14 +1,14 @@
 ---
 description: eCommerce for Everyone
 image: https://blupp.b-cdn.net/idearebel/yellow_box.jpg?quality=80&width=800
-order: 1
+order: 17
 publish_date: June 24, 2018
 link: ecommerce-for-everyone
 sub_title: ""
-title: eCommerce Agency & Developers - Toronto, Vancouver & LA
+title: eCommerce for Everyone
 url: https://www.idearebel.com/ideas/ecommerce-for-everyone/
-seo_title: ""
-seo_description: ""
+seo_title: "eCommerce Agency & Developers - Toronto, Vancouver & LA"
+seo_description: "Looking for the best eCommerce platform? Our digital agency offers an overview of popular eCommerce software. There're eCommerce solutions for everyone!"
 ---
 What you need, why you need it, and how we can help.
 

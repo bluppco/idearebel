@@ -1,14 +1,14 @@
 ---
 description: Shopify is on the rapid rise!
 image: https://blupp.b-cdn.net/idearebel/mobile_shopping.jpg?quality=80&width=800
-order: 1
+order: 16
 publish_date: October 10, 2018
 link: shopify-is-on-the-rapid-rise
 sub_title: ""
-title: Ecommerce platforms":" Shopify | Idea Rebel
+title: Shopify is on the rapid rise!
 url: https://www.idearebel.com/ideas/shopify-is-on-the-rapid-rise/
-seo_title: ""
-seo_description: ""
+seo_title: "Ecommerce platforms : Shopify | Idea Rebel"
+seo_description: "Shopify is one of the most popular Ecommerce platforms. Idea Rebel, a Toronto, Vancouver and Los Angeles Digital Agency can help elevate your eCommerce."
 ---
 Shopify is on the rapid rise and Digital Agency Idea Rebel is on it!
 

@@ -1,14 +1,14 @@
 ---
 description: How Artificial Intelligence is Changing Web Design – A Digital Agency Perspective
 image: https://blupp.b-cdn.net/idearebel/web-design-development.jpg?quality=80&width=800
-order: 1
+order: 14
 publish_date: January 17, 2019
 link: how-artificial-intelligence-is-changing-web-design-and-development
 sub_title: ""
-title: How Artificial Intelligence is Changing Web Design - A Digital Agency Perspective | Idea Rebel
+title: How Artificial Intelligence is Changing Web Design – A Digital Agency Perspective
 url: https://www.idearebel.com/ideas/how-artificial-intelligence-is-changing-web-design-and-development/
-seo_title: ""
-seo_description: ""
+seo_title: "How Artificial Intelligence is Changing Web Design - A Digital Agency Perspective | Idea Rebel"
+seo_description: "How Artificial Intelligence is changing Web Design and Development. Application of AI in Web Design.The Future of Intelligent Web Design."
 ---
 You’ve probably heard of AI, that is, artificial intelligence, being thrown around at every aspect of our daily lives. Although it can sound intimidating to some, it has actually been efficiently used to assist with things such as connecting with friends or getting tasks done more productively.
 

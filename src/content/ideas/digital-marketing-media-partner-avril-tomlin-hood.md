@@ -1,14 +1,14 @@
 ---
 description: Idea Rebel Digital Marketing & Performance Media introducing Avril Tomlin-Hood
 image: https://blupp.b-cdn.net/idearebel/idea-rebel-avril-tomlin-hood-1.jpg?quality=80&width=800
-order: 1
+order: 9
 publish_date: May 20, 2020
 link: digital-marketing-media-partner-avril-tomlin-hood
-sub_title: ""
-title: Digital Marketing & Media Partner - Avril Tomlin-Hood | Idea Rebel
+sub_title: "introducing Avril Tomlin-Hood"
+title: Idea Rebel Digital Marketing & Performance Media
 url: https://www.idearebel.com/ideas/digital-marketing-media-partner-avril-tomlin-hood/
-seo_title: ""
-seo_description: ""
+seo_title: "Digital Marketing & Media Partner - Avril Tomlin-Hood | Idea Rebel"
+seo_description: "Avril Tomlin-Hood - Head of Digital Marketing & Media, driving the tech-forward growth of Idea Rebel’s agency trading desk and brand marketing strategy, content & community management services"
 ---
 We are thrilled to announce that Avril Tomlin-Hood has joined the Idea Rebel team to build out the agency’s Digital Marketing & Performance Media Division. She’ll be splitting her time between Montreal, Toronto and Idea Rebel’s office headquarters in Vancouver.
 

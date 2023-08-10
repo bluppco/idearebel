@@ -1,34 +1,30 @@
 ---
 description: What the FLoC! Google's Privacy Sandbox
 image: https://blupp.b-cdn.net/idearebel/Google-FLoC-Idea-Rebel.jpg?quality=80&width=800
-order: 1
+order: 5
 publish_date: May 18, 2021
 link: what-the-floc-is-googles-privacy-sandbox
-sub_title: ""
-title: What the FLoC is Google’s Privacy Sandbox? | Idea Rebel
+sub_title: "Google’s Privacy Sandbox"
+title: What the FLoC!
 url: https://www.idearebel.com/ideas/what-the-floc-is-googles-privacy-sandbox/
-seo_title: ""
-seo_description: ""
+seo_title: "What the FLoC is Google’s Privacy Sandbox? | Idea Rebel"
+seo_description: "Idea Rebel - Digital Agency - Google FLoC Privacy Sandbox - Everything you need to know to be online with these new rules"
 ---
-What the FLoC is Google’s Privacy Sandbox?
+## What the FLoC is Google’s Privacy Sandbox?
 
 \
-As we gently walk each other through grieving the loss of third-party cookies, now is an excellent time to take a quick dip in the Privacy Sandbox. Chrome’s cookie phase-out is scheduled to be complete in 2022 which, for digital advertisers, has been a tough pill (or cookie) to swallow because it signals the end of the industry as we know it. But it’s no secret that the ad industry is resourceful and adaptable in the face of change.
+As we gently walk each other through grieving the loss of [third-party cookies](https://www.idearebel.com/ideas/the-end-of-the-third-party-cookie/), now is an excellent time to take a quick dip in the Privacy Sandbox. Chrome’s cookie phase-out is scheduled to be complete in 2022 which, for [digital advertisers](https://www.idearebel.com/services/media-planning-buying-progrommatic/), has been a tough pill (or cookie) to swallow because it signals the end of the industry as we know it. But it’s no secret that the ad industry is resourceful and adaptable in the face of change.
 
 \
 Never one to leave us empty-handed, Google has been working on new APIs to allow personalized advertising, including the Privacy Sandbox.
-
-\
-What’s Inside?
+## What’s Inside?
 
 \
 Anyone who has ever set foot in a sandbox knows there’s a lot of stuff hidden in there. Big picture, Privacy Sandbox contains a bunch of APIs to secure users’ privacy, while still allowing advertising measurement and tracking.
 
 \
-Google has a lot to say about all of this, but for our purposes, we’re just going to talk about FLoC.
-
-\
-Lots & Lots of FLoCs
+Google has a lot to say about [all of this](https://blog.google/products/ads-commerce/2021-01-privacy-sandbox/), but for our purposes, we’re just going to talk about FLoC.
+## Lots & Lots of FLoCs
 
 \
 Birds of a feather get FLoC’d together. It’s a bad pun, but, seriously, that’s what’s happening. Might as well learn it now because it doesn’t look like FLoC (Federated Learning of Cohorts) will be going anywhere anytime soon.
@@ -59,9 +55,7 @@ Advertisers and publishers will be able to observe cohort activity on their site
 
 \
 Publishers display ads that are relevant to a user based on that user’s cohort.
-
-\
-What does it mean for advertisers?
+## What does it mean for advertisers?
 
 \
 Having to pivot is really nothing new for advertisers. The ad industry has always been at the mercy of technology and changing regulations, so this is just another opportunity to regroup and make sure we aren’t putting our proverbial eggs in one basket (or sandbox).
@@ -72,14 +66,11 @@ Google says FLoC will be great, and we can hope for the best, but only time will
 \
 We’ve got a little bit of time left before the official rollout. Here’s what to focus on until then!
 
-\
-Stay up to date. FLoC is still in development and testing stages so we’re likely to get a better idea what to expect over the coming months. Staying up to date will give you more opportunity to adjust to new expectations around reporting, conversion, and attribution.
+- Stay up to date. FLoC is still in development and testing stages so we’re likely to get a better idea what to expect over the coming months. Staying up to date will give you more opportunity to adjust to new expectations around reporting, conversion, and attribution.
 
-\
-Create a safety net. Double down on collecting first-party data. First-party cookies aren’t going anywhere (any time soon, at least) and will always hold value for advertisers.
+- Create a safety net. Double down on collecting first-party data. First-party cookies aren’t going anywhere (any time soon, at least) and will always hold value for advertisers.
 
-\
-Keep the lines of communication open. There will be growing pains for the whole industry, and maintaining the trust of customers and clients when it comes to privacy policies is crucial.
+- Keep the lines of communication open. There will be growing pains for the whole industry, and maintaining the trust of customers and clients when it comes to privacy policies is crucial.
 
 \
 Google is ultimately under a lot of scrutiny over this move and only time will tell whether they will actually deliver the pro-privacy, pro-advertising utopia they have so boldly promised.

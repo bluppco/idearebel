@@ -1,19 +1,19 @@
 ---
 description: Digital Marketing Trends for 2021 Insight from a Digital Agency
 image: https://blupp.b-cdn.net/idearebel/Idea-Rebel-Nike-LGBTQ.jpg?quality=80&width=800
-order: 1
+order: 6
 publish_date: February 2, 2021
 link: digital-marketing-trends-for-2021
-sub_title: ""
-title: Digital Marketing Trends for 2021 | Idea Rebel
+sub_title: "Insight from a Digital Agency"
+title: Digital Marketing Trends for 2021
 url: https://www.idearebel.com/ideas/digital-marketing-trends-for-2021/
-seo_title: ""
-seo_description: ""
+seo_title: "Digital Marketing Trends for 2021 | Idea Rebel"
+seo_description: "Digital Marketing Trends 2021 Insight provided by Toronto, Los Angeles, and Vancouver Digital Agency - Idea Rebel. Live Steams, Visual & Voice"
 ---
 With 2020 now behind us, it’s time to look ahead to what we can expect from the next 12 months.
 
 \
-Here are top picks from our Toronto, Los Angeles and Vancouver Digital Agency.
+Here are top picks from our [**Toronto**](https://www.idearebel.com/office/toronto-digital-marketing-agency/), [**Los Angeles**](https://www.idearebel.com/office/los-angeles-digital-marketing-agency/) and [**Vancouver Digital Agency**](https://www.idearebel.com/office/vancouver-digital-marketing-agency/).
 
 \
 2020 was unpredictable, to say the least. That meant that while some of the trends which were predicted pre-pandemic did end up coming to light, others didn’t emerge at all, with various forced adaptations reshaping elements of the marketing landscape.
@@ -26,13 +26,10 @@ So, as we turn a corner into the New Year, what marketing trends will continue t
 
 \
 Here are some key trends to consider:
-
-\
-1. Live-streams and an increase in influencer content
+## Live-streams and an increase in influencer content**
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/Idea-Rebel-TikTok.jpg?quality=80&width=800?quality=80&width=800 "a title")
-Idea-Rebel-TikTok.jpg
 
 \
 TikTok
@@ -53,11 +50,10 @@ Human-drive content like influencer live-streams can create trust, and tap into 
 Amazon Live really got going during the pandemic. Influencers took to the platform to promote their favorite products during live events. What’s more, the livestreams were shoppable, which meant viewers could make purchases while they were watching.
 
 \
-2. Continued goodwill and purpose-driven missions from brands
+## Continued goodwill and purpose-driven missions from brands
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/Idea-Rebel-Nike-LGBTQ1.jpg?quality=80&width=800?quality=80&width=800 "a title")
-Idea-Rebel-Nike-LGBTQ1.jpg
 
 \
 Nike Pride
@@ -86,8 +82,7 @@ We’ll see more brands running campaigns like Hilton’s #HotelsForHeroes, wher
 \
 Roots, One of the brands we work with, is especially conscious in this area. Check out our case study on the Roots.com eCommerce Website Redesign Project.
 
-\
-3. UGC to enhance customer experience
+## UGC to enhance customer experience
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/Idea-Rebel-UGC-Fashion-Gallery.jpg?quality=80&width=800?quality=80&width=800 "a title")
@@ -105,30 +100,20 @@ Consumers crave enjoyable experiences with brands that are easy and memorable. T
 \
 User-generated content (UGC) ticks all the boxes when it comes to connective content:
 
-\
-It builds and strengthens communities
-
-\
-It’s relatable and uplifting
-
-\
-It enables brands to meet customers where they’re already hanging out
-
-\
-It helps brands generate tons more content against a backdrop of stay-at-home orders and restrictive measures
+- It builds and strengthens communities
+- It’s relatable and uplifting
+- It enables brands to meet customers where they’re already hanging out
+- It helps brands generate tons more content against a backdrop of stay-at-home orders and restrictive measures
 
 \
 UGC has long been an effective way for brands to forge relationships with their customers and provide social proof, and this will be a common theme in 2021 as well.
 
 \
-We’re super proud of our Digital Agency’s latest UGC work with our product – Contest Rebel. The world’s best Contest / Sweepstakes platform for brands.
-
-\
-4. A focus on sustainability
+We’re super proud of our Digital Agency’s latest UGC work with our product – [**Contest Rebel**](https://www.contestrebel.com/). The world’s best Contest / Sweepstakes platform for brands.
+## A focus on sustainability
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/vivida-surf-sustainable-Idea-Rebel.jpg?quality=80&width=800?quality=80&width=800 "a title")
-vivida-surf-sustainable-Idea-Rebel.jpg
 
 \
 Vivida Surf – Sustainable Brand
@@ -149,7 +134,7 @@ The Ocean Cleanup is a great example of a brand that’s done this well. In late
 They used TINT to share the announcement, which outlined how the brand will continue to use recycled products from the ocean to create beautiful, sustainable products. In a full circle turn of events, the revenue generated from the products will be pumped back into the brand’s cleanup campaign.
 
 \
-Being a Vancouver Digital Agency, we thrive on our sustainable practices such as our Paperless Company Policy.
+Being a [Vancouver Digital Agency](https://www.idearebel.com/office/vancouver-digital-marketing-agency/), we thrive on our sustainable practices such as our [Paperless Company Policy](https://www.idearebel.com/ideas/our-completely-paperless-company/).
 
 \
 5. Inclusivity will be important
@@ -168,7 +153,6 @@ Brands that are seen to be non-inclusive, or who don’t appear to be a part of 
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/Slyce-Visual-Shopping-Idea-Rebel.jpg?quality=80&width=800?quality=80&width=800 "a title")
-Slyce-Visual-Shopping-Idea-Rebel.jpg
 
 \
 Slyce – Visual Shopping

@@ -1,14 +1,14 @@
 ---
 description: How to stay productive while working from home – Digital Agency Tips
 image: https://blupp.b-cdn.net/idearebel/idea-rebel-work-from-home.jpg?quality=80&width=800
-order: 1
+order: 11
 publish_date: April 8, 2020
 link: how-to-stay-productive-while-working-from-home-digital-agency-tips
 sub_title: ""
-title: How to stay productive while working from home - Digital Agency Tips | Idea Rebel
+title: How to stay productive while working from home – Digital Agency Tips
 url: https://www.idearebel.com/ideas/how-to-stay-productive-while-working-from-home-digital-agency-tips/
-seo_title: ""
-seo_description: ""
+seo_title: "How to stay productive while working from home - Digital Agency Tips | Idea Rebel"
+seo_description: "Many of us are spending a lot more time at home right now. Including the workdays. When we’d usually be reporting to our desks, we’re finding ourselves on our couches or at our kitchen tables, trying to complete to-do lists without the built-in discipline of the office. The expectations are the same, but the environment … Continued"
 ---
 Many of us are spending a lot more time at home right now. Including the workdays. When we’d usually be reporting to our desks, we’re finding ourselves on our couches or at our kitchen tables, trying to complete to-do lists without the built-in discipline of the office.
 
