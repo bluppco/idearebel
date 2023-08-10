@@ -1,14 +1,14 @@
 ---
 description: Eddie Would Go Quiksilver Experience
 image: https://blupp.b-cdn.net/idearebel/eddie-would-go.jpg?quality=80&width=800
-order: 1
+order: 45
 publish_date: November 30, 2014
 link: eddie-would-go
-sub_title: ""
-title: Eddie Would Go | Idea Rebel
+sub_title: "Quiksilver Experience"
+title: Eddie Would Go
 url: https://www.idearebel.com/ideas/eddie-would-go/
-seo_title: ""
-seo_description: ""
+seo_title: "Eddie Would Go | Idea Rebel"
+seo_description: "Eddie Would Go. Digital Experience by Idea Rebel - Digital Agency."
 ---
 ![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
 EddieWouldGo-576x329.jpg

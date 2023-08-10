@@ -2,14 +2,14 @@
 #
 description: Virtually Everything
 image: https://blupp.b-cdn.net/idearebel/vr_blog_header_BABY_BLUE.jpg?quality=80&width=800
-order: 1
+order: 30
 publish_date: March 20, 2017
 link: vr-redefinding-the-market
 sub_title: ""
-title: How VR is redefining the market | Idea Rebel
+title: Virtually Everything
 url: https://www.idearebel.com/ideas/vr-redefinding-the-market/
-seo_title: ""
-seo_description: ""
+seo_title: "How VR is redefining the market | Idea Rebel"
+seo_description: "Virtual Reality is here! From product testing to in-store tours, VR provides customers with an enhanced experience, regardless of industry."
 ---
 How VR is redefining marketing and how we’re redefining VR
 

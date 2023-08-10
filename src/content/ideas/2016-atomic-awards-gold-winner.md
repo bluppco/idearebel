@@ -2,13 +2,13 @@
 description: Idea Rebel Takes Home GOLD at the AToMiC Awards!
 image: https://blupp.b-cdn.net/idearebel/Atomic-Award-Idea-Rebel-2448x2160.jpg?quality=80&width=800
 link: 2016-atomic-awards-gold-winner
-order: 1
+order: 34
 publish_date: December 2, 2016
 sub_title: ""
-title: The AToMiC Awards":" Gold for Virtual Reality App | Idea Rebel
+title: Idea Rebel Takes Home GOLD at the AToMiC Awards!
 url: https://www.idearebel.com/ideas/2016-atomic-awards-gold-winner/
-seo_title: ""
-seo_description: ""
+seo_title: "The AToMiC Awards : Gold for Virtual Reality App | Idea Rebel"
+seo_description: content=Our digital agency team is very excited to have taken home Gold for our VR app “Converse – In Their Chucks” at the AToMiC Awards.
 ---
 We are pumped to have taken home Gold for our VR app, “Converse – In Their Chucks”!  Read the full write up from Strategy Online here!
 

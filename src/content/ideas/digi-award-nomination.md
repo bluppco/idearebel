@@ -2,13 +2,13 @@
 description: Digi Award Nomination
 image: https://blupp.b-cdn.net/idearebel/Digi_Awards_Idea_Rebel.jpg?quality=80&width=800
 link: digi-award-nomination
-order: 1
+order: 49
 publish_date: November 20, 2012
 sub_title: ""
-title: Digi Award Nomination":" Best Use of Social Media | Idea Rebel
+title: Digi Award Nomination
 url: https://www.idearebel.com/ideas/digi-award-nomination/
-seo_title: ""
-seo_description: ""
+seo_title: "Digi Award Nomination : Best Use of Social Media | Idea Rebel"
+seo_description: "Our digital agency, Idea Rebel, was nominated twice for Best Use of Social Media in The Digi Awards, the only national digital media awards show in Canada."
 ---
 ![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
 ribbonbadge-576x364.jpg

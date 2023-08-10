@@ -1,14 +1,14 @@
 ---
 description: Virtual Reality In Vancouver
 image: https://blupp.b-cdn.net/idearebel/12.jpg?quality=80&width=800
-order: 1
+order: 41
 publish_date: July 22, 2015
 link: virtual_reality_in_vancouver
 sub_title: ""
-title: Virtual Reality In Vancouver | Idea Rebel
+title: Virtual Reality In Vancouver
 url: https://www.idearebel.com/ideas/virtual_reality_in_vancouver/
-seo_title: ""
-seo_description: ""
+seo_title: "Virtual Reality In Vancouver | Idea Rebel"
+seo_description: "As interactive app specialists, our digital agency delivered award-winning apps for BMW & Converse. Now our team is ready to go for the next VR project! "
 ---
 After delivering award winning apps for BMW and Converse to recreate interactive 3D experiences and Virtual Reality on mobile devices, Idea Rebel will be doing it again this coming August to promote another high profile brand.
 

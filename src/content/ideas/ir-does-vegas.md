@@ -1,14 +1,14 @@
 ---
 description: IR Does Vegas!
 image: https://blupp.b-cdn.net/idearebel/vegas.jpg?quality=80&width=800
-order: 1
+order: 32
 publish_date: January 4, 2017
 link: ir-does-vegas
 sub_title: ""
-title: IR Vancouver, Toronto and Montreal go to Las Vegas | Idea Rebel
+title: IR Does Vegas!
 url: https://www.idearebel.com/ideas/ir-does-vegas/
-seo_title: ""
-seo_description: ""
+seo_title: "IR Vancouver, Toronto and Montreal go to Las Vegas | Idea Rebel"
+seo_description: "Our team's hard work was rewarded with a company-wide trip to Las Vegas! The Vancouver, Toronto and Montreal offices got reunited in Las Vegas in November."
 ---
 The Vegas Rebellion
 

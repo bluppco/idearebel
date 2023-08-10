@@ -2,13 +2,13 @@
 description: Digi Awards Finalists
 image: https://blupp.b-cdn.net/idearebel/converse_banner1.jpg?quality=80&width=800
 link: 2015-digi-award-finalists
-order: 1
+order: 39
 publish_date: October 22, 2015
 sub_title: ""
-title: Digi Awards Finalists":" Mobile Entertainment Category | Idea Rebel
+title: Digi Awards Finalists
 url: https://www.idearebel.com/ideas/2015-digi-award-finalists/
-seo_title: ""
-seo_description: ""
+seo_title: "Digi Awards Finalists : Mobile Entertainment Category | Idea Rebel"
+seo_description: "Idea Rebel made it as finalists in the Digi Awards. Our mobile apps for Converse & Infinity were nominated in the category of Mobile Entertainment."
 ---
 We’re excited to announce that Idea Rebel has made it as finalists in the 2015 Digi Awards!
 

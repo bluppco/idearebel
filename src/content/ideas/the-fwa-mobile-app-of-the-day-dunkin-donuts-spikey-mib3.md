@@ -1,14 +1,14 @@
 ---
 description: The FWA Mobile App of the Day":" Dunkin’ Donuts Spikey (MIB3)
 image: https://blupp.b-cdn.net/idearebel/Dunkin-Donuts-MIB3-Spikey.jpg?quality=80&width=800
-order: 1
+order: 42
 publish_date: July 6, 2015
 link: the-fwa-mobile-app-of-the-day-dunkin-donuts-spikey-mib3
 sub_title: ""
-title: The FWA Mobile App of the Day":" Dunkin’ Donuts Spikey (MIB3) | Idea Rebel
+title: The FWA Mobile App of the Day":" Dunkin’ Donuts Spikey (MIB3)
 url: https://www.idearebel.com/ideas/the-fwa-mobile-app-of-the-day-dunkin-donuts-spikey-mib3/
-seo_title: ""
-seo_description: ""
+seo_title: "The FWA Mobile App of the Day : Dunkin’ Donuts Spikey (MIB3) | Idea Rebel"
+seo_description: "FWA App of the day - Dunkin Donuts Men In Black 3 Spikey Digital Experience. Digital Marketing Agency - Idea Rebel - Winner"
 ---
 ![Alt text](https://blupp.b-cdn.net/idearebel/Picture-1-244x349.png?quality=80&width=800?quality=80&width=800 "a title")
 Picture-1-244x349.png

@@ -1,14 +1,14 @@
 ---
 description: Our FWA Awards over the years Winner winner
 image: https://blupp.b-cdn.net/idearebel/IR_Awards.jpg?quality=80&width=800
-order: 1
+order: 38
 publish_date: November 4, 2015
 link: fwa-bling
-sub_title: ""
-title: FWA Bling | Idea Rebel
+sub_title: "Winner winner"
+title: Our FWA Awards over the years
 url: https://www.idearebel.com/ideas/fwa-bling/
-seo_title: ""
-seo_description: ""
+seo_title: "FWA Bling | Idea Rebel"
+seo_description: "The FWA, aka Favourite Website Awards, is one of the top internet award programs of its kind (named the number 1 web award in the world, no less), so it’s a huge honour to have received awards from them over the years! In light of this we thought to show off some of our FWA … Continued"
 ---
 The FWA, aka Favourite Website Awards, is one of the top internet award programs of its kind (named the number 1 web award in the world, no less), so it’s a huge honour to have received awards from them over the years!
 

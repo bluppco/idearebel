@@ -1,14 +1,14 @@
 ---
 description: Tech":" A class of its own
 image: https://blupp.b-cdn.net/idearebel/education_blog_header.jpg?quality=80&width=800
-order: 1
+order: 28
 publish_date: April 11, 2017
 link: digital-learning-and-education
 sub_title: ""
-title: Digital Learning & Education | Idea Rebel
+title: Tech":" A class of its own
 url: https://www.idearebel.com/ideas/digital-learning-and-education/
-seo_title: ""
-seo_description: ""
+seo_title: "Digital Learning & Education | Idea Rebel"
+seo_description: "In the near future, we'll see Digital Learning and Tech Ed becoming core components of curriculums in primary and secondary education systems."
 ---
 Digital Learning, Tech Ed & the future of child education
 
