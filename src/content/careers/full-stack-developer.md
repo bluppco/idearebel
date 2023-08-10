@@ -1,11 +1,12 @@
 ---
-image: https://blupp.b-cdn.net/idearebel/6thingsIwishIlearned_Header_2.0.jpg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/Careers_Tech1-Dev_Widescreen.jpg?quality=80&width=800
+badge image: https://blupp.b-cdn.net/idearebel/Careers_Badges_Tech-Tribe.png?quality=80&width=800
 link: full-stack-developer
 order: 1
 sub_title: "Location: Idea Rebel Vancouver or Idea Rebel Toronto"
-title: Full Stack (LAMP) Developer
+title: "Tech Jobs: Full Stack Developer | Idea Rebel"
 seo_title: full-stack-developer
-seo_description: full-stack-developer
+seo_description: Our digital agency in Vancouver is seeking a Full Stack Developer with strong web development skills who is proficient in web technologies.
 location: vancouver
 ---
 Idea Rebel – Toronto & Vancouver Digital Agency is looking for a Full Stack (LAMP) Developer.
@@ -59,5 +60,6 @@ The Full Stack Developer will collaborate with project managers, QA testers, and
 - Strong organization and communication skills (written and verbal)
 - Ability to multi-task and prioritize effectively
 
+\
 \
 Apply via tweet [@idearebel](https://x.com/idearebel) or email [careers@idearebel.com](mailto:careers@idearebel.com)
