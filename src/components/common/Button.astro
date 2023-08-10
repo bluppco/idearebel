@@ -1,4 +1,6 @@
 ---
-const { text } = Astro.props
+const { text, link, target } = Astro.props
 ---
-<button class="font-semibold text-base border-2 border-black bg-black text-white py-3 w-fit px-4 hover:bg-transparent hover:text-black duration-200 min-w-full font-karla tracking-widest">{ text }</button>
+<a href={ link } target={ target }>
+    <button class="font-semibold text-base border-2 border-black bg-black text-white py-3 w-fit px-4 hover:bg-transparent hover:text-black duration-200 min-w-full font-karla tracking-widest">{ text }</button>
+</a>
