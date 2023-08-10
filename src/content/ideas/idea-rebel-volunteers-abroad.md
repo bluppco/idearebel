@@ -1,21 +1,22 @@
 ---
 description: Idea Rebel Volunteers Abroad Kandy, Sri Lanka
 image: https://blupp.b-cdn.net/idearebel/Kandy-66-1-3840x2160.jpg?quality=80&width=800
-order: 1
+order: 18
 publish_date: May 11, 2018
 link: idea-rebel-volunteers-abroad
-sub_title: ""
-title: Idea Rebel Volunteers Abroad (National Volunteer Week) - Kandy, Sri Lanka
+sub_title: "Kandy, Sri Lanka"
+title: Idea Rebel Volunteers Abroad
 url: https://www.idearebel.com/ideas/idea-rebel-volunteers-abroad/
+seo_title: "Idea Rebel Volunteers Abroad (National Volunteer Week) - Kandy, Sri Lanka"
+seo_description: "IR volunteers abroad in Kandy to further understand the value of volunteering. Though challenging, the experience came with some very unexpected benefits..."
 ---
 The Value of Volunteering
 
 \
-This year’s National Volunteer Week (NVW) theme was: “Celebrate the Value of Volunteering – building confidence, competence, connections and community”. Volunteering should never be measured in monetary terms, but rather by its intrinsic value it brings to both the volunteer and community. Though Idea Rebel has dedicated time and resources within the local Canadian community, we wanted to extend our contributions to volunteer projects abroad. For this NVW (April 15th – 21st), Idea Rebel embarked on a journey to the sacred city of Kandy, Sri Lanka, while aiding a group of children with special needs and injecting themselves into the Sri-Lankan culture.
+This year’s National Volunteer Week (NVW) theme was: **“Celebrate the Value of Volunteering – building confidence, competence, connections and community”**. Volunteering should never be measured in monetary terms, but rather by its intrinsic value it brings to both the volunteer and community. Though Idea Rebel has dedicated time and resources within the local Canadian community, we wanted to extend our contributions to volunteer projects abroad. For this NVW (April 15th – 21st), Idea Rebel embarked on a journey to the sacred city of Kandy, Sri Lanka, while aiding a group of children with special needs and injecting themselves into the Sri-Lankan culture.
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/sir_lanka_vista.jpg?quality=80&width=800?quality=80&width=800 "a title")
-sir_lanka_vista.jpg
 
 \
 A Little Bit About Sri Lanka
@@ -27,21 +28,17 @@ Sri Lanka is an island country off the southern tip of the Indian subcontinent. 
 Here are some fun Sri Lankan facts:
 
 \
-Sri Lanka is the largest exporter of tea in the world.
+-Sri Lanka is the largest exporter of tea in the world.
+
+-Cinnamon originated in Sri Lanka.
+
+-Their national sport is volleyball.
+
+-Sri Lanka was the first country in the world to democratically elect a woman as the head of state.
 
 \
-Cinnamon originated in Sri Lanka.
+## The Volunteer Experience in Sri Lanka
 
-\
-Their national sport is volleyball.
-
-\
-Sri Lanka was the first country in the world to democratically elect a woman as the head of state.
-
-\
-The Volunteer Experience in Sri Lanka
-
-\
 Idea Rebel connected with International Volunteer HQ, also known as IVHQ, the world’s leading volunteer travel company. IVHQ helped to coordinate the volunteer week with the local organization, The Green Lion.
 
 \
@@ -49,28 +46,24 @@ On Sunday, April 15th, we were picked up at Colombo’s international airport an
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/green_lion_office.jpg?quality=80&width=800?quality=80&width=800 "a title")
-green_lion_office.jpg
 
 \
 The Green Lion Office
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/little_road_to_our_homestay.jpg?quality=80&width=800?quality=80&width=800 "a title")
-little_road_to_our_homestay.jpg
 
 \
 Little road to our homestay
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/breakfast_is_servedy.jpg?quality=80&width=800?quality=80&width=800 "a title")
-breakfast_is_servedy.jpg
 
 \
 Breakfast is served!
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/jamie_doing_dishes.jpg?quality=80&width=800?quality=80&width=800 "a title")
-jamie_doing_dishes.jpg
 
 \
 Jamie Garratt doing dishes
@@ -83,34 +76,30 @@ During the orientation, the local organizers expressed the need for volunteers i
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/volunteer_orientation.jpg?quality=80&width=800?quality=80&width=800 "a title")
-volunteer_orientation.jpg
 
 \
 Volunteer orientation
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/415BF60D-CAE1-40EC-82E9-617C4A2A152A.jpg?quality=80&width=800?quality=80&width=800 "a title")
-415BF60D-CAE1-40EC-82E9-617C4A2A152A.jpg
 
 \
 Entrance to the Daya Nivasa Home
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/639857CF-B23C-452F-9E0B-7F9B1D1EF202.jpg?quality=80&width=800?quality=80&width=800 "a title")
-639857CF-B23C-452F-9E0B-7F9B1D1EF202.jpg
 
 \
 Walking to the bus stop
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/6CE0DE66-D273-477B-9CB4-304DDA550411.jpg?quality=80&width=800?quality=80&width=800 "a title")
-6CE0DE66-D273-477B-9CB4-304DDA550411.jpg
 
 \
 Riding the local bus in Kandy, Sri Lanka
 
 \
-A Typical Day
+## A Typical Day
 
 \
 Our days started with breakfast at around 7am. At 8am, it was time to depart for the volunteer placement. We took the local bus to and from the orphanage.
@@ -120,27 +109,24 @@ Volunteers were present to assist in classroom-based activities, general care, p
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/peace_begins_with_a_smile.jpg?quality=80&width=800?quality=80&width=800 "a title")
-peace_begins_with_a_smile.jpg
 
 \
 Entrance to Daya Nivasa – no photos were allowed inside
 
 \
-What We Learned
+## What We Learned
 
 \
 Working with the young children and women was no doubt challenging, but the experience also came with some very unexpected benefits. Linking back to the NVW’s theme this year of building confidence, competence, connection and community, we felt that we were able to unlock each other’s potential through the magic of volunteering. This opportunity allowed us to develop new skills while advancing current ones. But the most touching part of this experience is when the children responded with genuine smiles and candid laughter – that’s when we know we’ve truly made a difference in their lives and that we’ve fulfilled what we set out to accomplish. We hope to volunteer abroad again in the near future.
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/8C62EA0A-51AE-4FA1-82E8-ECD71775B1E4.jpg?quality=80&width=800?quality=80&width=800 "a title")
-8C62EA0A-51AE-4FA1-82E8-ECD71775B1E4.jpg
 
 \
 A fun and cheap way to get around Sri Lanka
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/91978E32-4FF8-4094-B5BA-A3F5896F3619.jpg?quality=80&width=800?quality=80&width=800 "a title")
-91978E32-4FF8-4094-B5BA-A3F5896F3619.jpg
 
 \
 Sri Maha Bodhi Viharaya
@@ -154,42 +140,36 @@ Masala Dosa from Balaji Dosai
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/AF486F13-B55F-4535-BA43-7698CEA7D377.jpg?quality=80&width=800?quality=80&width=800 "a title")
-AF486F13-B55F-4535-BA43-7698CEA7D377.jpg
 
 \
 Daya Nivasa’s daily activities
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/ABD4E527-872F-4455-BC47-BA87D7CC8B4D.jpg?quality=80&width=800?quality=80&width=800 "a title")
-ABD4E527-872F-4455-BC47-BA87D7CC8B4D.jpg
 
 \
 Backyard view of the Mahaweli River
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/02E08FEC-0C47-47FA-A08A-90E1947EE78A.jpg?quality=80&width=800?quality=80&width=800 "a title")
-02E08FEC-0C47-47FA-A08A-90E1947EE78A.jpg
 
 \
 Snack hut in Kandy
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/1ED85C6A-43D1-432E-A94D-4CAF680D5296-1.jpg?quality=80&width=800?quality=80&width=800 "a title")
-1ED85C6A-43D1-432E-A94D-4CAF680D5296-1.jpg
 
 \
 Ice cream vendor on Kandy Lake
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/IMG_6539.jpg?quality=80&width=800?quality=80&width=800 "a title")
-IMG_6539.jpg
+![Alt text](https://blupp.b-cdn.net/idearebel/IMG_6539?quality=80&width=800?quality=80&width=800 "a title")
 
 \
 The Pinnawala Elephant Orphanage
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/8363178B-003D-43DF-8C43-98402DA81060.jpg?quality=80&width=800?quality=80&width=800 "a title")
-8363178B-003D-43DF-8C43-98402DA81060.jpg
 
 \
 Daya Nivasa’s laundry room

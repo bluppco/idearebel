@@ -1,18 +1,19 @@
 ---
 description: Our completely paperless company
 image: https://blupp.b-cdn.net/idearebel/skateboard.jpg?quality=80&width=800
-order: 1
+order: 25
 publish_date: June 14, 2017
 link: our-completely-paperless-company
 sub_title: ""
-title: A completely paperless company | Idea Rebel
+title: Our completely paperless company
 url: https://www.idearebel.com/ideas/our-completely-paperless-company/
+seo_title: "A completely paperless company | Idea Rebel"
+seo_description: "Idea Rebel is a truly paperless company. Our digital marketing agency uses technology and digital solutions to uphold this objective."
 ---
-![Alt text](https://blupp.b-cdn.net/idearebel/nike-digital-shoe-idea-rebel.jpeg?quality=80&width=800?quality=80&width=800 "a title")
-gamechanger-paperlessJamieGarratt-576x324.jpg
+![Alt text](https://blupp.b-cdn.net/idearebel/gamechanger-paperlessJamieGarratt-576x324.jpg?quality=80&width=800?quality=80&width=800 "a title")
 
 \
-Bryan Borzykowski from The Globe and Mail sits down with Jamie to talk about Idea Rebel and being 100% paper free and our zero waste policies.
+**Bryan Borzykowski from The Globe and Mail sits down with Jamie to talk about Idea Rebel and being 100% paper free and our zero waste policies.**
 
 \
 Being paper free is such an important part of who we are at Idea Rebel, not only because we are a “Digital Agency” but also because running an environmentally sustainable business is integral to our business model. Jamie takes the opportunity to talk about why he chose this route for the company from the start and what it means for our Rebel team members to adapt their creative processes and work habits.
@@ -24,4 +25,4 @@ Being paper free is such an important part of who we are at Idea Rebel, not only
 He wanted to go paperless, he says, because his business is all about creating digital products, such as applications, websites and social media tools. Using paper is the antithesis of his company’s core values.”
 
 \
-Read the full article here >>>
+[Read the full article here >>>](https://www.theglobeandmail.com/technology/tech-news/how-one-company-went-completely-paperless/article12522284/)

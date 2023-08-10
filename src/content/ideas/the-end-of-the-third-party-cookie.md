@@ -1,53 +1,51 @@
 ---
 description: Google To Axe Third Party Cookies by 2022 No more Cookies for you
 image: https://blupp.b-cdn.net/idearebel/google-cookies-phased-out-2021.jpg?quality=80&width=800
-order: 1
+order: 6
 publish_date: March 22, 2021
 link: the-end-of-the-third-party-cookie
-sub_title: ""
-title: The End of the Third-Party Cookie | Idea Rebel
+sub_title: "No more Cookies for you"
+title: Google To Axe Third Party Cookies by 2022
 url: https://www.idearebel.com/ideas/the-end-of-the-third-party-cookie/
+seo_title: "The End of the Third-Party Cookie | Idea Rebel"
+seo_description: "Google plans to phase out third-party cookies in its Chrome browser by 2022. Here's what this means for Brands and Digital Agencies"
 ---
-The End of the Third-Party Cookie
+## The End of the Third-Party Cookie
+
+
+## What is Going on With Google?
 
 \
-What is Going on With Google?
-
-\
-You’ve likely heard by now that in 2022, Google plans to phase out third-party cookies in its Chrome browser. This is a change that has been anticipated by the tech industry for quite some time. While Safari and Firefox made this move back in 2013, Chrome has the lion’s share of the browser market, making this a far more significant blow to online advertisers.
+You’ve likely heard by now that in 2022, [Google](https://blog.google/products/ads-commerce/a-more-privacy-first-web/) plans to phase out third-party cookies in its Chrome browser. This is a change that has been anticipated by the tech industry for quite some time. While Safari and Firefox made this move back in 2013, Chrome has the lion’s share of the browser market, making this a far more significant blow to online advertisers.
 
 \
 This move follows a demand from users for increased privacy and security, including more transparency and control over their own data on the internet.
 
 \
-Because internet privacy laws are always under scrutiny, it’s critical for those of us in the advertising world to stay up to date on potential changes and consider strategies that are less vulnerable to governance or new regulations.
+Because [internet privacy laws](https://en.wikipedia.org/wiki/Internet_privacy) are always under scrutiny, it’s critical for those of us in the advertising world to stay up to date on potential changes and consider strategies that are less vulnerable to governance or new regulations.
 
 \
-We’ve got a little rundown to help Brands and Digital Agencies know what to expect and what to do next.
-
-\
-A Refresher on Cookies
+We’ve got a little rundown to help Brands and [Digital Agencies](https://www.idearebel.com/digital-marketing-agency/) know what to expect and what to do next.
+## A Refresher on Cookies
 
 \
 Need to get your cookies straight? No judgement. We’ve all clicked through without reading the fine print before!
 
 \
-Third-party cookies, the ones currently on the chopping block, have been in use for years. We use them to track website visitors, collect data that helps us target ads to the right people, and learn about what else our visitors are checking out online. This data allows us to target advertisements to the right audiences by letting us know what people are up to on the internet even when they aren’t on our websites.
+[Third-party cookies](https://clearcode.cc/blog/difference-between-first-party-third-party-cookies/#:~:text=Third%2Dparty%20cookies%20are%20those,services%2C%20such%20as%20live%20chats.), the ones currently on the chopping block, have been in use for years. We use them to track website visitors, collect data that helps us target ads to the right people, and learn about what else our visitors are checking out online. This data allows us to target advertisements to the right audiences by letting us know what people are up to on the internet even when they aren’t on our websites.
 
 \
 You know when you searched for hiking boots because you needed a new COVID hobby, and one particular ad followed you around the internet for days? You can thank third-party cookies for that!
 
 \
-Get the full rundown here.
-
-\
-What Does This Mean for Marketers?
+Get the full [rundown here](https://www.techtarget.com/whatis/definition/third-party-cookie).
+## What Does This Mean for Marketers?
 
 \
 We don’t need to panic over this change, but we do need to navigate possible solutions and alternatives.
 
 \
-The online advertising industry has always been, and will always be, subject to new and changing regulations — with third-party cookies on the verge of becoming obsolete, it’s time to adapt and restructure.
+The online [advertising](https://www.idearebel.com/services/media-planning-buying-progrommatic/) industry has always been, and will always be, subject to new and changing regulations — with third-party cookies on the verge of becoming obsolete, it’s time to adapt and restructure.
 
 \
 Because browsers like Safari and Firefox had already disallowed third-party cookies, it hasn’t really been our best asset for some time anyways. As we mentioned earlier, a renewed effort to focus on less-vulnerable alternatives is a great idea right now.
@@ -57,9 +55,7 @@ The loss of third-party cookies is prompting many advertisers to look in two dif
 
 \
 Let’s take a look at some of your best bets for next steps.
-
-\
-Solutions and Alternatives
+#Solutions and Alternatives
 
 \
 If you’re still relying on a lot of third-party data for your ad strategies, you don’t need to wait for this to take effect to begin the transition to alternatives.

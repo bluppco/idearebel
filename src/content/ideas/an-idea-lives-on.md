@@ -1,12 +1,14 @@
 ---
-description: An Idea Lives On Award-Winning Digital Experience dedicated to JFK
+description:  Award-Winning Digital Experience dedicated to JFK
 image: https://blupp.b-cdn.net/idearebel/idealiveson-1.jpg?quality=80&width=800
 link: an-idea-lives-on
-order: 1
+order: 20
 publish_date: December 6, 2017
-sub_title: ""
-title: An idea lives on | Idea Rebel
+sub_title: "Award-Winning Digital Experience dedicated to JFK"
+title: An Idea Lives On
 url: https://www.idearebel.com/ideas/an-idea-lives-on/
+seo_title: "An idea lives on | Idea Rebel"
+seo_description: "Award-Winning Digital Experience dedicated to JFK. Idea Rebel Digital Agency won an FWA award for this digital experience"
 ---
 Idea Rebel developed a website dedicated to showing how John F Kennedy and his ideas, continue to inspire and affect the present world.
 
@@ -17,4 +19,4 @@ John F Kennedy was the 35th president of the United States of America. He was tr
 The website was so well received that it won an FWA Award for website of the day.
 
 \
-Check it out – JFK FWA Award
+Check it out – [JFK FWA Award](https://thefwa.com/cases/an-idea-lives-on)
