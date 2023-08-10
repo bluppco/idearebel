@@ -2,7 +2,7 @@ const Paragraph = ( props ) => {
 
     const { text } = props
     return (
-        <p class="text-xl font-karla text-black">{ text }</p>
+        <p className="text-xl font-karla text-black">{ text }</p>
     )
 
 }
