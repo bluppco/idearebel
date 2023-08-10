@@ -1,12 +1,10 @@
 ---
-import H1 from "../components/common/atom/H1.astro"
-import H2 from "../components/common/atom/H2.astro"
 import H3 from "../components/common/atom/H3.astro"
 import H5 from "../components/common/atom/H5.astro"
-import Button from "../components/common/Button.astro"
 import Paragraph from "../components/common/Paragraph.astro"
 import Header from "../components/common/Header.jsx"
 import Footer from "../components/Footer.astro"
+import OfficeDirections from "../components/common/office/OfficeDirections.astro"
 ---
 
 <html lang="en">
@@ -26,6 +24,77 @@ import Footer from "../components/Footer.astro"
             subtitle="Start something with Idea Rebel"
 			cover="https://blupp.b-cdn.net/idearebel/contact.jpg?quality=80"
 		/>
+		<section class="container mx-auto max-w-6xl p-20">
+			<div class="grid grid-cols-2 gap-8">
+				<div>
+					<H3
+						text="Get in touch with us"
+					/>
+				</div>
+				<div class="grid gap-12">
+					<div>
+						<H5
+							text="NEW BUSINESS"
+						/>
+						<Paragraph
+							text="newbusiness@idearebel.com"
+						/>
+					</div>
+					<div>
+						<H5
+							text="Press"
+						/>
+						<Paragraph
+							text="press@idearebel.com"
+						/>
+					</div>
+					<div>
+						<H5
+							text="CAREERS"
+						/>
+						<Paragraph
+							text="careers@idearebel.com"
+						/>
+					</div>
+					<div>
+						<H5
+							text="TALK TO A HUMAN"
+						/>
+						<Paragraph
+							text="(877) 732-3507"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="container mx-auto max-w-6xl bg-zinc-100 p-20">
+			<div class="text-center">
+				<p>Our Offices</p>
+			</div>
+			<div class="grid grid-cols-3 gap-20 mt-8">
+				<OfficeDirections
+					cover="https://blupp.b-cdn.net/idearebel/vancouver_cloudy-1.gif?quality=80?quality=80&width=800"
+					location="Idea Rebel Vancouver"
+					address_1="113 Water Street"
+					address_2="Vancouver, BC V6B 1A7"
+					phone="(604) 569-2155"
+				/>
+				<OfficeDirections
+					cover="https://blupp.b-cdn.net/idearebel/vancouver_cloudy-1.gif?quality=80?quality=80&width=800"
+					location="Idea Rebel Toronto"
+					address_1="113 Water Street"
+					address_2="Vancouver, BC V6B 1A7"
+					phone="(604) 569-2155"
+				/>
+				<OfficeDirections
+					cover="https://blupp.b-cdn.net/idearebel/vancouver_cloudy-1.gif?quality=80?quality=80&width=800"
+					location="Idea Rebel Angeles"
+					address_1="113 Water Street"
+					address_2="Vancouver, BC V6B 1A7"
+					phone="(604) 569-2155"
+				/>
+			</div>
+		</section>
 		<Footer />
 	</body>
 </html>
