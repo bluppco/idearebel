@@ -1,6 +1,6 @@
 ---
 description: Google To Axe Third Party Cookies by 2022 No more Cookies for you
-image: https://blupp.b-cdn.net/idearebel/google-cookies-phased-out-2021.jpg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/google-cookies-phased-out-2021?quality=80&width=800
 order: 6
 publish_date: March 22, 2021
 link: the-end-of-the-third-party-cookie
@@ -55,13 +55,13 @@ The loss of third-party cookies is prompting many advertisers to look in two dif
 
 \
 Let’s take a look at some of your best bets for next steps.
-#Solutions and Alternatives
+## Solutions and Alternatives
 
 \
 If you’re still relying on a lot of third-party data for your ad strategies, you don’t need to wait for this to take effect to begin the transition to alternatives.
 
 \
-Make the Most of Your First-Party Data
+1. Make the Most of Your First-Party Data
 
 \
 Not all cookies are being banned, so you can rest assured that some of your data-driven marketing strategies are safe and sound. First-party cookies are the ones that track basic data about your visitors on your own website.
@@ -73,7 +73,7 @@ This is an excellent time to leverage the first-party data you collect from your
 First-party cookies allow you to build effective marketing strategies based on your visitor’s behavior and provide a user experience worth coming back to.
 
 \
-Shift Back to Contextual Targeting
+2. Shift Back to Contextual Targeting
 
 \
 One tried and true way to reach your customer base is to shift back to a focus on contextual targeting. This allows you to circulate PPC (pay-per-click) ads on websites that rank for similar keywords, topics, language, and location.
@@ -85,7 +85,7 @@ Here’s an example of how this works: Let’s say you’re running ads for a bo
 One of the big advantages of contextual targeting is that your ads appear on relevant, credible, and high-quality websites.
 
 \
-Get Acquainted With Google Privacy Sandbox
+3. Get Acquainted With Google Privacy Sandbox
 
 \
 Now, it probably comes as no surprise that Google wouldn’t rip something out from underneath us without being prepared to offer up an alternative. The end of third-party cookies is no exception.

@@ -19,7 +19,7 @@ In their own words, the goal of the awards is “recognizing joy, elegance, clar
 We built the Hyundai Canada Dealer’s App for Hyundai Canada as a digital sales tool that adds ease and transparency to a historically challenging interaction. It showcases features of the Hyundai product family and identifies the brand’s advantages over any competitor vehicle on the market, for real-time comparison shopping.
 
 \
-earn more about this first-of-its-kind product [here](https://www.idearebel.com/work/hyundai-dealership-app/)...
+Learn more about this first-of-its-kind product [here](https://www.idearebel.com/work/hyundai-dealership-app/)...
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/hyundai_dealerapp.jpg?quality=80&width=800?quality=80&width=800 "a title")

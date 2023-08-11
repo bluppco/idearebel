@@ -13,7 +13,7 @@ seo_description: "IR volunteers abroad in Kandy to further understand the value 
 The Value of Volunteering
 
 \
-This year’s National Volunteer Week (NVW) theme was: **“Celebrate the Value of Volunteering – building confidence, competence, connections and community”**. Volunteering should never be measured in monetary terms, but rather by its intrinsic value it brings to both the volunteer and community. Though Idea Rebel has dedicated time and resources within the local Canadian community, we wanted to extend our contributions to volunteer projects abroad. For this NVW (April 15th – 21st), Idea Rebel embarked on a journey to the sacred city of Kandy, Sri Lanka, while aiding a group of children with special needs and injecting themselves into the Sri-Lankan culture.
+This year’s National Volunteer Week (NVW) theme was: **_“Celebrate the Value of Volunteering – building confidence, competence, connections and community”_**. Volunteering should never be measured in monetary terms, but rather by its intrinsic value it brings to both the volunteer and community. Though Idea Rebel has dedicated time and resources within the local Canadian community, we wanted to extend our contributions to volunteer projects abroad. For this NVW (April 15th – 21st), Idea Rebel embarked on a journey to the sacred city of Kandy, Sri Lanka, while aiding a group of children with special needs and injecting themselves into the Sri-Lankan culture.
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/sir_lanka_vista.jpg?quality=80&width=800?quality=80&width=800 "a title")
@@ -36,9 +36,9 @@ Here are some fun Sri Lankan facts:
 
 -Sri Lanka was the first country in the world to democratically elect a woman as the head of state.
 
-\
 ## The Volunteer Experience in Sri Lanka
 
+\
 Idea Rebel connected with International Volunteer HQ, also known as IVHQ, the world’s leading volunteer travel company. IVHQ helped to coordinate the volunteer week with the local organization, The Green Lion.
 
 \
@@ -98,7 +98,6 @@ Walking to the bus stop
 \
 Riding the local bus in Kandy, Sri Lanka
 
-\
 ## A Typical Day
 
 \
@@ -113,7 +112,6 @@ Volunteers were present to assist in classroom-based activities, general care, p
 \
 Entrance to Daya Nivasa – no photos were allowed inside
 
-\
 ## What We Learned
 
 \
@@ -133,7 +131,6 @@ Sri Maha Bodhi Viharaya
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/E5D57831-647E-4BFD-B1D1-B2DCF8674FA5.jpg?quality=80&width=800?quality=80&width=800 "a title")
-E5D57831-647E-4BFD-B1D1-B2DCF8674FA5.jpg
 
 \
 Masala Dosa from Balaji Dosai
@@ -163,7 +160,7 @@ Snack hut in Kandy
 Ice cream vendor on Kandy Lake
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/IMG_6539?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/IMG_6539.jpg?quality=80&width=800?quality=80&width=800 "a title")
 
 \
 The Pinnawala Elephant Orphanage

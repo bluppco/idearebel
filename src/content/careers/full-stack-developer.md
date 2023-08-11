@@ -4,8 +4,8 @@ badge image: https://blupp.b-cdn.net/idearebel/Careers_Badges_Tech-Tribe.png?qua
 link: full-stack-developer
 order: 1
 sub_title: "Location: Idea Rebel Vancouver or Idea Rebel Toronto"
-title: "Tech Jobs: Full Stack Developer | Idea Rebel"
-seo_title: full-stack-developer
+title: "Full Stack (LAMP) Developer"
+seo_title: "Tech Jobs: Full Stack Developer | Idea Rebel"
 seo_description: Our digital agency in Vancouver is seeking a Full Stack Developer with strong web development skills who is proficient in web technologies.
 location: vancouver
 ---

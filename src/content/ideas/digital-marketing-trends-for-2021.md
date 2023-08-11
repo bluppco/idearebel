@@ -1,6 +1,6 @@
 ---
 description: Digital Marketing Trends for 2021 Insight from a Digital Agency
-image: https://blupp.b-cdn.net/idearebel/Idea-Rebel-Nike-LGBTQ.jpg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/Idea-Rebel-Web-Development-ReactJS.jpg?quality=80&width=800
 order: 7
 publish_date: February 2, 2021
 link: digital-marketing-trends-for-2021
@@ -26,7 +26,7 @@ So, as we turn a corner into the New Year, what marketing trends will continue t
 
 \
 Here are some key trends to consider:
-## 1. Live-streams and an increase in influencer content**
+## 1. Live-streams and an increase in influencer content
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/Idea-Rebel-TikTok.jpg?quality=80&width=800?quality=80&width=800 "a title")
@@ -61,7 +61,7 @@ Nike Pride
 The 2021 Hootsuite Social Trends report notes that:
 
 \
-“The smartest brands will understand where they fit into customers’ lives on social media, and they’ll find creative ways of fitting into the conversation.”
+“_The smartest brands will understand where they fit into customers’ lives on social media, and they’ll find creative ways of fitting into the conversation._”
 
 \
 At the core of this is the need for transparency.
@@ -85,7 +85,6 @@ We’ll see more brands running campaigns like Hilton’s #HotelsForHeroes, wher
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/Idea-Rebel-UGC-Fashion-Gallery.jpg?quality=80&width=800?quality=80&width=800 "a title")
-Idea-Rebel-UGC-Fashion-Gallery.jpg
 
 \
 Wokiee – UGC Shopping Gallery
