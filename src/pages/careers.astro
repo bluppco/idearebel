@@ -9,20 +9,15 @@ import H5 from "../components/common/atom/H5.astro"
 import Button from "../components/common/Button.astro"
 import Paragraph from "../components/common/Paragraph.astro"
 import Footer from "../components/Footer.astro"
+import Head from "../components/common/Head.astro"
 import Header from "../components/common/Header.jsx"
 import ParagraphGaramond from "../components/common/atom/ParagraphGaramond.astro"
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=karla:400" rel="stylesheet" />
-	</head>
+	<Head
+		title="Careers"
+	/>
 	<body>
 		<Header
 			client:load
