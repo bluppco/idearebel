@@ -1,7 +1,7 @@
 ---
 image: https://blupp.b-cdn.net/idearebel/Careers_Creative1-Design_Widescreen_preview.jpg?quality=80&width=800
 badge image: https://blupp.b-cdn.net/idearebel/Careers_Badges_Creative-Crew.png?quality=80&width=800
-link: vancouver/digital-designer
+link: digital-designer
 order: 7
 sub_title: "Hotshot Pixel Pusher"
 title: Digital Designer (Freelance)

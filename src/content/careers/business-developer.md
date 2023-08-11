@@ -1,7 +1,7 @@
 ---
 image: https://blupp.b-cdn.net/idearebel/Hero-Job-Single.jpg?quality=80&width=800
 badge image: https://blupp.b-cdn.net/idearebel/Careers_Badges_Strategy-Squad.png?quality=80&width=800
-link: vancouver/business-developer
+link: business-developer
 order: 3
 sub_title: "Leader of Growth"
 title: Business Developer

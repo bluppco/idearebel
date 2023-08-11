@@ -1,7 +1,7 @@
 ---
 image: https://blupp.b-cdn.net/idearebel/Careers_ClientService3_Widescreen.jpg?quality=80&width=800
 badge image: ""
-link: vancouver/react-developer
+link: react-developer
 order: 5
 sub_title: "Master Of All Things Front-End"
 title: React Developer (Freelance)
