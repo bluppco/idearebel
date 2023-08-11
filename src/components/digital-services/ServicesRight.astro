@@ -15,7 +15,7 @@ const {
 } = Astro.props
 ---
 <div class={`${ marginTop ? "mt-8 md:mt-40" : ""} p-4 md:p-0 grid grid-cols-1 md:grid-cols-5 gap-0 md:gap-10 items-center flex relative`}>
-    <div class="col-span-1 md:col-span-2 flex justify-center items-center flex-col bg-white">
+    <div class="col-span-1 md:col-span-2 flex justify-center items-center flex-col bg-white md:bg-transparent">
         <img
             src={ service_image }
             class="object-fit w-48 h-48"
@@ -36,7 +36,7 @@ const {
                 class="w-full object-cover h-full"
             />
         </div>
-        <div class="flex flex-col items-center mt-8 md:mt-0 bg-white">
+        <div class="flex flex-col items-center mt-8 md:mt-0 bg-white md:bg-transparent">
             <div class="flex flex-col items-start my-10">
                 <div>{ title } </div>
                 {
