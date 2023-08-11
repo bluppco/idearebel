@@ -1,4 +1,7 @@
 ---
+import { getCollection } from 'astro:content';
+const services = await getCollection('services');
+const services_sorted = services.sort((a, b) => a.data.order - b.data.order)
 import H1 from "../components/common/atom/H1.astro"
 import H2 from "../components/common/atom/H2.astro"
 import H3 from "../components/common/atom/H3.astro"
@@ -11,6 +14,7 @@ import ParagraphGaramond from "../components/common/atom/ParagraphGaramond.astro
 import ServicesRight from "../components/digital-services/ServicesRight.astro"
 import ServicesLeft from "../components/digital-services/ServicesLeft.astro"
 import Head from "../components/common/Head.astro"
+import Service from "../components/services/Service.astro"
 ---
 
 <html lang="en">
@@ -22,6 +26,45 @@ import Head from "../components/common/Head.astro"
             subtitle="Raising the bar with killer ideas and cutting-edge technology. It's what we do."
 			cover="https://blupp.b-cdn.net/idearebel/idea-rebel-tornoto-digital-ageny.jpg?quality=80"
 		/>
+		<section class="relative p-4 md:p-0">
+			<section class="container mx-auto max-w-6xl py-10">
+				<div class="grid grid-cols-1 md:grid-cols-2">
+					<div class="grid grid-col gap-8">
+						<H1
+							text="Technology as big as our ideas."
+						/>
+						<Paragraph
+							text="Idea Rebel’s creative solutions are suited to our clients’ business objectives – from web, ecommerce & mobile app development, experiential marketing and interactive experiences; from ideas to execution to connection, everything is achieved in-house."
+						/>
+					</div>
+				</div>
+			</section>
+			<div class="relative md:absolute right-0 bottom-0 w-full md:w-1/3">
+				<img
+					src="https://blupp.b-cdn.net/idearebel/devices.png"
+					class="w-full object-fill"
+				/>
+			</div>
+		</section>
+		<section class="container mx-auto max-w-6xl p-20 bg-zinc-200">
+			<div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+				{
+
+					services_sorted.map( ( service ) => {
+
+						return (
+							<Service
+								text={ service.data.listing_title }
+								link={"/services/" + service.data.link }
+								image={ service.data.listing_icon }
+							/>
+						)
+
+					})
+
+				}
+			</div>
+		</section>
 		<section class="container mx-auto max-w-6xl py-20 relative my-20">
 			<ServicesRight
 				creative="https://blupp.b-cdn.net/idearebel/strategy.jpg"
@@ -67,7 +110,7 @@ import Head from "../components/common/Head.astro"
 			<div class="w-48">
 				<Button
 					text="SEE OUR WORK"
-					link="/digital-portfolio"
+					link="digital-portfolio"
 				/>
 			</div>
 		</section>

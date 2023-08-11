@@ -1,0 +1,20 @@
+---
+const {
+
+    image,
+    link,
+    text,
+
+} = Astro.props
+---
+<a href={ link }>
+    <div class="flex flex-col items-center">
+        <div class="w-36 h-36">
+            <img
+                src={ image }
+                class="w-full object-fit"
+            />
+        </div>
+        <div class="uppercase">{ text }</div>
+    </div>
+</a>
