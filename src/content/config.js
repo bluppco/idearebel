@@ -5,7 +5,7 @@ const careersCollection = defineCollection({
 
 		image: z.string(),
 		link: z.string(),
-		location: z.string(),
+		location: z.array(z.string()),
 		order: z.number(),
 		seo_description: z.string(),
 		seo_title: z.string(),
