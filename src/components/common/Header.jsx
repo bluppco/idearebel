@@ -48,7 +48,7 @@ const Header = ( props ) => {
 
                         }
                     </div>
-                    <div className="p-10 bg-white text-center grid gap-8 max-w-[30%] z-20">
+                    <div className="p-10 bg-white text-center grid gap-8 max-w-[80%] xl:max-w-[30%] z-20">
                         <H1
                             text={ title }
                         />
