@@ -1,7 +1,7 @@
 ---
 image: https://blupp.b-cdn.net/idearebel/Careers_Tech1-Dev_Widescreen.jpg?quality=80&width=800
 badge image: https://blupp.b-cdn.net/idearebel/Careers_Badges_Tech-Tribe.png?quality=80&width=800
-link: vancouver/full-stack-developer
+link: full-stack-developer
 order: 1
 sub_title: "Location: Idea Rebel Vancouver or Idea Rebel Toronto"
 title: "Full Stack (LAMP) Developer"

@@ -1,7 +1,7 @@
 ---
 image: https://blupp.b-cdn.net/idearebel/Careers_Creative3-UX_Widescreen.jpg?quality=80&width=800
 badge image: https://blupp.b-cdn.net/idearebel/Careers_Badges_Strategy-Squad.png?quality=80&width=800
-link: vancouver/ux-designer-freelance
+link: ux-designer-freelance
 order: 6
 sub_title: "User Experience Guru"
 title: UX Designer (Freelance)

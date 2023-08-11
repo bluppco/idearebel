@@ -1,7 +1,7 @@
 ---
 image: https://blupp.b-cdn.net/idearebel/Careers_Creative2-Copywriter_Widescreen.jpg?quality=80&width=800
 badge image: https://blupp.b-cdn.net/idearebel/Careers_Badges_Operations-Office.png?quality=80&width=800
-link: vancouver/project-coordinator
+link: project-coordinator
 order: 4
 sub_title: "Master Multi-Tasker"
 title: Project Coordinator (Freelance)

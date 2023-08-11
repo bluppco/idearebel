@@ -1,7 +1,7 @@
 ---
 image: https://blupp.b-cdn.net/idearebel/Careers_Strategy3-Analytics_Widescreen.jpg?quality=80&width=800
 badge image: https://blupp.b-cdn.net/idearebel/operations1.jpg?quality=80&width=800
-link: vancouver/digital-account-manager-2
+link: digital-account-manager-2
 order: 2
 sub_title: "Big-Picture Specialist"
 title: Digital Account Manager (Freelance)
