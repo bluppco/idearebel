@@ -26,9 +26,9 @@ Site of the Day
 Mobile of the Day
 
 \
-[**Infiniti Driver’s Seat**](https://thefwa.com/cases/infiniti-driver-s-seat)
+[**Infiniti Driver’s Seat**\
+Mobile of the Day](https://thefwa.com/cases/infiniti-driver-s-seat)
 
-Mobile of the Day
 
 \
 [**Dunkin MIB3 Capture –**](https://thefwa.com/cases/dunkin-mib3-capture)
