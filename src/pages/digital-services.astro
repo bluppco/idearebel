@@ -10,18 +10,11 @@ import Footer from "../components/Footer.astro"
 import ParagraphGaramond from "../components/common/atom/ParagraphGaramond.astro"
 import ServicesRight from "../components/digital-services/ServicesRight.astro"
 import ServicesLeft from "../components/digital-services/ServicesLeft.astro"
+import Head from "../components/common/Head.astro"
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=karla:400" rel="stylesheet" />
-	</head>
+	<Head />
 	<body>
         <Header
 			client:load
