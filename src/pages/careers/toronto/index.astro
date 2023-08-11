@@ -11,6 +11,7 @@ import Paragraph from "../../../components/common/Paragraph.astro"
 import Footer from "../../../components/Footer.astro"
 import Header from "../../../components/common/Header.jsx"
 import Head from "../../../components/common/Head.astro"
+import ParagraphGaramond from "../../../components/common/atom/ParagraphGaramond.astro"
 ---
 
 <html lang="en">
@@ -53,12 +54,16 @@ import Head from "../../../components/common/Head.astro"
 				careers_sorted.map( ( career ) => {
 
 					return (
-                        <a href={ "/careers/toronto/" + career.data.link }>
-                            <div class="grid gap-2 text-center">
-                                <div>{career.data.title}</div>
-                                <div>{career.data.sub_title}</div>
-                            </div>
-                        </a>
+						<div class="grid gap-2 text-center">
+							<a href={ "careers/" + career.data.location + "/" + career.data.link } class="hover:underline">
+								<H3
+									text={career.data.title}
+								/>
+							</a>
+							<ParagraphGaramond
+								text={career.data.sub_title}
+							/>
+						</div>
 					)
 
 				})
