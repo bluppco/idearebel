@@ -1,13 +1,13 @@
 ---
 image: https://blupp.b-cdn.net/idearebel/Careers_Creative2-Copywriter_Widescreen.jpg?quality=80&width=800
 badge image: https://blupp.b-cdn.net/idearebel/Careers_Badges_Operations-Office.png?quality=80&width=800
-link: /project-coordinator
+link: project-coordinator
 order: 4
 sub_title: "Master Multi-Tasker"
 title: Project Coordinator (Freelance)
 seo_title: Project Coordinator (Freelance) | Idea Rebel
 seo_description: Idea Rebel Careers. Boost your career in Digital by working with one of the top Digital Agencies in Toronto and Vancouver
-location: vancouver
+location: ["vancouver","toronto"]
 ---
 Come work for one of Canada’s premier Digital Agencies and build award-winning experiences for world-class clients. We’re looking for a Project Coordinator to join our Toronto and Vancouver teams.
 

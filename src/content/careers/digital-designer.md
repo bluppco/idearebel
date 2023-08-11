@@ -7,7 +7,7 @@ sub_title: "Hotshot Pixel Pusher"
 title: Digital Designer (Freelance)
 seo_title: Digital Designer (Freelance) | Idea Rebel
 seo_description: Digital Agency Toronto & Vancouver Idea Rebel is hiring a digital designer. Join one of Canada's premier Digital Agencies.
-location: vancouver
+location: ["vancouver","toronto"]
 ---
 Idea Rebel – Toronto & Vancouver Digital Agency is looking for a Digital Designer.
 

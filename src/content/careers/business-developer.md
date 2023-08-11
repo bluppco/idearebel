@@ -7,7 +7,7 @@ sub_title: "Leader of Growth"
 title: Business Developer
 seo_title: "Digital Marketing Careers: Business Developer | Idea Rebel"
 seo_description: "Idea Rebel's Santa Monica office is looking for a motivated and tech savvy Business Development Specialist to sell custom digital marketing solutions."
-location: vancouver
+location: ["vancouver","toronto","los-angeles"]
 ---
 Want to be a Rebel? We are looking for a motivated and tech savvy business development specialist to join our team. With our rapidly expanding portfolio, we are looking to bring on an ambitious, consultative Business Development specialist who is confident in selling digital marketing solutions (Media and Digital Experiences) to large companies.
 
