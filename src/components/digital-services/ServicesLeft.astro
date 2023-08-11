@@ -13,15 +13,15 @@ const {
 
 } = Astro.props
 ---
-<div class="grid grid-cols-5 gap-10 items-center flex relative mt-40">
-    <div class="col-span-3">
+<div class="p-4 md:p-0 grid grid-cols-1 !flex !flex-col-reverse md:grid-cols-5 gap-0 md:gap-10 items-center relative mt-8 md:mt-40">
+    <div class="col-span-3 mt-8 md:mt-0">
         <div class="h-full">
             <img
                 src={ creative }
                 class="w-full object-cover h-full"
             />
         </div>
-        <div class="flex flex-col items-center">
+        <div class="flex flex-col items-center mt-8 md:mt-0 bg-white">
             <div class="flex flex-col items-start my-10">
                 <div>{ title }</div>
                 {
@@ -42,12 +42,12 @@ const {
             </div>
         </div>
     </div>
-    <div class="col-span-2 flex justify-center flex-col">
+    <div class="col-span-1 md:col-span-2 flex justify-center items-center flex-col bg-white">
         <img
             src={ service_image }
             class="object-fit w-48 h-48"
         />
-        <div class="pl-10">
+        <div class="pl:0 md:pl-10">
             <H2
                 text={ service_title }
             />
@@ -56,5 +56,5 @@ const {
             />
         </div>
     </div>
-    <div class="absolute w-[80%] h-[80%] bg-zinc-200 bottom-0 right-0 -z-10"></div>
+    <div class="absolute w-[80%] h-[80%] bg-zinc-200 bottom-0 right-0 -z-10 hidden md:block"></div>
 </div>
