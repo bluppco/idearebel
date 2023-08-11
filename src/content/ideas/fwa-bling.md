@@ -16,29 +16,29 @@ The FWA, aka Favourite Website Awards, is one of the top internet award programs
 In light of this we thought to show off some of our FWA collection-
 
 \
-[**Converse in Their Chucks**
+[**Converse in Their Chucks**](https://thefwa.com/cases/converse-in-their-chucks-vr-films)
 
-Site of the Day](https://thefwa.com/cases/converse-in-their-chucks-vr-films)
-
-\
-[**BMW Become Electric**
-
-Mobile of the Day](https://thefwa.com/cases/bmw-become-electric)
+Site of the Day
 
 \
-[**Infiniti Driver’s Seat**
+[**BMW Become Electric**](https://thefwa.com/cases/bmw-become-electric)
 
-Mobile of the Day](https://thefwa.com/cases/infiniti-driver-s-seat)
-
-\
-[**Dunkin MIB3 Capture –**
-
-Mobile App of the Day](https://thefwa.com/cases/dunkin-mib3-capture)
+Mobile of the Day
 
 \
-[**JFK An Idea Lives On**
+[**Infiniti Driver’s Seat**](https://thefwa.com/cases/infiniti-driver-s-seat)
 
-Site of the Day](https://thefwa.com/cases/an-idea-lives-on)
+Mobile of the Day
+
+\
+[**Dunkin MIB3 Capture –**](https://thefwa.com/cases/dunkin-mib3-capture)
+
+Mobile App of the Day
+
+\
+[**JFK An Idea Lives On**](https://thefwa.com/cases/an-idea-lives-on)
+
+Site of the Day
 
 \
 Thank you to the FWA for the recognition over the years! That is some serious hardware we are proud of!  As a Digital Agency out of Vancouver and Toronto, we’re doing our part to represent Canada on the global digital stage.
