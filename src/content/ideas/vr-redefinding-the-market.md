@@ -11,7 +11,7 @@ url: https://www.idearebel.com/ideas/vr-redefinding-the-market/
 seo_title: "How VR is redefining the market | Idea Rebel"
 seo_description: "Virtual Reality is here! From product testing to in-store tours, VR provides customers with an enhanced experience, regardless of industry."
 ---
-**How VR is redefining marketing and how we’re redefining VR**
+**_How VR is redefining marketing and how we’re redefining VR_**
 
 \
 Virtual Reality: once the bailiwick of tech-heads and futurists, as theoretical as autonomous vehicles, nanosensors and next generation batteries – the Dorito-stained pipedream of basement-dwelling gamers the world over.  Not anymore.
