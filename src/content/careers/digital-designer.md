@@ -1,13 +1,13 @@
 ---
 image: https://blupp.b-cdn.net/idearebel/Careers_Creative1-Design_Widescreen_preview.jpg?quality=80&width=800
 badge image: https://blupp.b-cdn.net/idearebel/Careers_Badges_Creative-Crew.png?quality=80&width=800
-link: digital-designer
+link: vancouver/digital-designer
 order: 7
 sub_title: "Hotshot Pixel Pusher"
 title: Digital Designer (Freelance)
 seo_title: Digital Designer (Freelance) | Idea Rebel
 seo_description: Digital Agency Toronto & Vancouver Idea Rebel is hiring a digital designer. Join one of Canada's premier Digital Agencies.
-location: vancouver
+location: ["vancouver","toronto"]
 ---
 Idea Rebel – Toronto & Vancouver Digital Agency is looking for a Digital Designer.
 
