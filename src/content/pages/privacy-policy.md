@@ -61,4 +61,4 @@ We have implemented technologies and policies with the objective of protecting y
 If you have any questions about Idea Rebel’ privacy policy, please email us at info@idearebel.com
 
 
-<p align="center"><b>+1 877 REBEL 07<b></p>
+<b class= "text-center">+1 877 REBEL 07<b>

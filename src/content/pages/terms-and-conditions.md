@@ -150,4 +150,4 @@ You consent to the collection, processing and storage by Idea Rebel of Your pers
 \
 14.7 Any express waiver or failure to exercise promptly any right under the Terms will not create a continuing waiver or any expectation of non-enforcement. If any provision of the Terms is held invalid by any law or regulation of any government, or by any court or arbitrator, the parties agree that such provision will be replaced with a new provision that accomplishes the original business purpose, and the other provisions of the Terms will remain in full force and effect.
 
-<p align="center"><b>+1 877 REBEL 07<b></p>
+<b class= "text-center">+1 877 REBEL 07</b>
