@@ -27,23 +27,12 @@ import "../../../styles.css"
 	/>
 	<body>
 		<Header
-            background={"bg-contact"}
-            client:load
+			client:load
+			title={ entry.data.title }
+			subtitle={ entry.data.sub_title !== "" ? entry.data.sub_title : null  }
+			cover={ entry.data.image }
+			not_cover={ true }
         />
-		<div class="h-[70vh] min-h-[400px] w-full bg-zinc-300 flex justify-center items-center relative">
-			<img
-				src={ entry.data.image }
-				class="h-full w-full object-cover absolute left-0 top-0"
-			/>
-			<div class="p-10 bg-white text-center grid gap-8 max-w-[35%] z-10">
-                <H1
-                    text={ entry.data.title }
-                />
-                <Paragraph
-                    text={ entry.data.sub_title }
-                />
-            </div>
-		</div>
 		<div class="mt-5 container mx-auto max-w-2xl py-20">
             <Content/>
 			<div class="mt-4 flex gap-8">
