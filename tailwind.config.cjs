@@ -7,7 +7,10 @@ module.exports = {
 				'garamond': ["garamond-premier-pro", "serif"],
 				'karla': ['Karla','sans-serif'],
 				'larsseit': ['Larsseit','Helvetica','Arial','sans-serif'],
-			}
+			},
+			transitionProperty: {
+                'height': 'height'
+            },
 		},
 	},
 	plugins: [],
