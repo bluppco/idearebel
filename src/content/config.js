@@ -94,6 +94,7 @@ export const collections = {
 	"careers": careersCollection,
 	"ideas": ideasCollection,
 	"services": servicesCollection,
-	"work": workCollection,
 	"teammember" : teammemberCollection,
+	"work": workCollection,
+
 }
