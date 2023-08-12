@@ -72,11 +72,28 @@ const servicesCollection = defineCollection({
 
 })
 
+const teammemberCollection = defineCollection({
+
+	schema: z.object({
+
+		image: z.string(),
+		link: z.string(),
+		order: z.number(),
+		seo_description: z.string(),
+		seo_title: z.string(),
+		sub_title: z.string(),
+		title: z.string(),
+		url: z.string(),
+
+	})
+
+})
+
 export const collections = {
 
 	"careers": careersCollection,
 	"ideas": ideasCollection,
 	"services": servicesCollection,
 	"work": workCollection,
-
+	"teammember" : teammemberCollection,
 }
