@@ -22,15 +22,18 @@ import "../../styles.css"
 		title={ entry.data.title }
 	/>
 	<body>
-		<Header
-			client:load
-			title={ entry.data.title }
-            subtitle={ entry.data.sub_title !== "" ? entry.data.sub_title : null  }
-			cover={ entry.data.image }
-		/>
-		<section class="container mx-auto max-w-6xl p-20">
-            <Content/>
-        </section>
+		<section class="min-h-screen">
+			<Header
+				client:load
+				title={ entry.data.title }
+				subtitle={ entry.data.sub_title !== "" ? entry.data.sub_title : null  }
+				cover={ entry.data.image }
+				not_cover={ true }
+			/>
+			<section class="container mx-auto max-w-6xl p-20">
+				<Content/>
+			</section>
+		</section>
 		<Footer />
 	</body>
 </html>
