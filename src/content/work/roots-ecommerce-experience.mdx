@@ -17,6 +17,8 @@ import Column2 from "../../components/common/mdx/Column-2.astro";
 import Button from "../../components/common/Button.astro";
 import ParagraphGaramond from "../../components/common/atom/ParagraphGaramond.astro"
 import H3 from "../../components/common/atom/H3.astro"
+import PreviousProject from "../../components/common/mdx/PreviousProject.astro"
+import NextProject from "../../components/common/mdx/NextProject.astro"
 
 <section class="container mx-auto max-w-6xl py-10">
     <Column2>
@@ -50,14 +52,14 @@ import H3 from "../../components/common/atom/H3.astro"
     </Column>
 </section>
 
-<section class="container my-20 w-screen flex justify-end bg-zinc-200">
+<section class="container p-20 mx-auto max-w-6xl">
     <Column>
         <div class="">
             ![Alt text](https://blupp.b-cdn.net/idearebel/roots_screenshot_1.jpg?quality=80 "a title")
         </div>
     </Column>
 </section>
-<section class="container ml-20 max-w-6xl p-20 w-1/2">
+<section class="container mx-auto max-w-6xl p-20">
     <Column> 
         ## Personalized Shopping Experience
 
@@ -65,17 +67,18 @@ import H3 from "../../components/common/atom/H3.astro"
         Static E-commerce would simply not suffice, so we developed Roots.com to adapt content uniquely for each user. We all have different taste in clothing, and we all deserve a custom experience, tailored to our tastes.
     </Column>
 </section>
-<section class="container w-screen py-10 flex">
-    
-        <div class="">
+<section class="container py-10 max-w-6xl mx-auto p-20">
+    <Column2>
+        <Column>
             ![Alt text](https://blupp.b-cdn.net/idearebel/roots_screenshot_2.jpg?quality=80 "a title")
-            </div>
-       <div class="w-2/5">
+        </Column>
+        <Column>
             ## Intelligent Search
 
-        \
-        The intelligent search box ensures that a customer with a particular product in mind can find that item faster and easier than before by adding in features such as autocomplete and category based results and including relevant products if a search yields nothing.
-       </div>
+            \
+            The intelligent search box ensures that a customer with a particular product in mind can find that item faster and easier than before by adding in features such as autocomplete and category based results and including relevant products if a search yields nothing.
+        </Column>
+    </Column2>
 </section>
 
 <section class="container mx-auto max-w-6xl py-10">
@@ -99,39 +102,20 @@ import H3 from "../../components/common/atom/H3.astro"
     </Column>
     </section>
 </section>
-<section class="container mx-auto max-w-6xl p-2">
+
+<section class="container mx-auto max-w-6xl p-4 md:py-2">
     <Column>
         <div class="flex justify-between">
-            <a href="/work/keurig/" class="underline">
-                <div class="flex flex-col gap-2">
-                    <ParagraphGaramond
-                        text="Previous Project"
-                    />
-                    <div class="flex items-center gap-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
-                        </svg>
-                        <H3
-                            text="Keurig"
-                        />
-                    </div>
-                </div>
-            </a>
-            <a href="/work/air-canada/" class="underline">
-                <div class="flex flex-col gap-2 text-right">
-                    <ParagraphGaramond
-                        text="Next Project"
-                    />
-                    <div class="flex items-center gap-2">
-                        <H3
-                            text="Air Canada"
-                        />
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                        </svg>
-                    </div>
-                </div>
-            </a>
+            <div>
+            <PreviousProject
+                link="/work/keurig/"
+                title="Keurig"
+            />
+            </div>
+            <NextProject
+                link="/work/air-canada/"
+                title="Air Canada"
+            />
         </div>
     </Column>
 </section>

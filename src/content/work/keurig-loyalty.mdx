@@ -1,6 +1,6 @@
 ---
 description: ""
-image: https://blupp.b-cdn.net/idearebel/Roots-Idea-Rebel3.jpg?quality=80
+image: https://blupp.b-cdn.net/idearebel/header.jpg?quality=80
 link: keurig-loyalty
 order: 7
 publish_date: ""
@@ -17,6 +17,8 @@ import Column2 from "../../components/common/mdx/Column-2.astro";
 import Button from "../../components/common/Button.astro";
 import ParagraphGaramond from "../../components/common/atom/ParagraphGaramond.astro"
 import H3 from "../../components/common/atom/H3.astro"
+import PreviousProject from "../../components/common/mdx/PreviousProject.astro"
+import NextProject from "../../components/common/mdx/NextProject.astro"
 
 <section class="container mx-auto max-w-6xl py-10">
     <Column2>
@@ -49,35 +51,35 @@ import H3 from "../../components/common/atom/H3.astro"
     </Column>
 </section>
 
-<section class="container flex justify-end bg-zinc-900 mt-20 w-screen">
-    <div>
+<section class="container mx-auto max-w-6xl  p-20">
+    <Column>
         ![Alt text](https://blupp.b-cdn.net/idearebel/browser1.jpg?quality=80 "a title")
-    </div>
+    </Column>
 </section>
 <section class="container mx-auto max-w-6xl py-10">
     <Column>
-    <div class="w-2/5">
         ## Rewards Your Way
 
         \
         \
         All customers with an account on Keurig.ca are automatically enrolled in the Keurig® Perks program. All customers can join the program by subscribing to Keurig.ca newsletter, creating an account on Keurig.ca, making your first purchase on Keurig.ca, or registering your coffee maker.
-    </div>
     </Column>
 </section>
-<section class="container py-10 flex w-screen">
-    <div>
-        ![Alt text](https://blupp.b-cdn.net/idearebel/Browser-3.png?quality=80 "a title")
-    </div>
-    <div class="w-1/3 my-auto px-8">
-        ## Earning Points
+<section class="container py-10 max-w-6xl mx-auto">
+    <Column2>
+        <Column>
+            ![Alt text](https://blupp.b-cdn.net/idearebel/Browser-3.png?quality=80 "a title")
+        </Column>
+        <Column>
+            ## Earning Points
 
-        \
-        Users start earning Pod Points from their very first purchase. They can only earn Pod Points when you purchase K-Cup® pods, K-Carafe® pods or Rivo® pods (i.e. 24ct Box of Pods = 24 Pod Points), and when you purchase a bundle containing K-Cup® pods or K-Carafe®pods.
-    </div>
+            \
+            Users start earning Pod Points from their very first purchase. They can only earn Pod Points when you purchase K-Cup® pods, K-Carafe® pods or Rivo® pods (i.e. 24ct Box of Pods = 24 Pod Points), and when you purchase a bundle containing K-Cup® pods or K-Carafe®pods.
+        </Column>
+    </Column2>
 </section>   
 <section class="bg-zinc-200 mt-20">
-    <section class="container ml-56 max-w-6xl py-20 w-1/3">
+    <section class="container mx-auto max-w-6xl py-20">
     <Column>
         ## Results
 
@@ -87,39 +89,20 @@ import H3 from "../../components/common/atom/H3.astro"
     </Column>
     </section>
 </section>
-<section class="container mx-auto max-w-6xl p-2">
+
+<section class="container mx-auto max-w-6xl p-4 md:py-2">
     <Column>
         <div class="flex justify-between">
-            <a href="/work/air-canada/" class="underline">
-                <div class="flex flex-col gap-2">
-                    <ParagraphGaramond
-                        text="Previous Project"
-                    />
-                    <div class="flex items-center gap-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
-                        </svg>
-                        <H3
-                            text="Air Canada"
-                        />
-                    </div>
-                </div>
-            </a>
-            <a href="/work/ford-virtual-reality/" class="underline">
-                <div class="flex flex-col gap-2 text-right">
-                    <ParagraphGaramond
-                        text="Next Project"
-                    />
-                    <div class="flex items-center gap-2">
-                        <H3
-                            text="Ford VR App"
-                        />
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                        </svg>
-                    </div>
-                </div>
-            </a>
+            <div>
+            <PreviousProject
+                link="/work/air-canada/"
+                title="Air Canada"
+            />
+            </div>
+            <NextProject
+                link="/work/ford-virtual-reality/"
+                title="Ford VR App"
+            />
         </div>
     </Column>
 </section>

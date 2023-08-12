@@ -1,6 +1,6 @@
 ---
 description: Marketing In The Metaverse - A Digital Agency Guide
-image: https://blupp.b-cdn.net/idearebel/Google-FLoC-Idea-Rebel.jpg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/metaverse-marketing.png?quality=80&width=800
 order: 3
 publish_date: February 24, 2022
 link: marketing-in-the-metaverse-a-digital-agency-guide
