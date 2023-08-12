@@ -8,8 +8,12 @@ import "../styles.css"
 <html lang="en">
 	<Head />
 	<body>
-		<Header />
-        <section class="container max-w-3xl mx-auto grid gap-10 py-10 mt-36">
+		<Header
+			client:load
+			title="Privacy Policy"
+			not_cover={ true }
+		/>
+        <section class="container max-w-6xl p-4 md:p-0 mx-auto grid py-10 md:!py-20">
             <PrivacyContent/>
 		</section>
 		<Footer />

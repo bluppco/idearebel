@@ -64,6 +64,26 @@ const Header = ( props ) => {
                 </section>
 
             }
+            {
+
+                typeof cover === "undefined" &&
+                <section className={`${ not_cover ? "h-[60vh] min-h-[400px]" : "h-screen"} w-full bg-cover bg-center flex justify-center items-center bg-black z-10`}>
+                    <div className="p-10 bg-white text-center grid gap-8 max-w-[80%] xl:max-w-[30%] z-20">
+                        <H1
+                            text={ title }
+                        />
+                        {
+
+                            typeof subtitle !== "undefined" && subtitle !== null &&
+                            <Paragraph
+                                text={ subtitle }
+                            />
+
+                        }
+                    </div>
+                </section>
+
+            }
             <div className={`${ displayNavigation ? "-z-10 opacity-0" : "z-30 opacity-100" } fixed p-8 flex justify-between w-full z-20 top-0 left-0 duration-200 ease-in transition`}>
                 <div className={`${ switchIt ? "text-white" : "text-black" }`}>
                     <a href="/">
