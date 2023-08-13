@@ -2,6 +2,8 @@
 import { getCollection } from 'astro:content';
 const careers = await getCollection('careers');
 const careers_sorted = careers.sort((a, b) => a.data.order - b.data.order)
+// JUST VANCOUVER OPENINGS
+const careers_filtered = careers_sorted.filter((opening) => opening.data.location.indexOf("vancouver") !== -1 );
 import H1 from "../../../components/common/atom/H1.astro"
 import H2 from "../../../components/common/atom/H2.astro"
 import H3 from "../../../components/common/atom/H3.astro"
@@ -15,7 +17,7 @@ import ParagraphGaramond from "../../../components/common/atom/ParagraphGaramond
 ---
 
 <html lang="en">
-	<Head 
+	<Head
 		title="Technology, Creative & Digital Marketing Jobs | Idea Rebel"
 		description="Looking for an exciting career at our digital marketing agency? Check out our open positions at Idea Rebel Vancouver"
 		image="https://blupp.b-cdn.net/idearebel/Idea-Rebel-We-Are-Rebels-Agency-2.png?quality=80"
@@ -55,11 +57,11 @@ import ParagraphGaramond from "../../../components/common/atom/ParagraphGaramond
 			<div class="flex flex-col items-center justify-center gap-8">
 			{
 
-				careers_sorted.map( ( career ) => {
+				careers_filtered.map( ( career ) => {
 
 					return (
 						<div class="grid gap-2 text-center">
-							<a href={ "careers/" + career.data.location + "/" + career.data.link } class="hover:underline">
+							<a href={ "/careers/vancouver/" + career.data.link } class="hover:underline">
 								<H3
 									text={career.data.title}
 								/>
