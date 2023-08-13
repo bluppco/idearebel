@@ -10,7 +10,11 @@ const {
 } = Astro.props
 ---
 <div class="flex flex-col gap-4">
-    <div class="uppercase">{ heading }</div>
+    <H5
+        text={ heading }
+        uppercase={ true }
+        primary_color={ true }
+    />
     <a href={ link } class="hover:underline">
         <div class="group grid grid-cols gap-4">
             <div class="h-60">
