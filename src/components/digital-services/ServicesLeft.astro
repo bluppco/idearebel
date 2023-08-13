@@ -1,5 +1,6 @@
 ---
 import H2 from "../common/atom/H2.astro"
+import H4 from "../common/atom/H4.astro"
 import Paragraph from "../common/Paragraph.astro"
 import ParagraphGaramond from "../common/atom/ParagraphGaramond.astro"
 const {
@@ -23,7 +24,10 @@ const {
         </div>
         <div class="flex flex-col items-center mt-8 md:mt-0 bg-white  md:bg-transparent">
             <div class="flex flex-col items-start my-10">
-                <div>{ title }</div>
+                <H4
+                    text={ title }
+                    uppercase={ true }
+                />
                 {
 
                     work.map( ( value ) => {
@@ -56,5 +60,5 @@ const {
             />
         </div>
     </div>
-    <div class="absolute w-[80%] h-[80%] bg-zinc-200 bottom-0 right-0 -z-10 hidden md:block"></div>
+    <div class="absolute w-[80%] h-[80%] bg-secondary bottom-0 right-0 -z-10 hidden md:block"></div>
 </div>

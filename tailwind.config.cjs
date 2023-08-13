@@ -5,7 +5,7 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				'garamond': ["garamond-premier-pro", "serif"],
-				'karla': ['Karla','sans-serif'],
+				'karla': ["Karla","Courier","monospace"],
 				'larsseit': ['Larsseit','Helvetica','Arial','sans-serif'],
 			},
 			transitionProperty: {
