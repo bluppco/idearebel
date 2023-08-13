@@ -8,10 +8,14 @@ import Paragraph from "../components/common/Paragraph.astro"
 import Footer from "../components/Footer.astro"
 import Header from "../components/common/Header.jsx"
 import Head from "../components/common/Head.astro"
+import WeAreRebels from "../components/about/WeAreRebels.astro"
+import MatchingIdeasToTechnology from "../components/about/MatchingIdeasToTechnology.astro"
+import CreatingExceptionalDigitalExperiences from "../components/about/CreatingExceptionalDigitalExperiences.astro"
+
 ---
 
 <html lang="en">
-	<Head 
+	<Head
         title="Digital Marketing Agency in Toronto, Vancouver, Los Angeles | Idea Rebel"
 		description="Idea Rebel is a digital marketing agency in Vancouver, Toronto, and Los Angeles. We specialize in Media buying, strategy, marketing campaigns"
 		image="https://blupp.b-cdn.net/idearebel/About_Header_Widescreen-1-3840x2160.jpg?quality=80"
@@ -23,8 +27,19 @@ import Head from "../components/common/Head.astro"
             cover="https://blupp.b-cdn.net/idearebel/About_Header_Widescreen-1-3840x2160.jpg?quality=50"
 			client:load
 		/>
-        <section class="conatiner mx-auto max-w-6xl py-20">
-            <div class="flex justify-center flex-col items-center">
+        <section class="container mx-auto max-w-6xl py-20">
+            <div class="grid grid-col gap-20">
+                <WeAreRebels />
+                <MatchingIdeasToTechnology />
+                <CreatingExceptionalDigitalExperiences />
+                <div class="flex justify-center">
+                    <Button
+                        text="more about our services"
+                        link="/digital-services/"
+                    />
+                </div>
+            </div>
+            <div class="flex justify-center flex-col items-center py-20">
                 <H3
                     text="Select Clients"
                 />

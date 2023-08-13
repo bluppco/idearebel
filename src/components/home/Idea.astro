@@ -10,18 +10,24 @@ const {
 } = Astro.props
 ---
 <div class="flex flex-col gap-4">
-    <div class="uppercase">{ heading }</div>
+    <H5
+        text={ heading }
+        uppercase={ true }
+        primary_color={ true }
+    />
     <a href={ link } class="hover:underline">
-        <div class="h-60">
-            <img
-                src={ image }
-                class="object-cover w-full h-full"
-            />
+        <div class="group grid grid-cols gap-4">
+            <div class="h-60">
+                <img
+                    src={ image }
+                    class="object-cover w-full h-full"
+                />
+            </div>
+            <div class="hover:underline">
+                <H5
+                    text={ title }
+                />
+            </div>
         </div>
-    </a>
-    <a href={ "/ideas/" + link } class="hover:underline">
-        <H5
-            text={ title }
-        />
     </a>
 </div>
