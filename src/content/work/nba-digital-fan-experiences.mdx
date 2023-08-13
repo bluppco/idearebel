@@ -17,6 +17,8 @@ import Column2 from "../../components/common/mdx/Column-2.astro";
 import Button from "../../components/common/Button.astro";
 import ParagraphGaramond from "../../components/common/atom/ParagraphGaramond.astro"
 import H3 from "../../components/common/atom/H3.astro"
+import PreviousProject from "../../components/common/mdx/PreviousProject.astro"
+import NextProject from "../../components/common/mdx/NextProject.astro"
 
 <section class="container mx-auto max-w-6xl mt-20 bg-zinc-200">
     <Column>
@@ -88,39 +90,20 @@ import H3 from "../../components/common/atom/H3.astro"
     </Column>
     </section>
 </section>
-<section class="container mx-auto max-w-6xl p-2">
+
+<section class="container mx-auto max-w-6xl p-4 md:py-2">
     <Column>
         <div class="flex justify-between">
-            <a href="/work/bc-ferries-website-and-mobile-app/" class="underline">
-                <div class="flex flex-col gap-2">
-                    <ParagraphGaramond
-                        text="Previous Project"
-                    />
-                    <div class="flex items-center gap-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
-                        </svg>
-                        <H3
-                            text="BC Ferries"
-                        />
-                    </div>
-                </div>
-            </a>
-            <a href="/work/7-eleven/" class="underline">
-                <div class="flex flex-col gap-2 text-right">
-                    <ParagraphGaramond
-                        text="Next Project"
-                    />
-                    <div class="flex items-center gap-2">
-                        <H3
-                            text="7 Eleven Canada"
-                        />
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                        </svg>
-                    </div>
-                </div>
-            </a>
+            <div>
+            <PreviousProject
+                link="/work/bc-ferries-website-and-mobile-app/"
+                title="BC Ferries"
+            />
+            </div>
+            <NextProject
+                link="/work/7-eleven/"
+                title="7 Eleven Canada"
+            />
         </div>
     </Column>
 </section>

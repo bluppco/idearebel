@@ -18,17 +18,21 @@ import Column4 from "../../components/common/mdx/Column-4.astro";
 import Button from "../../components/common/Button.astro";
 import ParagraphGaramond from "../../components/common/atom/ParagraphGaramond.astro"
 import H3 from "../../components/common/atom/H3.astro"
+import PreviousProject from "../../components/common/mdx/PreviousProject.astro"
+import NextProject from "../../components/common/mdx/NextProject.astro"
 
-<section class="container max-w-6xl py-10 flex justify-end">
-    <div class="w-1/2">
-        ## Background
+<section class="container max-w-6xl mx-auto py-10">
+    <Column2>
+        <Column>
+            ## Background
 
-        \
-        Converse came to Idea Rebel asking for help to promote their new global campaign, Made By You. The job? An app development project celebrating creativity and featuring interviews with four different Chuck Taylor fans. As interactive app specialists, we were excited to create a one-of-a-kind immersive virtual reality experience.
-    </div>
-    <div >
-        ![Alt text](https://blupp.b-cdn.net/idearebel/converse_chucks.jpg?quality=80)
-    </div>
+            \
+            Converse came to Idea Rebel asking for help to promote their new global campaign, Made By You. The job? An app development project celebrating creativity and featuring interviews with four different Chuck Taylor fans. As interactive app specialists, we were excited to create a one-of-a-kind immersive virtual reality experience.
+        </Column>
+        <Column> 
+            ![Alt text](https://blupp.b-cdn.net/idearebel/converse_chucks.jpg?quality=80)
+        </Column>
+    </Column2>
 </section>
 <section class="container mx-auto max-w-6xl py-10">
     <Column4>
@@ -83,7 +87,13 @@ import H3 from "../../components/common/atom/H3.astro"
 </section>
 <section class="container mx-auto max-w-6xl p-20 bg-zinc-200 mt-20">
     <Column>
-        ![Alt text](https://blupp.b-cdn.net/idearebel/Converse-In-Their-Chucks-%E2%80%93-a-Virtual-Reality-Experience.mp4?quality=80 "a title")
+    <video>
+        <source
+          src="https://blupp.b-cdn.net/idearebel/Converse-In-Their-Chucks-–-a-Virtual-Reality-Experience.mp4"
+          type="mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
     </Column>
 </section>
 <section class="bg-zinc-200 mt-20">
@@ -109,39 +119,20 @@ import H3 from "../../components/common/atom/H3.astro"
         </Column2>
     </section>
 </section>
-<section class="container mx-auto max-w-6xl p-2">
+
+<section class="container mx-auto max-w-6xl p-4 md:py-2">
     <Column>
         <div class="flex justify-between">
-            <a href="/work/ford-virtual-reality/" class="underline">
-                <div class="flex flex-col gap-2">
-                    <ParagraphGaramond
-                        text="Previous Project"
-                    />
-                    <div class="flex items-center gap-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
-                        </svg>
-                        <H3
-                            text="Ford VR App"
-                        />
-                    </div>
-                </div>
-            </a>
-            <a href="/work/hyundai-dealership-app/" class="underline">
-                <div class="flex flex-col gap-2 text-right">
-                    <ParagraphGaramond
-                        text="Next Project"
-                    />
-                    <div class="flex items-center gap-2">
-                        <H3
-                            text="Hyundai Dealership App"
-                        />
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                        </svg>
-                    </div>
-                </div>
-            </a>
+            <div>
+            <PreviousProject
+                link="/work/ford-virtual-reality/"
+                title="Ford VR App"
+            />
+            </div>
+            <NextProject
+                link="/work/hyundai-dealership-app/"
+                title="Hyundai Dealership App"
+            />
         </div>
     </Column>
 </section>
