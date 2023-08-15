@@ -52,4 +52,12 @@ h4 {
 strong {
 
 	@apply !font-black;
+
+}
+@font-face {
+
+    font-family: 'Larsseit';
+    src: url('/fonts/Larsseit-Bold.otf') format('opentype');
+	font-weight: bold;
+
 }

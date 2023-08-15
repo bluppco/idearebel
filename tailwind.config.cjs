@@ -12,8 +12,9 @@ module.exports = {
                 'height': 'height'
             },
 			colors: {
+				"ir_green": "#46f1b2",
 				"primary": "#B3B3B3",
-				"secondary": "#eeeeee"
+				"secondary": "#eeeeee",
 			}
 		},
 	},
