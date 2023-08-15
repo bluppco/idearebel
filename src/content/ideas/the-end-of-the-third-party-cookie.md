@@ -1,6 +1,6 @@
 ---
 description: Google To Axe Third Party Cookies by 2022 No more Cookies for you
-image: https://blupp.b-cdn.net/idearebel/google-cookies-phased-out-2021.jpg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/google-cookies-phased-out-2021.jpeg?quality=80&width=800
 order: 6
 publish_date: March 22, 2021
 link: the-end-of-the-third-party-cookie
