@@ -1,8 +1,19 @@
+---
+import { format } from "date-fns"
+import { getCollection } from "astro:content"
+import * as footerContent from "../content/footer-content/index.md"
+
+let footer = await getCollection('footer')
+footer = footer.sort((a, b) => a.data.order - b.data.order)
+footer = footer.filter( ( item ) => item.data.live )
+
+let year = format(new Date(), "yyyy")
+---
 <footer class="bg-black">
     <section class="container mx-auto max-w-6xl text-white p-4 md:p-0 !py-10">
         <div class="grid grid-cols-1 md:grid-cols-12 items-center">
             <div class="col-span-3 text-center">Idea Rebel</div>
-            <div class="col-span-6 text-center">The rebel's in the details. 1 877 732 3507</div>
+            <div class="col-span-6 text-center">The rebel's in the details. { footerContent.frontmatter.mobile }</div>
             <div class="col-span-3 justify-end text-center">
                 <div>Idea Rebel</div>
             </div>
@@ -10,18 +21,22 @@
     </section>
     <section class="container mx-auto max-w-6xl text-white  p-4 md:p-0 !py-10">
         <div class="flex flex-col-reverse md:flex-row justify-between gap-4 md:gap-0">
-            <div class="font-karla text-sm text-zinc-500 text-center">© 2023 Idea Rebel. Digital Marketing Agency Toronto, Vancouver, Los Angeles</div>
+            <div class="font-karla text-sm text-zinc-500 text-center">&copy { year } { footerContent.frontmatter.about }</div>
             <nav class="">
                 <ul class="flex gap-4 justify-center !list-none list-inside p-0">
-                    <a href="/privacy-policy">
-                        <li class="uppercase font-karla text-sm font-bold text-white">Privacy</li>
-                    </a>
-                    <a href="/terms-and-conditions">
-                        <li class="uppercase font-karla text-sm font-bold text-white">Terms</li>
-                    </a>
-                    <a href="/agency-contact">
-                        <li class="uppercase font-karla text-sm font-bold text-white">Contact</li>
-                    </a>
+                    {
+
+                        footer.map( ( item ) => {
+
+                            return (
+                                <a href={ "/" + item.data.link }>
+                                    <li class="uppercase font-karla text-sm font-bold text-white">{ item.data.title }</li>
+                                </a>
+                            )
+
+                        })
+
+                    }
                 </ul>
             </nav>
         </div>
