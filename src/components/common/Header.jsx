@@ -5,7 +5,19 @@ import H1 from "./atom/H1.jsx"
 import Paragraph from "./atom/Paragraph.jsx"
 const Header = ( props ) => {
 
-    const { title, subtitle, cover, not_cover, video_flag, video } = props
+    const {
+
+        cover,
+        extra_content_flag,
+        extra_content_link,
+        extra_content,
+        not_cover,
+        subtitle,
+        title,
+        video_flag,
+        video,
+
+    } = props
     const headerRef = React.useRef( null )
     const isInView = useInView( headerRef )
     const [ switchIt, updateSwitchIt ] = React.useState( false )
@@ -61,6 +73,38 @@ const Header = ( props ) => {
 
                         }
                     </div>
+                    {
+
+                        extra_content_flag &&
+                        <div className="absolute bottom-40">
+                            <a href={ extra_content_link } className="flex flex-col items-center justify-center">
+                                {
+
+                                    extra_content.map( ( content, content_index ) => {
+
+                                        return (
+                                            <div className="relative group w-fit text-center !z-30 cursor-pointer" key={ "extra_content" + content_index }>
+                                                <div className="text-white font-larsseit text-xl uppercase tracking-widest">{content}</div>
+                                                <span class="absolute bg-ir_green h-1.5 w-full bottom-1 left-0 group-hover:h-4 !-z-20 transition-height duration-200 ease-in"></span>
+                                            </div>
+
+                                        )
+
+                                    })
+
+                                }
+
+                            </a>
+                        </div>
+
+                    }
+                    {/* DOWN ARROW FOR MORE CONTENT */}
+                    <div className={`${not_cover? "bottom-5": "bottom-10"} w-10 h-10 absolute left-[50%] -ml-5`}>
+                        <img
+                            src="/icons/arrow-down.svg"
+                            className="w-full h-full object-fill"
+                        />
+                    </div>
                 </section>
 
             }
@@ -95,9 +139,12 @@ const Header = ( props ) => {
                     </a>
                 </div>
                 <div className="flex flex-col gap-2" onClick={ () => updateDisplayNavigation( true )}>
-                    <div className={`${ switchIt ? "bg-white" : "bg-black" } duration-200 w-8 h-1`}/>
-                    <div className={`${ switchIt ? "bg-white" : "bg-black" } duration-200 w-8 h-1`}/>
-                    <div className={`${ switchIt ? "bg-white" : "bg-black" } duration-200 w-8 h-1`}/>
+                    <div className="w-8 h-8">
+                        <img
+                            src={ switchIt ? "/icons/menu.svg" : "/icons/menu-black.svg"}
+                            className="object-fit h-full w-full"
+                        />
+                    </div>
                 </div>
             </div>
             <div className={`${ displayNavigation ? "z-30 opacity-100": "-z-10 opacity-0" } fixed w-full h-screen bg-black left-0 top-0 duration-200 ease-in transition`}>
@@ -110,7 +157,12 @@ const Header = ( props ) => {
                         </div>
                     </div>
                     <div className="flex flex-col gap-2" onClick={ () => updateDisplayNavigation( false )}>
-                        <div className="font-bold text-4xl text-white">x</div>
+                        <div className="w-8 h-8">
+                            <img
+                                src="/icons/close.svg"
+                                className="object-fit h-full w-full"
+                            />
+                        </div>
                     </div>
                 </div>
                 <div className="flex items-center justify-center h-screen">

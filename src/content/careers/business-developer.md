@@ -3,7 +3,7 @@ image: https://blupp.b-cdn.net/idearebel/Hero-Job-Single.jpg?quality=80&width=80
 badge image: https://blupp.b-cdn.net/idearebel/Careers_Badges_Strategy-Squad.png?quality=80&width=800
 link: business-developer
 order: 3
-sub_title: "Leader of Growth"
+sub_title: Client Lover
 title: Business Developer
 seo_title: "Digital Marketing Careers: Business Developer | Idea Rebel"
 seo_description: "Idea Rebel's Santa Monica office is looking for a motivated and tech savvy Business Development Specialist to sell custom digital marketing solutions."
