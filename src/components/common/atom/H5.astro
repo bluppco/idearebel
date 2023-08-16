@@ -1,4 +1,11 @@
 ---
-const { text, primary_color, uppercase } = Astro.props
+const {
+
+    primary_color,
+    text,
+    uppercase,
+    wide,
+
+} = Astro.props
 ---
-<h5 class={`${uppercase?"uppercase font-karla !text-base":""} ${primary_color?"text-primary":"text-black"} ${wide?"tracking-widest":""} font-bold text-lg font-karla`}>{ text }</h5>
+<h5 class={`${uppercase?"uppercase font-karla !text-base":""} ${primary_color?"text-primary":"text-black"} ${wide?"tracking-widest":""} font-bold text-lg`}>{ text }</h5>

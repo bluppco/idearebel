@@ -80,10 +80,10 @@ const Header = ( props ) => {
                             <a href={ extra_content_link } className="flex flex-col items-center justify-center">
                                 {
 
-                                    extra_content.map( ( content ) => {
+                                    extra_content.map( ( content, content_index ) => {
 
                                         return (
-                                            <div className="relative group w-fit text-center !z-30 cursor-pointer">
+                                            <div className="relative group w-fit text-center !z-30 cursor-pointer" key={ "extra_content" + content_index }>
                                                 <div className="text-white font-larsseit text-xl uppercase tracking-widest">{content}</div>
                                                 <span class="absolute bg-ir_green h-1.5 w-full bottom-1 left-0 group-hover:h-4 !-z-20 transition-height duration-200 ease-in"></span>
                                             </div>
