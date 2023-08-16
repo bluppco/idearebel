@@ -1,5 +1,5 @@
 ---
-about: Idea Rebel. Digital Marketing Agency Toronto, Vancouver, Los Angeles
+about: Idea Rebel. Digital Marketing Agency Vancouver, Toronto, Los Angeles
 company: Idea Rebel
 contact_text: Rebel now.
 mobile_link: tel:18777323507

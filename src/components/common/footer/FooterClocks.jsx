@@ -35,16 +35,16 @@ const FooterClocks = ( props ) => {
         <section className="flex items-center justify-center">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                 <FooterClock
-                    link={ footerToronto?.frontmatter.link }
-                    location={ footerToronto?.frontmatter.location }
-                    offset={ footerToronto?.frontmatter.time_offset }
-                    temperature={ weather.toronto }
-                />
-                <FooterClock
                     link={ footerVancouver?.frontmatter.link }
                     location={ footerVancouver?.frontmatter.location }
                     offset={ footerVancouver?.frontmatter.time_offset }
                     temperature={ weather.vancouver }
+                />
+                <FooterClock
+                    link={ footerToronto?.frontmatter.link }
+                    location={ footerToronto?.frontmatter.location }
+                    offset={ footerToronto?.frontmatter.time_offset }
+                    temperature={ weather.toronto }
                 />
                 <FooterClock
                     link={ footerLosAngeles?.frontmatter.link }
