@@ -12,6 +12,8 @@ import WeAreRebels from "../components/about/WeAreRebels.astro"
 import MatchingIdeasToTechnology from "../components/about/MatchingIdeasToTechnology.astro"
 import CreatingExceptionalDigitalExperiences from "../components/about/CreatingExceptionalDigitalExperiences.astro"
 import "../styles.css"
+import SelectClients from "../components/common/SelectClients.astro"
+import SelectRewards from "../components/about/SelectRewards.astro"
 ---
 
 <html lang="en">
@@ -39,116 +41,9 @@ import "../styles.css"
                     />
                 </div>
             </div>
-            <div class="flex justify-center flex-col items-center py-20">
-                <H3
-                    text="Select Clients"
-                />
-            </div>
-            <div class="flex justify-center flex-col items-center">
-                <div class="grid grid-cols-2 md:grid-cols-5 items-center justify-center gap-4">
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/7eleven.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/arcteryx.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/bmw.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/converse.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/fox.png?quality=80"
-                        >
-                    </div>
-                </div>
-                <div class="grid grid-cols-2 md:grid-cols-5 items-center justify-center gap-4">
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/hyundi.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/keurig.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/rogers.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/quiksilver.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/westjet.png?quality=80"
-                        >
-                    </div>
-                </div>
-                <div class="grid grid-cols-3 items-center justify-center gap-4">
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/van_houtte.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/anheuser_busch.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/roots.png?quality=80"
-                        >
-                    </div>
-                </div>
-            </div>
+            <SelectClients/>
         </section>
-        <section class="container mx-auto max-w-6xl py-20">
-            <div class="flex justify-center flex-col items-center">
-                <H3
-                    text="Select Awards"
-                />
-            </div>
-            <div class="flex justify-center flex-col items-center">
-                <div class="grid grid-cols-2 md:grid-cols-4 items-center justify-center gap-4 w-full">
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/lotus_award.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/atomic_award.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/fwa_award.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/digi_award.png?quality=80"
-                        >
-                    </div>
-                </div>
-            </div>
-        </section>
+        <SelectRewards />
         <section class="conatiner mx-auto max-w-6xl py-4 md:py-20 p-4 md:p-0">
             <div class="grid grid-cols-1 md:grid-cols-12">
                 <div class="col-span-2" />
