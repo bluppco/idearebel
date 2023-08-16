@@ -5,7 +5,19 @@ import H1 from "./atom/H1.jsx"
 import Paragraph from "./atom/Paragraph.jsx"
 const Header = ( props ) => {
 
-    const { title, subtitle, cover, not_cover, video_flag, video } = props
+    const {
+
+        cover,
+        extra_content_flag,
+        extra_content_link,
+        extra_content,
+        not_cover,
+        subtitle,
+        title,
+        video_flag,
+        video,
+
+    } = props
     const headerRef = React.useRef( null )
     const isInView = useInView( headerRef )
     const [ switchIt, updateSwitchIt ] = React.useState( false )
@@ -61,6 +73,32 @@ const Header = ( props ) => {
 
                         }
                     </div>
+                    {
+
+                        extra_content_flag &&
+                        <div className="absolute bottom-40">
+                            <a href={ extra_content_link } className="flex flex-col items-center justify-center">
+                                {
+
+                                    extra_content.map( ( content ) => {
+
+                                        return (
+                                            <div className="relative group w-fit text-center !z-30 cursor-pointer">
+                                                <div className="text-white font-larsseit text-xl uppercase tracking-widest">{content}</div>
+                                                <span class="absolute bg-ir_green h-1.5 w-full bottom-1 left-0 group-hover:h-4 !-z-20 transition-height duration-200 ease-in"></span>
+                                            </div>
+
+                                        )
+
+                                    })
+
+                                }
+
+                            </a>
+                        </div>
+
+                    }
+                    {/* DOWN ARROW FOR MORE CONTENT */}
                     <div className={`${not_cover? "bottom-5": "bottom-10"} w-10 h-10 absolute left-[50%] -ml-5`}>
                         <img
                             src="/icons/arrow-down.svg"
