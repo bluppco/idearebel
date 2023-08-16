@@ -6,6 +6,7 @@ import * as footerVancouver from "../content/office/vancouver-digital-marketing-
 import * as footerToronto from "../content/office/toronto-digital-marketing-agency.mdx"
 import * as footerLosAngeles from "../content/office/los-angeles-digital-marketing-agency.mdx"
 import FooterClock from "./common/footer/FooterClock"
+import FooterClocks from "./common/footer/FooterClocks"
 
 let footer = await getCollection('footer')
 footer = footer.sort((a, b) => a.data.order - b.data.order)
@@ -59,31 +60,12 @@ let year = format(new Date(), "yyyy")
             </div>
         </div>
     </section>
-    <section class="flex items-center justify-center">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-            <FooterClock
-                client:load
-                link={ footerLosAngeles.frontmatter.link }
-                location={ footerLosAngeles.frontmatter.location }
-                offset={ footerLosAngeles.frontmatter.time_offset }
-                temperature={ 24 }
-            />
-            <FooterClock
-                client:load
-                link={ footerToronto.frontmatter.link }
-                location={ footerToronto.frontmatter.location }
-                offset={ footerToronto.frontmatter.time_offset }
-                temperature={ 24 }
-            />
-            <FooterClock
-                client:load
-                link={ footerVancouver.frontmatter.link }
-                location={ footerVancouver.frontmatter.location }
-                offset={ footerVancouver.frontmatter.time_offset }
-                temperature={ 24 }
-            />
-        </div>
-    </section>
+    <FooterClocks
+        client:load
+        footerToronto={ footerToronto }
+        footerVancouver={ footerVancouver }
+        footerLosAngeles={ footerLosAngeles }
+    />
     <section class="container mx-auto max-w-6xl text-white  p-4 md:p-0 !py-10">
         <div class="flex flex-col-reverse md:flex-row justify-between gap-4 md:gap-0 place-items-center">
             <div class="font-karla text-sm text-grey font-semibold text-center">&copy { year } { footerContent.frontmatter.about }</div>
