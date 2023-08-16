@@ -7,6 +7,7 @@ module.exports = {
 				'garamond': ["garamond-premier-pro", "serif"],
 				'karla': ["Karla","Courier","monospace"],
 				'larsseit': ['Larsseit','Helvetica','Arial','sans-serif'],
+				'ir': ["IR_Sans","Helvetica","sans-serif"]
 			},
 			transitionProperty: {
                 'height': 'height'
@@ -15,6 +16,7 @@ module.exports = {
 				"ir_green": "#46f1b2",
 				"primary": "#B3B3B3",
 				"secondary": "#eeeeee",
+				"grey": "#989898"
 			}
 		},
 	},
