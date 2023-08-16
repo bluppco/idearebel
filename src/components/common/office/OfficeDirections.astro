@@ -9,17 +9,18 @@ const {
     address_1,
     address_2,
     phone,
+    link
 
 } = Astro.props
 ---
 <div class="flex items-center flex-col gap-8">
-    <img
+    <a href={ link }><img
         src={ cover }
         class="w-full object-fit"
-    />
-    <H3
+    /></a>
+    <a class="hover:underline" href={ link }><H3
         text={ location }
-    />
+    /></a>
     <div class="text-center">
         <ParagraphGaramond
             text={ address_1 }
