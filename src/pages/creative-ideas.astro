@@ -8,6 +8,7 @@ import Paragraph from "../components/common/Paragraph.astro"
 import Head from "../components/common/Head.astro"
 import Footer from "../components/Footer.astro"
 import Header from "../components/common/Header.jsx"
+import "../styles.css"
 ---
 
 <html lang="en">
@@ -24,9 +25,8 @@ import Header from "../components/common/Header.jsx"
 			cover="https://blupp.b-cdn.net/idearebel/metaverse-marketing.png?quality=80"
 		/>
         <section class="container mx-auto max-w-6xl p-4 md:px-24 md:pt-28 flex flex-col items-center gap-16">
-            <!-- /* TEXT TO BE ADDED HERE */ -->
             <button class="font-semibold border-2 border-black px-10 py-4">
-                OPINIONS, CULTURE & ACCOLADES 
+                OPINIONS, CULTURE & ACCOLADES
             </button>
             <div class="w-1/2 text-center flex flex-col gap-4">
                 <p class="text-2xl font-bold">Think outside the box, collapse the box, and take a f*cking sharp knife to it.</p>
@@ -43,7 +43,7 @@ import Header from "../components/common/Header.jsx"
                             <a href={ "/ideas/" + idea.data.link }>
                                 <div class="w-full h-96 bg-cover bg-center bg-zinc-200 p-20 group relative">
                                     <div class="flex h-full items-center justify-center mx-auto">
-                                        <div class="bg-white p-10 text-center opacity-90 duration-200 group-hover:opacity-100 z-20">
+                                        <div class="bg-white p-10 text-center opacity-0 duration-200 group-hover:opacity-100 z-20">
                                             <H3
                                                 text={ idea.data.title }
                                             />
