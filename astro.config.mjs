@@ -17,5 +17,8 @@ export default defineConfig({
         url.node.properties.target = "_blank";
       }
     }]]
+  },
+  redirects: {
+    '/office': '/agency-contact'
   }
 });
