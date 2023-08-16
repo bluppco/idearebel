@@ -61,6 +61,12 @@ const Header = ( props ) => {
 
                         }
                     </div>
+                    <div className={`${not_cover? "bottom-5": "bottom-10"} w-10 h-10 absolute left-[50%] -ml-5`}>
+                        <img
+                            src="/icons/arrow-down.svg"
+                            className="w-full h-full object-fill"
+                        />
+                    </div>
                 </section>
 
             }
