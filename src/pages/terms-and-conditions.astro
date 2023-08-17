@@ -2,7 +2,7 @@
 import Header from "../components/common/Header.jsx";
 import Footer from "../components/Footer.astro";
 import Head from "../components/common/Head.astro";
-import { Content as TermsContent } from '../content/pages/terms-and-conditions.md';
+import { Content as TermsContent } from "../content/pages/terms-and-conditions.md";
 import "../styles.css"
 ---
 <html lang="en">
@@ -17,7 +17,7 @@ import "../styles.css"
 			title="Terms and Conditions"
 			not_cover={ true }
 		/>
-        <section class="container max-w-6xl p-4 md:p-0 mx-auto grid md:!py-20">
+        <section class="container max-w-6xl p-4 md:p-0 mx-auto grid md:!py-20" id="content">
             <TermsContent/>
 		</section>
 		<Footer />
