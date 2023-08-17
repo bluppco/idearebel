@@ -101,6 +101,31 @@ const footerCollection = defineCollection({
 
 })
 
+const officeCollection = defineCollection({
+
+	schema: z.object({
+
+		image: z.string(),
+		link: z.string(),
+		seo_description: z.string(),
+		seo_title: z.string(),
+		sub_title: z.string(),
+		title: z.string(),
+		location: z.string(),
+		time_offset: z.number(),
+		cover: z.string(),
+		office_location: z.string(),
+		address_1: z.string(),
+		address_2: z.string(),
+		phone: z.number(),
+		office_link: z.string(),
+		button_link: z.string(),
+		phone_link: z.number(),
+
+	})
+
+})
+
 export const collections = {
 
 	"careers": careersCollection,
@@ -109,5 +134,6 @@ export const collections = {
 	"services": servicesCollection,
 	"teammember" : teammemberCollection,
 	"work": workCollection,
+	"office" : officeCollection,
 
 }
