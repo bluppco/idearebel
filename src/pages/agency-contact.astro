@@ -7,6 +7,11 @@ import Footer from "../components/Footer.astro"
 import OfficeDirections from "../components/common/office/OfficeDirections.astro"
 import Head from "../components/common/Head.astro"
 import "../styles.css"
+import ParagraphGaramond from "../components/common/atom/ParagraphGaramond.astro"
+import { OFFICE } from "../constants"
+const { office } = Astro.props;
+const { Content } = await entry.render();
+import Direction_button from "../components/common/office/Direction_button.astro"
 ---
 
 <html lang="en">
@@ -22,7 +27,7 @@ import "../styles.css"
             subtitle="Start something with Idea Rebel"
 			cover="https://blupp.b-cdn.net/idearebel/contact.jpg?quality=80"
 		/>
-		<section class="container mx-auto max-w-6xl p-20">
+		<section class="container mx-auto max-w-6xl p-20" id="content">
 			<div class="grid grid-cols-2 gap-8">
 				<div>
 					<H3
@@ -83,7 +88,50 @@ import "../styles.css"
 				/>
 			</div>
 			<div class="grid grid-cols-3 gap-20 mt-8">
-				<OfficeDirections
+				{
+
+					OFFICE.map( ( office ) => {
+				
+						return (
+						<div class="flex items-center flex-col gap-8">
+					<a href={ office.data.office_link }>
+						<img
+							src={ office.data.cover }
+							class="w-56 h-56 object-fit"
+						/>
+					</a>
+					<a class="hover:underline" href={ office.data.office_link }>
+						<H3
+							text={ office.data.office_location } 
+						/>
+					</a>
+					<div class="text-center">
+						<ParagraphGaramond
+							text={ office.data.address_1 }
+						/>
+						<ParagraphGaramond
+							text={ office.data.address_2 }
+						/>
+						<a class="hover:underline" href={ office.data.phone_link }>
+							<ParagraphGaramond
+								text={ office.data.phone }
+							/>
+						</a>
+					</div>
+					<div class="w-2/3 flex justify-center">
+						<Direction_button
+							text="DIRECTIONS"
+							link= { office.data.button_link }
+						/>
+					</div>
+				</div>
+						)
+				
+					})
+				
+				}
+				
+				<!-- <OfficeDirections
 					cover="https://blupp.b-cdn.net/idearebel/vancouver_cloudy-1.gif?quality=80?quality=80&width=800"
 					location="Idea Rebel Vancouver"
 					address_1="113 Water Street"
@@ -109,12 +157,10 @@ import "../styles.css"
 					address_1="225 Arizona Avenue"
 					address_2="Santa Monica, CA 90401"
 					button_link="https://goo.gl/maps/3TFjFo5VzR6YupXq6"
-<
-          staging
 					link="office/los-angeles-digital-marketing-agency/"
 					phone_number="tel:+13105951252"
 					phone="(310) 595-1252">
-				/>
+				/> -->
 			</div>
 		</section>
 		<section class="container mx-auto max-w-6xl grayscale my-8">
