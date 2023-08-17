@@ -84,3 +84,9 @@ strong {
 .react-clock__face{
 	border: none;
 }
+
+.garamond p{
+
+	@apply !font-garamond;
+
+}
