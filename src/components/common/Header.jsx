@@ -134,7 +134,7 @@ const Header = ( props ) => {
             <div className={`${ displayNavigation ? "-z-10 opacity-0" : "z-30 opacity-100" } fixed p-8 flex justify-between w-full z-20 top-0 left-0 duration-200 ease-in transition`}>
                 <div className={`${ switchIt ? "text-white" : "text-black" }`}>
                     <a href="/">
-                        <div className="w-6 h-6">
+                        <div className="w-7 h-7 flex items-center justify-center">
                             <img
                                 src={ switchIt ? "/nav-ir-logo-white.png" : "/nav-ir-logo-black.png"}
                             />
@@ -142,7 +142,7 @@ const Header = ( props ) => {
                     </a>
                 </div>
                 <div className="flex flex-col gap-2" onClick={ () => updateDisplayNavigation( true )}>
-                    <div className="w-8 h-8">
+                    <div className="w-7 h-7 flex items-center justify-center">
                         <img
                             src={ switchIt ? "/icons/menu.svg" : "/icons/menu-black.svg"}
                             className="object-fit h-full w-full"
