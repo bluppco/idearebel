@@ -5,7 +5,7 @@ p {
 }
 p a {
 
-	@apply underline text-xl font-['Karla','sans-serif'] font-semibold;
+	@apply hover:underline text-xl font-['Karla','sans-serif'] font-semibold;
 
 }
 ul {
