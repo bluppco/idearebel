@@ -48,23 +48,48 @@ import SelectRewards from "../components/about/SelectRewards.astro"
             <div class="grid grid-cols-1 md:grid-cols-12">
                 <div class="col-span-2" />
                 <div class="col-span-8 relative">
-                    <p class="text-xl font-karla text-black">We have been recognized by the <a href="https://www.thebestvancouver.com/" target="_blank" rel="nofollow noindex"><b class="font-extrabold hover:underline underline-offset-2">Best In Vancouver</b></a> as one of <a href="https://www.thebestvancouver.com/best-digital-marketing-agency-vancouver/#6_Idea_Rebel"rel="nofollow noindex"><b class="font-extrabold hover:underline underline-offset-2">The Best Digital Marketing Agencies in Vancouver 2021</b>.</p>
+                    <p class="text-xl font-karla text-black">We have been recognized by the <a href="https://www.thebestvancouver.com/" target="_blank" rel="nofollow noindex"><b class="font-extrabold hover:underline !no-underline underline-offset-2">Best In Vancouver</b></a> as one of <a href="https://www.thebestvancouver.com/best-digital-marketing-agency-vancouver/#6_Idea_Rebel"rel="nofollow noindex"><b class="font-extrabold hover:underline underline-offset-2">The Best Digital Marketing Agencies in Vancouver 2021</b></a>.</p>
                 </div>
             </div>
         </section>
         <section class="conatiner mx-auto max-w-6xl py-4 md:py-20 p-4 md:p-0">
-            <div class="grid grid-cols-1 md:grid-cols-12">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-4 items-center">
                 <div class="col-span-2" />
-                <div class="col-span-8 relative">
+                <div class="col-span-4 relative gap-4 grid">
                     <H2
                         text="We don't do paper."
                     />
                     <Paragraph
                         text="Being an environmentally sustainable company is at the core of our business model and part of our DNA, underpinning our actions and informing what we do. It’s why we walk, bike or bus to work, too."
                     />
+                    <Button
+                        text="learn more"
+                        link="our-completely-paperless-company/"
+                    />
+                </div>
+                <div class="col-span-3">
+                    <div class="w-56 h-56">
+                        <img
+                            src="https://blupp.b-cdn.net/idearebel/About_FPaperIcon.png?quality=80"
+                            class="w-full h-full object-cover"
+                            alt="picture"
+                        />
+                    </div>
                 </div>
             </div>
 		</section>
+        <section class="conatiner mx-auto max-w-6xl py-4 md:py-20  p-4 md:p-0">
+            <video
+                loop={ true }
+                autoPlay={ true }
+                muted={ true }
+                playsInline={ true }
+                preload="auto"
+                className="h-full w-full object-cover"
+            >
+                <source src={ "https://blupp.b-cdn.net/idearebel/Culture_Video_compressed.mp4" } type="video/mp4"/>
+            </video>
+        </section>
         <section class="conatiner mx-auto max-w-6xl py-4 md:py-20  p-4 md:p-0">
             <div class="grid grid-cols-1 md:grid-cols-12">
                 <div class="col-span-2" />
