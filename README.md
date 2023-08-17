@@ -15,3 +15,4 @@
 
 ## To be done at a later stage
 1. Contact form.
+2. Share link buttons on ideas page.
