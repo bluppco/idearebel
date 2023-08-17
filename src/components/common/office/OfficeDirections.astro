@@ -17,13 +17,17 @@ const {
 } = Astro.props
 ---
 <div class="flex items-center flex-col gap-8">
-    <a href={ link }><img
-        src={ cover }
-        class="w-56 h-56 object-fit"
-    /></a>
-    <a class="hover:underline" href={ link }><H3
-        text={ location }
-    /></a>
+    <a href={ link }>
+        <img
+            src={ cover }
+            class="w-56 h-56 object-fit"
+        />
+    </a>
+    <a class="hover:underline" href={ link }>
+        <H3
+            text={ location }
+        />
+    </a>
     <div class="text-center">
         <ParagraphGaramond
             text={ address_1 }
@@ -31,9 +35,11 @@ const {
         <ParagraphGaramond
             text={ address_2 }
         />
-        <a class="hover:underline" href={ phone_number }><ParagraphGaramond
-            text={ phone }
-        /></a>
+        <a class="hover:underline" href={ phone_number }>
+            <ParagraphGaramond
+                text={ phone }
+            />
+        </a>
     </div>
     <div class="w-2/3 flex justify-center">
         <Direction_button
