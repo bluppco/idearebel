@@ -90,3 +90,9 @@ strong {
 	@apply !font-garamond;
 
 }
+
+.garamond p a{
+
+	@apply !font-garamond font-normal;
+
+}

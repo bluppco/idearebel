@@ -109,7 +109,7 @@ const officeCollection = defineCollection({
 		link: z.string(),
 		seo_description: z.string(),
 		seo_title: z.string(),
-		sub_title: z.string(),
+		sub_title: z.string().nullable(),
 		title: z.string(),
 		location: z.string(),
 		time_offset: z.number(),
@@ -117,10 +117,10 @@ const officeCollection = defineCollection({
 		office_location: z.string(),
 		address_1: z.string(),
 		address_2: z.string(),
-		phone: z.number(),
+		phone: z.string(),
 		office_link: z.string(),
 		button_link: z.string(),
-		phone_link: z.number(),
+		phone_link: z.string(),
 
 	})
 
