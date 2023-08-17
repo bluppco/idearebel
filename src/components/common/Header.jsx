@@ -86,7 +86,7 @@ const Header = ( props ) => {
                                         return (
                                             <div className="relative group w-fit text-center !z-30 cursor-pointer" key={ "extra_content" + content_index }>
                                                 <div className="text-white font-larsseit text-xl uppercase tracking-widest">{content}</div>
-                                                <span class="absolute bg-ir_green h-1.5 w-full bottom-1 left-0 group-hover:h-4 !-z-20 transition-height duration-200 ease-in"></span>
+                                                <span className="absolute bg-ir_green h-1.5 w-full bottom-1 left-0 group-hover:h-4 !-z-20 transition-height duration-200 ease-in"></span>
                                             </div>
 
                                         )

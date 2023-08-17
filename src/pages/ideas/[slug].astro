@@ -17,6 +17,7 @@ import Footer from "../../components/Footer.astro"
 import Header from "../../components/common/Header.jsx"
 import H1 from "../../components/common/atom/H1.astro"
 import Button from "../../components/common/Button.astro"
+import ButtonShare from "../../components/common/ButtonShare.astro"
 import Paragraph from "../../components/common/Paragraph.astro"
 import ParagraphGaramond from "../../components/common/atom/ParagraphGaramond.astro"
 import "../../styles.css"
@@ -43,16 +44,13 @@ import "../../styles.css"
 				/>
 			</div>
 			<div class="mt-4 flex gap-8">
-				<div class="w-56">
-					<Button
-						text="BACK"
-					/>
-				</div>
-				<div class="w-56">
-					<Button
-						text="SHARE"
-					/>
-				</div>
+				<Button
+					text="BACK"
+					link="creative-ideas/"
+				/>
+				<ButtonShare
+					link="SHARE"
+				/>
 			</div>
         </div>
 		<Footer />

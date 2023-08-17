@@ -8,6 +8,7 @@ import Paragraph from "../components/common/Paragraph.astro"
 import Head from "../components/common/Head.astro"
 import Footer from "../components/Footer.astro"
 import Header from "../components/common/Header.jsx"
+import ParagraphGaramond from "../components/common/atom/ParagraphGaramond.astro"
 import "../styles.css"
 ---
 
@@ -29,8 +30,13 @@ import "../styles.css"
                 OPINIONS, CULTURE & ACCOLADES
             </button>
             <div class="w-1/2 text-center flex flex-col gap-4">
-                <p class="text-2xl font-bold">Think outside the box, collapse the box, and take a f*cking sharp knife to it.</p>
-                <i>- Banksy</i>
+                <H3
+                    text="Think outside the box, collapse the box, and take a f*cking sharp knife to it."
+                />
+                <p class="text-2xl font-bold"></p>
+                <ParagraphGaramond
+                    text="- Banksy"
+                />
             </div>
         </section>
         <section class="container mx-auto max-w-6xl p-4 md:p-20">

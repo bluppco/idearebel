@@ -11,3 +11,8 @@
 2. Text "Idea Rebel" over locations was looking redundant, hence removed.
 3. Twitter logo change.
 4. Clocks were not considering daylight saving on/off time. Added this logic to subtract 1hour when DLS is not used.
+
+
+## To be done at a later stage
+1. Contact form.
+2. Share link buttons on ideas page.
