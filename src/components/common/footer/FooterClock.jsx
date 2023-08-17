@@ -66,7 +66,7 @@ const FooterClock = ( props ) => {
                 <p className="text-white uppercase text-center font-larsseit group-hover:underline text-sm">{ location }</p>
                 <div className="relative">
                     <Clock value={value} />
-                    <div className="text-sm font-regular absolute top-[62.5px] right-[20px] z-20 text-ir_green">{ temperature }</div>
+                    <div className="text-sm font-regular absolute top-[62.5px] right-[20px] z-20 text-ir_green">{ temperature }&deg;C</div>
                     <div className="text-sm font-regular absolute bottom-[30px] right-[62.5px] z-20 text-ir_green">{ getHour( value ) }</div>
                 </div>
             </div>

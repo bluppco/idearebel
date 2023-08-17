@@ -22,7 +22,6 @@ const FooterClocks = ( props ) => {
             vancouver: data_json.data.vancouver,
 
         })
-        console.log( data_json.data )
 
     }
     React.useEffect( () => {

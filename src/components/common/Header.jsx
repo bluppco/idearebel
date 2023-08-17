@@ -1,5 +1,6 @@
 import React from "react"
 import { useInView } from "framer-motion"
+import { Link } from "react-scroll"
 
 import H1 from "./atom/H1.jsx"
 import Paragraph from "./atom/Paragraph.jsx"
@@ -99,12 +100,14 @@ const Header = ( props ) => {
 
                     }
                     {/* DOWN ARROW FOR MORE CONTENT */}
-                    <div className={`${not_cover? "bottom-5": "bottom-10"} w-10 h-10 absolute left-[50%] -ml-5`}>
-                        <img
-                            src="/icons/arrow-down.svg"
-                            className="w-full h-full object-fill"
-                        />
-                    </div>
+                    <Link to="content" smooth={true} duration={500}>
+                        <div className={`${not_cover? "bottom-5": "bottom-10"} w-10 h-10 absolute left-[50%] -ml-5 cursor-pointer`}>
+                            <img
+                                src="/icons/arrow-down.svg"
+                                className="w-full h-full object-fill"
+                            />
+                        </div>
+                    </Link>
                 </section>
 
             }
