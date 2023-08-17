@@ -6,12 +6,11 @@ import Header from "../components/common/Header.jsx"
 import Footer from "../components/Footer.astro"
 import OfficeDirections from "../components/common/office/OfficeDirections.astro"
 import Head from "../components/common/Head.astro"
+import { frontmatter as  contactVancouver } from "../content/office/vancouver-digital-marketing-agency.mdx"
+import { frontmatter as contactToronto } from "../content/office/toronto-digital-marketing-agency.mdx"
+import { frontmatter as contactLosAngeles } from "../content/office/los-angeles-digital-marketing-agency.mdx"
 import "../styles.css"
-import ParagraphGaramond from "../components/common/atom/ParagraphGaramond.astro"
-import { OFFICE } from "../constants"
-const { office } = Astro.props;
-const { Content } = await entry.render();
-import Direction_button from "../components/common/office/Direction_button.astro"
+
 ---
 
 <html lang="en">
@@ -88,79 +87,36 @@ import Direction_button from "../components/common/office/Direction_button.astro
 				/>
 			</div>
 			<div class="grid grid-cols-3 gap-20 mt-8">
-				{
-
-					OFFICE.map( ( office ) => {
-				
-						return (
-						<div class="flex items-center flex-col gap-8">
-					<a href={ office.data.office_link }>
-						<img
-							src={ office.data.cover }
-							class="w-56 h-56 object-fit"
-						/>
-					</a>
-					<a class="hover:underline" href={ office.data.office_link }>
-						<H3
-							text={ office.data.office_location } 
-						/>
-					</a>
-					<div class="text-center">
-						<ParagraphGaramond
-							text={ office.data.address_1 }
-						/>
-						<ParagraphGaramond
-							text={ office.data.address_2 }
-						/>
-						<a class="hover:underline" href={ office.data.phone_link }>
-							<ParagraphGaramond
-								text={ office.data.phone }
-							/>
-						</a>
-					</div>
-					<div class="w-2/3 flex justify-center">
-						<Direction_button
-							text="DIRECTIONS"
-							link= { office.data.button_link }
-						/>
-					</div>
-				</div>
-						)
-				
-					})
-				
-				}
-				
-				<!-- <OfficeDirections
-					cover="https://blupp.b-cdn.net/idearebel/vancouver_cloudy-1.gif?quality=80?quality=80&width=800"
-					location="Idea Rebel Vancouver"
-					address_1="113 Water Street"
-					address_2="Vancouver, BC V6B 1A7"
-					phone="(604) 569-2155"
-					link="office/vancouver-digital-marketing-agency/"
-					button_link="https://goo.gl/maps/ebp1zjuvUpM2"
-					phone_number="tel:+16045692155"
+				<OfficeDirections
+					cover={ contactVancouver.cover }
+					location={ contactVancouver.title }
+					address_1={ contactVancouver.address_1 }
+					address_2={ contactVancouver.address_2 }
+					phone={ contactVancouver.phone }
+					link={ "office/" + contactVancouver.link }
+					button_link={ contactVancouver.button_link }
+					phone_number={"tel:" + contactVancouver.phone_link }
 				/>
 				<OfficeDirections
-					cover="https://blupp.b-cdn.net/idearebel/toronto_cloudy-1.gif?quality=80?quality=80&width=800"
-					location="Idea Rebel Toronto"
-					address_1="501 Queen Street West "
-					address_2="Toronto, ON M5V 2B4"
-					phone="(647) 725-7892"
-					link="office/toronto-digital-marketing-agency/"
-					button_link="https://goo.gl/maps/Zag9KX321g12"
-					phone_number="tel:+16477257892"
+					cover={ contactToronto.cover }
+					location={ contactToronto.title }
+					address_1={ contactToronto.address_1 }
+					address_2={ contactToronto.address_2 }
+					phone={ contactToronto.phone }
+					link={ "office/" + contactToronto.link }
+					button_link={ contactToronto.button_link }
+					phone_number={"tel:" + contactToronto.phone_link }
 				/>
 				<OfficeDirections
-					cover="https://blupp.b-cdn.net/idearebel/santamonica_cloudy.gif?quality=80?quality=80&width=800"
-					location="Idea Rebel Angeles"
-					address_1="225 Arizona Avenue"
-					address_2="Santa Monica, CA 90401"
-					button_link="https://goo.gl/maps/3TFjFo5VzR6YupXq6"
-					link="office/los-angeles-digital-marketing-agency/"
-					phone_number="tel:+13105951252"
-					phone="(310) 595-1252">
-				/> -->
+					cover={ contactLosAngeles.cover }
+					location={ contactLosAngeles.title }
+					address_1={ contactLosAngeles.address_1 }
+					address_2={ contactLosAngeles.address_2 }
+					phone={ contactLosAngeles.phone }
+					link={ "office/" + contactLosAngeles.link }
+					button_link={ contactLosAngeles.button_link }
+					phone_number={"tel:" + contactLosAngeles.phone_link }
+				/>
 			</div>
 		</section>
 		<section class="container mx-auto max-w-6xl grayscale my-8">
