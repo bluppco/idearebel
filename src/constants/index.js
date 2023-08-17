@@ -10,6 +10,7 @@ export const CREATIVE_IDEAS = [{
 
 export const CDN_LINK = "https://blupp.b-cdn.net/idearebel/"
 
+
 export const OFFICE = [{
     cover: "https://blupp.b-cdn.net/idearebel/vancouver_cloudy-1.gif?quality=80&width=800",
     office_location: "Idea Rebel Vancouver",
@@ -38,3 +39,6 @@ export const OFFICE = [{
     button_link: "https://goo.gl/maps/3TFjFo5VzR6YupXq6",
     phone_link: "tel:+13105951252",
 }]
+
+export const IMAGE_QUALITY = 80
+export const IMAGE_WIDTH = 600
