@@ -19,6 +19,7 @@ import ParagraphGaramond from "../../components/common/atom/ParagraphGaramond.as
 import H3 from "../../components/common/atom/H3.astro"
 import PreviousProject from "../../components/common/mdx/PreviousProject.astro"
 import NextProject from "../../components/common/mdx/NextProject.astro"
+import { CDN_LINK, IMAGE_QUALITY, IMAGE_WIDTH } from "../../constants"
 
 <section class="container mx-auto max-w-6xl py-10">
     <Column2>
@@ -29,14 +30,22 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
             Roots was seeking a partner to develop best-in-class UI and UX for Roots.com. The goal? To engage and entertain while delivering bleeding edge E-Commerce functionality as well as corporate and brand communications.
         </Column>
         <Column>
-            ![roots logo](https://blupp.b-cdn.net/idearebel/Roots_Logo.png?quality=80)
+            <img
+                src={ CDN_LINK + "Roots_Logo.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="roots logo"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
     </Column2>
 </section>
 <section class="container mx-auto max-w-6xl py-10">
     <Column2>
         <Column>
-            ![roots images](https://blupp.b-cdn.net/idearebel/roots_work_page_images_01.png?quality=80)
+            <img
+                src={ CDN_LINK + "roots_work_page_images_01.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="roots images"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
         <Column>
             ## The Idea
@@ -48,14 +57,22 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
 </section>
 <section class="container mx-auto max-w-6xl p-20 bg-secondary">
     <Column>
-        ![roots shop page](https://blupp.b-cdn.net/idearebel/Asset-3.png?quality=80)
+        <img
+            src={ CDN_LINK + "Asset-3.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="roots shop page"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
     </Column>
 </section>
 
 <section class="container p-20 mx-auto max-w-6xl">
     <Column>
         <div class="">
-            ![roots recommendations](https://blupp.b-cdn.net/idearebel/roots_screenshot_1.jpg?quality=80)
+            <img
+                src={ CDN_LINK + "roots_screenshot_1.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="roots recommendations"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </div>
     </Column>
 </section>
@@ -70,7 +87,11 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
 <section class="container py-10 max-w-6xl mx-auto p-20">
     <Column2>
         <Column>
-            ![roots intelligent search box](https://blupp.b-cdn.net/idearebel/roots_screenshot_2.jpg?quality=80)
+            <img
+                src={ CDN_LINK + "roots_screenshot_2.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="roots intelligent search box"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
         <Column>
             ## Intelligent Search
@@ -84,10 +105,18 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
 <section class="container mx-auto max-w-6xl py-10">
     <Column2>
         <Column>
-            ![roots women website page](https://blupp.b-cdn.net/idearebel/Asset-7.png?quality=80)
+            <img
+                src={ CDN_LINK + "Asset-7.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="roots women website page"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
         <Column>
-            ![roots women's tops page](https://blupp.b-cdn.net/idearebel/Asset-6-1.png?quality=80)
+            <img
+                src={ CDN_LINK + "Asset-6-1.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="roots women's tops page"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
     </Column2>
 </section>

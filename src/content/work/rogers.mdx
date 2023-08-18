@@ -19,6 +19,7 @@ import ParagraphGaramond from "../../components/common/atom/ParagraphGaramond.as
 import H3 from "../../components/common/atom/H3.astro"
 import PreviousProject from "../../components/common/mdx/PreviousProject.astro"
 import NextProject from "../../components/common/mdx/NextProject.astro"
+import { CDN_LINK, IMAGE_QUALITY, IMAGE_WIDTH } from "../../constants"
 
 <section class="container mx-auto max-w-6xl py-10">
     <Column2>
@@ -29,14 +30,22 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
             Hockey Night in Canada and the NHL wanted to build a fantasy hockey experience that was accessible and available to hardcore hockey fanatics and newbies alike.
         </Column>
         <Column>
-            ![Alt text](https://blupp.b-cdn.net/idearebel/Rogers_TVDigital.gif?quality=80)
+            <img
+                src={ CDN_LINK + "Rogers_TVDigital.gif?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="Rogers tv digital"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
     </Column2>
 </section>
 <section class="container mx-auto max-w-6xl py-10">
     <Column2>
         <Column>
-            ![Alt text](https://blupp.b-cdn.net/idearebel/rogers_player_cards.jpg?quality=80)
+            <img
+                src={ CDN_LINK + "rogers_player_cards.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="rogers player cards"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
         <Column>
             ## The Idea
@@ -49,20 +58,36 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
 <section class="container mx-auto max-w-6xl p-20 bg-secondary">
     <Column2>
         <Column>
-            ![Alt text](https://blupp.b-cdn.net/idearebel/rogers_screenshot_1.png?quality=80)
+            <img
+                src={ CDN_LINK + "rogers_screenshot_1.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="rogers screenshot"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
         <Column>
-            ![Alt text](https://blupp.b-cdn.net/idearebel/rogers_screenshot_2.png?quality=80)
+            <img
+                src={ CDN_LINK + "rogers_screenshot_2.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="rogers screenshots"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
     </Column2>
 </section>
 <section class="container mx-auto max-w-6xl p-20 bg-secondary">
     <Column2>
         <Column>
-            ![Alt text](https://blupp.b-cdn.net/idearebel/rogers_screenshot_mobile.png?quality=80)
+            <img
+                src={ CDN_LINK + "rogers_screenshot_mobile.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="rogers screenshot mobile"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
         <Column>
-            ![Alt text](https://blupp.b-cdn.net/idearebel/rogers_screenshot_tablet.png?quality=80)
+            <img
+                src={ CDN_LINK + "rogers_screenshot_tablet.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="rogers screenshot tablet"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
     </Column2>
 </section>
@@ -77,7 +102,11 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
             </Column>
             <Column>
                 <div class="h-64 w-64">
-                    ![Alt text](https://blupp.b-cdn.net/idearebel/Rogers_PicknPlayLogo_Widescreen.png?quality=80)
+                    <img
+                        src={ CDN_LINK + "Rogers_PicknPlayLogo_Widescreen.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                        alt="Rogers PicknPlayLogo"
+                        class="w-full h-full aspect-square bg-zinc-200 object-fill"
+                    />
                 </div>
             </Column>
         </Column2>

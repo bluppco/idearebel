@@ -23,10 +23,15 @@ import Column3 from "../../components/common/mdx/Column-3.astro";
 import ParagraphGaramond from "../../components/common/mdx/ParagraphGaramond.astro";
 import Image from "../../components/common/mdx/Image.astro";
 import H3 from"../../components/common/atom/H3.astro";
+import { CDN_LINK, IMAGE_QUALITY, IMAGE_WIDTH } from "../../constants"
 
 <Column2>
     <Column>
-        ![Toronto gif](https://blupp.b-cdn.net/idearebel/toronto_sunny-1.gif?quality=80&width=800)
+        <img
+            src={ CDN_LINK + "toronto_sunny-1.gif?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="Toronto gif"
+            class="w-96 h-96 aspect-square object-fill"
+        />
     </Column>
     <Column>
         ## The Office
@@ -48,7 +53,11 @@ import H3 from"../../components/common/atom/H3.astro";
 </Column2>
 <Column>
     <Image>
-        ![Queen Street West](https://blupp.b-cdn.net/idearebel/office-to.jpg?quality=80&width=800)
+        <img
+            src={ CDN_LINK + "office-to.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="Queen Street West"
+            class="w-full h-full bg-zinc-200 object-fill"
+        />
     </Image>
 </Column>
 <Column>
@@ -70,7 +79,7 @@ The second-hippest district in the world, it boasts as many bars as tastemakers.
 			height="450"
 			style="border:0"
 			referrerpolicy="no-referrer-when-downgrade"
-			src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCLmIyBNQokwz3LwKJS0LImC0eWDzGR5CU&q=idea+rebel,vancouver"
+			src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCLmIyBNQokwz3LwKJS0LImC0eWDzGR5CU&q=idea+rebel,toronto"
 		/>
 	</div>
 </Column>
@@ -80,7 +89,11 @@ The second-hippest district in the world, it boasts as many bars as tastemakers.
 </Column>
 <Column3>
     <Column center={ true }>
-        ![Wilbur Mexicana food](https://blupp.b-cdn.net/idearebel/to-recommended-eat.jpg?quality=80&width=800)
+        <img
+            src={ CDN_LINK + "to-recommended-eat.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="Wilbur Mexicana food"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
 
         **EAT**
 
@@ -92,7 +105,11 @@ The second-hippest district in the world, it boasts as many bars as tastemakers.
         </ParagraphGaramond>
     </Column>
     <Column center={ true }>
-        ![Jimmy’s Coffee](https://blupp.b-cdn.net/idearebel/to-recommended-drink.jpg?quality=80&width=800)
+        <img
+            src={ CDN_LINK + "to-recommended-drink.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="Jimmy’s Coffee"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
 
         **Drink**
 
@@ -104,7 +121,11 @@ The second-hippest district in the world, it boasts as many bars as tastemakers.
         </ParagraphGaramond>
     </Column>
     <Column center={ true }>
-        ![Sneaky Dee’s](https://blupp.b-cdn.net/idearebel/to-recommended-play.jpg?quality=80&width=800)
+        <img
+            src={ CDN_LINK + "to-recommended-play.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="Sneaky Dee’s"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
 
         **PLAY**
 

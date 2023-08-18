@@ -19,6 +19,7 @@ import ParagraphGaramond from "../../components/common/atom/ParagraphGaramond.as
 import H3 from "../../components/common/atom/H3.astro"
 import PreviousProject from "../../components/common/mdx/PreviousProject.astro"
 import NextProject from "../../components/common/mdx/NextProject.astro"
+import { CDN_LINK, IMAGE_QUALITY, IMAGE_WIDTH } from "../../constants"
 
 <section class="container mx-auto max-w-6xl py-10">
     <Column2>
@@ -29,14 +30,22 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
             When Ford wanted a new way to showcase their innovative technologies and high-adrenalin hosted events, they turned to us. The goal? To provide users with the exhilaration and behind-the-scenes experience of test-driving the latest 2017 Ford GT in the iconic Le Mans Race.
         </Column>
         <Column>
-            ![Alt text](https://blupp.b-cdn.net/idearebel/ford_screenshot_small.jpg?quality=80)
+            <img
+                src={ CDN_LINK + "ford_screenshot_small.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="ford vr screenshot"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
     </Column2>
 </section>
 <section class="container mx-auto max-w-6xl py-10">
     <Column2>
         <Column>
-            ![Alt text](https://blupp.b-cdn.net/idearebel/ford_vr_icons.jpg?quality=80 "a title")
+            <img
+                src={ CDN_LINK + "ford_vr_icons.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="ford vr icons"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
         <Column>
             ## The Idea
@@ -48,15 +57,26 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
 </section>
 <section class="container mx-auto max-w-6xl p-20 bg-red-700">
     <Column>
-        ![Alt text](https://blupp.b-cdn.net/idearebel/ford_screenshot_1.jpg?quality=80 "a title")
-
-        ![Alt text](https://blupp.b-cdn.net/idearebel/ford_screenshot_2.jpg?quality=80 "a title")
+        <img
+            src={ CDN_LINK + "ford_screenshot_1.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="ford vr screenshots"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
+        <img
+            src={ CDN_LINK + "ford_screenshot_2.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="idea rebel ford vr screenshot "
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
     </Column>
 </section>
 
 <section class="container mx-auto max-w-6xl p-20 bg-secondary mt-20">
     <Column>
-        ![Alt text](https://blupp.b-cdn.net/idearebel/Ford-VR-Virtual-Reality-app.mp4?quality=80 "a title")
+        <img
+            src={ CDN_LINK + "Ford-VR-Virtual-Reality-app.mp4?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt=""
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
     </Column>
 </section>
 

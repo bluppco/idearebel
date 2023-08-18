@@ -22,10 +22,15 @@ import Column3 from "../../components/common/mdx/Column-3.astro";
 import ParagraphGaramond from "../../components/common/mdx/ParagraphGaramond.astro";
 import Image from "../../components/common/mdx/Image.astro";
 import H3 from"../../components/common/atom/H3.astro";
+import { CDN_LINK, IMAGE_QUALITY, IMAGE_WIDTH } from "../../constants"
 
 <Column2>
     <Column>
-        ![vancouver cloudy gif](https://blupp.b-cdn.net/idearebel/vancouver_cloudy-1.gif?quality=80&width=800 )
+        <img
+            src={ CDN_LINK + "vancouver_cloudy-1.gif?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="vancouver cloudy gif"
+            class="w-96 h-96 aspect-square object-fill"
+        />
     </Column>
     <Column>
         ## The Office
@@ -46,9 +51,11 @@ import H3 from"../../components/common/atom/H3.astro";
     </Column>
 </Column2>
 <Column>
-    <Image>
-        ![Gastown street view](https://blupp.b-cdn.net/idearebel/office-van.jpg?quality=80&width=800)
-    </Image>
+    <img
+        src={ CDN_LINK + "office-van.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+        alt="Gastown street view"
+        class="w-full h-full bg-zinc-200 object-fill"
+    />
 </Column>
 <Column>
     #### What’s shakin’, Gastown.
@@ -76,8 +83,11 @@ import H3 from"../../components/common/atom/H3.astro";
 </Column>
 <Column3>
     <Column center={ true }>
-        ![Tacofino food](https://blupp.b-cdn.net/idearebel/van-recommended-eat.jpg?quality=80&width=800)
-
+        <img
+            src={ CDN_LINK + "van-recommended-eat.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="Tacofino food"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
         **EAT**
 
         <ParagraphGaramond>
@@ -87,8 +97,11 @@ import H3 from"../../components/common/atom/H3.astro";
         </ParagraphGaramond>
     </Column>
     <Column center={ true }>
-        ![Smart Mouth Café drink](https://blupp.b-cdn.net/idearebel/van-recommended-drink.jpg?quality=80&width=800)
-
+        <img
+            src={ CDN_LINK + "van-recommended-drink.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="Smart Mouth Café drink"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
         **Drink**
 
         <ParagraphGaramond>
@@ -98,8 +111,11 @@ import H3 from"../../components/common/atom/H3.astro";
         </ParagraphGaramond>
     </Column>
     <Column center={ true }>
-        ![Guilt & Co](https://blupp.b-cdn.net/idearebel/guiltco-gastown-idea-rebel-1.png?quality=80&width=800)
-
+        <img
+            src={ CDN_LINK + "guiltco-gastown-idea-rebel-1.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="Guilt & Co"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
         **PLAY**
 
         <ParagraphGaramond>

@@ -19,6 +19,7 @@ import ParagraphGaramond from "../../components/common/atom/ParagraphGaramond.as
 import H3 from "../../components/common/atom/H3.astro"
 import PreviousProject from "../../components/common/mdx/PreviousProject.astro"
 import NextProject from "../../components/common/mdx/NextProject.astro"
+import { CDN_LINK, IMAGE_QUALITY, IMAGE_WIDTH } from "../../constants"
 
 <section class="container mx-auto max-w-6xl mt-20 bg-secondary">
     <Column>
@@ -33,14 +34,22 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
             When the NBA called for a Digital Agency to create and manage their Fan Engagements with captivating, data driven experiences, throughout the basketball season,  we answered!
         </Column>
         <Column>
-            ![Slam dunk vacay, contest rebel](https://blupp.b-cdn.net/idearebel/Contest_Rebel_Screenshot1.png?quality=80)
+            <img
+                src={ CDN_LINK + "Contest_Rebel_Screenshot1.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="Slam dunk vacay, contest rebel"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
     </Column2>
 </section>
 <section class="container mx-auto max-w-6xl py-10">
     <Column2>
         <Column>
-            ![contest rebel mobile design](https://blupp.b-cdn.net/idearebel/Contest-Rebel-Mobile.png?quality=80)
+            <img
+                src={ CDN_LINK + "Contest-Rebel-Mobile.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="contest rebel mobile design"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
         <Column>
             ## The Idea
@@ -62,13 +71,21 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
 </section>
 <section class="container mx-auto max-w-6xl p-4 md:p-20 bg-secondary">
     <Column>
-        ![nba tangerine](https://blupp.b-cdn.net/idearebel/NBA-Tangerine-Idea-Rebel.jpg?quality=80)
+        <img
+            src={ CDN_LINK + "NBA-Tangerine-Idea-Rebel.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="nba tangerine"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
     </Column>
 </section>
 
 <section class="container mx-auto max-w-6xl p-4 md:p-20 bg-secondary mt-4 md:mt-20">
     <Column>
-        ![nba juicyfruit contest](https://blupp.b-cdn.net/idearebel/NBA-juicyfruit-contest.png?quality=80)
+        <img
+            src={ CDN_LINK + "NBA-juicyfruit-contest.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="nba juicyfruit contest"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
     </Column>
 </section>
 

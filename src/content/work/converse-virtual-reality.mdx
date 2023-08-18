@@ -20,6 +20,7 @@ import ParagraphGaramond from "../../components/common/atom/ParagraphGaramond.as
 import H3 from "../../components/common/atom/H3.astro"
 import PreviousProject from "../../components/common/mdx/PreviousProject.astro"
 import NextProject from "../../components/common/mdx/NextProject.astro"
+import { CDN_LINK, IMAGE_QUALITY, IMAGE_WIDTH } from "../../constants"
 
 <section class="container max-w-6xl mx-auto py-10">
     <Column2>
@@ -30,7 +31,11 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
             Converse came to Idea Rebel asking for help to promote their new global campaign, Made By You. The job? An app development project celebrating creativity and featuring interviews with four different Chuck Taylor fans. As interactive app specialists, we were excited to create a one-of-a-kind immersive virtual reality experience.
         </Column>
         <Column>
-            ![Alt text](https://blupp.b-cdn.net/idearebel/converse_chucks.jpg?quality=80)
+            <img
+                src={ CDN_LINK + "converse_chucks.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="converse chucks"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
     </Column2>
 </section>
@@ -38,28 +43,45 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
     <Column4>
         <Column>
             <div class="rounded-full border-2 border-bg-black">
-                ![Alt text](https://blupp.b-cdn.net/idearebel/converse_joanna_delane.jpg?quality=80)
+                <img
+                    src={ CDN_LINK + "converse_joanna_delane.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                    alt="converse joanna delane"
+                    class="w-full h-full aspect-square bg-zinc-200 object-fill"
+                />
+                ![Alt text](https://blupp.b-cdn.net/idearebel?quality=80)
                 <p>JOANNA DELANE</p>
                 <p>_Musician_</p>
             </div>
         </Column>
         <Column>
             <div>
-                ![Alt text](https://blupp.b-cdn.net/idearebel/converse_king_tuff.jpg?quality=80)
+                <img
+                    src={ CDN_LINK + "converse_king_tuff.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                    alt="converse king tuff"
+                    class="w-full h-full aspect-square bg-zinc-200 object-fill"
+                />
                 <p>KING TUFF</p>
                 <p>_Actress_</p>
             </div>
         </Column>
         <Column>
             <div>
-                ![Alt text](https://blupp.b-cdn.net/idearebel/converse_thomas_midlane.jpg?quality=80)
+                <img
+                    src={ CDN_LINK + "converse_thomas_midlane.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                    alt="converse thomas midlane"
+                    class="w-full h-full aspect-square bg-zinc-200 object-fill"
+                />
                 <p>THOMAS MIDLANE</p>
                 <p>_Journalist_</p>
             </div>
         </Column>
         <Column>
             <div>
-                ![Alt text](https://blupp.b-cdn.net/idearebel/converse_ron_english.jpg?quality=80)
+                <img
+                    src={ CDN_LINK + "converse_ron_english.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                    alt="converse ron english"
+                    class="w-full h-full aspect-square bg-zinc-200 object-fill"
+                />
                 <p>RON ENGLISH</p>
                 <p>_Artist_</p>
             </div>
@@ -69,7 +91,11 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
 <section class="container mx-auto max-w-6xl py-10">
     <Column2>
         <Column>
-            ![Alt text](https://blupp.b-cdn.net/idearebel/converse-vr.gif?quality=80)
+            <img
+                src={ CDN_LINK + "converse-vr.gif?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="converse vr animation"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
         <Column>
             ## The Idea
@@ -81,8 +107,16 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
 </section>
 <section class="container mx-auto max-w-6xl p-20 bg-secondary">
     <Column>
-        ![Alt text](https://blupp.b-cdn.net/idearebel/converse_mobile_screenshot_1.png?quality=80)
-        ![Alt text](https://blupp.b-cdn.net/idearebel/converse_mobile_screenshot_2.png?quality=80)
+        <img
+            src={ CDN_LINK + "converse_mobile_screenshot_1.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="converse mobile screenshot"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
+        <img
+            src={ CDN_LINK + "converse_mobile_screenshot_2.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="converse mobile screenshots"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
     </Column>
 </section>
 <section class="container mx-auto max-w-6xl p-20 bg-secondary mt-20">

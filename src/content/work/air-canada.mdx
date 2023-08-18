@@ -19,6 +19,7 @@ import ParagraphGaramond from "../../components/common/atom/ParagraphGaramond.as
 import H3 from "../../components/common/atom/H3.astro"
 import PreviousProject from "../../components/common/mdx/PreviousProject.astro"
 import NextProject from "../../components/common/mdx/NextProject.astro"
+import { CDN_LINK, IMAGE_QUALITY, IMAGE_WIDTH } from "../../constants"
 
 <section class="container mx-auto max-w-6xl py-10">
     <Column2>
@@ -29,14 +30,22 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
             When Air Canada approached us with the challenge to rethink how business consumers would use their website, we were ecstatic. A real chance to make real change for the airline industry!
         </Column>
         <Column>
-            ![Alt text](https://blupp.b-cdn.net/idearebel/Air-Canada-Idea-Rebel.jpg?quality=80)
+            <img
+                src={ CDN_LINK + "Air-Canada-Idea-Rebel.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="air canada flight"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
     </Column2>
 </section>
 <section class="container mx-auto max-w-6xl py-10">
     <Column2>
         <Column>
-            ![Alt text](https://blupp.b-cdn.net/idearebel/Air-Canada-Idea-Rebel-Screens.png?quality=80)
+            <img
+                src={ CDN_LINK + "Air-Canada-Idea-Rebel-Screens.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="air canada ux"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
         <Column>
             ## The Idea
@@ -48,13 +57,21 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
 </section>
 <section class="container mx-auto max-w-6xl p-20 bg-secondary">
     <Column>
-        ![Alt text](https://blupp.b-cdn.net/idearebel/Airk-Canada-Reports-Idea-Rebel.png?quality=80)
+        <img
+            src={ CDN_LINK + "Airk-Canada-Reports-Idea-Rebel.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="air canada dashboard"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
     </Column>
 </section>
 
 <section class="container mx-auto max-w-6xl p-20 bg-secondary mt-20">
     <Column>
-        ![Alt text](https://blupp.b-cdn.net/idearebel/Air-Canada-Executive-Summary-Idea-Rebel.png?quality=80)
+        <img
+            src={ CDN_LINK + "Air-Canada-Executive-Summary-Idea-Rebel.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="air canada data"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
     </Column>
 </section>
 

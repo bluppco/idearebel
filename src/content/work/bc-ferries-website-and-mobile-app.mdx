@@ -19,6 +19,7 @@ import ParagraphGaramond from "../../components/common/atom/ParagraphGaramond.as
 import H3 from "../../components/common/atom/H3.astro"
 import PreviousProject from "../../components/common/mdx/PreviousProject.astro"
 import NextProject from "../../components/common/mdx/NextProject.astro"
+import { CDN_LINK, IMAGE_QUALITY, IMAGE_WIDTH } from "../../constants"
 
 <section class="container mx-auto max-w-6xl py-4 md:py-20">
     <Column2>
@@ -29,14 +30,22 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
 
         </Column>
         <Column>
-            ![idea rebel bc-ferries mobile app](https://blupp.b-cdn.net/idearebel/idea-rebel-bc-ferries-mobile-app-1.jpeg?quality=80)
+            <img
+                src={ CDN_LINK + "idea-rebel-bc-ferries-mobile-app-1.jpeg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="idea rebel bc-ferries mobile app"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
     </Column2>
 </section>
 <section class="container mx-auto max-w-6xl py-4 md:py-20">
     <Column2 reverse={ true }>
         <Column>
-            ![BC Ferries booking system](https://blupp.b-cdn.net/idearebel/idea-rebel-bc-ferries-mobile-app-3.jpeg?quality=80)
+            <img
+                src={ CDN_LINK + "idea-rebel-bc-ferries-mobile-app-3.jpeg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="BC Ferries booking system"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
         <Column>
             ## The Idea
@@ -49,13 +58,21 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
 
 <section class="container mx-auto max-w-6xl p-4 md:p-20 bg-secondary">
     <Column>
-        ![BC Ferries book sailing](https://blupp.b-cdn.net/idearebel/BC-Ferries-Idea-Rebel.jpeg?quality=80)
+        <img
+            src={ CDN_LINK + "BC-Ferries-Idea-Rebel.jpeg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="BC Ferries book sailing"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
     </Column>
 </section>
 
 <section class="container mx-auto max-w-6xl p-4 md:p-20 bg-secondary mt-4 md:mt-20">
     <Column>
-        ![BC Ferries website](https://blupp.b-cdn.net/idearebel/bc-ferries-website-redesign-idea-rebel.png?quality=80)
+        <img
+            src={ CDN_LINK + "bc-ferries-website-redesign-idea-rebel.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="BC Ferries website"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
     </Column>
 </section>
 

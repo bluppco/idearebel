@@ -20,6 +20,7 @@ import ParagraphGaramond from "../../components/common/atom/ParagraphGaramond.as
 import H3 from "../../components/common/atom/H3.astro"
 import PreviousProject from "../../components/common/mdx/PreviousProject.astro"
 import NextProject from "../../components/common/mdx/NextProject.astro"
+import { CDN_LINK, IMAGE_QUALITY, IMAGE_WIDTH } from "../../constants"
 
 <section class="container mx-auto max-w-6xl py-10">
     <Column2>
@@ -30,14 +31,22 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
             Collaboratively, Hyundai Canada and Idea Rebel developed an idea to support Hyundai sales staff – an app that would showcase the features of their product family and  identify the brand’s advantages over any competitor vehicle on the market, for real-time comparison shopping.
         </Column>
         <Column>
-            ![Alt text](https://blupp.b-cdn.net/idearebel/hyundaiLogo_Widescreen.png?quality=80)
+            <img
+                src={ CDN_LINK + "hyundaiLogo_Widescreen.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="hyundai logo"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
     </Column2>
 </section>
 <section class="container mx-auto max-w-6xl py-10">
     <Column2>
         <Column>
-            ![Alt text](https://blupp.b-cdn.net/idearebel/hyundai-app_cars.jpg?quality=80)
+            <img
+                src={ CDN_LINK + "hyundai-app_cars.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="hyundai app cars"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
         <Column>
             ## The Idea
@@ -50,10 +59,18 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
 <section class="container mx-auto max-w-6xl p-20 bg-secondary">
     <Column2>
         <Column>
-            ![Alt text](https://blupp.b-cdn.net/idearebel/hyundai-app_screenshot1.png?quality=80)
+            <img
+                src={ CDN_LINK + "hyundai-app_screenshot1.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="hyundai app screenshot"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
         <Column>
-            ![Alt text](https://blupp.b-cdn.net/idearebel/hyundai-app_screenshot2.png?quality=80)
+            <img
+                src={ CDN_LINK + "hyundai-app_screenshot2.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="hyundai app screenshots"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
     </Column2>
 </section>
@@ -61,13 +78,25 @@ import NextProject from "../../components/common/mdx/NextProject.astro"
 <section class="container mx-auto max-w-6xl py-10 bg-blue-900">
     <Column3>
         <Column>
-            ![Alt text](https://blupp.b-cdn.net/idearebel/hyundai-app_tablet1.png?quality=80)
+            <img
+                src={ CDN_LINK + "hyundai-app_tablet1.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="hyundai app tablet"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
         <Column>
-            ![Alt text](https://blupp.b-cdn.net/idearebel/hyundai-app_tablet2.png?quality=80)
+            <img
+                src={ CDN_LINK + "hyundai-app_tablet2.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="hyundai app tablet screenshot"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
         <Column>
-            ![Alt text](https://blupp.b-cdn.net/idearebel/hyundai-app_tablet3.png?quality=80)
+            <img
+                src={ CDN_LINK + "hyundai-app_tablet3.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="hyundai app tablet screenshots"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
         </Column>
     </Column3>
 </section>
