@@ -21,7 +21,11 @@ import { CDN_LINK, IMAGE_QUALITY, IMAGE_WIDTH } from "../../constants"
 <section>
     <column2>
         <column>
-            ![Jamie Garratt surfing](https://blupp.b-cdn.net/idearebel/surf_james_surf.jpg?quality=80&width=800)
+            <img
+                src={ CDN_LINK + "surf_james_surf.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="Jamie Garratt surfing"
+                class="w-full h-full"
+            />
         </column>
         <column>
             Jamie knows how to lead a rebellious lifestyle.  Whether it’s running a digital agency, starting a wakeboarding school, or performing with the music industry’s top acts, Jamie’s day is anything but boring.
