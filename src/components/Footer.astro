@@ -6,6 +6,8 @@ import * as footerVancouver from "../content/office/vancouver-digital-marketing-
 import * as footerToronto from "../content/office/toronto-digital-marketing-agency.mdx"
 import * as footerLosAngeles from "../content/office/los-angeles-digital-marketing-agency.mdx"
 import FooterClocks from "./common/footer/FooterClocks"
+import Container from "../layouts/Container.astro"
+import Link from "../components/common/atom/Link.astro"
 
 let footer = await getCollection('footer')
 footer = footer.sort((a, b) => a.data.order - b.data.order)
@@ -14,58 +16,58 @@ footer = footer.filter( ( item ) => item.data.live )
 let year = format(new Date(), "yyyy")
 ---
 <footer class="bg-black flex flex-col gap-8">
-    <section class="container mx-auto max-w-6xl text-white p-4 md:p-0 !py-10">
-        <div class="grid grid-cols-1 md:grid-cols-12 items-center gap-8 md:gap-0">
+    <Container>
+        <div class="grid grid-cols-1 md:grid-cols-12 items-center gap-8 md:gap-0 text-white">
             <div class="col-span-1 md:col-span-3 font-ir !text-3xl font-bold text-center md:text-left">{ footerContent.frontmatter.company }</div>
             <div class="col-span-1 md:col-span-6 text-center font-larsseit text-2xl">
                 <span>{ footerContent.frontmatter.contact_text }</span>
-                <a href={ footerContent.frontmatter.mobile_link }>
+                <Link external={ true } link={ footerContent.frontmatter.mobile_link } target="_blank">
                     <span class="text-grey underline">{ footerContent.frontmatter.mobile }</span>
-                </a>
+                </Link>
             </div>
             <div class="flex col-span-1 md:col-span-3 justify-center md:justify-end gap-6">
-                <a href={ footerContent.frontmatter.instagram } target="_blank">
+                <Link external={ true } link={ footerContent.frontmatter.instagram } target="_blank">
                     <div class="w-6 h-6">
                         <img
                             src="/icons/instagram.svg"
                             class="w-full h-full object-fill"
                         />
                     </div>
-                </a>
-                <a href={ footerContent.frontmatter.facebook } target="_blank">
+                </Link>
+                <Link external={ true } link={ footerContent.frontmatter.facebook } target="_blank">
                     <div class="w-6 h-6">
                         <img
                             src="/icons/facebook.svg"
                             class="w-full h-full object-fill"
                         />
                     </div>
-                </a>
-                <a href={ footerContent.frontmatter.twitter } target="_blank">
+                </Link>
+                <Link external={ true } link={ footerContent.frontmatter.twitter } target="_blank">
                     <div class="w-6 h-6">
                         <img
                             src="/icons/twitter.svg"
                             class="w-full h-full object-fill"
                         />
                     </div>
-                </a>
-                <a href={ footerContent.frontmatter.linkedin } target="_blank">
+                </Link>
+                <Link external={ true } link={ footerContent.frontmatter.linkedin } target="_blank">
                     <div class="w-6 h-6">
                         <img
                             src="/icons/linkedin.svg"
                             class="w-full h-full object-fill"
                         />
                     </div>
-                </a>
+                </Link>
             </div>
         </div>
-    </section>
+    </Container>
     <FooterClocks
         client:load
         footerToronto={ footerToronto }
         footerVancouver={ footerVancouver }
         footerLosAngeles={ footerLosAngeles }
     />
-    <section class="container mx-auto max-w-6xl text-white  p-4 md:p-0 !py-10">
+    <Container>
         <div class="flex flex-col-reverse md:flex-row justify-between gap-4 md:gap-0 place-items-center">
             <div class="font-karla text-sm text-grey font-semibold text-center">&copy { year } { footerContent.frontmatter.about }</div>
             <nav class="">
@@ -75,9 +77,9 @@ let year = format(new Date(), "yyyy")
                         footer.map( ( item ) => {
 
                             return (
-                                <a href={ "/" + item.data.link }>
+                                <Link external={ false } link={ item.data.link }>
                                     <li class="uppercase font-karla text-sm font-bold text-white">{ item.data.title }</li>
-                                </a>
+                                </Link>
                             )
 
                         })
@@ -86,5 +88,5 @@ let year = format(new Date(), "yyyy")
                 </ul>
             </nav>
         </div>
-    </section>
+    </Container>
 </footer>

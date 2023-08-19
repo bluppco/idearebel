@@ -4,25 +4,23 @@ import * as idea_two  from "../../content/ideas/best-digital-agencies-in-toronto
 import * as idea_three  from "../../content/ideas/contest-rebel.md"
 import Idea from "./Idea.astro"
 ---
-<section class="container mx-auto max-w-6xl p-4 md:p-0 py-8 md:py-20">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <Idea
-            heading="Opinions"
-            image={ idea_one.frontmatter.image }
-            link={ "/ideas/" + idea_one.frontmatter.link }
-            title={ idea_one.frontmatter.title }
-        />
-        <Idea
-            heading="Culture"
-            image={ idea_two.frontmatter.image }
-            link={ "/ideas/" + idea_two.frontmatter.link }
-            title={ idea_two.frontmatter.title }
-        />
-        <Idea
-            heading="Accolades"
-            image={ idea_three.frontmatter.image }
-            link={ "/ideas/" + idea_three.frontmatter.link }
-            title={ idea_three.frontmatter.title }
-        />
-    </div>
+<section class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <Idea
+        heading="Opinions"
+        image={ idea_one.frontmatter.image }
+        link={ "/ideas/" + idea_one.frontmatter.link }
+        title={ idea_one.frontmatter.title }
+    />
+    <Idea
+        heading="Culture"
+        image={ idea_two.frontmatter.image }
+        link={ "/ideas/" + idea_two.frontmatter.link }
+        title={ idea_two.frontmatter.title }
+    />
+    <Idea
+        heading="Accolades"
+        image={ idea_three.frontmatter.image }
+        link={ "/ideas/" + idea_three.frontmatter.link }
+        title={ idea_three.frontmatter.title }
+    />
 </section>
