@@ -1,0 +1,82 @@
+---
+import { getCollection } from 'astro:content';
+const careers = await getCollection('careers');
+const careers_sorted = careers.sort((a, b) => a.data.order - b.data.order)
+// JUST VANCOUVER OPENINGS
+const careers_filtered = careers_sorted.filter((opening) => opening.data.location.indexOf("vancouver") !== -1 );
+import H1 from "../../../components/common/atom/H1.astro"
+import H2 from "../../../components/common/atom/H2.astro"
+import H3 from "../../../components/common/atom/H3.astro"
+import H5 from "../../../components/common/atom/H5.astro"
+import Button from "../../../components/common/Button.astro"
+import Paragraph from "../../../components/common/Paragraph.astro"
+import Footer from "../../../components/Footer.astro"
+import Header from "../../../components/common/Header.jsx"
+import Head from "../../../components/common/Head.astro"
+import ParagraphGaramond from "../../../components/common/atom/ParagraphGaramond.astro"
+---
+
+<html lang="en">
+	<Head
+		title="Technology, Creative & Digital Marketing Jobs | Idea Rebel"
+		description="Looking for an exciting career at our digital marketing agency? Check out our open positions at Idea Rebel Vancouver"
+		image="https://blupp.b-cdn.net/idearebel/Idea-Rebel-We-Are-Rebels-Agency-2.png?quality=80"
+	/>
+	<body>
+		<Header
+			client:load
+			title="Careers"
+			cover="https://blupp.b-cdn.net/idearebel/Idea-Rebel-We-Are-Rebels-Agency-2.jpeg?quality=80"
+		/>
+		<section class="container mx-auto max-w-6xl py-20" id="content">
+			<H1
+				text="We don't do resumes."
+			/>
+			<Paragraph
+				text="But if you think you're rebel calibre, tweet @idearebel and tell us why you've got the chops."
+			/>
+		</section>
+		<section class="container mx-auto max-w-6xl">
+			<div class="grid grid-cols-3 gap-8">
+				<Button
+					text="idea rebel vancouver"
+					link="careers/vancouver"
+                    selected={ true }
+				/>
+				<Button
+					text="idea rebel toronto"
+					link="careers/toronto"
+				/>
+				<Button
+					text="idea rebel los angeles"
+					link="careers/los-angeles"
+				/>
+			</div>
+		</section>
+		<section class="container mx-auto max-w-6xl py-20">
+			<div class="flex flex-col items-center justify-center gap-8">
+			{
+
+				careers_filtered.map( ( career ) => {
+
+					return (
+						<div class="grid gap-2 text-center">
+							<a href={ "/careers/vancouver/" + career.data.link } class="hover:underline">
+								<H3
+									text={career.data.title}
+								/>
+							</a>
+							<ParagraphGaramond
+								text={career.data.sub_title}
+							/>
+						</div>
+					)
+
+				})
+
+			}
+			</div>
+		</section>
+        <Footer />
+	</body>
+</html>

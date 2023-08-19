@@ -1,71 +1,77 @@
 ---
-import H1 from "../components/common/atom/H1.astro"
-import H2 from "../components/common/atom/H2.astro"
-import H3 from "../components/common/atom/H3.astro"
-import H5 from "../components/common/atom/H5.astro"
-import Button from "../components/common/Button.astro"
-import Paragraph from "../components/common/Paragraph.astro"
----
+// LAYOUTS
+import Container from "../layouts/Container.astro"
+import Layout from "../layouts/Layout.astro"
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=karla:400" rel="stylesheet" />
-	</head>
-	<body>
-		<section class="bg-home w-full h-screen bg-cover bg-center flex justify-center items-center bg-zinc-200">
-            <div class="p-10 bg-white text-center grid gap-8">
-                <H1
-                    text="Idea Rebel"
-                />
-            </div>
-        </section>
-		<section class="conatiner mx-auto max-w-6xl py-20 my-20 flex justify-center">
+// COMPONENTS
+import Footer from "../components/Footer.astro"
+import Header from "../components/common/Header.jsx"
+import HoverEffect from "../components/common/HoverEffect.astro"
+import Ideas from "../components/home/Ideas.astro"
+
+// ATOMS
+import Button from "../components/common/atom/Button.astro"
+import H2 from "../components/common/atom/H2.astro"
+import H5 from "../components/common/atom/H5.astro"
+import Paragraph from "../components/common/atom/Paragraph.astro"
+
+// CUSTOM STYLESHEET
+import "../styles.css"
+
+// CONSTANTS
+import { CDN_LINK, IMAGE_QUALITY } from "../constants"
+---
+<Layout
+	description="Idea Rebel is a Digital Marketing Agency in Toronto, Vancouver, & Los Angeles, specializing in consumer-centric digital experiences & Media"
+	image={ CDN_LINK + "NBA-Idea-Rebel.jpg?quality=" + IMAGE_QUALITY }
+	title="Idea Rebel | Digital Marketing Agency Toronto, Vancouver, Los Angeles"
+>
+	<Header
+		client:load
+		cover={ CDN_LINK + "NBA-Idea-Rebel.jpg?quality=" + IMAGE_QUALITY }
+		extra_content_flag={ true }
+		extra_content_link="/work/nba-digital-fan-experiences"
+		extra_content={["NBA", "Digital Fan Experiences"]}
+		title="Idea Rebel"
+	/>
+	<Container>
+		<section id="content" class="flex justify-center">
 			<div class="w-2/3 text-center">
-				<H2
-					text="We are a digital marketing agency."
-				/>
-				<H2
-					text="We call Toronto, Vancouver, and Los Angeles home."
-				/>
-				<H2
-					text="We push tech-driven ideas to create killer work and we're unapologetically good at what we do."
-				/>
-				<H2
-					text="We Are Rebels."
-				/>
+				<H2>
+					<span>We are a </span>
+					<HoverEffect link="/digital-marketing-agency/">digital marketing agency.</HoverEffect>
+				</H2>
+				<H2>We call Toronto, Vancouver, and Los Angeles home.</H2>
+				<H2>
+					<span>We push tech-driven</span>
+					<HoverEffect link="/digital-marketing-agency/">ideas</HoverEffect>
+					<span>to create killer</span>
+					<HoverEffect link="/digital-marketing-agency/">work</HoverEffect>
+					<span>and we're unapologetically good at</span><br/>
+					<HoverEffect link="/digital-marketing-agency/">what we do.</HoverEffect>
+				</H2>
+				<H2>We are rebels.</H2>
 			</div>
 		</section>
-		<section class="conatiner mx-auto max-w-6xl py-20 my-20 relative z-10">
-			<div class="grid grid-cols-3 gap-12 z-30 items-center">
-				<div class="grid gap-10 col-span-1 z-30">
-					<H5
-						text="Driven By Culture"
-					/>
-					<H2
-						text="We Are Rebels."
-					/>
-					<Paragraph
-						text="Sure, we work with the biggest brands in the world from North America’s largest creative hubs, but we’re more than pixel pushers and copy jockeys – we’re skaters, podcasters, ping-pongers, foosballers, foodies and fixie riders, too."
-					/>
-					<Button
-						text="Experience Our Culture"
-					/>
+		<section class="relative z-10">
+			<div class="grid md:flex-none grid-cols-1 md:grid-cols-3 gap-4 md:gap-20 z-30 items-center">
+				<div class="grid gap-4 md:gap-10 col-span-1 z-30">
+					<H5 uppercase={ true } primary_color={ true } wide={ true } >Driven By Culture</H5>
+					<H2>We Are Rebels.</H2>
+					<Paragraph>Sure, we work with the biggest brands in the world from North America’s largest creative hubs, but we’re more than pixel pushers and copy jockeys – we’re skaters, podcasters, ping-pongers, foosballers, foodies and fixie riders, too.</Paragraph>
+					<Button link="digital-marketing-agency/">EXPERIENCE OUR CULTURE</Button>
 				</div>
-				<div class="col-span-2 w-full bg-zinc-400 z-30 h-[80%]">
+				<div class="col-span-2 w-full !bg-secondary z-30 h-[90%]">
 					<img
-						src="https://blupp.b-cdn.net/idearebel/Skateboard-Office.jpg?quality=80"
+						src={ CDN_LINK + "Skateboard-Office.jpg?quality=" + IMAGE_QUALITY }
 						class="object-cover w-full h-full"
 						alt="We Are Rebels."
 					/>
 				</div>
 			</div>
-			<div class="absolute bg-zinc-200 w-[80%] left-[50%] -ml-[40%] h-full top-0 z-0"></div>
+			<div class="absolute bg-secondary !w-[100%] md:w-[80%] left-0 md:left-[50%] ml-0 md:-ml-[40%] h-full top-0 z-0"></div>
 		</section>
-	</body>
-</html>
+		<Ideas />
+	</Container>
+	<Footer />
+</Layout>

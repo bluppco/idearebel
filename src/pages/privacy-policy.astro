@@ -1,0 +1,25 @@
+---
+import Header from "../components/common/Header.jsx";
+import Footer from "../components/Footer.astro";
+import Head from "../components/common/Head.astro";
+import { Content as PrivacyContent } from '../content/pages/privacy-policy.md';
+import "../styles.css"
+---
+<html lang="en">
+	<Head 
+		title="Digital Experience & Marketing Agency | Privacy Policy"
+		description="If any additions or changes occur to the terms of this Privacy Policy, Idea Rebel will post said changes prior to their implementation."
+		image=""
+	/>
+	<body>
+		<Header
+			client:load
+			title="Privacy Policy"
+			not_cover={ true }
+		/>
+        <section class="container max-w-6xl p-4 md:p-0 mx-auto grid py-10 md:!py-20" id="content">
+            <PrivacyContent/>
+		</section>
+		<Footer />
+	</body>
+</html>

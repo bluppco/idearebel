@@ -1,57 +1,74 @@
 ---
+import { getCollection } from 'astro:content';
+const posts = await getCollection('ideas');
+const posts_sorted = posts.sort((a, b) => a.data.order - b.data.order)
 import H1 from "../components/common/atom/H1.astro"
 import H3 from "../components/common/atom/H3.astro"
 import Paragraph from "../components/common/Paragraph.astro"
-import { CREATIVE_IDEAS } from "../constants"
+import Head from "../components/common/Head.astro"
+import Footer from "../components/Footer.astro"
+import Header from "../components/common/Header.jsx"
+import ParagraphGaramond from "../components/common/atom/ParagraphGaramond.astro"
+import "../styles.css"
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=karla:400" rel="stylesheet" />
-	</head>
+	<Head
+        title="Digital Marketing Agency - Ideas & Creative Trends | Idea Rebel"
+		description="Idea Rebel stories and blog: Digital marketing and tech news, latest creative trends and culture in Vancouver, Toronto & Los Angeles."
+		image="https://blupp.b-cdn.net/idearebel/metaverse-marketing.png?quality=80"
+	/>
 	<body>
-		<section class="bg-creative_ideas w-full h-screen bg-cover bg-center flex justify-center items-center bg-zinc-200">
-            <div class="w-1/3 p-10 bg-white text-center grid gap-8">
-                <H1
-                    text="Ideas"
+        <Header
+			client:load
+            title="Ideas"
+            subtitle="We develop groundbreaking, next-level concepts for our clients, from ideation to realization."
+			cover="https://blupp.b-cdn.net/idearebel/metaverse-marketing.png?quality=80"
+		/>
+        <section class="container mx-auto max-w-6xl p-4 md:px-24 md:pt-28 flex flex-col items-center gap-16" id="content">
+            <button class="font-semibold border-2 border-black px-10 py-4">
+                OPINIONS, CULTURE & ACCOLADES
+            </button>
+            <div class="w-1/2 text-center flex flex-col gap-4">
+                <H3
+                    text="Think outside the box, collapse the box, and take a f*cking sharp knife to it."
                 />
-                <Paragraph
-                    text="We develop groundbreaking, next-level concepts for our clients, from ideation to realization."
+                <p class="text-2xl font-bold"></p>
+                <ParagraphGaramond
+                    text="- Banksy"
                 />
             </div>
         </section>
-        <section class="container mx-auto max-w-6xl p-20">
-            <div class="grid grid-cols-2 gap-8">
+        <section class="container mx-auto max-w-6xl p-4 md:p-20">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
                 {
 
-                    CREATIVE_IDEAS.map( ( idea ) => {
+                    posts_sorted.map( ( idea ) => {
 
                         return(
-                            <div class="w-full h-96 bg-cover bg-center bg-zinc-200 p-20 group relative">
-                                <div class="flex h-full items-center justify-center mx-auto">
-                                    <div class="bg-white p-10 text-center opacity-90 duration-200 group-hover:opacity-100 z-20">
-                                        <H3
-                                            text={ idea.title }
-                                        />
+                            <a href={ "/ideas/" + idea.data.link }>
+                                <div class="w-full h-96 bg-cover bg-center bg-zinc-200 p-20 group relative">
+                                    <div class="flex h-full items-center justify-center mx-auto">
+                                        <div class="bg-white p-10 text-center opacity-0 duration-200 group-hover:opacity-100 z-20">
+                                            <H3
+                                                text={ idea.data.title }
+                                            />
+                                        </div>
                                     </div>
+                                    <img
+                                        src={ idea.data.image }
+                                        class="object-cover absolute top-0 left-0 z-10 w-full h-full"
+                                        alt={ idea.data.title + "'s image" }
+                                    />
                                 </div>
-                                <img
-                                    src={ idea.image }
-                                    class="object-cover absolute top-0 left-0 z-10 w-full h-full"
-                                    alt={ idea.title + "'s image" }
-                                />
-                            </div>
+                            </a>
                         )
+
                     })
 
                 }
             </div>
         </section>
+        <Footer />
 	</body>
 </html>

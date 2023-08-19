@@ -1,0 +1,26 @@
+---
+import * as idea_one  from "../../content/ideas/canadas-digital-mavericks-pioneering-innovative-business-solutions.md"
+import * as idea_two  from "../../content/ideas/best-digital-agencies-in-toronto.md"
+import * as idea_three  from "../../content/ideas/contest-rebel.md"
+import Idea from "./Idea.astro"
+---
+<section class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <Idea
+        heading="Opinions"
+        image={ idea_one.frontmatter.image }
+        link={ "/ideas/" + idea_one.frontmatter.link }
+        title={ idea_one.frontmatter.title }
+    />
+    <Idea
+        heading="Culture"
+        image={ idea_two.frontmatter.image }
+        link={ "/ideas/" + idea_two.frontmatter.link }
+        title={ idea_two.frontmatter.title }
+    />
+    <Idea
+        heading="Accolades"
+        image={ idea_three.frontmatter.image }
+        link={ "/ideas/" + idea_three.frontmatter.link }
+        title={ idea_three.frontmatter.title }
+    />
+</section>

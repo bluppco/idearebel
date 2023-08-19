@@ -1,0 +1,27 @@
+---
+import H5 from "../common/atom/H5.astro"
+const {
+
+    heading,
+    image,
+    link,
+    title,
+
+} = Astro.props
+---
+<div class="flex flex-col gap-4">
+    <H5 uppercase={ true } primary_color={ true } wide={ true }>{ heading }</H5>
+    <a href={ link } class="hover:underline">
+        <div class="group grid grid-cols gap-4">
+            <div class="h-60">
+                <img
+                    src={ image }
+                    class="object-cover w-full h-full"
+                />
+            </div>
+            <div class="hover:underline">
+                <H5>{ title }</H5>
+            </div>
+        </div>
+    </a>
+</div>

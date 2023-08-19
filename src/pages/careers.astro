@@ -1,4 +1,9 @@
 ---
+import { getCollection } from 'astro:content';
+const careers = await getCollection('careers');
+const careers_sorted = careers.sort((a, b) => a.data.order - b.data.order)
+// JUST VANCOUVER OPENINGS
+const careers_filtered = careers_sorted.filter((opening) => opening.data.location.indexOf("vancouver") !== -1 );
 import H1 from "../components/common/atom/H1.astro"
 import H2 from "../components/common/atom/H2.astro"
 import H3 from "../components/common/atom/H3.astro"
@@ -6,26 +11,80 @@ import H5 from "../components/common/atom/H5.astro"
 import Button from "../components/common/Button.astro"
 import Paragraph from "../components/common/Paragraph.astro"
 import Footer from "../components/Footer.astro"
+import Head from "../components/common/Head.astro"
+import Header from "../components/common/Header.jsx"
+import ParagraphGaramond from "../components/common/atom/ParagraphGaramond.astro"
+import "../styles.css"
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=karla:400" rel="stylesheet" />
-	</head>
+	<Head
+		title="Technology, Creative & Digital Marketing Jobs | Idea Rebel"
+		description="Looking for an exciting career at our digital marketing agency? Check out our open positions at Idea Rebel Vancouver, Toronto, & Los Angeles"
+		image="https://blupp.b-cdn.net/idearebel/Idea-Rebel-We-Are-Rebels-Agency-2.png?quality=80"
+	/>
 	<body>
-		<section class="bg-careers w-full h-screen bg-cover bg-center flex justify-center items-center bg-zinc-200">
-            <div class="p-10 bg-white text-center grid gap-8 max-w-[30%]">
-                <H1
-                    text="Careers"
-                />
-            </div>
-        </section>
+		<Header
+			client:load
+			title="Careers"
+			cover="https://blupp.b-cdn.net/idearebel/Idea-Rebel-We-Are-Rebels-Agency-2.jpeg?quality=80"
+		/>
+		<section class="container mx-auto max-w-6xl py-20" id="content">
+			<H1
+				text="We don't do resumes."
+			/>
+			<p>
+				<span>But if you think you're rebel calibre, tweet</span>
+				<a href="https://x.com/idearebel" target="_blank" rel="nofollow noindex">
+					<span class="relative group !z-20 cursor-pointer">
+						<span class="z-20 relative">@idearebel</span>
+						<span class="absolute bg-ir_green h-1.5 w-full bottom-1 left-0 group-hover:h-5 !z-10 transition-height duration-200 ease-in"></span>
+					</span>
+				</a>
+				<span>and tell us why you've got the chops.</span>
+			</p>
+		</section>
+		<section class="container mx-auto max-w-6xl">
+			<div class="grid grid-cols-3 gap-8">
+				<Button
+					text="idea rebel vancouver"
+					link="careers/vancouver"
+					selected={ true }
+				/>
+				<Button
+					text="idea rebel toronto"
+					link="careers/toronto"
+				/>
+				<Button
+					text="idea rebel los angeles"
+					link="careers/los-angeles"
+				/>
+			</div>
+		</section>
+		<section class="container mx-auto max-w-6xl py-20">
+			<div class="flex flex-col items-center justify-center gap-8">
+			{
+
+				careers_filtered.map( ( career ) => {
+
+					return (
+						<div class="grid gap-2 text-center">
+							<a href={ "/careers/vancouver/" + career.data.link } class="hover:underline">
+								<H3
+									text={career.data.title}
+								/>
+							</a>
+							<ParagraphGaramond
+								text={career.data.sub_title}
+							/>
+						</div>
+					)
+
+				})
+
+			}
+			</div>
+		</section>
         <Footer />
 	</body>
 </html>

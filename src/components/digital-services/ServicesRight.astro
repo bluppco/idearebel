@@ -1,0 +1,69 @@
+---
+import H2 from "../common/atom/H2.astro"
+import H4 from "../common/atom/H4.astro"
+import Paragraph from "../common/Paragraph.astro"
+import ParagraphGaramond from "../common/atom/ParagraphGaramond.astro"
+const {
+
+    creative,
+    marginTop,
+    service_description,
+    service_image,
+    service_title,
+    title,
+    work,
+
+} = Astro.props
+---
+<div class={`${ marginTop ? "mt-8 md:mt-40" : ""} p-4 md:p-0 grid grid-cols-1 md:grid-cols-5 gap-0 md:gap-10 items-center relative`}>
+    <div class="col-span-1 md:col-span-2 flex justify-center items-center flex-col bg-white md:bg-transparent">
+        <div class="object-fit w-48 h-48">
+            <img
+                src={ service_image }
+                class="object-fit w-full h-full"
+            />
+        </div>
+        <div class=" flex flex-col justify-center items-center">
+            <H2
+                text={ service_title }
+            />
+            <div class="pl-0 md:pl-10">
+                <Paragraph
+                    text={ service_description }
+                />
+            </div>
+        </div>
+    </div>
+    <div class="col-span-3 mt-8 md:mt-0">
+        <div class="h-full">
+            <img
+                src={ creative }
+                class="w-full object-cover h-full"
+            />
+        </div>
+        <div class="flex flex-col items-center mt-8 md:mt-0 bg-white md:bg-transparent">
+            <div class="flex flex-col items-start my-10">
+                <H4
+                    text={ title }
+                    uppercase={ true }
+                />
+                {
+
+                    work.map( ( value ) => {
+
+                        return (
+
+                            <ParagraphGaramond
+                                text={ value }
+                            />
+
+                        )
+
+                    })
+
+                }
+            </div>
+        </div>
+    </div>
+    <div class="absolute w-[80%] h-[80%] bg-secondary bottom-0 left-0 -z-10 hidden md:block"></div>
+</div>

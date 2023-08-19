@@ -1,0 +1,15 @@
+---
+const {
+
+    link,
+
+} = Astro.props
+---
+<a href={ link }>
+    <span class="relative group !z-20 cursor-pointer">
+        <span class="z-20 relative">
+            <slot/>
+        </span>
+        <span class="absolute bg-ir_green h-1.5 w-full bottom-1 left-0 group-hover:h-5 !z-10 transition-height duration-200 ease-in"></span>
+    </span>
+</a>

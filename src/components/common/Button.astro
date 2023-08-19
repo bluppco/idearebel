@@ -1,4 +1,14 @@
 ---
-const { text } = Astro.props
+const {
+
+    link,
+    selected,
+    target,
+    text,
+    external,
+
+} = Astro.props
 ---
-<button class="font-semibold text-lg border-2 border-black bg-black text-white py-3 w-fit px-4 hover:bg-transparent hover:text-black duration-200">{ text }</button>
+<a href={ external ? link : "/" + link } target={ target }>
+    <button class={`${selected?"bg-transparent text-black":"bg-black text-white"} font-semibold text-base border-2 border-black w-fit px-8 hover:bg-transparent hover:text-black duration-200 flex justify-center items-center h-14 font-karla tracking-widest uppercase`}>{ text }</button>
+</a>
