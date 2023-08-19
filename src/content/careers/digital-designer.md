@@ -1,12 +1,23 @@
-![Alt text](https://blupp.b-cdn.net/idearebel/Careers_Creative1-Design_Widescreen_preview.jpg?quality=80&width=800?"a title")
-![Alt text](https://blupp.b-cdn.net/idearebel/Careers_Badges_Creative-Crew.png?quality=80&width=800?"a title")
-
+---
+image: https://blupp.b-cdn.net/idearebel/Careers_Creative1-Design_Widescreen_preview.jpg?quality=80&width=800
+badge image: https://blupp.b-cdn.net/idearebel/Careers_Badges_Creative-Crew.png?quality=80&width=800
+link: digital-designer
+order: 7
+sub_title: "Hotshot Pixel Pusher"
+title: Digital Designer (Freelance)
+seo_title: Digital Designer (Freelance) | Idea Rebel
+seo_description: Digital Agency Toronto & Vancouver Idea Rebel is hiring a digital designer. Join one of Canada's premier Digital Agencies.
+location: ["vancouver","toronto"]
+---
 Idea Rebel – Toronto & Vancouver Digital Agency is looking for a Digital Designer.
 
+\
 We’re looking for Freelance Digital Designers with an eye for detail and the skills to craft award worthy, pixel-perfect digital products in a fast-paced & environment. Someone who is a self-motivated problem solver who isn’t shy about taking ownership of their work and is passionate about what they do. A deep understanding of typography, UI, illustration, photography, and digital culture is a must, along with a solid grasp of the possibilities of the modern and emerging tech.
 
+\
 You’ll be working within a small team, and reporting directly to the Creative Director, so being friendly, fun, enthusiastic, organized is essential. With that support, you’ll be directly responsible for the design a variety of and other digitally-led or digitally integrated experiences, from leading-edge web solutions, software, and mobile devices/applications to bespoke experiential interactions. To succeed you’ll need a strong understanding of UX and digital strategy. Conceptual skills would help you stand out, too.
 
+\
 Responsibilities
 
 - Working with the Creative Director and design team to create client-focused, creative design solutions, primarily in digital
@@ -19,6 +30,7 @@ Responsibilities
 - Photo retouching and compositing skills would be a big plus
 - Client presentation experience would be great too (or an eagerness to learn)
 
+\
 Requirements
 
 - Undergraduate degree in Design or related field or equivalent visual design experience required
@@ -32,4 +44,6 @@ Requirements
 - Excellent knowledge of macOS and the Adobe suite of creative tools
 - Working knowledge of Sketch and InVision tools would be advantageous
 
-Apply via tweet @idearebel or email careers@idearebel.com
+\
+\
+Apply via tweet [@idearebel](https://x.com/idearebel) or email [careers@idearebel.com](mailto:careers@idearebel.com)

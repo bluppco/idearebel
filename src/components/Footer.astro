@@ -1,23 +1,92 @@
-<footer class="bg-black">
-    <section class="container mx-auto max-w-6xl py-10 text-white">
-        <div class="grid grid-cols-12">
-            <div class="col-span-3">Idea Rebel</div>
-            <div class="col-span-6 text-center">The rebel's in the details. 1 877 732 3507</div>
-            <div class="col-span-3 justify-end">
-                <div>Idea Rebel</div>
+---
+import { format } from "date-fns"
+import { getCollection } from "astro:content"
+import * as footerContent from "../content/footer-content/index.md"
+import * as footerVancouver from "../content/office/vancouver-digital-marketing-agency.mdx"
+import * as footerToronto from "../content/office/toronto-digital-marketing-agency.mdx"
+import * as footerLosAngeles from "../content/office/los-angeles-digital-marketing-agency.mdx"
+import FooterClocks from "./common/footer/FooterClocks"
+import Container from "../layouts/Container.astro"
+import Link from "../components/common/atom/Link.astro"
+
+let footer = await getCollection('footer')
+footer = footer.sort((a, b) => a.data.order - b.data.order)
+footer = footer.filter( ( item ) => item.data.live )
+
+let year = format(new Date(), "yyyy")
+---
+<footer class="bg-black flex flex-col gap-8">
+    <Container>
+        <div class="grid grid-cols-1 md:grid-cols-12 items-center gap-8 md:gap-0 text-white">
+            <div class="col-span-1 md:col-span-3 font-ir !text-3xl font-bold text-center md:text-left">{ footerContent.frontmatter.company }</div>
+            <div class="col-span-1 md:col-span-6 text-center font-larsseit text-2xl">
+                <span>{ footerContent.frontmatter.contact_text }</span>
+                <Link external={ true } link={ footerContent.frontmatter.mobile_link } target="_blank">
+                    <span class="text-grey underline">{ footerContent.frontmatter.mobile }</span>
+                </Link>
+            </div>
+            <div class="flex col-span-1 md:col-span-3 justify-center md:justify-end gap-6">
+                <Link external={ true } link={ footerContent.frontmatter.instagram } target="_blank">
+                    <div class="w-6 h-6">
+                        <img
+                            src="/icons/instagram.svg"
+                            class="w-full h-full object-fill"
+                        />
+                    </div>
+                </Link>
+                <Link external={ true } link={ footerContent.frontmatter.facebook } target="_blank">
+                    <div class="w-6 h-6">
+                        <img
+                            src="/icons/facebook.svg"
+                            class="w-full h-full object-fill"
+                        />
+                    </div>
+                </Link>
+                <Link external={ true } link={ footerContent.frontmatter.twitter } target="_blank">
+                    <div class="w-6 h-6">
+                        <img
+                            src="/icons/twitter.svg"
+                            class="w-full h-full object-fill"
+                        />
+                    </div>
+                </Link>
+                <Link external={ true } link={ footerContent.frontmatter.linkedin } target="_blank">
+                    <div class="w-6 h-6">
+                        <img
+                            src="/icons/linkedin.svg"
+                            class="w-full h-full object-fill"
+                        />
+                    </div>
+                </Link>
             </div>
         </div>
-    </section>
-    <section class="container mx-auto max-w-6xl py-10 text-white">
-        <div class="flex justify-between">
-            <div class="font-karla text-xs text-zinc-500">© 2023 Idea Rebel. Digital Marketing Agency Toronto, Vancouver, Los Angeles</div>
+    </Container>
+    <FooterClocks
+        client:load
+        footerToronto={ footerToronto }
+        footerVancouver={ footerVancouver }
+        footerLosAngeles={ footerLosAngeles }
+    />
+    <Container>
+        <div class="flex flex-col-reverse md:flex-row justify-between gap-4 md:gap-0 place-items-center">
+            <div class="font-karla text-sm text-grey font-semibold text-center">&copy { year } { footerContent.frontmatter.about }</div>
             <nav class="">
-                <ul class="flex gap-4">
-                    <li class="uppercase font-karla text-xs font-bold">Privacy</li>
-                    <li class="uppercase font-karla text-xs font-bold">Terms</li>
-                    <li class="uppercase font-karla text-xs font-bold">Contact</li>
+                <ul class="flex gap-4 justify-center !list-none list-inside p-0">
+                    {
+
+                        footer.map( ( item ) => {
+
+                            return (
+                                <Link external={ false } link={ item.data.link }>
+                                    <li class="uppercase font-karla text-sm font-bold text-white">{ item.data.title }</li>
+                                </Link>
+                            )
+
+                        })
+
+                    }
                 </ul>
             </nav>
         </div>
-    </section>
+    </Container>
 </footer>

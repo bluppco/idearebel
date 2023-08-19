@@ -1,14 +1,14 @@
 ---
-description: 6 Things Design School Never Taught Me Insights from a Rebel Designer
+description: ""
 image: https://blupp.b-cdn.net/idearebel/BC-Ferries-Idea-Rebel.jpg?quality=80
-link: 6-things-design-school-never-taught
-order: 22
-publish_date: October 24, 2017
-seo_description: "I’ve been a professional designer for 3 years. I’ve worked for large agencies, digital and advertising and also in-house for a large corporation – a short-yet-varied experience that’s given me some perspective on the industry as a recent graduate. These are my observations; and what I wish design school had better prepared me for. 1. … Continued"
-seo_title: "6 Things Design School Never Taught Me | Idea Rebel"
+link: bc-ferries-website-and-mobile-app
+order: 1
+publish_date: ""
+seo_description: "BC FerriesBC Ferries and Idea Rebel partnered to redesign the world’s second largest ferry operation’s website and mobile app"
+seo_title: "BC Ferries Website and Mobile App | Idea Rebel"
 sub_title: Website and Mobile App
 title: BC Ferries
-url: https://www.idearebel.com/ideas/6-things-design-school-never-taught/
+url: https://www.idearebel.com/work/bc-ferries-website-and-mobile-app/
 video_flag: false
 video: ""
 ---
@@ -17,48 +17,67 @@ import Column2 from "../../components/common/mdx/Column-2.astro";
 import Button from "../../components/common/Button.astro";
 import ParagraphGaramond from "../../components/common/atom/ParagraphGaramond.astro"
 import H3 from "../../components/common/atom/H3.astro"
+import PreviousProject from "../../components/common/mdx/PreviousProject.astro"
+import NextProject from "../../components/common/mdx/NextProject.astro"
+import { CDN_LINK, IMAGE_QUALITY, IMAGE_WIDTH } from "../../constants"
 
-<section class="container mx-auto max-w-6xl py-20">
-<Column2>
-    <Column>
-        ## Background
+<section class="container mx-auto max-w-6xl py-4 md:py-20">
+    <Column2>
+        <Column>
+            ## Background
 
-        BC Ferries and Idea Rebel partnered to redesign the world's second largest ferry operation’s website and mobile app. The strategic alliance brought together teams from all around the world to engage in this special project for one common goal, to build the best digital travel portal experience.
+            BC Ferries and Idea Rebel partnered to redesign the world's second largest ferry operation’s website and mobile app. The strategic alliance brought together teams from all around the world to engage in this special project for one common goal, to build the best digital travel portal experience.
 
-    </Column>
-    <Column>
-        ![Alt text](https://blupp.b-cdn.net/idearebel/idea-rebel-bc-ferries-mobile-app-1.jpeg?quality=80 "a title")
-    </Column>
-</Column2>
+        </Column>
+        <Column>
+            <img
+                src={ CDN_LINK + "idea-rebel-bc-ferries-mobile-app-1.jpeg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="idea rebel bc-ferries mobile app"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
+        </Column>
+    </Column2>
 </section>
-<section class="container mx-auto max-w-6xl py-20">
-<Column2>
-    <Column>
-        ![Alt text](https://blupp.b-cdn.net/idearebel/idea-rebel-bc-ferries-mobile-app-3.jpeg?quality=80 "a title")
-    </Column>
-    <Column>
-        ## The Idea
+<section class="container mx-auto max-w-6xl py-4 md:py-20">
+    <Column2 reverse={ true }>
+        <Column>
+            <img
+                src={ CDN_LINK + "idea-rebel-bc-ferries-mobile-app-3.jpeg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="BC Ferries booking system"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
+        </Column>
+        <Column>
+            ## The Idea
 
-        The idea was to develop a world class consumer focused booking system for BC Ferries. We engaged the entire Idea Rebel strategic team for in depths Strategy, User Experience, Project Management, and Design. The goal was to develop a simple flow for all use cases of the BC Ferries passengers, from booking new sailings to managing full trips and account information.
+            The idea was to develop a world class consumer focused booking system for BC Ferries. We engaged the entire Idea Rebel strategic team for in depths Strategy, User Experience, Project Management, and Design. The goal was to develop a simple flow for all use cases of the BC Ferries passengers, from booking new sailings to managing full trips and account information.
 
-    </Column>
-</Column2>
+        </Column>
+    </Column2>
 </section>
 
-<section class="container mx-auto max-w-6xl p-20 bg-zinc-200">
+<section class="container mx-auto max-w-6xl p-4 md:p-20 bg-secondary">
     <Column>
-        ![Alt text](https://blupp.b-cdn.net/idearebel/BC-Ferries-Idea-Rebel.jpeg?quality=80 "a title")
+        <img
+            src={ CDN_LINK + "BC-Ferries-Idea-Rebel.jpeg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="BC Ferries book sailing"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
     </Column>
 </section>
 
-<section class="container mx-auto max-w-6xl p-20 bg-zinc-200 mt-20">
+<section class="container mx-auto max-w-6xl p-4 md:p-20 bg-secondary mt-4 md:mt-20">
     <Column>
-        ![Alt text](https://blupp.b-cdn.net/idearebel/bc-ferries-website-redesign-idea-rebel.png?quality=80 "a title")
+        <img
+            src={ CDN_LINK + "bc-ferries-website-redesign-idea-rebel.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="BC Ferries website"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
     </Column>
 </section>
 
-<section class="bg-zinc-200 mt-20">
-    <section class="container mx-auto max-w-6xl py-20">
+<section class="bg-secondary mt-4 md:mt-20">
+    <section class="container mx-auto max-w-6xl p-4 md:p-0 py-2 md:py-20">
     <Column>
         ## Results
 
@@ -75,7 +94,7 @@ import H3 from "../../components/common/atom/H3.astro"
 
     </Column>
     <Column>
-        <div class="w-1/4">
+        <div class="w-full md:w-1/4 mt-4">
             <Button
                 text="EXPLORE BC FERRIES"
                 link="https://www.bcferries.com/"
@@ -85,40 +104,19 @@ import H3 from "../../components/common/atom/H3.astro"
     </Column>
     </section>
 </section>
-<section class="container mx-auto max-w-6xl p-2">
+<section class="container mx-auto max-w-6xl p-4 md:px-0 md:py-2">
     <Column>
         <div class="flex justify-between">
-            <a href="/work/7-eleven/" class="underline">
-                <div class="flex flex-col gap-2">
-                    <ParagraphGaramond
-                        text="Previous Project"
-                    />
-                    <div class="flex items-center gap-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
-                        </svg>
-                        <H3
-                            text="7-Eleven Canada"
-                        />
-                    </div>
-                </div>
-            </a>
-            <a href="/work/7-eleven/" class="underline">
-                <div class="flex flex-col gap-2 text-right">
-                    <ParagraphGaramond
-                        text="Next Project"
-                    />
-                    <div class="flex items-center gap-2">
-                        <H3
-                            text="7-Eleven Canada"
-                        />
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                        </svg>
-                    </div>
-                </div>
-            </a>
+            <div class="invisible">
+            <PreviousProject
+                link="/work/7-eleven/"
+                title="7-Eleven Canada"
+            />
+            </div>
+            <NextProject
+                link="/work/nba-digital-fan-experiences/"
+                title="NBA Digital Fan Experiences"
+            />
         </div>
     </Column>
 </section>
-

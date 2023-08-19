@@ -44,7 +44,6 @@ An NFT called Everydays: the First 5000 Days was sold for **$69.3m.**
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/the-first-5000-days-715026a2.jpg?quality=80&width=800?quality=80&width=800 "a title")
-the-first-5000-days-715026a2.jpg
 
 \
 That list goes on and on day by day. The world is changing, and it is changing faster than we expected.

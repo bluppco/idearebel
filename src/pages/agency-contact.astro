@@ -5,18 +5,20 @@ import Paragraph from "../components/common/Paragraph.astro"
 import Header from "../components/common/Header.jsx"
 import Footer from "../components/Footer.astro"
 import OfficeDirections from "../components/common/office/OfficeDirections.astro"
+import Head from "../components/common/Head.astro"
+import { frontmatter as  contactVancouver } from "../content/office/vancouver-digital-marketing-agency.mdx"
+import { frontmatter as contactToronto } from "../content/office/toronto-digital-marketing-agency.mdx"
+import { frontmatter as contactLosAngeles } from "../content/office/los-angeles-digital-marketing-agency.mdx"
+import "../styles.css"
+
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=karla:400" rel="stylesheet" />
-	</head>
+	<Head
+		title="Contact Idea Rebel | Digital Marketing Agency Toronto, Vancouver, LA"
+		description="Idea Rebel is a full-service Digital Marketing Agency in Vancouver, Toronto and Los Angeles - Media Buying, Strategy, Digital Experiences"
+		image="https://blupp.b-cdn.net/idearebel/2017-06-07.jpg?quality=80"
+	/>
 	<body>
         <Header
 			client:load
@@ -24,7 +26,7 @@ import OfficeDirections from "../components/common/office/OfficeDirections.astro
             subtitle="Start something with Idea Rebel"
 			cover="https://blupp.b-cdn.net/idearebel/contact.jpg?quality=80"
 		/>
-		<section class="container mx-auto max-w-6xl p-20">
+		<section class="container mx-auto max-w-6xl p-20" id="content">
 			<div class="grid grid-cols-2 gap-8">
 				<div>
 					<H3
@@ -32,66 +34,136 @@ import OfficeDirections from "../components/common/office/OfficeDirections.astro
 					/>
 				</div>
 				<div class="grid gap-12">
-					<div>
+					<div class="space-y-2">
 						<H5
 							text="NEW BUSINESS"
+							uppercase={ true }
+							font_normal={ true }
 						/>
-						<Paragraph
+						<a class="hover:underline" href="mailto:newbusiness@idearebel.com"><Paragraph
 							text="newbusiness@idearebel.com"
-						/>
+						/></a>
 					</div>
-					<div>
+					<div class="space-y-2">
 						<H5
 							text="Press"
+							uppercase={ true }
+							font_normal={ true }
 						/>
-						<Paragraph
+						<a class="hover:underline" href="mailto:press@idearebel.com"><Paragraph
 							text="press@idearebel.com"
-						/>
+						/></a>
 					</div>
-					<div>
+					<div class="space-y-2">
 						<H5
 							text="CAREERS"
+							uppercase={ true }
+							font_normal={ true }
 						/>
-						<Paragraph
+						<a class="hover:underline" href="mailto:careers@idearebel.com"><Paragraph
 							text="careers@idearebel.com"
-						/>
+						/></a>
 					</div>
-					<div>
+					<div class="space-y-2">
 						<H5
 							text="TALK TO A HUMAN"
+							uppercase={ true }
+							font_normal={ true }
 						/>
-						<Paragraph
+						<a class="hover:underline" href="tel:+8777323507"><Paragraph
 							text="(877) 732-3507"
-						/>
+						/></a>
 					</div>
 				</div>
 			</div>
 		</section>
 		<section class="container mx-auto max-w-6xl bg-zinc-100 p-20">
 			<div class="text-center">
-				<p>Our Offices</p>
+				<H5
+					text={ "our Offices" }
+					uppercase={ true }
+					primary_color={ true }
+					wide={ true }
+				/>
 			</div>
 			<div class="grid grid-cols-3 gap-20 mt-8">
 				<OfficeDirections
-					cover="https://blupp.b-cdn.net/idearebel/vancouver_cloudy-1.gif?quality=80?quality=80&width=800"
-					location="Idea Rebel Vancouver"
-					address_1="113 Water Street"
-					address_2="Vancouver, BC V6B 1A7"
-					phone="(604) 569-2155"
+					cover={ contactVancouver.cover }
+					location={ contactVancouver.title }
+					address_1={ contactVancouver.address_1 }
+					address_2={ contactVancouver.address_2 }
+					phone={ contactVancouver.phone }
+					link={ "office/" + contactVancouver.link }
+					button_link={ contactVancouver.button_link }
+					phone_number={"tel:" + contactVancouver.phone_link }
 				/>
 				<OfficeDirections
-					cover="https://blupp.b-cdn.net/idearebel/vancouver_cloudy-1.gif?quality=80?quality=80&width=800"
-					location="Idea Rebel Toronto"
-					address_1="113 Water Street"
-					address_2="Vancouver, BC V6B 1A7"
-					phone="(604) 569-2155"
+					cover={ contactToronto.cover }
+					location={ contactToronto.title }
+					address_1={ contactToronto.address_1 }
+					address_2={ contactToronto.address_2 }
+					phone={ contactToronto.phone }
+					link={ "office/" + contactToronto.link }
+					button_link={ contactToronto.button_link }
+					phone_number={"tel:" + contactToronto.phone_link }
 				/>
 				<OfficeDirections
-					cover="https://blupp.b-cdn.net/idearebel/vancouver_cloudy-1.gif?quality=80?quality=80&width=800"
-					location="Idea Rebel Angeles"
-					address_1="113 Water Street"
-					address_2="Vancouver, BC V6B 1A7"
-					phone="(604) 569-2155"
+					cover={ contactLosAngeles.cover }
+					location={ contactLosAngeles.title }
+					address_1={ contactLosAngeles.address_1 }
+					address_2={ contactLosAngeles.address_2 }
+					phone={ contactLosAngeles.phone }
+					link={ "office/" + contactLosAngeles.link }
+					button_link={ contactLosAngeles.button_link }
+					phone_number={"tel:" + contactLosAngeles.phone_link }
+				/>
+			</div>
+		</section>
+		<section class="container mx-auto max-w-6xl grayscale my-8">
+			<div class="py-2">
+				<H3
+					text={ "Vancouver Digital Marketing Agency - Idea Rebel" }
+				/>
+			</div>
+			<div class="bg-zinc-200">
+				<iframe
+					width="100%"
+					height="450"
+					style="border:0"
+					referrerpolicy="no-referrer-when-downgrade"
+					src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCLmIyBNQokwz3LwKJS0LImC0eWDzGR5CU&q=idea+rebel,vancouver"
+				/>
+			</div>
+		</section>
+		<section class="container mx-auto max-w-6xl grayscale my-8">
+			<div class="py-2">
+				<H3
+					text={ "Toronto Digital Marketing Agency - Idea Rebel" }
+				/>
+			</div>
+			<div class="bg-zinc-200">
+				<iframe
+					width="100%"
+					height="450"
+					style="border:0"
+					referrerpolicy="no-referrer-when-downgrade"
+					src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCLmIyBNQokwz3LwKJS0LImC0eWDzGR5CU&q=idea+rebel,toronto"
+				/>
+			</div>
+		</section>
+		<section class="container mx-auto max-w-6xl grayscale my-8">
+			<div class="py-2">
+				<H3
+					text={ "Los Angeles Digital Marketing Agency - Idea Rebel" }
+				/>
+			</div>
+			<div class="bg-zinc-200">
+				<iframe
+					width="100%"
+					height="450"
+					style="border:0"
+					referrerpolicy="no-referrer-when-downgrade"
+					src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCLmIyBNQokwz3LwKJS0LImC0eWDzGR5CU&q=idea+rebel,los+angles"
 				/>
 			</div>
 		</section>

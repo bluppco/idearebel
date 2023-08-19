@@ -1,8 +1,17 @@
-![Alt text](https://blupp.b-cdn.net/idearebel/Careers_Creative3-UX_Widescreen.jpg?quality=80&width=800?"a title")
-![Alt text](https://blupp.b-cdn.net/idearebel/Careers_Badges_Strategy-Squad.png?quality=80&width=800?"a title")
-
+---
+image: https://blupp.b-cdn.net/idearebel/Careers_Creative3-UX_Widescreen.jpg?quality=80&width=800
+badge image: https://blupp.b-cdn.net/idearebel/Careers_Badges_Strategy-Squad.png?quality=80&width=800
+link: ux-designer-freelance
+order: 6
+sub_title: "User Experience Guru"
+title: UX Designer (Freelance)
+seo_title: UX Designer (Freelance) | Idea Rebel
+seo_description: We’re looking for Freelance User Experience Specialists (Interaction Architect) to join our Toronto or Vancouver teams. You will work to create user flows, build wireframes and perform usability tests for one of our high-profile clients. Duties Creating process flows, complex wireframes, prototypes, and medium fidelity mockups for responsive web,  e-commerce, mobile Analyzing user interface problems … Continued
+location: ["vancouver","toronto"]
+---
 We’re looking for Freelance User Experience Specialists (Interaction Architect) to join our Toronto or Vancouver teams. You will work to create user flows, build wireframes and perform usability tests for one of our high-profile clients.
 
+\
 **Duties**
 
 - Creating process flows, complex wireframes, prototypes, and medium fidelity mockups for responsive web,  e-commerce, mobile
@@ -12,14 +21,16 @@ We’re looking for Freelance User Experience Specialists (Interaction Architect
 - Work closely with cross-functional teams to help define business and feature requirements
 - Enhancing organization reputation by taking ownership of project and deliverables as well as exploring opportunities to add value
 
- 
-
+\
 **Skills/Qualification**
 
+\
 Web user Interface Design, E-commerce experience, problem solving, requirements analysis, usability testing, strong verbal & written communication, customer focus, understanding browser capabilities
 
+\
 Experience in the travel/transportation sector would be an asset.
 
+\
 **Requirements**
 
 - 3 years minimum experience working in a digital agency or on digital product
@@ -33,4 +44,6 @@ Experience in the travel/transportation sector would be an asset.
 
 Locations: Toronto, Vancouver
 
-Apply via tweet @idearebel or email careers@idearebel.com
+\
+\
+Apply via tweet [@idearebel](https://x.com/idearebel) or email [careers@idearebel.com](mailto:careers@idearebel.com)

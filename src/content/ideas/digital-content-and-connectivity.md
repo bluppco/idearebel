@@ -10,7 +10,7 @@ url: https://www.idearebel.com/ideas/digital-content-and-connectivity/
 seo_title: "Digital Content & Connectivity | Idea Rebel"
 seo_description: "Content was king but that two decades ago. Then, it met Connectivity - and from that moment on, neither could live without the other."
 ---
-**A Technological Fairytale**
+**_A Technological Fairytale_**
 
 \
 Content is King. It was the Bill Gates inspired battle-cry of the burgeoning tech generation – kids who had cut their teeth on print, television and radio, believing that Digital would simply amplify the voices that traditional channels had already afforded their parents; and for a while, they were right. But that was two decades ago…

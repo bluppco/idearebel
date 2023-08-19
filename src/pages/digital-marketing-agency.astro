@@ -7,18 +7,21 @@ import Button from "../components/common/Button.astro"
 import Paragraph from "../components/common/Paragraph.astro"
 import Footer from "../components/Footer.astro"
 import Header from "../components/common/Header.jsx"
+import Head from "../components/common/Head.astro"
+import WeAreRebels from "../components/about/WeAreRebels.astro"
+import MatchingIdeasToTechnology from "../components/about/MatchingIdeasToTechnology.astro"
+import CreatingExceptionalDigitalExperiences from "../components/about/CreatingExceptionalDigitalExperiences.astro"
+import "../styles.css"
+import SelectClients from "../components/common/SelectClients.astro"
+import SelectRewards from "../components/about/SelectRewards.astro"
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=karla:400" rel="stylesheet" />
-	</head>
+	<Head
+        title="Digital Marketing Agency in Toronto, Vancouver, Los Angeles | Idea Rebel"
+		description="Idea Rebel is a digital marketing agency in Vancouver, Toronto, and Los Angeles. We specialize in Media buying, strategy, marketing campaigns"
+		image="https://blupp.b-cdn.net/idearebel/About_Header_Widescreen-1-3840x2160.jpg?quality=80"
+    />
 	<body>
         <Header
             title="About"
@@ -26,132 +29,69 @@ import Header from "../components/common/Header.jsx"
             cover="https://blupp.b-cdn.net/idearebel/About_Header_Widescreen-1-3840x2160.jpg?quality=50"
 			client:load
 		/>
-        <section class="conatiner mx-auto max-w-6xl py-20">
-            <div class="flex justify-center flex-col items-center">
-                <H3
-                    text="Select Clients"
-                />
-            </div>
-            <div class="flex justify-center flex-col items-center">
-                <div class="grid grid-cols-5 items-center justify-center gap-4">
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/7eleven.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/7eleven.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/7eleven.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/7eleven.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/7eleven.png?quality=80"
-                        >
-                    </div>
-                </div>
-                <div class="grid grid-cols-5 items-center justify-center gap-4">
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/7eleven.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/7eleven.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/7eleven.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/7eleven.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/7eleven.png?quality=80"
-                        >
-                    </div>
-                </div>
-                <div class="grid grid-cols-3 items-center justify-center gap-4">
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/7eleven.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/7eleven.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/7eleven.png?quality=80"
-                        >
-                    </div>
+        <section class="container mx-auto max-w-6xl py-20" id="content">
+            <div class="grid grid-col gap-20">
+                <WeAreRebels />
+                <MatchingIdeasToTechnology />
+                <CreatingExceptionalDigitalExperiences />
+                <div class="flex justify-center">
+                    <Button
+                        text="more about our services"
+                        link="digital-services/"
+                    />
                 </div>
             </div>
+            <SelectClients/>
         </section>
-        <section class="container mx-auto max-w-6xl py-20">
-            <div class="flex justify-center flex-col items-center">
-                <H3
-                    text="Select Awards"
-                />
-            </div>
-            <div class="flex justify-center flex-col items-center">
-                <div class="grid grid-cols-4 items-center justify-center gap-4 w-full">
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/7eleven.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/7eleven.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/7eleven.png?quality=80"
-                        >
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img
-                            src="https://blupp.b-cdn.net/idearebel/7eleven.png?quality=80"
-                        >
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="conatiner mx-auto max-w-6xl py-20">
-            <div class="grid grid-cols-12">
+        <SelectRewards />
+        <section class="conatiner mx-auto max-w-6xl py-4 md:py-20 p-4 md:p-0">
+            <div class="grid grid-cols-1 md:grid-cols-12">
                 <div class="col-span-2" />
                 <div class="col-span-8 relative">
+                    <p class="text-xl font-karla text-black">We have been recognized by the <a href="https://www.thebestvancouver.com/" target="_blank" rel="nofollow noindex"><b class="font-extrabold hover:underline !no-underline underline-offset-2">Best In Vancouver</b></a> as one of <a href="https://www.thebestvancouver.com/best-digital-marketing-agency-vancouver/#6_Idea_Rebel"rel="nofollow noindex"><b class="font-extrabold hover:underline underline-offset-2">The Best Digital Marketing Agencies in Vancouver 2021</b></a>.</p>
+                </div>
+            </div>
+        </section>
+        <section class="conatiner mx-auto max-w-6xl py-4 md:py-20 p-4 md:p-0">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-4 items-center">
+                <div class="col-span-2" />
+                <div class="col-span-4 relative gap-4 grid">
                     <H2
                         text="We don't do paper."
                     />
                     <Paragraph
                         text="Being an environmentally sustainable company is at the core of our business model and part of our DNA, underpinning our actions and informing what we do. It’s why we walk, bike or bus to work, too."
                     />
+                    <Button
+                        text="learn more"
+                        link="our-completely-paperless-company/"
+                    />
+                </div>
+                <div class="col-span-3">
+                    <div class="w-56 h-56">
+                        <img
+                            src="https://blupp.b-cdn.net/idearebel/About_FPaperIcon.png?quality=80"
+                            class="w-full h-full object-cover"
+                            alt="picture"
+                        />
+                    </div>
                 </div>
             </div>
 		</section>
-        <section class="conatiner mx-auto max-w-6xl py-20">
-            <div class="grid grid-cols-12">
+        <section class="conatiner mx-auto max-w-6xl py-4 md:py-20  p-4 md:p-0">
+            <video
+                loop={ true }
+                autoPlay={ true }
+                muted={ true }
+                playsInline={ true }
+                preload="auto"
+                className="h-full w-full object-cover"
+            >
+                <source src={ "https://blupp.b-cdn.net/idearebel/Culture_Video_compressed.mp4" } type="video/mp4"/>
+            </video>
+        </section>
+        <section class="conatiner mx-auto max-w-6xl py-4 md:py-20  p-4 md:p-0">
+            <div class="grid grid-cols-1 md:grid-cols-12">
                 <div class="col-span-2" />
                 <div class="col-span-8">
                     <H2
@@ -165,23 +105,23 @@ import Header from "../components/common/Header.jsx"
             </div>
 		</section>
         <section class="container mx-auto max-w-6xl py-20">
-            <div class="grid grid-cols-3 gap-10">
-                <div class="col-span-2 bg-zinc-200">
+            <div class="grid grid-cols-1 md:grid-cols-3 p-4 md:p-0 gap-4 md:gap-10">
+                <div class="col-span-1 md:col-span-2 bg-zinc-200">
                     <img
                         src="https://blupp.b-cdn.net/idearebel/mahira-idea-rebel.jpg?quality=80"
                         class="w-full h-full object-cover"
                         alt="picture"
                     />
                 </div>
-                <div class="grid gap-10">
-                    <div class="col-span-2 bg-zinc-200 w-full aspect-square">
+                <div class="grid gap-4 md:gap-10">
+                    <div class="col-span-1 md:col-span-2 bg-zinc-200 w-full aspect-square">
                         <img
                             src="https://blupp.b-cdn.net/idearebel/Neil-new.jpg?quality=80"
                             class="w-full h-full object-cover"
                             alt="picture"
                         />
                     </div>
-                    <div class="col-span-2 bg-zinc-200 w-full aspect-square">
+                    <div class="col-span-1 md:col-span-2 bg-zinc-200 w-full aspect-square">
                         <img
                             src="https://blupp.b-cdn.net/idearebel/jamie_garratt.jpg?quality=80"
                             class="w-full h-full object-cover"
@@ -190,16 +130,16 @@ import Header from "../components/common/Header.jsx"
                     </div>
                 </div>
             </div>
-            <div class="grid grid-cols-3 gap-10 mt-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 p-4 md:p-0 gap-4 md:gap-10 mt-0 md:mt-10">
                 <div class="grid gap-10">
-                    <div class="col-span-2 bg-zinc-200 w-full aspect-square">
+                    <div class="col-span-1 md:col-span-2 bg-zinc-200 w-full aspect-square">
                         <img
                             src="https://blupp.b-cdn.net/idearebel/Robbie.jpg?quality=80"
                             class="w-full h-full object-cover"
                             alt="picture"
                         />
                     </div>
-                    <div class="col-span-2 bg-zinc-200 w-full aspect-square">
+                    <div class="col-span-1 md:col-span-2 bg-zinc-200 w-full aspect-square">
                         <img
                             src="https://blupp.b-cdn.net/idearebel/avr.jpg?quality=80"
                             class="w-full h-full object-cover"
@@ -207,7 +147,7 @@ import Header from "../components/common/Header.jsx"
                         />
                     </div>
                 </div>
-                <div class="col-span-2 bg-zinc-200">
+                <div class="col-span-1 md:col-span-2 bg-zinc-200">
                     <img
                         src="https://blupp.b-cdn.net/idearebel/david_rossellat.jpg?quality=80"
                         class="w-full h-full object-cover bg-zinc-200"

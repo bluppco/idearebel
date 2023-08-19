@@ -17,13 +17,16 @@ import Footer from "../../components/Footer.astro"
 import Header from "../../components/common/Header.jsx"
 import H1 from "../../components/common/atom/H1.astro"
 import Button from "../../components/common/Button.astro"
+import ButtonShare from "../../components/common/ButtonShare.astro"
 import Paragraph from "../../components/common/Paragraph.astro"
 import ParagraphGaramond from "../../components/common/atom/ParagraphGaramond.astro"
 import "../../styles.css"
 ---
 <html lang="en">
 	<Head
-		title={ entry.data.title }
+		title={ entry.data.seo_title }
+		description={entry.data.seo_description}
+		image={entry.data.image}
 	/>
 	<body>
 		<Header
@@ -33,7 +36,7 @@ import "../../styles.css"
 			cover={ entry.data.image }
 			not_cover={ true }
 		/>
-		<div class="mt-5 container mx-auto max-w-2xl py-20">
+		<div class="mt-5 container mx-auto max-w-2xl p-4 md:p-0 md:py-20" id="content">
             <Content/>
 			<div class="mt-4">
 				<ParagraphGaramond
@@ -41,16 +44,13 @@ import "../../styles.css"
 				/>
 			</div>
 			<div class="mt-4 flex gap-8">
-				<div class="w-56">
-					<Button
-						text="BACK"
-					/>
-				</div>
-				<div class="w-56">
-					<Button
-						text="SHARE"
-					/>
-				</div>
+				<Button
+					text="BACK"
+					link="creative-ideas/"
+				/>
+				<ButtonShare
+					link="SHARE"
+				/>
 			</div>
         </div>
 		<Footer />

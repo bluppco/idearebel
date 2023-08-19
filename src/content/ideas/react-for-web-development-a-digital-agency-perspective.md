@@ -1,6 +1,6 @@
 ---
 description: React for Web Development – A Digital Agency Perspective
-image: https://blupp.b-cdn.net/idearebel/Idea-Rebel-Web-Development-ReactJS.jpg?quality=80&width=800
+image: https://blupp.b-cdn.net/idearebel/Idea-Rebel-Web-Development-ReactJS.jpeg?quality=80&width=800
 order: 8
 publish_date: October 26, 2020
 link: react-for-web-development-a-digital-agency-perspective

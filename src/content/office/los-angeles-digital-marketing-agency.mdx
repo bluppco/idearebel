@@ -1,0 +1,135 @@
+---
+image: https://blupp.b-cdn.net/idearebel/office-san.jpg?quality=80&width=800
+link: los-angeles-digital-marketing-agency
+sub_title:
+title: Idea Rebel Los Angeles
+seo_title: Los Angeles Digital Marketing Agency | Idea Rebel | Media & Experiences
+seo_description: Idea Rebel is a full-service digital marketing agency in Los Angeles offering media buying, strategy, digital experiences, marketing campaigns
+location: Los Angeles
+time_offset: -480
+cover: "https://blupp.b-cdn.net/idearebel/santamonica_cloudy.gif?quality=80?quality=80&width=800"
+office_location: "Idea Rebel Angeles"
+address_1: "225 Arizona Avenue"
+address_2: "Santa Monica, CA 90401"
+phone: "(310) 595-1252"
+office_link: "office/los-angeles-digital-marketing-agency/"
+button_link: "https://goo.gl/maps/3TFjFo5VzR6YupXq6"
+phone_link: "tel:+13105951252"
+---
+
+import Column from "../../components/common/mdx/Column.astro";
+import Column2 from "../../components/common/mdx/Column-2.astro";
+import Column3 from "../../components/common/mdx/Column-3.astro";
+import ParagraphGaramond from "../../components/common/mdx/ParagraphGaramond.astro";
+import Image from "../../components/common/mdx/Image.astro";
+import H3 from"../../components/common/atom/H3.astro";
+
+import { CDN_LINK, IMAGE_QUALITY, IMAGE_WIDTH } from "../../constants"
+
+<Column2>
+    <Column>
+        <img
+            src={ CDN_LINK + "santamonica_sunny.gif?quality=" + IMAGE_QUALITY }
+            alt="los angeles animated"
+            class="w-96 h-96"
+        />
+    </Column>
+    <Column>
+        ## The Office
+
+        <ParagraphGaramond>
+            225 Arizona Avenue Santa Monica, CA 90401
+
+            (310) 595-1252
+
+            newbusiness@idearebel.com
+        </ParagraphGaramond>
+
+        \
+        Idea Rebel
+
+        \
+        Los Angeles Digital Marketing Agency - Santa Monica has always been a natural fit with Idea Rebel's emphasis on sustainability and active living. We work with like-minded Californian clients like Quiksilver, Warner Bros., Fox and Sony Pictures.
+    </Column>
+</Column2>
+<Column>
+    <Image>
+        <img
+            src={ CDN_LINK + "offce-san-2.jpg?quality=" + IMAGE_QUALITY }
+            alt="Dogtown los angeles"
+            class="w-full h-full"
+        />
+    </Image>
+</Column>
+<Column>
+    #### What’s up, Dogtown.
+
+    \
+    Welcome to the beach! Situated just west of Los Angeles, Santa Monica is the place to experience the Pacific Ocean, Palisades Park and one helluva pier.
+</Column>
+<Column>
+    <div class="py-2">
+		<H3
+			text={ "Los Angeles Digital Marketing Agency - Idea Rebel" }
+		/>
+	</div>
+	<div class="bg-zinc-200">
+		<iframe
+			width="100%"
+			height="450"
+			style="border:0"
+			referrerpolicy="no-referrer-when-downgrade"
+			src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCLmIyBNQokwz3LwKJS0LImC0eWDzGR5CU&q=idea+rebel,los+angles"
+		/>
+	</div>
+</Column>
+<Column center={ true }>
+    **REBELS RECOMMEND**
+</Column>
+<Column3>
+    <Column center={ true }>
+        <img
+            src={ CDN_LINK + "san-recommended-eat.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="Santa Monica Seafood Market & Café food"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
+
+        **EAT**
+
+        <ParagraphGaramond>
+            [Santa Monica Seafood Market & Café](https://smseafoodmarket.com/santa-monica-seafood-market-and-cafe/)
+
+            1000 Wilshire Blvd.
+        </ParagraphGaramond>
+    </Column>
+    <Column center={ true }>
+        <img
+            src={ CDN_LINK + "san-recommended-drink.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="Caffe Luxxe drink"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
+
+        **Drink**
+
+        <ParagraphGaramond>
+            [Caffe Luxxe](https://www.caffeluxxe.com/)
+
+            925 Montana Ave.
+        </ParagraphGaramond>
+    </Column>
+    <Column center={ true }>
+        <img
+            src={ CDN_LINK + "san-recommended-play.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="The Bungalow play"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
+
+        **PLAY**
+
+        <ParagraphGaramond>
+            [The Bungalow](https://thebungalow.com/)
+
+            101 Wilshire Blvd.
+        </ParagraphGaramond>
+    </Column>
+</Column3>

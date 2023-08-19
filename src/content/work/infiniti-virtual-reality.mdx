@@ -1,0 +1,103 @@
+---
+description: ""
+image: "https://blupp.b-cdn.net/idearebel/Infiniti_PencilToMetalVideoStill_Widescreen-1280x720.jpg?quality=80"
+link: infiniti-virtual-reality
+order: 11
+publish_date: ""
+seo_description: "Our creative team help Infiniti to tell the story of the QX30 concept car creating a vr experience with a 360degree view. Download the app to see the result"
+seo_title: "Infiniti Virtual Reality Experience | Idea Rebel"
+sub_title: Virtual Reality Experience
+title: Infiniti Driver’s Seat
+url: https://www.idearebel.com/work/infiniti-virtual-reality/
+video: "https://blupp.b-cdn.net/idearebel/Infiniti_PenciltoMetailVideo.mp4"
+video_flag: true
+---
+import Column from "../../components/common/mdx/Column.astro";
+import Column2 from "../../components/common/mdx/Column-2.astro";
+import Button from "../../components/common/Button.astro";
+import ParagraphGaramond from "../../components/common/atom/ParagraphGaramond.astro"
+import H3 from "../../components/common/atom/H3.astro"
+import PreviousProject from "../../components/common/mdx/PreviousProject.astro"
+import NextProject from "../../components/common/mdx/NextProject.astro"
+import { CDN_LINK, IMAGE_QUALITY, IMAGE_WIDTH } from "../../constants"
+
+<section class="container mx-auto max-w-6xl py-10">
+    <Column2>
+        <Column>
+            <img
+                src={ CDN_LINK + "Infiniti_Car1_Tablet.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="infiniti car tablet"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
+        </Column>
+        <Column>
+            ## Background
+
+            \
+            Infiniti has positioned itself as an aspirational luxury brand going up against the likes of BMW, Mercedes and Audi. Concept cars have long been a means of capturing audience attention and imagination, however they’re usually reserved for premium auto shows. Infiniti wanted to give a wider audience the opportunity to experience what it means to design and drive inspired performance.
+        </Column>
+    </Column2>
+</section>
+<section class="container mx-auto max-w-6xl py-10">
+    <Column2>
+        <Column>
+            ## The Idea
+
+            \
+            We created Infiniti Driver’s Seat, a virtual reality app that gives users the only set of keys to the QX30 and Q60 concept cars, via two immersive VR experiences.
+        </Column>
+        <Column>
+            <img
+                src={ CDN_LINK + "infiniti_car_and_vr_goggle_illustration.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                alt="infiniti car vr illustrations"
+                class="w-full h-full aspect-square bg-zinc-200 object-fill"
+            />
+        </Column>
+    </Column2>
+</section>
+<section class="container mx-auto max-w-6xl p-20 bg-secondary">
+    <Column>
+        ![Alt text](https://blupp.b-cdn.net/idearebel/Infiniti_PenciltoMetailVideo.mp4)
+    </Column>
+</section>
+{/* <section class="container mx-auto max-w-6xl p-20 bg-secondary">
+    <Column>
+        ![Alt text](https://blupp.b-cdn.net/idearebel/Infiniti_DreamRoadVideo.mp4)
+    </Column>
+</section */}
+<section class="bg-secondary mt-20">
+    <section class="container mx-auto max-w-6xl py-20">
+        <Column2>
+            <Column>
+                ## Results
+
+                \
+                Reception has been overwhelmingly positive, with the app receiving huge amounts of attention, both on-site at Pebble Beach and online by industry and consumer publications.
+            </Column>
+            <Column>
+                <img
+                    src={ CDN_LINK + "Infiniti_FWA_Widescreen.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+                    alt="infiniti fwa"
+                    class="w-full h-full aspect-square bg-zinc-200 object-fill"
+                />
+            </Column>
+        </Column2>
+    </section>
+</section>
+
+<section class="container mx-auto max-w-6xl p-4 md:px-0 md:py-2">
+    <Column>
+        <div class="flex justify-between">
+            <div>
+            <PreviousProject
+                link="/work/hyundai-dealership-app/"
+                title="Hyundai Dealership App"
+            />
+            </div>
+            <NextProject
+                link="/work/rogers/"
+                title="Rogers Pick ’n Play"
+            />
+        </div>
+    </Column>
+</section>

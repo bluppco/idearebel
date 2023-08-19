@@ -38,8 +38,6 @@ Idea Rebel’s role with Keurig builds on the agency’s extensive consumer prod
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/IMG_5876.jpg?quality=80&width=800?quality=80&width=800 "a title")
-IMG_5876.jpg
 
 \
 ![Alt text](https://blupp.b-cdn.net/idearebel/ir_and_keurig_mug.jpg?quality=80&width=800?quality=80&width=800 "a title")
-ir_and_keurig_mug.jpg

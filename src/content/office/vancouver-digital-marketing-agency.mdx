@@ -3,18 +3,34 @@ image: https://blupp.b-cdn.net/idearebel/van-header-hero.jpg?quality=80&width=80
 link: vancouver-digital-marketing-agency
 sub_title:
 title: Idea Rebel Vancouver
-seo_title: Idea Rebel Vancouver
-seo_description: Idea Rebel Vancouver
+seo_title: Vancouver Digital Marketing Agency | Idea Rebel | Media & Experiences
+seo_description: Idea Rebel is a full-service digital marketing agency in Vancouver offering media buying & strategy, digital experiences, marketing campaigns
+location: Vancouver
+time_offset: -480
+cover: "https://blupp.b-cdn.net/idearebel/vancouver_cloudy-1.gif?quality=80&width=800"
+office_location: "Idea Rebel Vancouver"
+address_1: "113 Water Street"
+address_2: "Vancouver, BC V6B 1A7"
+phone: "(604) 569-2155"
+office_link: "office/vancouver-digital-marketing-agency/"
+button_link: "https://goo.gl/maps/ebp1zjuvUpM2"
+phone_link: "tel:+16045692155"
 ---
 import Column from "../../components/common/mdx/Column.astro";
 import Column2 from "../../components/common/mdx/Column-2.astro";
 import Column3 from "../../components/common/mdx/Column-3.astro";
 import ParagraphGaramond from "../../components/common/mdx/ParagraphGaramond.astro";
 import Image from "../../components/common/mdx/Image.astro";
+import H3 from"../../components/common/atom/H3.astro";
+import { CDN_LINK, IMAGE_QUALITY, IMAGE_WIDTH } from "../../constants"
 
 <Column2>
     <Column>
-        ![Alt text](https://blupp.b-cdn.net/idearebel/vancouver_cloudy-1.gif?quality=80?quality=80&width=800 "a title")
+        <img
+            src={ CDN_LINK + "vancouver_cloudy-1.gif?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="vancouver cloudy gif"
+            class="w-96 h-96 aspect-square object-fill"
+        />
     </Column>
     <Column>
         ## The Office
@@ -35,55 +51,75 @@ import Image from "../../components/common/mdx/Image.astro";
     </Column>
 </Column2>
 <Column>
-    <Image>
-        ![Alt text](https://blupp.b-cdn.net/idearebel/office-van.jpg?quality=80?quality=80&width=800 "a title")
-    </Image>
+    <img
+        src={ CDN_LINK + "office-van.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+        alt="Gastown street view"
+        class="w-full h-full bg-zinc-200 object-fill"
+    />
 </Column>
 <Column>
-    ### What’s shakin’, Gastown.
-
-    \
+    #### What’s shakin’, Gastown.
     The home of West Coast cool, Gastown is one of Vancouver’s oldest, edgiest neighbourhoods.
 </Column>
 <Column>
-    ### Vancouver Digital Marketing Agency – Idea Rebel
-
-    \
-    The home of West Coast cool, Gastown is one of Vancouver’s oldest, edgiest neighbourhoods.
+    <div class="py-2">
+		<H3
+			text={ "Vancouver Digital Marketing Agency - Idea Rebel" }
+		/>
+	</div>
+	<div class="bg-zinc-200">
+		<iframe
+			width="100%"
+			height="450"
+			style="border:0"
+			referrerpolicy="no-referrer-when-downgrade"
+			src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCLmIyBNQokwz3LwKJS0LImC0eWDzGR5CU&q=idea+rebel,vancouver"
+		/>
+	</div>
 </Column>
+
 <Column center={ true }>
     **Rebels Recommend**
 </Column>
 <Column3>
     <Column center={ true }>
-        ![Alt text](https://blupp.b-cdn.net/idearebel/van-recommended-eat.jpg?quality=80?quality=80&width=800 "a title")
-
+        <img
+            src={ CDN_LINK + "van-recommended-eat.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="Tacofino food"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
         **EAT**
 
         <ParagraphGaramond>
-            Tacofino
+            [Tacofino](http://www.tacofino.com/)
 
             15 West Cordova St.
         </ParagraphGaramond>
     </Column>
     <Column center={ true }>
-        ![Alt text](https://blupp.b-cdn.net/idearebel/van-recommended-drink.jpg?quality=80?quality=80&width=800 "a title")
-
+        <img
+            src={ CDN_LINK + "van-recommended-drink.jpg?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="Smart Mouth Café drink"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
         **Drink**
 
         <ParagraphGaramond>
-            Smart Mouth Café
+            [Smart Mouth Café](https://www.facebook.com/SmartMouthCafe)
 
             117-131 Water St.
         </ParagraphGaramond>
     </Column>
     <Column center={ true }>
-        ![Alt text](https://blupp.b-cdn.net/idearebel/guiltco-gastown-idea-rebel-1.png?quality=80?quality=80&width=800 "a title")
-
+        <img
+            src={ CDN_LINK + "guiltco-gastown-idea-rebel-1.png?quality=" + IMAGE_QUALITY + "&width=" + IMAGE_WIDTH }
+            alt="Guilt & Co"
+            class="w-full h-full aspect-square bg-zinc-200 object-fill"
+        />
         **PLAY**
 
         <ParagraphGaramond>
-            Guilt & Co
+            [Guilt & Co](https://www.guiltandcompany.com/)
 
             1 Alexander St
         </ParagraphGaramond>
