@@ -1,37 +1,32 @@
 ---
 import H4 from "../common/atom/H4.astro"
+// CONSTANTS
+import { CDN_LINK, IMAGE_QUALITY } from "../../constants"
 ---
-
-<section class="container mx-auto max-w-6xl py-20">
-    <div class="flex justify-center flex-col items-center">
-        <H4
-            text="Select Awards"
-            uppercase= { true }
-            wide= { true }
-        />
-    </div>
-    <div class="flex justify-center flex-col items-center">
-        <div class="grid grid-cols-2 md:grid-cols-4 items-center justify-center gap-4 w-full py-4">
-            <div class="flex items-center justify-center">
-                <img
-                    src="https://blupp.b-cdn.net/idearebel/lotus_award.png?quality=80"
-                >
-            </div>
-            <div class="flex items-center justify-center">
-                <img
-                    src="https://blupp.b-cdn.net/idearebel/atomic_award.png?quality=80"
-                >
-            </div>
-            <div class="flex items-center justify-center">
-                <img
-                    src="https://blupp.b-cdn.net/idearebel/fwa_award.png?quality=80"
-                >
-            </div>
-            <div class="flex items-center justify-center">
-                <img
-                    src="https://blupp.b-cdn.net/idearebel/digi_award.png?quality=80"
-                >
-            </div>
+<div class="flex justify-center flex-col items-center">
+    <H4 uppercase= { true } wide= { true }>Select Awards</H4>
+</div>
+<div class="flex justify-center flex-col items-center">
+    <div class="grid grid-cols-2 md:grid-cols-4 items-center justify-center gap-4 w-full py-4">
+        <div class="flex items-center justify-center">
+            <img
+                src={ CDN_LINK + "lotus_award.png?quality=" + IMAGE_QUALITY }
+            >
+        </div>
+        <div class="flex items-center justify-center">
+            <img
+                src={ CDN_LINK + "atomic_award.png?quality=" + IMAGE_QUALITY }
+            >
+        </div>
+        <div class="flex items-center justify-center">
+            <img
+                src={ CDN_LINK + "fwa_award.png?quality=" + IMAGE_QUALITY }
+            >
+        </div>
+        <div class="flex items-center justify-center">
+            <img
+                src={ CDN_LINK + "digi_award.png?quality=" + IMAGE_QUALITY }
+            >
         </div>
     </div>
-</section>
+</div>

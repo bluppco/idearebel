@@ -1,20 +1,18 @@
 ---
 import H1 from "../common/atom/H1.astro"
-import Paragraph from "../common/Paragraph.astro"
+import Paragraph from "../common/atom/Paragraph.astro"
+// CONSTANTS
+import { CDN_LINK, IMAGE_QUALITY } from "../../constants"
 ---
 <div class="grid grid-cols-1 md:grid-cols-8 gap-8 items-center relative p-4 md:p-0 py-10">
     <div class="col-span-3 grid grid-cols gap-4">
-        <H1
-            text="We are Rebels"
-        />
-        <Paragraph
-            text="We’re not just pixel pushers, devs and copy jockeys. We’re nature lovers, surfers, snowboarders, foodies, film buffs and fixie riders, too."
-        />
+        <H1>We are Rebels</H1>
+        <Paragraph>We're not just pixel pushers, devs and copy jockeys. We're nature lovers, surfers, snowboarders, foodies, film buffs and fixie riders, too.</Paragraph>
     </div>
     <div />
     <div class="col-span-3 mt-16">
         <img
-            src="https://blupp.b-cdn.net/idearebel/Idea-Rebel-We-Are-Rebels-e1650503414390.jpeg?quality=80"
+            src={ CDN_LINK + "Idea-Rebel-We-Are-Rebels-e1650503414390.jpeg?quality=" + IMAGE_QUALITY }
             class="w-full object-fit"
         />
     </div>
