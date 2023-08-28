@@ -1,58 +1,60 @@
 ---
+// LAYOUTS
+import Container from "../layouts/Container.astro"
+import Layout from "../layouts/Layout.astro"
+
+// COLLECTION DATA
 import { getCollection } from 'astro:content';
 const services = await getCollection('services');
 const services_sorted = services.sort((a, b) => a.data.order - b.data.order)
+
+// ATOMS
 import H1 from "../components/common/atom/H1.astro"
-import H2 from "../components/common/atom/H2.astro"
-import H3 from "../components/common/atom/H3.astro"
 import H5 from "../components/common/atom/H5.astro"
-import Button from "../components/common/Button.astro"
-import Paragraph from "../components/common/Paragraph.astro"
+import Button from "../components/common/atom/Button.astro"
+import Paragraph from "../components/common/atom/Paragraph.astro"
+
+// COMPONENTS
 import Header from "../components/common/Header.jsx"
 import Footer from "../components/Footer.astro"
-import ParagraphGaramond from "../components/common/atom/ParagraphGaramond.astro"
 import ServicesRight from "../components/digital-services/ServicesRight.astro"
 import ServicesLeft from "../components/digital-services/ServicesLeft.astro"
-import Head from "../components/common/Head.astro"
 import Service from "../components/services/Service.astro"
-import "../styles.css"
----
 
-<html lang="en">
-	<Head
-		title="Digital Marketing Agency Services: Media & Experiences | Idea Rebel"
-		description="Idea Rebel is a full-service digital marketing agency in Toronto, Vancouver & LA - Media Buying & Strategy, Digital Experiences, Campaigns"
-		image="https://blupp.b-cdn.net/idearebel/idea-rebel-tornoto-digital-ageny.jpg?quality=80"
+// STYLESHEET
+import "../styles.css"
+
+// CONSTANTS
+import { CDN_LINK, IMAGE_QUALITY } from "../constants"
+---
+<Layout
+	title="Digital Marketing Agency Services: Media & Experiences | Idea Rebel"
+	description="Idea Rebel is a full-service digital marketing agency in Toronto, Vancouver & LA - Media Buying & Strategy, Digital Experiences, Campaigns"
+	image={ CDN_LINK + "idea-rebel-tornoto-digital-ageny.jpg?quality=" + IMAGE_QUALITY }
+>
+	<Header
+		client:load
+		title="Digital Services"
+		subtitle="Raising the bar with killer ideas and cutting-edge technology. It's what we do."
+		cover={ CDN_LINK + "idea-rebel-tornoto-digital-ageny.jpg?quality=" + IMAGE_QUALITY }
 	/>
-	<body>
-        <Header
-			client:load
-            title="Digital Services"
-            subtitle="Raising the bar with killer ideas and cutting-edge technology. It's what we do."
-			cover="https://blupp.b-cdn.net/idearebel/idea-rebel-tornoto-digital-ageny.jpg?quality=80"
-		/>
+	<Container>
 		<section class="relative p-4 md:p-0" id="content">
-			<section class="container mx-auto max-w-6xl py-20">
-				<div class="grid grid-cols-1 md:grid-cols-2">
-					<div class="grid grid-col gap-8">
-						<H1
-							text="Technology as big as our ideas."
-						/>
-						<Paragraph
-							text="Idea Rebel’s creative solutions are suited to our clients’ business objectives – from web, ecommerce & mobile app development, experiential marketing and interactive experiences; from ideas to execution to connection, everything is achieved in-house."
-						/>
-					</div>
+			<div class="grid grid-cols-1 md:grid-cols-2">
+				<div class="grid grid-col gap-8">
+					<H1>Technology as big as our ideas.</H1>
+					<Paragraph>Idea Rebel’s creative solutions are suited to our clients’ business objectives – from web, ecommerce & mobile app development, experiential marketing and interactive experiences; from ideas to execution to connection, everything is achieved in-house.</Paragraph>
 				</div>
-			</section>
+			</div>
 			<div class="relative md:absolute right-0 bottom-0 w-full md:w-1/3">
 				<img
-					src="https://blupp.b-cdn.net/idearebel/devices.png"
+					src={ CDN_LINK + "devices.png?quality=" + IMAGE_QUALITY }
 					class="w-full object-fill"
 				/>
 			</div>
 		</section>
-		<section class="container mx-auto max-w-6xl p-4 md:p-20 bg-secondary">
-			<div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
+		<section class="relatiive">
+			<section class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
 				{
 
 					services_sorted.map( ( service ) => {
@@ -69,48 +71,40 @@ import "../styles.css"
 
 				}
 			</div>
-		</section>
-		<section class="container mx-auto max-w-6xl py-2 relative mt-20">
 			<div class="flex justify-center">
-				<H5
-					text="Process"
-					primary_color={ true }
-					uppercase={ true }
-				/>
+				<H5 primary_color={ true } uppercase={ true }>Process</H5>
 			</div>
-		</section>
-		<section class="container mx-auto max-w-6xl py-20 relative">
 			<ServicesRight
-				creative="https://blupp.b-cdn.net/idearebel/strategy.jpg"
+				creative={ CDN_LINK + "strategy.jpg?quality=" + IMAGE_QUALITY }
 				service_description="Every jaw-dropping innovation starts as an idea. The Idea Rebel process begins with a thorough assessment of the brand, the market, the competition, the target audience and the client’s goals – factors that inform our objectives and guide our strategies."
-				service_image="https://blupp.b-cdn.net/idearebel/About_Services_Strategy.gif"
+				service_image={ CDN_LINK + "About_Services_Strategy.gif?quality=" + IMAGE_QUALITY }
 				service_title="Strategy"
 				title="Strategic Digital Services"
 				work={["Planning & Strategy","Digital Analysis","Conceptual Development","Branding"]}
 				marginTop={ false }
 			/>
 			<ServicesLeft
-				creative="https://blupp.b-cdn.net/idearebel/creative.jpg"
+				creative={ CDN_LINK + "creative.jpg?quality=" + IMAGE_QUALITY }
 				service_description="Taking next-level solutions from incubation to actualization takes vision and confidence. Our creative team develops brands, assets and user experiences that service project objectives, however ambitious."
-				service_image="https://blupp.b-cdn.net/idearebel/About_Services_Creative.gif"
+				service_image={ CDN_LINK + "About_Services_Creative.gif?quality=" + IMAGE_QUALITY }
 				service_title="Creative"
 				title="Creative Digital Services"
 				work={["Creative Direction","Copywriting","Design","UX"]}
 				marginTop={ true }
 			/>
 			<ServicesRight
-				creative="https://blupp.b-cdn.net/idearebel/webdevelopmentphoto.jpg"
+				creative={ CDN_LINK + "webdevelopmentphoto.jpg?quality=" + IMAGE_QUALITY }
 				service_description="Ideas are only as good as the technology supporting them. Our dev experts build the backbone behind every one of Idea Rebel’s innovations, often creating solutions specific to a project’s unique challenges."
-				service_image="https://blupp.b-cdn.net/idearebel/About_Services_Development.gif"
+				service_image={ CDN_LINK + "About_Services_Development.gif?quality=" + IMAGE_QUALITY }
 				service_title="Technology"
 				title="Digital Development Services"
 				work={["Technical Architecture","Websites, Apps, eCommerce & Social","Content Management","Quality Assurance"]}
 				marginTop={ true }
 			/>
 			<ServicesLeft
-				creative="https://blupp.b-cdn.net/idearebel/marketing.png"
+				creative={ CDN_LINK + "marketing.png?quality=" + IMAGE_QUALITY }
 				service_description="Marketing lies at the heart of business success. That's why Idea Rebel goes beyond the build to target, engage and retain our clients’ audiences, utilizing the most effective channels to turn prospects into loyal customers."
-				service_image="https://blupp.b-cdn.net/idearebel/About_Services_Marketing.gif"
+				service_image={ CDN_LINK + "About_Services_Marketing.gif?quality=" + IMAGE_QUALITY }
 				service_title="Marketing"
 				title="Digital Marketing Services"
 				work={["Media Strategy","SEO","SEM","Email","Ads","Social"]}
@@ -119,15 +113,12 @@ import "../styles.css"
 			<div class="h-full w-1 absolute bg-secondary top-0 left-[50%] -z-10 -ml-[1px]"/>
 			<div class="h-1 w-8 absolute bg-secondary top-0 left-[50%] -z-10 -ml-4"/>
 			<div class="h-1 w-8 absolute bg-secondary bottom-0 left-[50%] -z-10 -ml-4"/>
+			<section class="py-20 flex justify-center">
+				<div class="w-48">
+					<Button link="digital-portfolio">SEE OUR WORK</Button>
+				</div>
+			</section>
 		</section>
-		<section class="py-20 flex justify-center">
-			<div class="w-48">
-				<Button
-					text="SEE OUR WORK"
-					link="digital-portfolio"
-				/>
-			</div>
-		</section>
-        <Footer />
-	</body>
-</html>
+	</Container>
+	<Footer />
+</Layout>

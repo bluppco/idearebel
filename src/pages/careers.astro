@@ -1,39 +1,46 @@
 ---
+// LAYOUTS
+import Container from "../layouts/Container.astro"
+import Layout from "../layouts/Layout.astro"
+
+// COLLECTIONS
 import { getCollection } from 'astro:content';
 const careers = await getCollection('careers');
 const careers_sorted = careers.sort((a, b) => a.data.order - b.data.order)
 // JUST VANCOUVER OPENINGS
 const careers_filtered = careers_sorted.filter((opening) => opening.data.location.indexOf("vancouver") !== -1 );
-import H1 from "../components/common/atom/H1.astro"
-import H2 from "../components/common/atom/H2.astro"
-import H3 from "../components/common/atom/H3.astro"
-import H5 from "../components/common/atom/H5.astro"
-import Button from "../components/common/Button.astro"
-import Paragraph from "../components/common/Paragraph.astro"
-import Footer from "../components/Footer.astro"
-import Head from "../components/common/Head.astro"
-import Header from "../components/common/Header.jsx"
-import ParagraphGaramond from "../components/common/atom/ParagraphGaramond.astro"
-import "../styles.css"
----
 
-<html lang="en">
-	<Head
-		title="Technology, Creative & Digital Marketing Jobs | Idea Rebel"
-		description="Looking for an exciting career at our digital marketing agency? Check out our open positions at Idea Rebel Vancouver, Toronto, & Los Angeles"
-		image="https://blupp.b-cdn.net/idearebel/Idea-Rebel-We-Are-Rebels-Agency-2.png?quality=80"
+// ATOM
+import H1 from "../components/common/atom/H1.astro"
+import H3 from "../components/common/atom/H3.astro"
+import Button from "../components/common/atom/Button.astro"
+import ParagraphGaramond from "../components/common/atom/ParagraphGaramond.astro"
+
+// COMPONENTS
+import Footer from "../components/Footer.astro"
+import Header from "../components/common/Header.jsx"
+
+// STYLESHEET
+import "../styles.css"
+
+// CONSTANTS
+import { CDN_LINK, IMAGE_QUALITY } from "../constants"
+import Paragraph from "../components/common/atom/Paragraph.astro";
+---
+<Layout
+	title="Technology, Creative & Digital Marketing Jobs | Idea Rebel"
+	description="Looking for an exciting career at our digital marketing agency? Check out our open positions at Idea Rebel Vancouver, Toronto, & Los Angeles"
+	image={ CDN_LINK + "Idea-Rebel-We-Are-Rebels-Agency-2.png?quality" + IMAGE_QUALITY }
+>
+	<Header
+		client:load
+		title="Careers"
+		cover={ CDN_LINK + "Idea-Rebel-We-Are-Rebels-Agency-2.jpeg?quality" + IMAGE_QUALITY }
 	/>
-	<body>
-		<Header
-			client:load
-			title="Careers"
-			cover="https://blupp.b-cdn.net/idearebel/Idea-Rebel-We-Are-Rebels-Agency-2.jpeg?quality=80"
-		/>
-		<section class="container mx-auto max-w-6xl py-20" id="content">
-			<H1
-				text="We don't do resumes."
-			/>
-			<p>
+	<Container>
+		<section id="content">
+			<H1>We don't do resumes.</H1>
+			<Paragraph>
 				<span>But if you think you're rebel calibre, tweet</span>
 				<a href="https://x.com/idearebel" target="_blank" rel="nofollow noindex">
 					<span class="relative group !z-20 cursor-pointer">
@@ -42,26 +49,16 @@ import "../styles.css"
 					</span>
 				</a>
 				<span>and tell us why you've got the chops.</span>
-			</p>
+			</Paragraph>
 		</section>
-		<section class="container mx-auto max-w-6xl">
+		<section>
 			<div class="grid grid-cols-3 gap-8">
-				<Button
-					text="idea rebel vancouver"
-					link="careers/vancouver"
-					selected={ true }
-				/>
-				<Button
-					text="idea rebel toronto"
-					link="careers/toronto"
-				/>
-				<Button
-					text="idea rebel los angeles"
-					link="careers/los-angeles"
-				/>
+				<Button link="careers/vancouver" selected={ true }>idea rebel vancouver</Button>
+				<Button link="careers/toronto">idea rebel toronto</Button>
+				<Button link="careers/los-angeles">idea rebel los angeles</Button>
 			</div>
 		</section>
-		<section class="container mx-auto max-w-6xl py-20">
+		<section>
 			<div class="flex flex-col items-center justify-center gap-8">
 			{
 
@@ -70,13 +67,9 @@ import "../styles.css"
 					return (
 						<div class="grid gap-2 text-center">
 							<a href={ "/careers/vancouver/" + career.data.link } class="hover:underline">
-								<H3
-									text={career.data.title}
-								/>
+								<H3>{career.data.title}</H3>
 							</a>
-							<ParagraphGaramond
-								text={career.data.sub_title}
-							/>
+							<ParagraphGaramond>{career.data.sub_title}</ParagraphGaramond>
 						</div>
 					)
 
@@ -85,6 +78,6 @@ import "../styles.css"
 			}
 			</div>
 		</section>
-        <Footer />
-	</body>
-</html>
+	</Container>
+	<Footer />
+</Layout>
