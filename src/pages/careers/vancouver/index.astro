@@ -8,7 +8,7 @@ import H1 from "../../../components/common/atom/H1.astro"
 import H2 from "../../../components/common/atom/H2.astro"
 import H3 from "../../../components/common/atom/H3.astro"
 import H5 from "../../../components/common/atom/H5.astro"
-import Button from "../../../components/common/Button.astro"
+import Button from "../../../components/common/atom/Button.astro"
 import Paragraph from "../../../components/common/Paragraph.astro"
 import Footer from "../../../components/Footer.astro"
 import Header from "../../../components/common/Header.jsx"
@@ -39,20 +39,10 @@ import "../../../styles.css"
 			/>
 		</section>
 		<section class="container mx-auto max-w-6xl">
-			<div class="grid grid-cols-3 gap-8">
-				<Button
-					text="idea rebel vancouver"
-					link="careers/vancouver"
-                    selected={ true }
-				/>
-				<Button
-					text="idea rebel toronto"
-					link="careers/toronto"
-				/>
-				<Button
-					text="idea rebel los angeles"
-					link="careers/los-angeles"
-				/>
+			<div class="grid grid-cols-3 gap-8 justify-items-center">
+				<Button link="careers/vancouver" selected={ true }>idea rebel vancouver</Button>
+				<Button link="careers/toronto">idea rebel toronto</Button>
+				<Button link="careers/los-angeles">idea rebel los angeles</Button>
 			</div>
 		</section>
 		<section class="container mx-auto max-w-6xl py-20">
@@ -64,13 +54,9 @@ import "../../../styles.css"
 					return (
 						<div class="grid gap-2 text-center">
 							<a href={ "/careers/vancouver/" + career.data.link } class="hover:underline">
-								<H3
-									text={career.data.title}
-								/>
+								<H3>{career.data.title}</H3>
 							</a>
-							<ParagraphGaramond
-								text={career.data.sub_title}
-							/>
+							<ParagraphGaramond>{career.data.sub_title}</ParagraphGaramond>
 						</div>
 					)
 
