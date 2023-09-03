@@ -20,6 +20,4 @@ We’re proud to announce that we made the BC Business Magazine list of Top Inno
 “Idea Rebel’s environmental agenda certainly makes the company attractive to businesses concerned with social responsibility, but its success – and its place as a finalist in this competition – isn’t based on green merit alone.” Read the full article [here](https://www.bcbusiness.ca/the-20-most-innovative-companies-in-bc-2012).
 
 \
-//youtube video
-\
-![Alt text](https://blupp.b-cdn.net/idearebel/bc_business.jpg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/bc_business.jpeg?quality=80&width=800?quality=80&width=800 "a title")
