@@ -5,13 +5,9 @@ const { link, title } = Astro.props
 ---
 <a href={ link } class="underline">
     <div class="flex flex-col gap-2 text-right">
-        <ParagraphGaramond
-            text="Next Project"
-        />
+        <ParagraphGaramond>Next Project</ParagraphGaramond>
         <div class="flex items-center gap-2">
-            <H5
-                text={ title }
-            />
+            <H5>{ title }</H5>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
             </svg>

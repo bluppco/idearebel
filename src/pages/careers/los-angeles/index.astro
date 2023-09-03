@@ -1,82 +1,69 @@
 ---
+// LAYOUTS
+import Container from "../../../layouts/Container.astro"
+import Layout from "../../../layouts/Layout.astro"
+
+// CONTENT
 import { getCollection } from 'astro:content';
 const careers = await getCollection('careers');
 const careers_sorted = careers.sort((a, b) => a.data.order - b.data.order)
 // JUST LOS ANGELES OPENINGS
 const careers_filtered = careers_sorted.filter((opening) => opening.data.location.indexOf("los-angeles") !== -1 );
+
+// ATOM
+import Button from "../../../components/common/atom/Button.astro"
 import H1 from "../../../components/common/atom/H1.astro"
-import H2 from "../../../components/common/atom/H2.astro"
 import H3 from "../../../components/common/atom/H3.astro"
-import H5 from "../../../components/common/atom/H5.astro"
-import Button from "../../../components/common/Button.astro"
-import Paragraph from "../../../components/common/Paragraph.astro"
+import Paragraph from "../../../components/common/atom/Paragraph.astro"
+import ParagraphGaramond from "../../../components/common/atom/ParagraphGaramond.astro"
+
+// COMPONENT
 import Footer from "../../../components/Footer.astro"
 import Header from "../../../components/common/Header.jsx"
-import Head from "../../../components/common/Head.astro"
-import ParagraphGaramond from "../../../components/common/atom/ParagraphGaramond.astro"
+
+// STYLESHEET
+import "../../../styles.css"
 ---
-
-<html lang="en">
-	<Head
-		title="Technology, Creative & Digital Marketing Jobs | Idea Rebel"
-		description="Looking for an exciting career at our digital marketing agency? Check out our open positions at Idea Rebel Los Angeles"
-		image="https://blupp.b-cdn.net/idearebel/Idea-Rebel-We-Are-Rebels-Agency-2.png?quality=80"
+<Layout
+	title="Technology, Creative & Digital Marketing Jobs | Idea Rebel"
+	description="Looking for an exciting career at our digital marketing agency? Check out our open positions at Idea Rebel Los Angeles"
+	image="https://blupp.b-cdn.net/idearebel/Idea-Rebel-We-Are-Rebels-Agency-2.png?quality=80"
+>
+	<Header
+		client:load
+		title="Careers"
+		cover="https://blupp.b-cdn.net/idearebel/Idea-Rebel-We-Are-Rebels-Agency-2.jpeg?quality=80"
 	/>
-	<body>
-		<Header
-			client:load
-			title="Careers"
-			cover="https://blupp.b-cdn.net/idearebel/Idea-Rebel-We-Are-Rebels-Agency-2.jpeg?quality=80"
-		/>
-		<section class="container mx-auto max-w-6xl py-20" id="content">
-			<H1
-				text="We don't do resumes."
-			/>
-			<Paragraph
-				text="But if you think you're rebel calibre, tweet @idearebel and tell us why you've got the chops."
-			/>
-		</section>
-		<section class="container mx-auto max-w-6xl">
-			<div class="grid grid-cols-3 gap-8">
-				<Button
-					text="idea rebel vancouver"
-					link="careers/vancouver"
-				/>
-				<Button
-					text="idea rebel toronto"
-					link="careers/toronto"
-				/>
-				<Button
-					text="idea rebel los angeles"
-					link="careers/los-angeles"
-					selected={ true }
-				/>
-			</div>
-		</section>
-		<section class="container mx-auto max-w-6xl py-20">
-			<div class="flex flex-col items-center justify-center gap-8">
-			{
+	<section class="container mx-auto max-w-6xl py-20" id="content">
+		<H1>"We don't do resumes.</H1>
+		<Paragraph>But if you think you're rebel calibre, tweet @idearebel and tell us why you've got the chops.</Paragraph>
+	</section>
+	<section class="container mx-auto max-w-6xl">
+		<div class="grid grid-cols-3 gap-8 justify-items-center">
+			<Button link="careers/vancouver">idea rebel vancouver</Button>
+			<Button link="careers/toronto">idea rebel toronto</Button>
+			<Button link="careers/los-angeles" selected={ true }>idea rebel los angeles</Button>
+		</div>
+	</section>
+	<section class="container mx-auto max-w-6xl py-20">
+		<div class="flex flex-col items-center justify-center gap-8">
+		{
 
-				careers_filtered.map( ( career ) => {
+			careers_filtered.map( ( career ) => {
 
-					return (
-						<div class="grid gap-2 text-center">
-							<a href={ "/careers/los-angeles/" + career.data.link } class="hover:underline">
-								<H3
-									text={career.data.title}
-								/>
-							</a>
-							<ParagraphGaramond
-								text={career.data.sub_title}
-							/>
-						</div>
-					)
+				return (
+					<div class="grid gap-2 text-center">
+						<a href={ "/careers/los-angeles/" + career.data.link } class="hover:underline">
+							<H3>{career.data.title}</H3>
+						</a>
+						<ParagraphGaramond>{career.data.sub_title}</ParagraphGaramond>
+					</div>
+				)
 
-				})
+			})
 
-			}
-			</div>
-		</section>
-        <Footer />
-	</body>
-</html>
+		}
+		</div>
+	</section>
+	<Footer />
+</Layout>

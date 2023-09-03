@@ -1,4 +1,7 @@
 ---
+import Layout from "../../../layouts/Layout.astro"
+
+// CONTENT
 import { getCollection } from 'astro:content';
 export async function getStaticPaths() {
 
@@ -12,45 +15,39 @@ export async function getStaticPaths() {
 }
 const { entry } = Astro.props;
 const { Content } = await entry.render();
-import Head from "../../../components/common/Head.astro"
+
+// COMPONENTS
 import Footer from "../../../components/Footer.astro"
 import Header from "../../../components/common/Header.jsx"
-import H1 from "../../../components/common/atom/H1.astro"
-import Button from "../../../components/common/Button.astro"
-import Paragraph from "../../../components/common/Paragraph.astro"
-import ParagraphGaramond from "../../../components/common/atom/ParagraphGaramond.astro"
+
+// ATOM
+import Button from "../../../components/common/atom/Button.astro"
+
+// STYLESHEET
 import "../../../styles.css"
 ---
-<html lang="en">
-	<Head
-		title={ entry.data.seo_title }
-		description={entry.data.seo_description}
-		image={entry.data.image}
+<Layout
+	title={ entry.data.seo_title }
+	description={entry.data.seo_description}
+	image={entry.data.image}
+>
+	<Header
+		client:load
+		title={ entry.data.title }
+		subtitle={ entry.data.sub_title !== "" ? entry.data.sub_title : null  }
+		cover={ entry.data.image }
+		not_cover={ true }
 	/>
-	<body>
-		<Header
-			client:load
-			title={ entry.data.title }
-			subtitle={ entry.data.sub_title !== "" ? entry.data.sub_title : null  }
-			cover={ entry.data.image }
-			not_cover={ true }
-        />
-		<div class="mt-5 container mx-auto max-w-2xl py-20" id="content">
-            <Content/>
-			<div class="mt-4 flex gap-8">
-				<div class="w-56">
-					<Button
-						text="BACK TO CAREERS"
-						link="careers/toronto"
-					/>
-				</div>
-				<div class="w-56">
-					<Button
-						text="APPLY NOW"
-					/>
-				</div>
+	<section class="mt-5 container mx-auto max-w-2xl py-20" id="content">
+		<Content/>
+		<section class="mt-4 flex gap-8">
+			<div class="w-56">
+				<Button link="careers/toronto">BACK TO CAREERS</Button>
 			</div>
-        </div>
-		<Footer />
-	</body>
-</html>
+			<div class="w-56">
+				<Button>APPLY NOW</Button>
+			</div>
+		</section>
+	</section>
+	<Footer />
+</Layout>
