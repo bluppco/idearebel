@@ -5,7 +5,7 @@ order: 3
 publish_date: February 24, 2022
 link: marketing-in-the-metaverse-a-digital-agency-guide
 sub_title: "A Digital Agency Guide"
-title: Marketing In The Metaverse 
+title: Marketing In The Metaverse
 url: https://www.idearebel.com/ideas/marketing-in-the-metaverse-a-digital-agency-guide/
 seo_title: "Marketing In The Metaverse - A Digital Agency Guide | Idea Rebel"
 seo_description: "Marketing in the Metaverse - A Guide from a Digital Agency. Advertising in the Metaverse, Content Marketing, Social Media Marketing, SEO"
@@ -69,7 +69,7 @@ These technologies will bring us closer to the consumer than ever before by putt
 \
 It’s going to change everything about how we think about marketing. Now, let’s proceed to the new world—**the Metaverse**.
 
-\
+
 ## What Is The Metaverse?
 
 \

@@ -57,7 +57,7 @@ The Green Lion Office
 Little road to our homestay
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/breakfast_is_servedy.jpg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/breakfast_is_served.jpg?quality=80&width=800?quality=80&width=800 "a title")
 
 \
 Breakfast is served!
@@ -154,13 +154,13 @@ Backyard view of the Mahaweli River
 Snack hut in Kandy
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/1ED85C6A-43D1-432E-A94D-4CAF680D5296-1.jpg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/1ED85C6A-43D1-432E-A94D-4CAF680D5296-1g.jpg?quality=80&width=800 "a title")
 
 \
 Ice cream vendor on Kandy Lake
 
 \
-![Alt text](https://blupp.b-cdn.net/idearebel/IMG_6539.jpg?quality=80&width=800?quality=80&width=800 "a title")
+![Alt text](https://blupp.b-cdn.net/idearebel/IMG_6539.jpeg?quality=80&width=800?quality=80&width=800 "a title")
 
 \
 The Pinnawala Elephant Orphanage
