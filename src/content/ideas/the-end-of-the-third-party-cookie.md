@@ -60,7 +60,7 @@ Let’s take a look at some of your best bets for next steps.
 \
 If you’re still relying on a lot of third-party data for your ad strategies, you don’t need to wait for this to take effect to begin the transition to alternatives.
 
-\
+
 1. Make the Most of Your First-Party Data
 
 \
